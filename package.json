@@ -1,0 +1,16 @@
+{
+  "name": "history-of-jazz-recordings",
+  "version": "0.1.0",
+  "description": "Eleventy prototype for the Survey of Jazz Recordings.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "markdown-it": "^13.0.2"
+  },
+  "dependencies": {
+    "js-yaml": "^4.2.0"
+  }
+}

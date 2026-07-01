@@ -1,0 +1,29 @@
+---
+permalink: /index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Survey of Jazz Recordings</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+ </head>
+ <body>
+  <header>
+   <a href="index.html"><h1>Survey of Jazz Recordings</h1></a>
+   <p>{{ site.description }}</p>
+  </header>
+  <h2>Lessons</h2>
+  <ul>
+   {%- for lesson in collections.lessonsOrdered %}
+   <li><a href="{{ lesson.fileSlug }}.html">{{ lesson.data.title }}</a></li>
+   {%- endfor %}
+   <li><a href="vocabulary.html">Vocabulary</a></li>
+   <li><a href="bibliography.html">Bibliography</a></li>
+  </ul>
+ </body>
+ <footer>
+  <p>Site by <a href="https://www.alechuntley.com/">Alec Villars Huntley.</a> &copy;2026</p>
+ </footer>
+</html>

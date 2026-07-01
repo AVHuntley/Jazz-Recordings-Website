@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>{{ title }}</title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="{{ description or site.description }}" name="description"/>
+  <meta content="{{ site.author }}" name="author"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  {% include "header.njk" %}
+  <section class="introduction" id="{{ title | slug }}">
+   <h1>{{ heading or title }}</h1>
+   {{ intro | md | safe }}
+   {%- for fig in introFigures %}
+   <figure class="notation">
+    <img alt="{{ fig.alt }}" src="{{ fig.src }}"/>
+    {%- if fig.caption %}<figcaption>{{ fig.caption }}</figcaption>{% endif %}
+   </figure>
+   {%- endfor %}
+   {%- if vocabulary %}
+   <h2>Vocabulary</h2>
+   <ul>
+    {%- for term in vocabulary %}
+    <li><strong>{{ term.term }}</strong> - {{ term.definition | mdInline | safe }}</li>
+    {%- endfor %}
+   </ul>
+   {%- endif %}
+  </section>
+
+  {%- for section in sections %}
+  <section class="artist" id="{{ section.heading | slug }}">
+   <h2>{{ section.heading | artistHeading(section.artists) | safe }}</h2>
+   {{ section.prose | md | safe }}
+
+   {%- for t in section.tracks %}
+   <div class="track" id="{{ t.title | cleanSlug }}">
+    <div class="track-info">
+     <h3>{{ t.title | stripQuotes }}</h3>
+     {%- if t.performer %}<h4>{{ t.performer }}</h4>{% endif %}
+     {%- if t.composer %}<p>Composer: {{ t.composer }}</p>{% endif %}
+     {%- if t.arranger %}<p>Arranger: {{ t.arranger }}</p>{% endif %}
+     {%- if t.recorded %}<p>Recorded: {{ t.recorded }}</p>{% endif %}
+     {%- if t.album %}<p>Album: <cite>{{ t.album }}</cite></p>{% endif %}
+     {%- if t.released %}<p>Released: {{ t.released }}</p>{% endif %}
+     {%- for c in t.credits %}{{ c | md | safe }}{% endfor %}
+     {%- if t.personnel %}
+     <table>
+      {%- for row in t.personnel %}
+      <tr><td>{{ row[0] }}</td><td>{{ row[1] }}</td></tr>
+      {%- endfor %}
+     </table>
+     {%- endif %}
+    </div>
+
+    {%- if t.intro %}
+    <div class="track-intro">
+     {{ t.intro | md | safe }}
+    </div>
+    {%- endif %}
+
+    <div class="track-audio-embed">
+     {%- if t.spotify %}
+     <iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="352" loading="lazy" src="https://open.spotify.com/embed/track/{{ t.spotify }}?utm_source=generator" style="border-radius:12px" width="100%"></iframe>
+     {%- for sid in t.spotify_more %}
+     <iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="352" loading="lazy" src="https://open.spotify.com/embed/track/{{ sid }}?utm_source=generator" style="border-radius:12px" width="100%"></iframe>
+     {%- endfor %}
+     {%- endif %}
+     {%- if t.youtube %}
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/{{ t.youtube }}" width="100%"></iframe>
+     {%- endif %}
+    </div>
+
+    <div class="listening-guide">
+     <h5>Listening Guide</h5>
+     {{ t.guidenote | md | safe }}
+     <table>
+      <tr><th>Time</th><th>Description</th></tr>
+      {%- for row in t.guide %}
+      <tr><td>{{ row[0] }}</td><td>{{ row[1] | mdInline | safe }}</td></tr>
+      {%- endfor %}
+     </table>
+    </div>
+
+   </div>
+   {%- endfor %}
+
+   {%- if section.notes or section.figures %}
+   <div class="additional-info">
+    <h3>Additional Information</h3>
+    {{ section.notes | md | safe }}
+    {%- for fig in section.figures %}
+    <figure class="notation">
+     <img alt="{{ fig.alt }}" src="{{ fig.src }}"/>
+     {%- if fig.caption %}<figcaption>{{ fig.caption }}</figcaption>{% endif %}
+    </figure>
+    {%- endfor %}
+   </div>
+   {%- endif %}
+  </section>
+  {%- endfor %}
+  {% include "footer.njk" %}
+ </body>
+</html>

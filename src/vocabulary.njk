@@ -1,0 +1,33 @@
+---
+permalink: /vocabulary.html
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Vocabulary</title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="A glossary of jazz terms defined across the lessons." name="description"/>
+  <meta content="{{ site.author }}" name="author"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  {% include "header.njk" %}
+  <section class="introduction" id="vocabulary-intro">
+   <h1>Vocabulary</h1>
+   <p>
+    Key terms defined throughout the lessons, gathered here for reference. Each entry links back to
+    the lesson where the term is introduced.
+   </p>
+  </section>
+  <section class="glossary" id="glossary">
+   <dl>
+    {%- for v in glossary %}
+    <dt id="{{ v.term | slug }}">{{ v.term }}</dt>
+    <dd>{{ v.definition }} <a class="vocab-source" href="{{ v.source }}.html">— {{ v.sourceTitle }}</a></dd>
+    {%- endfor %}
+   </dl>
+  </section>
+  {% include "footer.njk" %}
+ </body>
+</html>
