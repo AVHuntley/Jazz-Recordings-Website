@@ -251,6 +251,7 @@ sections:
     (Martin & Waters, 34)[bibliography.html#martin-waters-2006]
     (Gioia, 2008, 40-41)[bibliography.html#gioia-2008]
     (Gioia, 2011, 17-18)[bibliography.html#gioia-2011]
+    (Hester, 171-172)[bibliography.html#hester-2004]
   tracks:
   - title: St. Louis Blues
     performer: Bessie Smith with Louis Armstrong
