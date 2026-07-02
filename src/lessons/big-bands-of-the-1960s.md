@@ -2,6 +2,13 @@
 title: Big Bands of the 1960s
 description: A history of jazz styles and figures through selected recordings
 order: 23
+media:
+  buddy-rich:
+    youtube: VJh9W3Gcpmo
+    title: 'Buddy Rich video'
+  buddy-rich-2:
+    youtube: 5SuPrCod2ss
+    title: 'Buddy Rich video'
 heading: Introduction
 intro: |-
   The big band format reached peak popularity during the swing era, sometimes called the "big band era." But tastes changed with the times, and big bands did not flourish after about 1945. Many went out of business as jazz became less popular. Ted Gioia details the many factors that led to the diminishment of the big band in his book *The History of Jazz* :
@@ -148,8 +155,7 @@ sections:
 
     Just for fun, watch this clip from The Muppet Show, in which Buddy Rich "battles" Animal, the Muppet:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VJh9W3Gcpmo">
-    </iframe>
+    @video(buddy-rich)
   tracks:
   - title: New Blues
     performer: Buddy Rich
@@ -183,8 +189,7 @@ sections:
   notes: |-
     - Watch this live version (with different personnel):
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/5SuPrCod2ss" width="400">
-    </iframe>
+    @video(buddy-rich-2)
 
     - Arranger Don Piestrup leads [a rehearsal band in San Francisco](http://www.piestrupbigband.com/) . [(Sultanof, p.140)](bibliography.html#sultanof-2017)
 - heading: Don Ellis

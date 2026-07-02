@@ -2,6 +2,16 @@
 title: Pianists
 description: A survey of contemporary jazz pianists and their contributions to modern jazz.
 order: 30
+media:
+  jason-moran:
+    youtube: Rju-pmY8MBk
+    title: 'Jason Moran video'
+  vijay-iyer:
+    youtube: L7L7gQSwONI
+    title: 'Vijay Iyer video'
+  the-bad-plus:
+    youtube: swYYzOTlCQ0
+    title: 'The Bad Plus video'
 intro: |-
   Before we get into the artists for this unit, let's briefly discuss some general characteristics of contemporary jazz and how it contrasts with jazz of prior decades. It’s challenging to describe the era in which we live, as we lack historical hindsight. Current practices may be fleeting or may shape the future of jazz. In preparing this lesson, I chose musicians who I believe may be recognized decades from now, though only time will tell.
 
@@ -98,8 +108,7 @@ sections:
 
     In 2010, Moran received a MacArthur "genius" fellowship. He blends historical jazz references with modern sensibilities. He has honored Thelonious Monk’s music and worked on tributes to Fats Waller, melding stride tradition with contemporary rhythms.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/Rju-pmY8MBk" width="400">
-    </iframe>
+    @video(jason-moran)
   tracks:
   - title: Honeysuckle Rose
     performer: Jason Moran & Ensemble
@@ -148,8 +157,7 @@ sections:
 
     Recipient of a 2013 MacArthur fellowship, Iyer’s album *Break Stuff* made many best-of-2015 lists. His style integrates African and Indian influences, reflected in complex rhythmic cycles and melodic permutations.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/L7L7gQSwONI" width="400">
-    </iframe>
+    @video(vijay-iyer)
   tracks:
   - title: Mystery Woman
     performer: Vijay Iyer Trio
@@ -203,6 +211,5 @@ sections:
     - Listen to Cyndi Lauper’s original for context. The Bad Plus transforms this 80s pop tune into a complex jazz piece.
     - Here's a live video of the arrangement:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/swYYzOTlCQ0" width="400">
-    </iframe>
+    @video(the-bad-plus)
 ---

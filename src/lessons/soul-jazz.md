@@ -2,6 +2,28 @@
 title: Soul Jazz
 description: A history of jazz styles and figures through selected recordings
 order: 20
+media:
+  wes-montgomery:
+    youtube: 3yNmp2TqdgA
+    title: 'Wes Montgomery video'
+  jimmy-smith:
+    youtube: iBjp2ZDA8A0
+    title: 'Jimmy Smith video'
+  jimmy-smith-2:
+    youtube: gobKu4UlxSA
+    title: 'Jimmy Smith video'
+  shirley-scott-stanley-turrentine:
+    youtube: C7jqe1GHFE4
+    title: 'Shirley Scott & Stanley Turrentine video'
+  shirley-scott-stanley-turrentine-2:
+    youtube: 88UI6EcBWPY
+    title: 'Shirley Scott & Stanley Turrentine video'
+  les-mccann-eddie-harris:
+    youtube: kCDMQqDUtv4
+    title: 'Les McCann & Eddie Harris video'
+  julian-cannonball-adderley:
+    youtube: ICa1vUsIoqI
+    title: 'Julian “Cannonball” Adderley video'
 intro: |-
   Read the [Grove Music article on Soul Jazz](https://libproxy.library.unt.edu:2147/10.1093/gmo/9781561592630.article.45698) .
 
@@ -40,8 +62,7 @@ sections:
 
     You can really see Montgomery in action in the video below:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/3yNmp2TqdgA" width="400">
-    </iframe>
+    @video(wes-montgomery)
   tracks:
   - title: Mr. Walker
     performer: Wes Montgomery
@@ -77,8 +98,7 @@ sections:
   prose: |-
     Smith plays one of the instruments most associated with soul jazz: the [Hammond B3 organ](https://en.wikipedia.org/wiki/Hammond_organ) . Watch the following clip about the history of the Hammond organ. Note especially the section that begins at [5:23](https://youtu.be/iBjp2ZDA8A0?t=323) , as it describes the basics of how the organ operates.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/iBjp2ZDA8A0" width="400">
-    </iframe>
+    @video(jimmy-smith)
 
     For a slightly more in-depth discussion of the Hammond organ, check out [this article from the website Made In Chicago Museum](https://www.madeinchicagomuseum.com/single-post/hammond-organ-co) .
 
@@ -94,8 +114,7 @@ sections:
 
     Here's a video that shows Smith in action:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/gobKu4UlxSA" width="400">
-    </iframe>
+    @video(jimmy-smith-2)
   tracks:
   - title: Organ Grinder's Swing
     performer: Jimmy Smith
@@ -139,13 +158,11 @@ sections:
 
     Also check out this video from *Jazz Night in America* about Scott. You can really see the reverence with which many remember her.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/C7jqe1GHFE4" width="400">
-    </iframe>
+    @video(shirley-scott-stanley-turrentine)
 
     And here's a video of Scott playing with Harold Vick on tenor sax (note that she *does* play bass here):
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/88UI6EcBWPY" width="400">
-    </iframe>
+    @video(shirley-scott-stanley-turrentine-2)
 
     **Stanley Turrentine** is often remembered for his blues and soul approach to the tenor saxophone. He collaborated with both Jimmy Smith and Shirley Scott (to whom he was married during the 1960s). His output, especially later in his career, was often more pop than jazz. As usual when a jazz musician plays popular styles, this choice met some criticism from straight-ahead jazz players.
 
@@ -207,9 +224,7 @@ sections:
     recorded: June 21, 1969
     album: Swiss Movement
     credits:
-    - '<iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/kCDMQqDUtv4" width="400">
-
-      </iframe>'
+    - '@video(les-mccann-eddie-harris)'
     personnel:
     - [Les McCann, 'piano, vocals']
     - [Eddie Harris, tenor saxophone]
@@ -263,8 +278,7 @@ sections:
 
     Here's a 1969 video of the same quintet that played "Mercy Mercy Mercy" appearing on a Swedish TV show. At [3:26](https://youtu.be/ICa1vUsIoqI?t=806) , they play "Work Song," a hard bop jazz standard composed by Nat Adderley.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/ICa1vUsIoqI" width="400">
-    </iframe>
+    @video(julian-cannonball-adderley)
   tracks:
   - title: Mercy, Mercy, Mercy
     performer: Cannonball Adderley

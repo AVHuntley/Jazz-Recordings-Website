@@ -2,6 +2,33 @@
 title: Contemporary Big Bands
 description: A history of contemporary big bands and their recordings.
 order: 29
+media:
+  holman-nea:
+    youtube: 62PfNNANmKQ
+    title: Bill Holman, NEA Jazz Masters video
+  schneider-orchestra:
+    youtube: Vl7ngJ6Tnnk
+    params: list=PLkDTD5EGiVtTMj_vOy9SkeIuTt7tQkgRX
+    title: Maria Schneider Orchestra
+  nash-presidential-suite:
+    youtube: -SR9jlnSf7g
+    title: 'Ted Nash: Presidential Suite'
+  nash-live:
+    youtube: xEWCluBbLQY
+    title: Presidential Suite, live performance
+  ofarrill-jazz-night:
+    youtube: nB4TETXF3I4
+    title: 'Arturo O’Farrill on Jazz Night in America'
+  ofarrill-live:
+    youtube: A6VwgJQlbO8
+    params: list=PLNqtYbDgMtPOWKvjrPxa0fCO8aKSQmXsZ
+    title: Afro Latin Jazz Orchestra, live December 18, 2014
+  kamasi-live:
+    youtube: 0YbPSIXQ4q4
+    title: Kamasi Washington, live August 2015
+  mintzer-havin-some-fun:
+    youtube: 8Tx7Mi6Uenw
+    title: Bob Mintzer Big Band, Havin’ Some Fun
 intro: |-
   In the current decade, the big band remains a comparatively minor part of the jazz world. But that doesn't mean it has gone extinct. Though only a few big bands continue to tour the way they did in the 1930s and 40s, many communities maintain **rehearsal bands** . Several prominent players and arrangers still occasionally record big band albums. And some bands even continue the legacy of their deceased figurehead in the form of a **ghost band** .
 
@@ -115,8 +142,7 @@ sections:
 
     Watch this short video produced to commemorate Holman's becoming an NEA Jazz Master. At [1:28](https://youtu.be/62PfNNANmKQ?t=88) , he talks about participating in the 1950s West Coast Jazz scene, and at 3:10 about forming his own big band.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/62PfNNANmKQ" width="400">
-    </iframe>
+    @video(holman-nea)
   tracks:
   - title: Bemsha Swing
     performer: Bill Holman Big Band
@@ -158,8 +184,7 @@ sections:
 
     Her album *The Thompson Fields* won the 2015 Grammy for Best Large Jazz Ensemble Album.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/Vl7ngJ6Tnnk?list=PLkDTD5EGiVtTMj_vOy9SkeIuTt7tQkgRX" width="400">
-    </iframe>
+    @video(schneider-orchestra)
   tracks:
   - title: Walking by Flashlight
     performer: Maria Schneider Orchestra
@@ -207,8 +232,7 @@ sections:
 
     In 2014, Nash recorded an album where each composition was inspired by the pitches and cadence of famous speeches. The album, *Presidential Suite: Eight Variations on Freedom* , won the 2017 Grammy for Best Large Jazz Ensemble Album. “Spoken at Midnight” won the 2017 Grammy for Best Instrumental Composition.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/-SR9jlnSf7g" width="400">
-    </iframe>
+    @video(nash-presidential-suite)
   tracks:
   - title: Spoken at Midnight (Jawaharlal Nehru)
     performer: Jazz at Lincoln Center Orchestra
@@ -239,8 +263,7 @@ sections:
   notes: |-
     - Here's a video of a live performance of this album’s material. Ted Nash introduces the band at 0:53. The reading of “Tryst with Destiny” and “Spoken at Midnight” start at 11:38.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/xEWCluBbLQY" width="400">
-    </iframe>
+    @video(nash-live)
 
     - Jawaharlal Nehru was the first prime minister of India (1947-1964). His speech “Tryst with Destiny” was delivered near midnight, August 14, 1947, the night before India gained independence from Britain.
 - heading: Arturo O’Farrill & the Afro Latin Jazz Orchestra
@@ -256,8 +279,7 @@ sections:
 
     Their album *Cuba: The Conversation Continues* is dedicated to the complicated relationship between Cuba and the United States. It was nominated for the 2016 Grammy for Best Large Jazz Ensemble album. Watch this video from *Jazz Night in America* about the project (watch at least the first five minutes):
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/nB4TETXF3I4" width="400">
-    </iframe>
+    @video(ofarrill-jazz-night)
   tracks:
   - title: Guajira Simple
     performer: Arturo O'Farrill & the Afro Latin Jazz Orchestra
@@ -288,8 +310,7 @@ sections:
   notes: |-
     - Here's a video of a live performance from December 18, 2014 (the day before recording began):
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/A6VwgJQlbO8?list=PLNqtYbDgMtPOWKvjrPxa0fCO8aKSQmXsZ" width="400">
-    </iframe>
+    @video(ofarrill-live)
 - heading: Kamasi Washington
   artists:
   - name: Kamasi Washington
@@ -336,8 +357,7 @@ sections:
   notes: |-
     - Here's a live performance from August 2015 (“Re-Run” starts at 1:15:12):
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/0YbPSIXQ4q4" width="400">
-    </iframe>
+    @video(kamasi-live)
 
     - The album also contains “Re Run Home,” a reprise of this tune, released as a single.
 - heading: Bob Mintzer
@@ -351,8 +371,7 @@ sections:
 
     His album *Homage to Basie* won the Grammy for Best Large Jazz Ensemble in 2002. That album included "Havin’ Some Fun," which he revisited on *All L.A. Band* (nominated for a Grammy in 2017).
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/8Tx7Mi6Uenw" width="400">
-    </iframe>
+    @video(mintzer-havin-some-fun)
   tracks:
   - title: Havin’ Some Fun
     performer: Bob Mintzer Big Band

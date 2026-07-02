@@ -1,0 +1,117 @@
+# Single source of truth for all sources.
+# - `id`      : anchor used in citation links (bibliography.html#<id>)
+# - `label`   : short form shown in section Sources lists and marker tooltips
+# - `citation`: full entry (markdown), rendered on the bibliography page
+#
+# To cite in prose, link a page locator to the anchor:  [p. 41](bibliography.html#gioia-2008)
+# The build turns it into a numbered footnote automatically.
+
+- id: bierman-2016
+  label: Bierman (2016)
+  citation: >-
+    Bierman, Benjamin. *Listening to Jazz*. New York: Oxford University Press, 2016.
+
+- id: charters-1972
+  label: Charters (1972)
+  citation: >-
+    Charters, Samuel. Liner notes to *Roots of Black Music in America*. Folkways Records
+    FA&nbsp;2694, 1972. [Liner notes (PDF)](https://folkways-media.si.edu/docs/folkways/artwork/FW02694.pdf).
+
+- id: deveaux-giddins-2011
+  label: Deveaux & Giddins (2011)
+  citation: >-
+    Deveaux, Scott, and Gary Giddins. *Jazz: Essential Listening*. New York: W.W. Norton
+    & Company, 2011.
+
+- id: gioia-2008
+  label: Gioia (2008)
+  citation: >-
+    Gioia, Ted. *Delta Blues*. New York: W. W. Norton & Company, 2008.
+
+- id: gioia-2011
+  label: Gioia (2011)
+  citation: >-
+    Gioia, Ted. *The History of Jazz*. 2nd ed. New York: Oxford University Press, 2011.
+
+- id: gioia-2012
+  label: Gioia (2012)
+  citation: >-
+    Gioia, Ted. *The Jazz Standards: A Guide to the Repertoire*. New York: Oxford
+    University Press, 2012.
+
+- id: gioia-1998
+  label: Gioia (1998)
+  citation: >-
+    Gioia, Ted. *West Coast Jazz*. Berkeley and Los Angeles: University of California
+    Press, 1998.
+
+- id: gioia-2006
+  label: Gioia (2006)
+  citation: >-
+    Gioia, Ted. *Work Songs*. Durham, NC: Duke University Press, 2006.
+    [Publisher page](https://www.dukeupress.edu/work-songs).
+
+- id: gridley-2014
+  label: Gridley (2014)
+  citation: >-
+    Gridley, Mark C. *Concise Guide to Jazz*. 7th ed. Upper Saddle River, NJ: Pearson
+    Education, 2014.
+
+- id: hasse-lathrop-2012
+  label: Hasse & Lathrop (2012)
+  citation: >-
+    Hasse, John Edward, and Tad Lathrop. *Discover Jazz*. Boston: Pearson Education, 2012.
+
+- id: hester-2004
+  label: Hester (2004)
+  citation: >-
+    Hester, Karlton E. *Bigotry and the Afrocentric “Jazz” Evolution*. 3rd ed.
+    Binghamton, New York: Global Academic Publishing, 2004.
+
+- id: lawn-2013
+  label: Lawn (2013)
+  citation: >-
+    Lawn, Richard J. *Experiencing Jazz*. 2nd ed. New York: Routledge, 2013.
+
+- id: lyons-1980
+  label: Lyons (1980)
+  citation: >-
+    Lyons, Len. *The 101 Best Jazz Albums: A History of Jazz on Records*. New York:
+    William Morrow and Company, 1980.
+
+- id: martin-waters-2006
+  label: Martin & Waters (2006)
+  citation: >-
+    Martin, Henry, and Keith Waters. *Jazz: The First 100 Years*. Belmont, CA: Thomson
+    Higher Education, 2006.
+
+- id: mccalla-2000
+  label: McCalla (2000)
+  citation: >-
+    McCalla, James. *Jazz: A Listener’s Guide*. 3rd ed. Upper Saddle River, NJ:
+    Prentice Hall, 2000.
+
+# TODO (Alec): confirm this is the Porter edition cited on the hard bop and Coltrane pages
+- id: porter-ullman-1993
+  label: Porter & Ullman (1993)
+  citation: >-
+    Porter, Lewis, and Michael Ullman, with Edward Hazell. *Jazz: From Its Origins to
+    the Present*. Englewood Cliffs, NJ: Prentice Hall, 1993.
+
+# TODO (Alec): confirm edition
+- id: schuller-1968
+  label: Schuller (1968)
+  citation: >-
+    Schuller, Gunther. *Early Jazz: Its Roots and Musical Development*. New York: Oxford
+    University Press, 1968.
+
+- id: sultanof-2017
+  label: Sultanof (2017)
+  citation: >-
+    Sultanof, Jeff. *Experiencing Big Band Jazz: A Listener’s Companion*. Lanham,
+    MD: Rowman & Littlefield, 2017.
+
+- id: white-2016
+  label: White (2016)
+  citation: >-
+    White, Huw. *25 Great Jazz Piano Solos*. Milwaukee, WI: Hal Leonard Corporation, 2016.

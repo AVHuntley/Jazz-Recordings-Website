@@ -14,7 +14,9 @@ Nothing here touches your existing pages in the parent folder — it's a self-co
   and every track is laid out. Change it once, all lessons update.
 - `src/style.css` — the stylesheet (copied from your site, plus citation-link styling).
 - `src/index.njk` — the home page; its lesson list builds itself from the lesson files.
-- `src/bibliography.html`, `src/images/` — copied through as-is.
+- `src/_data/bibliography.yaml` — **the bibliography.** One entry per source: anchor id, short
+  label, and the full citation. The bibliography page and every citation label render from it.
+- `src/images/` — copied through as-is.
 - `_site/` — the **built website** (generated; don't edit by hand).
 - `convert-from-html.py` — a script that turns an existing page in the parent folder into a
   `src/lessons/*.md` data file. Used to seed this prototype; can convert the rest.
@@ -48,8 +50,8 @@ Open e.g. `src/lessons/hard-bop.md`. A track looks like this:
     - [Max Roach, drums]
   intro: |
     Prose goes here. Plain text, with **bold**, *italics*, and
-    [links](https://example.com). Citations are just links to the
-    bibliography: [(Porter, p.257)](bibliography.html#porter-ullman-1993)
+    [links](https://example.com). To cite a source, link page numbers
+    to its bibliography anchor: [p. 257](bibliography.html#porter-ullman-1993)
   guide:
     - ["0:00", "Head in, AA"]
     - ["0:36", "Brown (tp) solo"]
@@ -59,6 +61,86 @@ Open e.g. `src/lessons/hard-bop.md`. A track looks like this:
 
 Fields you leave blank simply don't appear (no more empty "Arranger:" lines). To paste a new
 Spotify track, you only need the ID — the part of the embed URL after `/track/`.
+
+## Videos
+
+Define each video once in the lesson's front matter under `media:`, giving it a short name:
+
+```yaml
+media:
+  st-louis-blues-1929:
+    mp4: https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00063365/00063365.mp4
+    poster: https://tile.loc.gov/.../00063365.jpg     # optional still shown before play
+    size: large                                       # optional: small | medium (default) | large
+    title: St. Louis Blues (RKO, 1929)                # optional, for accessibility
+    caption: '*St. Louis Blues* (RKO, 1929). Video from the [Library of Congress](https://www.loc.gov/item/2023602002/).'
+```
+
+Then place it **anywhere prose goes** — page intro, section prose, track intros, or the
+Additional Information `notes:` — with a token on its own line between paragraphs:
+
+```markdown
+There exists exactly one video recording of Bessie Smith...
+
+@video(st-louis-blues-1929)
+```
+
+A token pointing at a name that isn't in `media:` fails the build. For YouTube, use
+`youtube: <video-id>` (plus optional `params: list=...` for playlist context) instead of `mp4:`.
+For sources that only offer embed codes (like Internet Archive), use
+`iframe: https://archive.org/embed/...`. Prefer `mp4:` when the source offers a direct file (Library of Congress National
+Screening Room items do): it uses the browser's native player, loads nothing until pressed, and
+keeps the page free of third-party scripts. Captions take markdown, so credit the source with a
+link. (Tracks and sections can also take a `videos:` list of the same objects for fixed
+placement after the audio embed / section prose, but the token form is usually what you want.)
+
+## Citations
+
+There are two kinds, and both draw their labels from `src/_data/bibliography.yaml` so every
+citation on the site is formatted identically.
+
+**Point citations** support a specific claim. In any prose field, link the page number(s) to the
+source's anchor:
+
+```markdown
+...the highest paid Black performing artist in the world [p. 41](bibliography.html#gioia-2008).
+```
+
+At build time this becomes a small numbered superscript. The page number stays with the marker —
+hovering shows "Gioia (2008), p. 41" — and clicking jumps to that source's entry in the
+**Sources** card at the bottom of the page. Each source has one number per page, no matter how
+many times or on which pages it's cited; the Sources entry names the source once (no page
+numbers) and links to the full citation in the bibliography. Older labels
+like `[(Lyons, p.182)](...)` still work — only the page numbers are read — but `[p. 182](...)` is
+the preferred form going forward.
+
+**Section sources** are general references for a whole section (not tied to one claim). Declare
+them in the section's front matter; they're merged into the page's Sources card with duplicates
+removed, and their consulted pages show on the entry ("Porter & Ullman (1993) — pp. 64–65").
+The whole list sorts alphabetically by author, then by year. Pages from *inline* citations stay
+in the marker tooltips and never clutter the card.
+
+One-off pointers — especially web sources — don't need the bibliography at all: an ordinary
+markdown link in prose is the right tool. Promote a web source to `bibliography.yaml` only when
+you quote it, cite it repeatedly, or want readers to find it if the URL dies.
+
+```yaml
+- heading: Bessie Smith
+  prose: |-
+    ...
+  sources:
+  - {ref: porter-ullman-1993, pages: 64-65}
+  - {ref: gioia-2008, pages: 40-41}
+```
+
+**One formatting rule:** write quotations with markdown (`>` at the start of the line), not raw
+`<blockquote>` tags. Markdown — including citation links — is not processed inside raw HTML
+blocks, so citations there degrade to literal text.
+
+**Adding a source:** add an entry to `src/_data/bibliography.yaml` (id, label, citation). The
+bibliography page updates itself. A citation pointing at an id that doesn't exist **fails the
+build** — typos can't slip through silently. Note: after editing `bibliography.yaml`, restart
+`npm run serve` (it's read once at startup).
 
 ## Conversion status
 

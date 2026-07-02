@@ -2,6 +2,17 @@
 title: Jazz Origins
 description: A survey of early influences and musical genres that contributed to the origins of jazz.
 order: 0
+media:
+  ghana-postal-workers:
+    youtube: por5SopwHDc
+    title: 'Ghana Postal Workers video'
+  st-louis-blues-1929:
+    mp4: https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00063365/00063365.mp4
+    poster: https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00063365/00063365.jpg
+    size: large
+    title: St. Louis Blues (RKO, 1929)
+    caption: '*St. Louis Blues* (RKO, 1929), Bessie Smith’s only film appearance.
+      Video from the [Library of Congress National Screening Room](https://www.loc.gov/item/2023602002/).'
 intro: |-
   Jazz did not emerge in isolation. Like every style of music, early jazz was a development of existing musical styles and a synthesis of myriad influences. The earliest jazz musicians—in New Orleans and (to a lesser extent) Chicago and New York—were awash in stylistic influcences from African, African American, and European musical traditions. Indeed, many of the key characteristics of jazz (especially early jazz) can be plainly heard in these abutting musical styles.
 
@@ -23,11 +34,9 @@ sections:
 
     Further confounding any effort to trace a direct musical lineage from American jazz to its African roots is the absence of objective historical records. There are no recordings of pre-colonial West African drummers; the technology did not exist. And even the claim (as I here repeat) that these musical traditions survived in the cultural memory of enslaved people is fraught. Memory is fickle, and the tribal identities that distinguish various African musical cultures did not survive in the United States. As Charters notes (writing in 1972):
 
-    <blockquote>
-    "African music is more than a hundred years in the past, and change has gone on - both in Africa and in the Americas. So much so that some points of connection have been almost completely lost.
-
-    I am conscious that generalizations [about the influcence of African music on jazz] apply most directly to the United States, since the African culture here has been almost compeltely obliterated. . . . For their own protection the slave holders mixed the population groups so there could be no sense of identity except as slave. This couldn't entirely destroy the cultural base, but it could stifle it, and leave it little more than a small spark, a small point of remembered warmth." ([Charters, p.1](bibliography.html#charters-1972))
-    </blockquote>
+    > "African music is more than a hundred years in the past, and change has gone on - both in Africa and in the Americas. So much so that some points of connection have been almost completely lost.
+    >
+    > I am conscious that generalizations \[about the influcence of African music on jazz\] apply most directly to the United States, since the African culture here has been almost compeltely obliterated. . . . For their own protection the slave holders mixed the population groups so there could be no sense of identity except as slave. This couldn't entirely destroy the cultural base, but it could stifle it, and leave it little more than a small spark, a small point of remembered warmth." [p. 1](bibliography.html#charters-1972)
 
     For these reasons, many of the connections musicologists draw between African music and American jazz are based on educated assumptions from referencing the historical record, and from comparing contemporary manifestations of the two idioms. To the latter point, musicologists identify many musical characteristics that jazz shares with African traditions. Both jazz and African drumming often feature:
 
@@ -53,9 +62,7 @@ sections:
 
       In the liner notes to *Roots of Black Music in America*, Charters offers this description:
 
-      <blockquote>
-        "'Simpah,' with its strong surging rhythm, and its dramatic vursts of sound, has... multi-leveled texturing. There is the regular rhythm of the shakers or scrapers, the deeper drums generally accenting what would be the European third and fourth beats of the phrase, counting the beats of the scapers as 4/4. The middle drums have a shifting, crossping pattern. ...And within these patterns there is continuial shift and emphasis." (<a href="./bibliography.html#charters-1972">Charters, p.2</a>)
-      </blockquote>
+      > "'Simpah,' with its strong surging rhythm, and its dramatic vursts of sound, has... multi-leveled texturing. There is the regular rhythm of the shakers or scrapers, the deeper drums generally accenting what would be the European third and fourth beats of the phrase, counting the beats of the scapers as 4/4. The middle drums have a shifting, crossping pattern. ...And within these patterns there is continuial shift and emphasis." [p. 2](bibliography.html#charters-1972)
 
       Try to hear the three groups of percussion and the way their parts interact. Listen as well to the call-and-response between the solo vocalist and the ensemble. First the solo vocalist sings a phrase (the *call*), then a chorus of other vocalists sing a reply (the *response*).
     guide:
@@ -124,10 +131,9 @@ sections:
   notes: |-
     Here's another famous (among musicologists) example of a work song, this one a field recording, of postal workers in Ghana canceling stamps. It was recorded by Jim Koetting in 1975. Hear the workers whistling a tune as they provide percussion accompaniment with their hands and stamps.
 
-    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="150" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/por5SopwHDc" title="Ghana Postal Workers   Work Music" width="790">
-    </iframe>
+    @video(ghana-postal-workers)
 
-    [James McCalla, *Jazz: A Listener's Guide* , 2000, p.8](bibliography.html#mccalla-2000)
+    [p.8](bibliography.html#mccalla-2000)
 
     http://culturalequity.org/alan-lomax/friends/ledbetter
 
@@ -146,8 +152,8 @@ sections:
     Many blues songs, including the two featured in this lesson, follow a 12-bar **AAB** form, with four bars each section. A phrase is played or sung, then repeated, and then expanded upon or conteztualized by a consequent third phrase. This happens in both the melody and lyrics, but the latter is easier to demonstrate with text. Consider the lyrics to \"St. Louis Blues\", as first published in 1914:
 
     > **[A]** I hate to see / de ev'nin' sun go down  
-    > **[A]** Hate to see / de evenin' sun go down.
-    > **[B]** Cause my baby / he done lef dis town
+    > **[A]** Hate to see / de evenin' sun go down.  
+    > **[B]** Cause my baby / he done lef dis town  
 
     Around the time jazz was emerging as a distinct style, two ways of playing the blues were prominent:
 
@@ -188,11 +194,11 @@ sections:
 
     Johnson had a tremendous influence on later blues musicians, his style becoming something like a Platonic standard of Delta blues. Ted Gioia puts it well in *The History of Jazz*:
 
-    <blockquote>
-     More than any other artist, Robert Johnson codified the disparate strains of the Blues guitar tradition into a coherent musical vision that could be assimilated and adapted by the broader stream of American popular music.... [He mastered] a host of techniques later imitated by generations of followers: turn-arounds, passing chords, boogie patterns, fills, vamps, licks, and the like. [Gioia, 2011, 14](bibliography.html#gioia-2011)
-    </blockquote>
+    > More than any other artist, Robert Johnson codified the disparate strains of the Blues guitar tradition into a coherent musical vision that could be assimilated and adapted by the broader stream of American popular music.... \[He mastered\] a host of techniques later imitated by generations of followers: turn-arounds, passing chords, boogie patterns, fills, vamps, licks, and the like. [p. 14](bibliography.html#gioia-2011)
 
-    Johnson is often associated with an urban legend, no doubt inspired by Faust, that he made a bargin with "the Devil" at a crossroads to aquire his musical ability. He's not the only blues musician to be associated with the legend, and several folkloreists have found the myth a fruitful topic of study.
+    Johnson is often associated with an urban legend, no doubt inspired by Faust, that he made a bargin with "the Devil" at a crossroads to aquire his musical ability. It's a myth that has been told many times, albeit not always about Johnson. As the [Mississippi Encyclopedia](https://mississippiencyclopedia.org/entries/crossroads-myth/) puts it:
+
+    >Johnson yearned to play guitar like his idol, Son House, but possessed little feel for the instrument. In fact, Brown and Parker ridiculed his picking skills, and other bluesmen refused to play with him. Johnson left the blues circuit for months but reemerged with an unmatched proficiency on the guitar. His drastic improvement in such a brief period created suspicion that Johnson had gained his talent as a result of a deal with the Devil, and his songs encouraged such speculation. Although Johnson recorded only twenty-nine songs, many dealt with the dark themes of isolation, frustration, and personal loss. In particular, he sang of the “hellhounds” that constantly pursed him, and his most famous song, “Crossroads Blues,” told the story of his experience with Satan at the lonely junction of two highways.
 
     *Wikipedia says 13 alternate takes, but I count only 12.
   tracks:
@@ -231,9 +237,11 @@ sections:
     - ['2:10', A]
     - ['2:20', B]
   notes: |-
-    I recommend listening to more of Robert Johnson's recordings - they are all available on the compilation album *[The Complete Recordings](https://open.spotify.com/album/6QwHn86Rw53qli3Y6b41Rd?si=ZMLMFvwqRJiv6Bc-wx1DgQ)*. Each track is quite similar; it's clear that Johnson had a well-developed style.
+    - I recommend listening to more of Robert Johnson's recordings - they are all available on the compilation album *[The Complete Recordings](https://open.spotify.com/album/6QwHn86Rw53qli3Y6b41Rd?si=ZMLMFvwqRJiv6Bc-wx1DgQ)*. Each track is quite similar; it's clear that Johnson had a well-developed style.
 
-    It is also worth contrasting this recording with some more modern blues interpretations. See the Blues section, above, for other examples of blues recordings from this course.
+    - It is also worth contrasting this recording with some more modern blues interpretations. See the Blues section, above, for other examples of blues recordings from this course.
+
+    - The crossroads myth itself is a bit of culture that gets frequently retold - and not always about Johnson. The Wikipedia page on Robert Johnson has a section, [In Popular Culture](https://en.wikipedia.org/wiki/Robert_Johnson#In_popular_culture), which lists many such contemporary retellings.
 
 - heading: Bessie Smith
   artists:
@@ -241,17 +249,17 @@ sections:
     born: 1894
     died: 1937
   prose: |-
-    Called the “Empress of the Blues,” Bessie Smith pratically defines the sound of classic blues. She was the protégé of [Ma Rainey](https://en.wikipedia.org/wiki/Ma_Rainey), herself a very sucessful blue performer and pioneer of the classic/city blues style. Smith performed with Rainey as part of the [Rabbit's Foot Company](https://en.wikipedia.org/wiki/The_Rabbit%27s_Foot_Company), a traveling Vaudville show, before embarking on a solo career. She was a hit, attacting even mixed race audiences, and for a time was likely the highest paid Black performing artist in the world[Gioia, 2008, 41](bibliography.html#gioia-2008).
+    Called the “Empress of the Blues,” Bessie Smith pratically defines the sound of classic blues. She was the protégé of [Ma Rainey](https://en.wikipedia.org/wiki/Ma_Rainey), herself a very sucessful blue performer and pioneer of the classic/city blues style. Smith performed with Rainey as part of the [Rabbit's Foot Company](https://en.wikipedia.org/wiki/The_Rabbit%27s_Foot_Company), a traveling Vaudville show, before embarking on a solo career. She was a hit, attacting even mixed race audiences, and for a time was likely the highest paid Black performing artist in the world [p. 41](bibliography.html#gioia-2008).
 
     Her vocal style reflects the technology of her time. Microphones and amplification were not yet common, so Smith, like all vocalists of her time, learned to sing without them. She developed a powerful tone that she could project to fill large venues. This was part of her appeal, and it's unfortunate that the recording technology of her time leaves us only relatively low fidelity records. She recorded a lot - one hundred fifty recordings over a ten year period - but likely none capture the full resonance of her voice.
 
     Her personal life was not easy (even compared to that of most Black Americans at the time). She lost both of her parents and one brother before her tenth birthday, leaving her older sister to raise her. Her first performances - at around the age of twelve - were to the guitar accompaniment of her brother. A series of record deals with Columbia propelled her to stardom by the mid 1920s, though her popularity waned in the proceeding decade. Her career ended when she died in a car accident while traveling to a peformance.
-
-    (Porter & Ullman, 64-65)[bibliography.html#porter-ullman-1993]
-    (Martin & Waters, 34)[bibliography.html#martin-waters-2006]
-    (Gioia, 2008, 40-41)[bibliography.html#gioia-2008]
-    (Gioia, 2011, 17-18)[bibliography.html#gioia-2011]
-    (Hester, 171-172)[bibliography.html#hester-2004]
+  sources:
+  - {ref: porter-ullman-1993, pages: 64-65}
+  - {ref: martin-waters-2006, pages: '34'}
+  - {ref: gioia-2008, pages: 40-41}
+  - {ref: gioia-2011, pages: 17-18}
+  - {ref: hester-2004, pages: 171-172}
   tracks:
   - title: St. Louis Blues
     performer: Bessie Smith with Louis Armstrong
@@ -268,6 +276,14 @@ sections:
       You can find the sheet music as originally published in 1914 in [this online collection from Brown University Library](https://repository.library.brown.edu/studio/item/bdr:19839/).
     guidenote: |-
       Bessie Smith’s soulful delivery, Armstrong’s bluesy cornet, and the harmonium create a unique blend that points toward early jazz styles.
+  notes: |-
+    There exists exactly one video recording of Bessie Smith, and it is a short film featuring her performance of "St. Louis Blues". Perfect. This film is a gem for jazz historians. In addition to Smith, it features James P. Johnson (discussed later in this lesson) as the pianist and bandleader. It also depicts the lives of Black Americans in the mid 1920s - partially accurate perhaps, but also heavily shaped by sterotypes. As Mark Cantor writes in [an essay for the Library of Congress](https://www.loc.gov/static/programs/national-film-preservation-board/documents/st_louis_blues.pdf), the 15-minute film:
+
+    >...effectively tells its story, while also reinforcing various stereotypes about African-Americans: black men spend their days on their knees getting drunk and shooting craps; the light-skinned black woman is more desirable than the darker skinned African-American woman; black people drink and sing the blues when they are sad; black women forgive their philandering males with little or no thought. Both story and stereotypes are framed within the context of W.C. Handy’s lyrics.
+
+    >So what makes this film so essential? ...First and foremost, this is the only known footage of the greatest of all classic blues singers, Bessie Smith ...Second, this is the only film in which the Fletcher Henderson band, or at least a portion of it, appears on both soundtrack and screen. True, Fletcher is not there -- his place is taken at the piano by James P. Johnson -- but the rest of the band is either drawn from Fletcher’s band from the period, or are musicians who had played with him ...[Third,] the film is also important because it is one of the earliest to present images of black life, albeit stereotypical, in a film intended for both black and white audiences.
+
+    @video(st-louis-blues-1929)
 - heading: Ragtime
   prose: |-
     Ragtime was a piano-based style popular in the late 19th and early 20th centuries. It used syncopated (or “ragged”) rhythms over a steady bass line. Though not improvised like jazz, it contributed syncopation, sectional forms, and a more piano-centric tradition that influenced early jazz pianists.
@@ -293,8 +309,12 @@ sections:
   prose: |-
     Stride piano evolved from ragtime, retaining syncopation but adding greater virtuosity, swing, and improvisation. Stride pianists used the left hand to stride between low bass notes and mid-range chords, and the right hand for elaborate melodies. It moved closer to jazz’s improvisational character.
 
-    ### James P. Johnson (1894-1955)
-
+- heading: James P. Johnson
+  artists:
+  - name: James P. Johnson
+    born: 1894
+    died: 1955
+  prose: |-
     Often called the “Father of Stride Piano,” Johnson influenced Fats Waller and many Harlem pianists. Stride was more flexible than ragtime, allowing improvisation and cutting contests.
   tracks:
   - title: Carolina Shout
@@ -304,27 +324,4 @@ sections:
     - [James P. Johnson, piano]
     spotify: 20MqMBvmdiPXDFEsmUkFN8
     intro: |-
-      Johnson’s virtuosic performance highlights stride’s complexity. The form (Intro – AABCCCCC – Coda) is more playful than strict ragtime. The melody evolves slightly in each C.
-    guidenote: |-
-      Note the driving left hand and intricate right hand lines. Stride builds a bridge from ragtime to jazz’s freer, swinging piano style.
-- heading: Brass Bands
-  prose: |-
-    In New Orleans, brass bands played for parades, funerals (with solemn processional music followed by celebratory tunes), and social events. They often employed collective improvisation and established roles for each horn that mirrored early jazz arrangements. The enthusiastic dancers and followers behind the band formed the “second line.”
-
-- heading: Bunk Johnson
-  artists:
-  - name: Bunk Johnson
-    born: 1879
-    died: 1949
-  prose: |-
-    A New Orleans cornetist who led brass bands in the early 1900s. Rediscovered in the 1940s, he recorded examples of early brass band styles for the Dixieland revival. Though recorded decades after their heyday, these sessions hint at the flavor of original New Orleans brass band traditions.
-  tracks:
-  - title: In Gloryland
-    performer: Bunk’s Brass Band
-    recorded: May 18, 1945
-    spotify: 7AVLHdMlwvKlTwwU7xNBDE
-    intro: |-
-      Adapted from the gospel tune “Just Over in the Gloryland,” this performance mixes collective improvisation, simple harmonic structure, and a strong rhythmic feel that would inspire early jazz.
-    guidenote: |-
-      Note the refrain/verse structure and the gradual increase in “heat” (swing feeling) toward the end. The horns’ interplay and rhythmic drive prefigure the polyphonic texture of early jazz combos.
----
+      Johnson’s virtuosic performa

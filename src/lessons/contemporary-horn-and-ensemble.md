@@ -2,6 +2,14 @@
 title: Horn Players & Ensembles
 description: A survey of contemporary horn players and ensembles in jazz.
 order: 32
+media:
+  snarky-puppy:
+    youtube: j_rOAmnISzE
+    params: 'list=FLmQ5d-a1feza-7q3-3CQitQ'
+    title: 'Snarky Puppy video'
+  sfjazz-recording-session:
+    youtube: bBBZ-2PzSgY
+    title: 'SFJAZZ Collective recording session'
 intro: |-
   In this unit, we explore contemporary horn players (beyond saxophonists) and ensembles that have shaped the modern jazz landscape. Some of these artists specialize in older, New Orleans-inspired traditions; others push the boundaries with fusion, funk, and cross-genre collaborations. We’ll also look at larger ensembles that continue evolving jazz orchestration, arrangements, and repertoire.
 sections:
@@ -116,8 +124,7 @@ sections:
   prose: |-
     Snarky Puppy is a large, rotating collective founded by bassist, composer, and UNT alumnus Michael League. They began as a group of UNT students, later fusing with Dallas gospel/R&B communities. Featuring musicians like Robert “Sput” Searight and Shaun Martin, they blend jazz, funk, R&B, and more, winning multiple Grammys.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/j_rOAmnISzE?list=FLmQ5d-a1feza-7q3-3CQitQ" width="400">
-    </iframe>
+    @video(snarky-puppy)
   tracks:
   - title: Lingus
     performer: Snarky Puppy
@@ -183,5 +190,9 @@ sections:
     - [Matt Penman, bass]
     - [Eric Harland, drums]
     spotify: 3xvMAp0XEjYTQRuEu697ts
-  notes: "- All these musicians are notable individually. Zenón’s arrangement deconstructs Wonder’s original, adding complex harmonies and rhythms.\n- Watch the video of the recording session on YouTube to fully appreciate the interplay and arrangement:\n- \n\n<iframe referrerpolicy=\"strict-origin-when-cross-origin\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"300\" src=\"https://www.youtube.com/embed/bBBZ-2PzSgY\" width=\"400\">\n</iframe>\n\n"
+  notes: |-
+    - All these musicians are notable individually. Zenón’s arrangement deconstructs Wonder’s original, adding complex harmonies and rhythms.
+    - Watch the video of the recording session on YouTube to fully appreciate the interplay and arrangement:
+
+    @video(sfjazz-recording-session)
 ---

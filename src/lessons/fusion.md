@@ -2,6 +2,10 @@
 title: Fusion
 description: A history of jazz styles and figures through selected recordings
 order: 26
+media:
+  weather-report:
+    youtube: I63bOi477cA
+    title: 'Weather Report video'
 intro: |-
   The term "fusion" in the context of jazz history most often refers to the blending of jazz and rock styles that began in the late 1960s and reached a zenith in the 1970s. Read the [Grove Music Online article about jazz-rock fusion](https://libproxy.library.unt.edu:2147/10.1093/gmo/9781561592630.article.J226300) . It provides an excellent summary of some key elements of the style. Note especially the following points from the second paragraph:
 
@@ -206,8 +210,7 @@ sections:
     intro: |-
       Here's a video of the band performing "Teen Town" at a live show:
 
-      <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/I63bOi477cA" width="400">
-      </iframe>
+      @video(weather-report)
 
       ;
     guide:

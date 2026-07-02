@@ -2,6 +2,10 @@
 title: Swing Era Soloists
 description: A history of jazz styles and figures through selected recordings
 order: 4
+media:
+  art-tatum:
+    youtube: JycfQd9nk9M
+    title: 'Art Tatum video'
 intro: ""
 sections:
 - heading: Roy Eldridge
@@ -208,8 +212,7 @@ sections:
 
     Watch this clip from a Chick Corea piano jazz documentary. He tells a famous, probably apocryphal, story about Fats Waller remarking “I’m just a piano player, but tonight, God is in the house!”
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/JycfQd9nk9M" width="400">
-    </iframe>
+    @video(art-tatum)
 
     Tatum was almost entirely blind. According to one legend, Tatum learned to play by imitating piano rolls which, unbeknownst to him, were the result of a kind of overdubbing; they were created with more than two hands' worth of notes.
   tracks:

@@ -12,7 +12,7 @@
   {% include "header.njk" %}
   <section class="introduction" id="{{ title | slug }}">
    <h1>{{ heading or title }}</h1>
-   {{ intro | md | safe }}
+   {{ intro | md(media) | safe }}
    {%- for fig in introFigures %}
    <figure class="notation">
     <img alt="{{ fig.alt }}" src="{{ fig.src }}"/>
@@ -32,7 +32,8 @@
   {%- for section in sections %}
   <section class="artist" id="{{ section.heading | slug }}">
    <h2>{{ section.heading | artistHeading(section.artists) | safe }}</h2>
-   {{ section.prose | md | safe }}
+   {{ section.prose | md(media) | safe }}
+   {%- for v in section.videos %}{{ v | videoFig | safe }}{% endfor %}
 
    {%- for t in section.tracks %}
    <div class="track" id="{{ t.title | cleanSlug }}">
@@ -44,7 +45,7 @@
      {%- if t.recorded %}<p>Recorded: {{ t.recorded }}</p>{% endif %}
      {%- if t.album %}<p>Album: <cite>{{ t.album }}</cite></p>{% endif %}
      {%- if t.released %}<p>Released: {{ t.released }}</p>{% endif %}
-     {%- for c in t.credits %}{{ c | md | safe }}{% endfor %}
+     {%- for c in t.credits %}{{ c | md(media) | safe }}{% endfor %}
      {%- if t.personnel %}
      <table>
       {%- for row in t.personnel %}
@@ -56,7 +57,7 @@
 
     {%- if t.intro %}
     <div class="track-intro">
-     {{ t.intro | md | safe }}
+     {{ t.intro | md(media) | safe }}
     </div>
     {%- endif %}
 
@@ -72,9 +73,11 @@
      {%- endif %}
     </div>
 
+    {%- for v in t.videos %}{{ v | videoFig | safe }}{% endfor %}
+
     <div class="listening-guide">
      <h5>Listening Guide</h5>
-     {{ t.guidenote | md | safe }}
+     {{ t.guidenote | md(media) | safe }}
      <table>
       <tr><th>Time</th><th>Description</th></tr>
       {%- for row in t.guide %}
@@ -89,7 +92,7 @@
    {%- if section.notes or section.figures %}
    <div class="additional-info">
     <h3>Additional Information</h3>
-    {{ section.notes | md | safe }}
+    {{ section.notes | md(media) | safe }}
     {%- for fig in section.figures %}
     <figure class="notation">
      <img alt="{{ fig.alt }}" src="{{ fig.src }}"/>
@@ -100,6 +103,18 @@
    {%- endif %}
   </section>
   {%- endfor %}
+
+  {%- set generalRefs = sections | allSourceRefs %}
+  {%- if generalRefs | length %}
+  <section class="sources" id="sources">
+   <h2>Sources</h2>
+   <ul class="cite-general">
+    {%- for s in generalRefs %}
+    <li><a href="bibliography.html#{{ s.ref }}">{{ s.ref | bibLabel }}</a>{% if s.pagesText %} — {{ s.pagesText }}{% endif %}</li>
+    {%- endfor %}
+   </ul>
+  </section>
+  {%- endif %}
   {% include "footer.njk" %}
  </body>
 </html>

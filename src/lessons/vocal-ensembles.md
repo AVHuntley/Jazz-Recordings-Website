@@ -2,6 +2,19 @@
 title: Vocal Ensembles
 description: A history of jazz styles and figures through selected recordings
 order: 28
+media:
+  the-four-freshmen:
+    youtube: l4NafK3NFhA
+    title: 'The Four Freshmen video'
+  the-four-freshmen-2:
+    youtube: E44zg5qZA_o
+    title: 'The Four Freshmen video'
+  manhattan-transfer-bobby-mcferrin:
+    youtube: 6zKJqx7LZ0g
+    title: 'Manhattan Transfer & Bobby McFerrin video'
+  jon-hendricks:
+    youtube: FRc-wZHDoqY
+    title: 'Jon Hendricks video'
 heading: Introduction
 intro: |-
   In this lesson, we're going to look at jazz singing in a group context. Just like in other large ensembles, when several vocalists sing together, there's somewhat less room for improvisation. Parts need to be carefully arranged to work together, and the emphasis is often on the overall effect of the piece rather than an individual's performance.
@@ -55,13 +68,11 @@ sections:
   notes: |-
     - Here's a music video of the Four Freshmen performing this song in 1952:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/l4NafK3NFhA" width="400">
-    </iframe>
+    @video(the-four-freshmen)
 
     - Just for fun, check out this video by Vulfpeck from 2015. They perform the Four Freshmen arrangement of "Poinciana," but with talk-boxes over a drum machine groove that imitates the famous Ahmad Jamal version:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/E44zg5qZA_o" width="400">
-    </iframe>
+    @video(the-four-freshmen-2)
 
     - We heard Ahmad Jamal play this song in our lesson on [jazz piano styles](art-of-jazz-piano.html) .
 - heading: Lambert, Hendricks & Ross
@@ -157,8 +168,7 @@ sections:
     - This is an arrangement of Dizzy Gillespie’s “A Night in Tunisia.” It combines original arrangement techniques with vocalese from the famous Charlie Parker recording. At 1:43, Jon Henricks sings a vocalese rendition of Parker's solo from the track we listened to in our lesson on [Diz and Bird](diz-and-bird.html) , including that infamous break. At 2:12, Manhattan Transfer sings a harmonized arrangement of Miles Davis's solo over the B section of that same recording.
     - Here's the official, \* *fabulous\** music video for this recording. Highly recommended.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/6zKJqx7LZ0g" width="400">
-    </iframe>
+    @video(manhattan-transfer-bobby-mcferrin)
 - heading: Jon Hendricks
   artists:
   - name: Jon Hendricks
@@ -171,8 +181,7 @@ sections:
 
     Hendricks died in 2017. Just a couple years prior, he participated in an interview with Michael Mwenso for Jazz at Lincoln Center. Check out the first episode of that six-part series here:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/FRc-wZHDoqY">
-    </iframe>
+    @video(jon-hendricks)
   tracks:
   - title: Freddie Freeloader
     performer: Jon Hendricks and Friends

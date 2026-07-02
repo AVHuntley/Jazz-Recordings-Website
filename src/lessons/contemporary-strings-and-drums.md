@@ -2,6 +2,13 @@
 title: String Players (& a Drummer)
 description: A survey of contemporary jazz guitarists, string players, and a prominent drummer.
 order: 33
+media:
+  mary-halvorson:
+    youtube: kXvs5_rLU9g
+    title: 'Mary Halvorson video'
+  regina-carter:
+    youtube: CFDq3bwgFJU
+    title: 'Regina Carter video'
 intro: |-
   In this final unit for the module, we look at some notable guitarists and other string players who have helped define contemporary jazz, as well as one of the most influential drummers working today. From guitarists who seamlessly integrate modern harmony and global influences, to a violinist combining classical technique with jazz improvisation, to a drummer who blends folk elements with modern jazz aesthetics, these artists highlight the continued evolution and diversification of jazz.
 sections:
@@ -96,8 +103,7 @@ sections:
 
       Here's a video of a live performance by Halvorson. She plays "Cascades" at 16:56.
 
-      <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/kXvs5_rLU9g" width="400">
-      </iframe>
+      @video(mary-halvorson)
     guide:
     - ['0:00', Intro]
     - ['0:40', Head in (melody of “Cascades”)]
@@ -150,8 +156,7 @@ sections:
   prose: |-
     Regina Carter is a violinist who trained classically (Suzuki method) and later pivoted to jazz at New England Conservatory. She won a MacArthur fellowship in 2006 and has explored classical, jazz, and various other styles. Her 2016 album *Accentuate the Positive* is dedicated to Ella Fitzgerald.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/CFDq3bwgFJU" width="400">
-    </iframe>
+    @video(regina-carter)
   tracks:
   - title: Crying in the Chapel
     performer: Regina Carter Ensemble

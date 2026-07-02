@@ -2,6 +2,13 @@
 title: Vocalists of the 40s and 50s
 description: A history of jazz styles and figures through selected recordings
 order: 13
+media:
+  carmen-mcrae:
+    youtube: muTavqYrOmQ
+    title: 'Carmen McRae video'
+  anita-oday:
+    youtube: WTOHZXFEO5c
+    title: 'Anita O’Day video'
 intro: ""
 sections:
 - heading: Sarah Vaughan
@@ -94,8 +101,7 @@ sections:
 
     Former UNT piano instructor Pat Coil played with McRae for a little while. You can see them play together in the below video of the 1986 concert in Tokyo:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="180" src="https://www.youtube.com/embed/muTavqYrOmQ" width="320">
-    </iframe>
+    @video(carmen-mcrae)
   tracks:
   - title: Yardbird Suite
     performer: Carmen McRae
@@ -145,8 +151,7 @@ sections:
     intro: |-
       Here's a video of O'Day performing "Tea for Two" at the 1958 Newport Jazz Festival. The clip comes from a documentary about that festival called *[Jazz on a Summer's Day](https://iii.library.unt.edu/record=b2443738~S12)* .
 
-      <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/WTOHZXFEO5c" width="400">
-      </iframe>
+      @video(anita-oday)
 
       Personnel: Jimmy Jones (piano); Whitey Mitchell (bass); John Poole (drums).
 

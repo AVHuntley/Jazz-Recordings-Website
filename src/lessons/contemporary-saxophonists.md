@@ -2,6 +2,10 @@
 title: Saxophonists
 description: A survey of contemporary jazz saxophonists and their contributions to modern jazz.
 order: 31
+media:
+  donny-mccaslin:
+    youtube: a-cL1a_i3dU
+    title: 'Donny McCaslin video'
 intro: |-
   In this unit, we explore several prominent contemporary saxophonists. These musicians emerged in the late 20th or early 21st century, playing in contexts as diverse as the last Miles Davis band, contemporary funk and fusion ensembles, acoustic post-bop settings, and even collaborations with pop and rock artists like David Bowie. Their careers and styles exemplify the breadth and depth of today’s jazz saxophone tradition.
 sections:
@@ -119,8 +123,7 @@ sections:
 
     This brought McCaslin to a new level of fame. In the 2017 Google talk linked below, watch first 9 minutes for his early career story and at 17:24 for the Bowie collaboration.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/a-cL1a_i3dU" width="400">
-    </iframe>
+    @video(donny-mccaslin)
   tracks:
   - title: Bright Abyss
     performer: Donny McCaslin & Ensemble

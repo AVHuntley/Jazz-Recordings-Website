@@ -1,0 +1,33 @@
+---
+permalink: /bibliography.html
+---
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Bibliography</title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Sources cited throughout this survey of jazz recordings." name="description"/>
+  <meta content="{{ site.author }}" name="author"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  {% include "header.njk" %}
+  <section class="introduction" id="bibliography-intro">
+   <h1>Bibliography</h1>
+   <p>
+    These are the principal sources consulted in creating this survey. Citations throughout the
+    articles appear as small numbered markers; each section lists its sources at the bottom, and
+    every entry links back to this page. Where a source is freely available online, the entry
+    includes a link.
+   </p>
+  </section>
+  <section class="artist" id="works-cited">
+   <h2>Works Cited</h2>
+   {%- for e in bibliography %}
+   <p class="bib-entry" id="{{ e.id }}">{{ e.citation | mdInline | safe }}</p>
+   {%- endfor %}
+  </section>
+  {% include "footer.njk" %}
+ </body>
+</html>

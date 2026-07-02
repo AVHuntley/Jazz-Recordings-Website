@@ -2,6 +2,10 @@
 title: Post Bop
 description: A history of jazz styles and figures through selected recordings
 order: 22
+media:
+  miles-davis-second-great-quintet:
+    youtube: b9-rUvrt0N4
+    title: 'Miles Davis (Second Great Quintet) video'
 intro: |-
   [Grove Music Online](https://libproxy.library.unt.edu:2147/10.1093/gmo/9781561592630.article.J752800) describes **post bop** as:
 
@@ -31,8 +35,7 @@ sections:
 
     [This page](http://www.openculture.com/2012/12/miles_davis_and_his_second_great_quintet_filmed_live_in_europe_1967.html)
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/b9-rUvrt0N4" width="400">
-    </iframe>
+    @video(miles-davis-second-great-quintet)
 
     We've already discussed Miles Davis in great detail in [Miles](%24WIKI_REFERENCE%24/pages/3-dot-1-miles "Miles") , and we even listened to "E.S.P.," which is a classic post bop recording. I want you to hear one more track by this group, because a recording exists of them figuring out their arrangement in the studio before recording the final version.
 

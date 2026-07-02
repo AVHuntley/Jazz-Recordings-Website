@@ -2,6 +2,10 @@
 title: Swing Big Bands
 description: A history of jazz styles and figures through selected recordings
 order: 3
+media:
+  benny-goodman:
+    youtube: OypwMHYt1nE
+    title: 'Benny Goodman video'
 intro: ""
 sections:
 - heading: Benny Goodman
@@ -53,8 +57,7 @@ sections:
     intro: |-
       Goodman agreed to the Carnegie Hall date (which, at the time might have seemed a bit bold) in part due to the positive feedback he received from his appearance in the 1937 movie "Hollywood Hotel." Below is a clip from that film in which Goodman and his band perform "Sing, Sing, Sing."
 
-      <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="242" src="https://www.youtube.com/embed/OypwMHYt1nE" width="323">
-      </iframe>
+      @video(benny-goodman)
 
       [This article from AllAboutJazz](https://www.allaboutjazz.com/benny-goodman-sing-sing-sing-benny-goodman-by-david-rickert.php?page=1) covers a brief history of "Sing, Sing, Sing," describing it as essentially a drum feature for Gene Krupa.
     guide:

@@ -2,12 +2,24 @@
 title: Influential Artists of the 70s and 80s
 description: A history of jazz styles and figures through selected recordings
 order: 27
+media:
+  intro:
+    youtube: Txe--PwJhEY
+    title: 'intro video'
+  the-brecker-brothers:
+    youtube: UIGsSLCoIhM
+    title: 'The Brecker Brothers video'
+  gary-burton:
+    youtube: pfHoqV1ng5M
+    title: 'Gary Burton video'
+  gary-burton-2:
+    youtube: rHR3F7vp1uc
+    title: 'Gary Burton video'
 heading: Influential Jazz Artists of the 70s and 80
 intro: |-
   This lesson covers several revered musicians who built solo careers during the 1970s and 1980s. Many of these musicians recorded for **[ECM Records](https://www.ecmrecords.com)** , a German record company that became associated with a particular sound and approach to jazz music. Drummers especially may know what I mean. "ECM" has come to roughly describe a kind of straight-eight groove that draws from bossa nova, boogaloo, and rock rhythms. Here's a YouTube video I found of a drummer explaining how he thinks of the "ECM groove":
 
-  <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Txe--PwJhEY">
-  </iframe>
+  @video(intro)
 
   So many important musicians recorded with ECM. Among them are Paul Bley, Jan Garbarek, Gary Burton, Chick Corea, Jack DeJohnette, Keith Jarrett, Pat Metheny, Dave Liebman, and John Abercrombie. More recently, Mark Turner, Ethan Iverson, Vijay Iyer, Avishai Cohen (tp), and Chris Potter have all recorded with ECM. If you're curious, a more complete list of ECM records can be found on [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_ECM_Records_albums) .
 
@@ -150,8 +162,7 @@ sections:
   notes: |-
     - Watch this video of a live performance of this song from 1992:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/UIGsSLCoIhM" width="400">
-    </iframe>
+    @video(the-brecker-brothers)
 - heading: Wynton Marsalis
   artists:
   - name: Wynton Marsalis
@@ -203,8 +214,7 @@ sections:
 
     The article notes that Burton invented a specific way of holding four mallets - two in each hand. It has become known as the "Burton grip." You can see him explain this grip in this video:
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pfHoqV1ng5M">
-    </iframe>
+    @video(gary-burton)
   tracks:
   - title: Chega De Saudade
     performer: Gary Burton
@@ -232,8 +242,7 @@ sections:
   notes: |-
     - Here's a video of a Gary Burton performing the same arrangement live. I highly recommend it!
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" height="300" src="https://www.youtube.com/embed/rHR3F7vp1uc" width="400">
-    </iframe>
+    @video(gary-burton-2)
 
     - Listen to the way he accompanies himself. He fills in the spaces between the melody notes with more notes that outline the changes.
     - As mentioned in the lesson on [Latin jazz](afro-caribbean-and-brazilian-jazz.html) , Jobim's "Chega de Saudade" was one of the first two bossa nova songs ever recorded.

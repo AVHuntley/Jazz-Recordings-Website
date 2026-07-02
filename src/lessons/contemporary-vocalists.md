@@ -2,6 +2,16 @@
 title: Vocalists
 description: A survey of contemporary jazz vocalists.
 order: 34
+media:
+  kurt-elling:
+    youtube: TVqb9X8gGtQ
+    title: 'Kurt Elling video'
+  jazzmeia-horn:
+    youtube: EmI-anDxMUc
+    title: 'Jazzmeia Horn video'
+  jacob-collier:
+    youtube: zua831utwMM
+    title: 'Jacob Collier video'
 intro: |-
   In this final section, we explore some of the most celebrated contemporary jazz vocalists. These singers have garnered critical acclaim, influenced by past legends but forging new paths with original material, daring arrangements, and a blend of jazz tradition and other musical styles.
 sections:
@@ -12,8 +22,7 @@ sections:
   prose: |-
     Kurt Elling is a highly acclaimed vocalist with a long list of awards, including multiple Grammy nominations and a 2009 win. He was voted Best Male Vocalist in the DownBeat Critics Poll for 15 years (2000-2013, 2018-2019). His style integrates scat, vocalese, improvised lyrics, and literary references, drawing comparisons to 1950s poet-comedian Lord Buckley.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" height="300" src="https://www.youtube.com/embed/TVqb9X8gGtQ" width="400">
-    </iframe>
+    @video(kurt-elling)
   tracks:
   - title: Lush Life
     performer: Kurt Elling & Ensemble
@@ -171,8 +180,7 @@ sections:
   prose: |-
     Jazzmeia Horn, from Dallas, won the 2013 Sarah Vaughan Competition and the 2015 Thelonious Monk Competition. Her 2017 debut album, *A Social Call* , garnered widespread acclaim. Influenced by her upbringing singing in church, Horn brings a powerful, soulful presence to jazz standards and originals.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" height="300" src="https://www.youtube.com/embed/EmI-anDxMUc" width="400">
-    </iframe>
+    @video(jazzmeia-horn)
   tracks:
   - title: I Remember You
     performer: Jazzmeia Horn & Ensemble
@@ -207,8 +215,7 @@ sections:
   prose: |-
     Jacob Collier is a vocalist, multi-instrumentalist, composer, and arranger from London. Quincy Jones discovered him from his early YouTube videos. He’s won multiple Grammys for his elaborate, cutting-edge arrangements. Collier’s mastery extends to all instruments, digital audio workstations, and intricate vocal harmonies.
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" height="300" src="https://www.youtube.com/embed/zua831utwMM" width="400">
-    </iframe>
+    @video(jacob-collier)
   tracks:
   - title: Flintstones
     performer: Jacob Collier (solo production)

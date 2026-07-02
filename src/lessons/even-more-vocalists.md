@@ -2,6 +2,10 @@
 title: Even More Vocalists
 description: A history of jazz styles and figures through selected recordings
 order: 21
+media:
+  joe-williams:
+    youtube: SVFOcofCLkY
+    title: 'Joe Williams video'
 intro: ""
 sections:
 - heading: Nancy Wilson
@@ -231,6 +235,5 @@ sections:
 
     Check out this video of Williams singing this tune with the Basie band. The clip opens with them playing the end of "April in Paris," then continues to "Every Day I Have the Blues." Joe Williams is introduced at [1:48](https://youtu.be/SVFOcofCLkY?t=108) .
 
-    <iframe referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300" src="https://www.youtube.com/embed/SVFOcofCLkY" width="400">
-    </iframe>
+    @video(joe-williams)
 ---

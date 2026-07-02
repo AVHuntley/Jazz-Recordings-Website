@@ -312,3 +312,113 @@ header a:hover {
 .track-info cite {
   font-style: italic;
 }
+
+/* Embedded videos (film clips, performances).
+   Sizes come from the video's optional `size:` in the lesson data:
+   small | medium (default) | large. Adjust widths here, not in content. */
+figure.video {
+  margin: 20px auto;
+  max-width: 640px;
+  text-align: center;
+}
+
+figure.video.video-small {
+  max-width: 400px;
+}
+
+figure.video.video-large {
+  max-width: none;
+}
+
+figure.video video,
+figure.video iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  background-color: #000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+figure.video video {
+  height: auto;
+}
+
+figure.video iframe {
+  aspect-ratio: 4 / 3;
+  height: auto;
+}
+
+figure.video iframe.wide {
+  aspect-ratio: 16 / 9;
+}
+
+figure.video figcaption {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #777;
+  font-style: italic;
+}
+
+figure.video figcaption a {
+  color: #2a6592;
+}
+
+/* Inline citation markers (numbered superscripts, generated at build time) */
+sup.cite {
+  font-size: 0.7em;
+  line-height: 0;
+}
+
+sup.cite a {
+  text-decoration: none;
+  font-style: normal;
+  color: #2a6592;
+  padding: 0 1px;
+}
+
+sup.cite a:hover {
+  text-decoration: underline;
+}
+
+/* Page sources: one card at the bottom of each lesson, styled like other sections.
+   Numbered footnotes (cited in text) first, then general references per section. */
+.sources {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 0.9em;
+  color: #555;
+}
+
+.sources h2 {
+  font-size: 1.4em;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.sources ol.cite-notes {
+  margin: 0 0 0 1.6em;
+  padding: 0;
+}
+
+.sources li {
+  margin-bottom: 4px;
+}
+
+.sources a {
+  color: #2a6592;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.sources a:hover {
+  text-decoration: underline;
+}
+
+/* Highlight a footnote when jumped to from its marker */
+.sources li:target {
+  background-color: #fdf3d7;
+}
