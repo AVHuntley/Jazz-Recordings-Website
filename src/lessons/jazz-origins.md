@@ -189,7 +189,7 @@ sections:
     Johnson had a tremendous influence on later blues musicians, his style becoming something like a Platonic standard of Delta blues. Ted Gioia puts it well in *The History of Jazz*:
 
     <blockquote>
-     More than any other artist, Robert Johnson codified the disparate strains of the Blues guitar tradition into a coherent musical vision that could be assimilated and adapted by the broader stream of American popular music.... [He mastered] a host of techniques later imitated by generations of followers: turn-arounds, passing chords, boogie patterns, fills, vamps, licks, and the like.
+     More than any other artist, Robert Johnson codified the disparate strains of the Blues guitar tradition into a coherent musical vision that could be assimilated and adapted by the broader stream of American popular music.... [He mastered] a host of techniques later imitated by generations of followers: turn-arounds, passing chords, boogie patterns, fills, vamps, licks, and the like. [Gioia, 2011, 14](bibliography.html#gioia-2011)
     </blockquote>
 
     Johnson is often associated with an urban legend, no doubt inspired by Faust, that he made a bargin with "the Devil" at a crossroads to aquire his musical ability. He's not the only blues musician to be associated with the legend, and several folkloreists have found the myth a fruitful topic of study.
@@ -211,9 +211,11 @@ sections:
 
       "Hellhound On My Trail" stands out among Johnson's recordings for its imprecision. Although the pulse/tempo is steady, the meter varies; Johnson prioritizes expressive lyric delivery over a strict form."
     guidenote: |-
-      While this recording roughly follows the standard 12-bar blues form, it's not exact. Johnson is loose with the time, freely adding or skipping beats within measures to support his interpretation of the melody. Listen for this vocal flexibility. Try counting along. The odd meters don't stand out strongly; Johnson isn't trying to be tricky, he's just being expressive.
+      While this recording roughly follows the standard 12-bar blues form, it's not exact. Johnson is loose with the time, freely adding or skipping beats within measures to support his interpretation of the melody. Listen for this vocal flexibility. Try counting along. The odd meters don't stand out strongly; Johnson isn't trying to be tricky, he's just being expressive. The blues is just as much feeling as it is a specific form.
       
-      To that point, listen as well to his pitches - the notes he sings. He's not limited to the notes on a piano (or those represented on the musical staff). He The blues is often just as much feeling as a strict form.
+      To that point, listen also to his pitches - the notes he sings. He's not limited to the notes on a piano (or those represented on the musical staff). He sings pitches that lie between, and often slides from one pitch to another. These in-between notes (typically the 3rd, 7th, or flat-5th of the tonic key) are called **blue notes**, and are a characteristic feature of the style.
+
+      Finally, note the AAB structure of each chorus. Johnson repeats a phrase twice before concluding with a different one.
     guide:
     - ['0:00', Intro]
     - ['0:09', First Chorus - A]
@@ -231,7 +233,7 @@ sections:
   notes: |-
     I recommend listening to more of Robert Johnson's recordings - they are all available on the compilation album *[The Complete Recordings](https://open.spotify.com/album/6QwHn86Rw53qli3Y6b41Rd?si=ZMLMFvwqRJiv6Bc-wx1DgQ)*. Each track is quite similar; it's clear that Johnson had a well-developed style.
 
-    It is also worth contrasting this recording with some more modern blues interpretations. See the Blues section, above, for other examples of blues recordings from this course. Listen to each and see if you can identify the 12-bar form.
+    It is also worth contrasting this recording with some more modern blues interpretations. See the Blues section, above, for other examples of blues recordings from this course.
 
 - heading: Bessie Smith
   artists:
@@ -239,7 +241,16 @@ sections:
     born: 1894
     died: 1937
   prose: |-
-    The “Empress of the Blues,” Bessie Smith exemplified classic/city blues: a female singer backed by a band. Her powerful projection and nuanced phrasing influenced countless jazz vocalists.
+    Called the “Empress of the Blues,” Bessie Smith pratically defines the sound of classic blues. She was the protégé of [Ma Rainey](https://en.wikipedia.org/wiki/Ma_Rainey), herself a very sucessful blue performer and pioneer of the classic/city blues style. Smith performed with Rainey as part of the [Rabbit's Foot Company](https://en.wikipedia.org/wiki/The_Rabbit%27s_Foot_Company), a traveling Vaudville show, before embarking on a solo career. She was a hit, attacting even mixed race audiences, and for a time was likely the highest paid Black performing artist in the world[Gioia, 2008, 41](bibliography.html#gioia-2008).
+
+    Her vocal style reflects the technology of her time. Microphones and amplification were not yet common, so Smith, like all vocalists of her time, learned to sing without them. She developed a powerful tone that she could project to fill large venues. This was part of her appeal, and it's unfortunate that the recording technology of her time leaves us only relatively low fidelity records. She recorded a lot - one hundred fifty recordings over a ten year period - but likely none capture the full resonance of her voice.
+
+    Her personal life was not easy (even compared to that of most Black Americans at the time). She lost both of her parents and one brother before her tenth birthday, leaving her older sister to raise her. Her first performances - at around the age of twelve - were to the guitar accompaniment of her brother. A series of record deals with Columbia propelled her to stardom by the mid 1920s, though her popularity waned in the proceeding decade. Her career ended when she died in a car accident while traveling to a peformance.
+
+    (Porter & Ullman, 64-65)[bibliography.html#porter-ullman-1993]
+    (Martin & Waters, 34)[bibliography.html#martin-waters-2006]
+    (Gioia, 2008, 40-41)[bibliography.html#gioia-2008]
+    (Gioia, 2011, 17-18)[bibliography.html#gioia-2011]
   tracks:
   - title: St. Louis Blues
     performer: Bessie Smith with Louis Armstrong
@@ -251,7 +262,7 @@ sections:
     - [Fred Longshaw, harmonium]
     spotify: 4u2mGcx8iAPueKUOFNQUmb
     intro: |-
-      A classic blues with a more complex AABC form (A & C are 12-bar blues sections, B is a 16-bar minor section). Widely recorded and central to jazz history.
+      St. Louis Blues is likely the single most recorded blues song in history. A classic blues with a more complex AABC form (A & C are 12-bar blues sections, B is a 16-bar minor section). Widely recorded and central to jazz history.
 
       You can find the sheet music as originally published in 1914 in [this online collection from Brown University Library](https://repository.library.brown.edu/studio/item/bdr:19839/).
     guidenote: |-
