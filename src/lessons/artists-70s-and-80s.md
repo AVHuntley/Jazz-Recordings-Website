@@ -65,13 +65,13 @@ sections:
     spotify: 4FMI4Ln1LhyxGldkNXan5e
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Chorus 1]
-    - ['0:36', Chorus 2]
-    - ['1:13', Chorus 3]
-    - ['1:50', Chorus 4]
-    - ['2:26', Chorus 5]
-    - ['2:52', 'Outro, still following the form, but very rubato']
+    guide: |-
+      0:00 | Chorus 1
+      0:36 | Chorus 2
+      1:13 | Chorus 3
+      1:50 | Chorus 4
+      2:26 | Chorus 5
+      2:52 | Outro, still following the form, but very rubato
   notes: |-
     - The recordings on this album have been transcribed and re-recorded by classical pianists, for example, [Richard Steinbach](https://open.spotify.com/track/2uriwjXOo3HHTX5M1O8hM3?si=Ed-UqSXuQHeMkJTYrQaECw) and [Tomasz Trzcinski.](https://open.spotify.com/album/2axpqE4HpSTchcaG8rmMjN?si=1WPZhUTVQRyiMzJ49J78tA)
     - Part II C is sometimes titled "Memories of Tomorrow." Under that name, it was included in the Real Book and recorded by other jazz artists.
@@ -102,13 +102,13 @@ sections:
     spotify: 6UwTR0kjCtlT4FMNtIvLac
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Head]
-    - ['0:49', Metheny (g) solo]
-    - ['1:35', 'Metheny (g) solo, 2 nd chorus']
-    - ['2:20', Pastorius (b) solo]
-    - ['3:06', 'Pastorius (b) solo, 2 nd chorus']
-    - ['3:50', Head out]
+    guide: |-
+      0:00 | Head
+      0:49 | Metheny (g) solo
+      1:35 | Metheny (g) solo, 2 nd chorus
+      2:20 | Pastorius (b) solo
+      3:06 | Pastorius (b) solo, 2 nd chorus
+      3:50 | Head out
   notes: |-
     - As you listen to the two soloists, try to identify their vocabulary. Does it sounds like anybody else we've listened to in this course? Can you hear blues language or bebop licks?
     - Two of Jaco's signature moves are the use of dyads (two notes at once) and harmonics. He plays harmonics within the first moments of his entrance (at 0:04). He plays one conspicuously right at 3:25. And he uses dyads prominently during the bridge of his second chorus, beginning at 3:28.
@@ -153,12 +153,12 @@ sections:
     spotify: 4cJC5AjLjRUH2qtemrqLbD
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Head in]
-    - ['1:26', 'Randy Brecker (tp) solo, with effects']
-    - ['2:44', Michael Brecker (ts) solo]
-    - ['4:02', Groove over vamp]
-    - ['4:31', Head out]
+    guide: |-
+      0:00 | Head in
+      1:26 | Randy Brecker (tp) solo, with effects
+      2:44 | Michael Brecker (ts) solo
+      4:02 | Groove over vamp
+      4:31 | Head out
   notes: |-
     - Watch this video of a live performance of this song from 1992:
 
@@ -194,12 +194,12 @@ sections:
     spotify: 7JwB1NWTYssyIx9UQtnKd0
     intro: |-
       Head is A(11)B(8)C(8). Each section is split between theme and improvisation. The 4 th bar of C is in 3/4.
-    guide:
-    - ['0:00', Head is A(11)B(8)C(8). Each section is split between theme and improvisation. The 4 th bar of C is in 3/4.]
-    - ['0:52', Wynton Marsalis (tp) solo]
-    - ['3:08', Branford Marsalis (ts) solo]
-    - ['4:26', Kirkland (p) solo]
-    - ['5:45', Head out]
+    guide: |-
+      0:00 | Head is A(11)B(8)C(8). Each section is split between theme and improvisation. The 4 th bar of C is in 3/4.
+      0:52 | Wynton Marsalis (tp) solo
+      3:08 | Branford Marsalis (ts) solo
+      4:26 | Kirkland (p) solo
+      5:45 | Head out
   notes: |-
     - This really is an example of 1960s-influenced post bop. The composition reflects the harmonic sensibilities of Wayne Shorter. Jeff "Tain" Watts's playing harkens to the fluid timekeeping of Tony Williams. Kenny Kirkland plays with a driving rhythmic feel and quartal approach inspired (in part) by McCoy Tyner.
     - [(Bierman, p.318)](bibliography.html#bierman-2016) ; [(Lawn, p.352)](bibliography.html#lawn-2013)
@@ -228,17 +228,17 @@ sections:
       Gary Burton (vibraphone)
 
       Form: AB. It's not obviously symmetrical. The first half is in minor, the second half is in the parallel major. (Alternatively, this is like AA'BA''. The first two A's are minor and not quite identical, and the last A is in a major key.)
-    guide:
-    - [Form, 'AB. The two halves are sort of symmetrical. The first half is in minor, the second half is in the parallel major. (Alternatively, this is like AA''BA''''. The first two A''s are minor and not quite identical, and the last A is in a major key.)']
-    - ['0:00', 'Head in, A']
-    - ['0:45', B]
-    - ['1:03', 'Second chorus, A. Burton solos.']
-    - ['1:31', B]
-    - ['2:08', 'Third chorus, A']
-    - ['2:37', B]
-    - ['3:17', 'Head out, A']
-    - ['3:46', B]
-    - ['4:11', Burton extends the turnaround progression and solos over the 4-chord vamp.]
+    guide: |-
+      Form | AB. The two halves are sort of symmetrical. The first half is in minor, the second half is in the parallel major. (Alternatively, this is like AA'BA''. The first two A's are minor and not quite identical, and the last A is in a major key.)
+      0:00 | Head in, A
+      0:45 | B
+      1:03 | Second chorus, A. Burton solos.
+      1:31 | B
+      2:08 | Third chorus, A
+      2:37 | B
+      3:17 | Head out, A
+      3:46 | B
+      4:11 | Burton extends the turnaround progression and solos over the 4-chord vamp.
   notes: |-
     - Here's a video of a Gary Burton performing the same arrangement live. I highly recommend it!
 

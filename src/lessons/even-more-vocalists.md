@@ -34,14 +34,14 @@ sections:
     - [Milt Raskin, piano]
     - [Joe Comfort, bass]
     spotify: 4S5CB8Eh1pS9sbM0n6VgGV
-    guide:
-    - ['0:00', Guitar intro]
-    - ['0:08', Wilson enters]
-    - ['0:51', Bass and drums enter]
-    - ['0:59', 'Chorus, piano enters and plays fills']
-    - ['1:54', 'Verse, piano strolls']
-    - ['2:26', 'Chorus, piano reenters']
-    - ['2:51', Outro]
+    guide: |-
+      0:00 | Guitar intro
+      0:08 | Wilson enters
+      0:51 | Bass and drums enter
+      0:59 | Chorus, piano enters and plays fills
+      1:54 | Verse, piano strolls
+      2:26 | Chorus, piano reenters
+      2:51 | Outro
   notes: |-
     Can you tell what the lyrics are about? I thought it was a love song at first until I listened more carefully.
 
@@ -82,10 +82,10 @@ sections:
     spotify: 0VxNsOIdWwTsoau8hkRcSV
     intro: |-
       One of her first albums in a trio setting. Prior albums had been with larger groups.
-    guide:
-    - ['0:00', 'First chorus, head in']
-    - ['1:13', 'Second chorus, Horn is a little freer with the rhythm']
-    - ['2:17', 'Outro, tag ending']
+    guide: |-
+      0:00 | First chorus, head in
+      1:13 | Second chorus, Horn is a little freer with the rhythm
+      2:17 | Outro, tag ending
   notes: |-
     Although Horn doesn't scat, her second chorus is solo-like. She sings the lyrics of the tune but improvises the melody. This is a common practice among jazz singers today.
 - heading: Nina Simone
@@ -120,11 +120,11 @@ sections:
     spotify: 6VTbbVjKOC2qWagIDbkJrC
     intro: |-
       Lyrics by Gus Kahn
-    guide:
-    - ['0:08', 'Chorus 1, Simone sings and plays piano']
-    - ['1:12', 'Chorus 2, Simone''s piano solo with a very compositional style featuring left-hand counterpoint; almost “classical”']
-    - ['2:17', 'Chorus 3, Simone sings again']
-    - ['3:15', Tag ending]
+    guide: |-
+      0:08 | Chorus 1, Simone sings and plays piano
+      1:12 | Chorus 2, Simone's piano solo with a very compositional style featuring left-hand counterpoint; almost “classical”
+      2:17 | Chorus 3, Simone sings again
+      3:15 | Tag ending
   notes: |-
     Listen to her amazingly original soloing style—counterpoint between her two hands, big two-handed voicings, and incredible dynamic control.
 
@@ -163,12 +163,12 @@ sections:
     spotify: 6EOd2c6X2xyCCSdOHHQrMx
     intro: |-
       Form: AABA
-    guide:
-    - ['0:00', Head in]
-    - ['1:04', Allison's piano solo]
-    - ['2:09', 'Head out, from the B section']
-    - ['2:25', Example of blues note]
-    - ['2:38', Ellington ending]
+    guide: |-
+      0:00 | Head in
+      1:04 | Allison's piano solo
+      2:09 | Head out, from the B section
+      2:25 | Example of blues note
+      2:38 | Ellington ending
   notes: |-
     This is an important jazz standard to know—one of Ellington's most famous tunes.
 
@@ -213,21 +213,21 @@ sections:
     - [Eddie Jones, bass]
     - [Sonny Payne, drums]
     spotify: 3n8qv1vev3M8gdOdBvG5xW
-    guide:
-    - ['0:00', Piano intro]
-    - ['0:12', Band enters]
-    - ['0:20', 'Horns enter, saxes play melody with brass hits']
-    - ['0:48', Ensemble chorus]
-    - ['1:16', 'Interlude, muted trumpets call, trombones respond']
-    - ['1:33', 'Williams enters, sax plays fills']
-    - ['2:01', '2nd vocal chorus, sax plays fills']
-    - ['2:29', '3rd vocal chorus, brass backgrounds']
-    - ['2:58', '4th vocal chorus, brass backgrounds']
-    - ['3:24', '5th vocal chorus, Williams seems to yodel a chorus']
-    - ['3:52', '6th vocal chorus, riffs on “…pack my suitcase”']
-    - ['4:20', '7th vocal chorus, “Every day I have the blues”']
-    - ['4:47', '8th vocal chorus, riff-y brass backgrounds']
-    - ['5:11', 'Outro, Williams holds a note for a long time']
+    guide: |-
+      0:00 | Piano intro
+      0:12 | Band enters
+      0:20 | Horns enter, saxes play melody with brass hits
+      0:48 | Ensemble chorus
+      1:16 | Interlude, muted trumpets call, trombones respond
+      1:33 | Williams enters, sax plays fills
+      2:01 | 2nd vocal chorus, sax plays fills
+      2:29 | 3rd vocal chorus, brass backgrounds
+      2:58 | 4th vocal chorus, brass backgrounds
+      3:24 | 5th vocal chorus, Williams seems to yodel a chorus
+      3:52 | 6th vocal chorus, riffs on “…pack my suitcase”
+      4:20 | 7th vocal chorus, “Every day I have the blues”
+      4:47 | 8th vocal chorus, riff-y brass backgrounds
+      5:11 | Outro, Williams holds a note for a long time
   notes: |-
     This recording was inducted into the [Grammy Hall of Fame](https://www.grammy.com/grammys/awards/hall-of-fame) for recordings of historical or qualitative importance.
 

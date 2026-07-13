@@ -67,18 +67,18 @@ sections:
     spotify: 0dCbhZ6jVeSLJ0of5wf2hm
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Opens with the sound of a gong.]
-    - ['0:17', Guitar fades in slowly with an arpeggiated pattern.]
-    - ['0:41', Violin enters with a repeating riff.]
-    - ['0:52', Drums enter over the vamp.]
-    - ['1:03', A theme (vln & gtr)]
-    - ['1:26', 'Gtr solo 1. Observe the distorted, Hendrix-like tone. This is a far cry from the sound of Charlie Christian and Wes Montgomery.']
-    - ['2:18', A theme again]
-    - ['2:48', B theme]
-    - ['3:11', Gtr solo 2. This time there's an extra effect pedal added.]
-    - ['4:09', A theme]
-    - ['4:38', B theme]
+    guide: |-
+      0:00 | Opens with the sound of a gong.
+      0:17 | Guitar fades in slowly with an arpeggiated pattern.
+      0:41 | Violin enters with a repeating riff.
+      0:52 | Drums enter over the vamp.
+      1:03 | A theme (vln & gtr)
+      1:26 | Gtr solo 1. Observe the distorted, Hendrix-like tone. This is a far cry from the sound of Charlie Christian and Wes Montgomery.
+      2:18 | A theme again
+      2:48 | B theme
+      3:11 | Gtr solo 2. This time there's an extra effect pedal added.
+      4:09 | A theme
+      4:38 | B theme
   notes: |-
     - This song is in 9/4 meter, counted as 4+5. I think this is easiest to hear when the violin enters with a signature riff at 0:41. Try to count along.
 - heading: Head Hunters
@@ -104,34 +104,34 @@ sections:
     spotify: 4Ce66JznW8QbeyTdSzdGwR
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', 'Intro. The opening bass line is not played on a bass. It is played by Hancock on his ARP Odyssey synthesizer. This bass line plays constantly during the opening and closing sections of the song. In fact, each section of "Chameleon" is identified by its bass line.']
-    - ['00:11', Drums enter.]
-    - ['00:31', 'The bass enters with a line that sounds more like something a guitarist would play. Note this strange inversion of instrument roles: the keyboard plays the bass line and the bass plays a funky rhythmic figure in a high register.']
-    - ['00:51', 'Hancock layers in another part played on a Honer D6 Clavinet, filtered through a wah pedal.']
-    - ['1:10', 'Hancock layers in yet another Clavinet line, this time without a wah pedal.']
-    - ['1:29', 'Theme A, Maupin (ts) Hancock (synth)']
-    - ['2:06', More groove.]
-    - ['2:15', Theme A.]
-    - ['2:52', 'Theme B. They repeat it a few times, then hit a low note together and hold it for a moment while the drums fill. Listen to that low, growling sound produced by Hancock''s synthesizer.']
-    - ['3:28', More of the same groove.]
-    - ['3:37', Bass enters again with that guitar-like riff. You can hear it a little more clearly here. Then Hancock enters with the Clavinet again to further enhance the groove.]
-    - ['4:04', 'Hancock synthesizer solo. Herbie takes a solo on his [ARP Odyssey synth](https://en.wikipedia.org/wiki/ARP_Odyssey) . Listen to the way he shapes the sound of his instrument on the fly. By adjusting the settings of his synth, he can make it scream. Hancock solos with not only tones but timbre! You can hear this clearly around the 5:00 mark and after.']
-    - ['6:56', 'Hancock plays a line that is a little out of tune. A slider on his synth that controls the tuning was a little off. You can hear him adjust it pack into position at 7:02.']
-    - ['7:05', The band plays the second part of theme B as Hancock continues soloing. They hold a final note together and the drums fill into the next section.]
-    - ['7:41', 'Groove #2. We finally get a different bass line, this time played by the bassist (Paul Jackson). It''s just bass and drums for a moment.']
-    - ['7:59', Hancock enters with a funky Clavinet line played with a wah pedal. The groove continues.]
-    - ['8:31', 'Groove #3 and Hancock Rhodes solo. The bass line and groove change again, and Hancock plays a solo on the Fender Rhodes electric piano. He accompanies himself with a synthesizer pad that sounds like a string section.']
-    - ['11:48', The band plays the B theme again a few times.]
-    - ['12:02', Interlude 1. The band plays new material in the form of a short interlude. This uses different chords than we've heard so far.]
-    - ['12:11', 'Groove #3. Back to groove #3.']
-    - ['12:18', 'Interlude 2. Another composed interlude. Again, we hear a new chord progression.']
-    - ['12:28', 'Groove #3. Back to groove #3 again.']
-    - ['12:38', Interlude 3. A third composed interlude with a new progression and melody.]
-    - ['12:58', 'Interlude. The tempo slows down noticeably for this section, then picks right back up again.']
-    - ['13:08', 'Theme B. The band again holds a long note, and the drums fill into the next section.']
-    - ['13:08', 'Groove #1. The band returns to the original groove. Hancock once again plays the bass line on a synthesizer. The tempo is noticeably faster than at the beginning of the song.']
-    - ['13:40', 'Maupin (ts) solo. Benny Maupin solos on tenor saxophone over groove #1. He continues soloing as the song fades out.']
+    guide: |-
+      0:00 | Intro. The opening bass line is not played on a bass. It is played by Hancock on his ARP Odyssey synthesizer. This bass line plays constantly during the opening and closing sections of the song. In fact, each section of "Chameleon" is identified by its bass line.
+      00:11 | Drums enter.
+      00:31 | The bass enters with a line that sounds more like something a guitarist would play. Note this strange inversion of instrument roles: the keyboard plays the bass line and the bass plays a funky rhythmic figure in a high register.
+      00:51 | Hancock layers in another part played on a Honer D6 Clavinet, filtered through a wah pedal.
+      1:10 | Hancock layers in yet another Clavinet line, this time without a wah pedal.
+      1:29 | Theme A, Maupin (ts) Hancock (synth)
+      2:06 | More groove.
+      2:15 | Theme A.
+      2:52 | Theme B. They repeat it a few times, then hit a low note together and hold it for a moment while the drums fill. Listen to that low, growling sound produced by Hancock's synthesizer.
+      3:28 | More of the same groove.
+      3:37 | Bass enters again with that guitar-like riff. You can hear it a little more clearly here. Then Hancock enters with the Clavinet again to further enhance the groove.
+      4:04 | Hancock synthesizer solo. Herbie takes a solo on his [ARP Odyssey synth](https://en.wikipedia.org/wiki/ARP_Odyssey) . Listen to the way he shapes the sound of his instrument on the fly. By adjusting the settings of his synth, he can make it scream. Hancock solos with not only tones but timbre! You can hear this clearly around the 5:00 mark and after.
+      6:56 | Hancock plays a line that is a little out of tune. A slider on his synth that controls the tuning was a little off. You can hear him adjust it pack into position at 7:02.
+      7:05 | The band plays the second part of theme B as Hancock continues soloing. They hold a final note together and the drums fill into the next section.
+      7:41 | Groove #2. We finally get a different bass line, this time played by the bassist (Paul Jackson). It's just bass and drums for a moment.
+      7:59 | Hancock enters with a funky Clavinet line played with a wah pedal. The groove continues.
+      8:31 | Groove #3 and Hancock Rhodes solo. The bass line and groove change again, and Hancock plays a solo on the Fender Rhodes electric piano. He accompanies himself with a synthesizer pad that sounds like a string section.
+      11:48 | The band plays the B theme again a few times.
+      12:02 | Interlude 1. The band plays new material in the form of a short interlude. This uses different chords than we've heard so far.
+      12:11 | Groove #3. Back to groove #3.
+      12:18 | Interlude 2. Another composed interlude. Again, we hear a new chord progression.
+      12:28 | Groove #3. Back to groove #3 again.
+      12:38 | Interlude 3. A third composed interlude with a new progression and melody.
+      12:58 | Interlude. The tempo slows down noticeably for this section, then picks right back up again.
+      13:08 | Theme B. The band again holds a long note, and the drums fill into the next section.
+      13:08 | Groove #1. The band returns to the original groove. Hancock once again plays the bass line on a synthesizer. The tempo is noticeably faster than at the beginning of the song.
+      13:40 | Maupin (ts) solo. Benny Maupin solos on tenor saxophone over groove #1. He continues soloing as the song fades out.
   notes: |-
     - This track notably does not use a guitar! The line at 0:31 that sounds like a guitar is in fact played by the bass. And the bass line is played by Hancock on a synthesizer.
 - heading: Return to Forever
@@ -165,25 +165,25 @@ sections:
     spotify: 5RrJCusmR1J54b5ivqdWIu
     intro: |-
       9: 28 – Outro
-    guide:
-    - ['0:00', Introduction is the melody of *Concierto de Aranjuez.*]
-    - ['1:14', A]
-    - ['1:30', B]
-    - ['1:42', A]
-    - ['1:58', B]
-    - ['2:08', C]
-    - ['2:36', B]
-    - ['2:46', 'Farrell (fl) solo, over changes to C']
-    - ['4:32', C]
-    - ['5:00', B]
-    - ['5:10', 'Corea (el-p) solo, over changes to C']
-    - ['6:56', C]
-    - ['7:25', B]
-    - ['7:34', 'Clarke (b) solo, over changes to C']
-    - ['8:36', C]
-    - ['9:04', A]
-    - ['9:20', B]
-    - ['9: 28', Outro]
+    guide: |-
+      0:00 | Introduction is the melody of *Concierto de Aranjuez.*
+      1:14 | A
+      1:30 | B
+      1:42 | A
+      1:58 | B
+      2:08 | C
+      2:36 | B
+      2:46 | Farrell (fl) solo, over changes to C
+      4:32 | C
+      5:00 | B
+      5:10 | Corea (el-p) solo, over changes to C
+      6:56 | C
+      7:25 | B
+      7:34 | Clarke (b) solo, over changes to C
+      8:36 | C
+      9:04 | A
+      9:20 | B
+      9: 28 | Outro
   notes: |-
     - *Concierto de Aranjuez* has been interpreted by many jazz musicians over the years. [Miles Davis recorded](https://open.spotify.com/track/52Yff0auh1j8694vkL8QSt?si=E0Sy81TcTii4GyhvhA1-dQ) it in one of his famous collaborations with Gil Evans in 1960. [The Modern Jazz Quartet recorded it](https://open.spotify.com/track/44kt1T34JX733p8rMecj3F?si=gJc0t0_bTm2ZMshwIMFv6g) in 1964. And [Jim Hall recorded it](https://open.spotify.com/track/0QVvZNHwBOPAGXgUfkfL5P?si=qNNymJsqTiSmb14KM8WSnA) in 1975. Several others have, as well.
 - heading: Weather Report
@@ -213,14 +213,14 @@ sections:
       @video(weather-report)
 
       ;
-    guide:
-    - ['0:00', 'A drum fill leads into the melody played by the saxophone and synthesizer [Chorus 1-5]']
-    - ['0:09', 'Jaco plays a composed line on the bass that is very fast and technical. It is complex and non-repetitive in nature. He is accompanied by chords on the synthesizer and sparse intermittent phrases the saxophone [Chorus 5-7]']
-    - ['0:39', 'Jaco repeats the idea that he started on the first chorus, which indicates that he is not improvising.  [Chorus 7-9]']
-    - ['0:53', 'Zawinul enters abruptly with a slower melodic idea. Then Jaco continues once this is finished. [Interlude]']
-    - ['1:08', 'The synthesizer and saxophone restate the melody that was heard at the very beginning. [Chorus 9-11]']
-    - ['1:24', 'The bass and synthesizer introduce new melodic information here. Then the synthesizer plays an ascending melody over this new bass line. [Chorus 11-15]']
-    - ['1:39', 'The chords and groove become prominent at this point. There are brief melodic interjections by the saxophone. Jaco re-enters and hints at some of the ideas played before, but not as aggressively and as densely. The sound of the ensemble is a bit more balanced from this point to the end of the piece.']
+    guide: |-
+      0:00 | A drum fill leads into the melody played by the saxophone and synthesizer [Chorus 1-5]
+      0:09 | Jaco plays a composed line on the bass that is very fast and technical. It is complex and non-repetitive in nature. He is accompanied by chords on the synthesizer and sparse intermittent phrases the saxophone [Chorus 5-7]
+      0:39 | Jaco repeats the idea that he started on the first chorus, which indicates that he is not improvising.  [Chorus 7-9]
+      0:53 | Zawinul enters abruptly with a slower melodic idea. Then Jaco continues once this is finished. [Interlude]
+      1:08 | The synthesizer and saxophone restate the melody that was heard at the very beginning. [Chorus 9-11]
+      1:24 | The bass and synthesizer introduce new melodic information here. Then the synthesizer plays an ascending melody over this new bass line. [Chorus 11-15]
+      1:39 | The chords and groove become prominent at this point. There are brief melodic interjections by the saxophone. Jaco re-enters and hints at some of the ideas played before, but not as aggressively and as densely. The sound of the ensemble is a bit more balanced from this point to the end of the piece.
 - heading: Steps Ahead
   prose: |-
     Steps Ahead was formed in 1979 by the vibraphonist Mike Mainieri, originally under the name "Steps." It featured saxophonist Michael Brecker (who we'll discuss further in the lesson on Other Soloists from 70s and 80s Other Soloists from 70s and 80s ), bassist Eddie Gomez (who played with Bill Evans in the 1970s), and drummer Peter Erskine (who remains an influential drummer and educator today). In 1983, their original keyboardist was replaced by Eliane Elias, who we heard in our lesson on Brazilian jazz .
@@ -246,20 +246,20 @@ sections:
     spotify: 2lseCcD9ZpOgY9XKizmxMP
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', 'A theme. Chords on piano and vibraphone ring while the bass plays the melody. It sounds like there''s some extra studio reverb being added to the vibraphone. Drums play a light, almost reggae-like groove.']
-    - ['0:30', Saxophone joins bass on the melody.]
-    - ['0:55', 'B theme played saxophone, piano, and vibraphone. Bass plays bass notes.']
-    - ['1:17', A theme again.]
-    - ['1:43', B theme again.]
-    - ['2:04', Michael Brecker (ts) solos over new groove and two-chord progression The rhythm section plays in stop time here.]
-    - ['2:51', 'Gomez (b) solos over two different, alternating two-chord vamps. The solo progression is an AB form where both A and B are 8 (or 16?) measures of essentially static harmony. A is Gm; B is Fm7.']
-    - ['4:20', 'Mainieri (vib) solo. The rhythm section plays with increasing rhythmic freedom, adding energy to the solo as it progresses.']
-    - ['6:56', Solo reaches climax and begins to lower in intensity.]
-    - ['7:18', Brecker (ts) solos again.]
-    - ['10:13', A theme. Head out.]
-    - ['10:41', B theme.]
-    - ['11:03', Final chord is hit and held to the end.]
+    guide: |-
+      0:00 | A theme. Chords on piano and vibraphone ring while the bass plays the melody. It sounds like there's some extra studio reverb being added to the vibraphone. Drums play a light, almost reggae-like groove.
+      0:30 | Saxophone joins bass on the melody.
+      0:55 | B theme played saxophone, piano, and vibraphone. Bass plays bass notes.
+      1:17 | A theme again.
+      1:43 | B theme again.
+      2:04 | Michael Brecker (ts) solos over new groove and two-chord progression The rhythm section plays in stop time here.
+      2:51 | Gomez (b) solos over two different, alternating two-chord vamps. The solo progression is an AB form where both A and B are 8 (or 16?) measures of essentially static harmony. A is Gm; B is Fm7.
+      4:20 | Mainieri (vib) solo. The rhythm section plays with increasing rhythmic freedom, adding energy to the solo as it progresses.
+      6:56 | Solo reaches climax and begins to lower in intensity.
+      7:18 | Brecker (ts) solos again.
+      10:13 | A theme. Head out.
+      10:41 | B theme.
+      11:03 | Final chord is hit and held to the end.
   notes: |-
     - Composer Don Grolnick was the original keyboardist for this group, replaced by Eliane Elias.
 ---

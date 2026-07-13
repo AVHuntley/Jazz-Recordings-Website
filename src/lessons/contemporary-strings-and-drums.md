@@ -35,19 +35,19 @@ sections:
       Form: 32-bar AABA
     guidenote: |-
       **Form:** 32-bar AABA
-    guide:
-    - ['0:00', Solo guitar intro]
-    - ['0:52', 'A, head in']
-    - ['1:26', A]
-    - ['2:01', B (band plays composed rhythmic figure)]
-    - ['2:37', A]
-    - ['3:11', 'AA, bass (Revis) solo']
-    - ['4:24', 'BA, Rosenwinkel solo']
-    - ['5:37', 'AA, Rosenwinkel solo continues, switch to double-time feel']
-    - ['6:48', 'B, head out. Still double-time.']
-    - ['7:25', 'A, back to original 2-feel']
-    - ['7:50', Extended guitar cadenza]
-    - ['8:53', Final chord]
+    guide: |-
+      0:00 | Solo guitar intro
+      0:52 | A, head in
+      1:26 | A
+      2:01 | B (band plays composed rhythmic figure)
+      2:37 | A
+      3:11 | AA, bass (Revis) solo
+      4:24 | BA, Rosenwinkel solo
+      5:37 | AA, Rosenwinkel solo continues, switch to double-time feel
+      6:48 | B, head out. Still double-time.
+      7:25 | A, back to original 2-feel
+      7:50 | Extended guitar cadenza
+      8:53 | Final chord
   notes: |-
     - Watch the trio in the studio on YouTube.
     - The tune was originally recorded by Monk in 1952.
@@ -70,11 +70,11 @@ sections:
     - [Derrick Hodge, bass]
     - [Mark Guiliana, drums]
     spotify: 3wSD488adiUFtKzxHb8fmi
-    guide:
-    - ['0:00', Intro]
-    - ['0:17', Head in]
-    - ['1:19', Loueke (g) solo]
-    - ['3:59', Head out]
+    guide: |-
+      0:00 | Intro
+      0:17 | Head in
+      1:19 | Loueke (g) solo
+      3:59 | Head out
   notes: |-
     - Watch a live version on YouTube with a slightly different band.
     - Robert Glasper produced *Heritage* .
@@ -104,11 +104,11 @@ sections:
       Here's a video of a live performance by Halvorson. She plays "Cascades" at 16:56.
 
       @video(mary-halvorson)
-    guide:
-    - ['0:00', Intro]
-    - ['0:40', Head in (melody of “Cascades”)]
-    - ['1:29', 'Halvorson solos, mixing melody fragments, distorted chords']
-    - ['3:42', 'Head out, with silence between phrases']
+    guide: |-
+      0:00 | Intro
+      0:40 | Head in (melody of “Cascades”)
+      1:29 | Halvorson solos, mixing melody fragments, distorted chords
+      3:42 | Head out, with silence between phrases
   notes: |-
     - Original “Cascades” is on Oliver Nelson’s *Blues and the Abstract Truth* .
     - Halvorson’s tone often resembles rock or metal more than jazz guitar.
@@ -139,13 +139,13 @@ sections:
     - [Béla Fleck, banjo]
     - [Chris Thile, mandolin]
     spotify: 2baaMl7yxpsLnFHlpk2RiN
-    guide:
-    - ['0:00', Rubato intro]
-    - ['1:09', Fleck sets tempo]
-    - ['1:25', Thile adds percussive strum]
-    - ['1:39', 'Harmonic shift, Lage plays fast lines']
-    - ['1:54', 'All three trade melodic phrases, interlocking rhythms']
-    - ['2:46', 'Return to composed material, deconstruct to end']
+    guide: |-
+      0:00 | Rubato intro
+      1:09 | Fleck sets tempo
+      1:25 | Thile adds percussive strum
+      1:39 | Harmonic shift, Lage plays fast lines
+      1:54 | All three trade melodic phrases, interlocking rhythms
+      2:46 | Return to composed material, deconstruct to end
   notes: |-
     - The piece feels as much bluegrass as jazz. The trio locks in tight, groove-like interplay without drums.
     - *Sounding Point* was nominated for a Grammy for Best Contemporary Jazz Album (2010).
@@ -170,16 +170,16 @@ sections:
     - [Chris Lightcap, bass]
     - [Alvester Garnett, drums]
     spotify: 28C1ARdE17cXwZmvGwgUCA
-    guide:
-    - ['0:00', Intro groove]
-    - ['0:17', Head in]
-    - ['0:45', Groove interlude]
-    - ['1:04', Head again]
-    - ['1:34', Bridge]
-    - ['2:08', Carter solo over Em–Cm vamp]
-    - ['2:59', New chords]
-    - ['3:12', Davis (e-p) solo]
-    - ['4:18', Head out from bridge]
+    guide: |-
+      0:00 | Intro groove
+      0:17 | Head in
+      0:45 | Groove interlude
+      1:04 | Head again
+      1:34 | Bridge
+      2:08 | Carter solo over Em–Cm vamp
+      2:59 | New chords
+      3:12 | Davis (e-p) solo
+      4:18 | Head out from bridge
   notes: |-
     - Famous from Elvis Presley’s version, here it’s transformed into a soulful jazz piece.
     - Carter learned largely by ear and recently took music theory lessons to fill that gap.
@@ -205,14 +205,14 @@ sections:
     - [Chris Thomas, bass]
     - [Brian Blade, drums]
     spotify: 5bjV2B1rH2gkdtJ4qr0qQy
-    guide:
-    - ['0:00', 'Intro, bass plays melody freely']
-    - ['2:19', Sax takes theme]
-    - ['2:50', Butler (sop) solo]
-    - ['3:38', Composed melody over new changes]
-    - ['4:07', Walden (b-cl) states main theme]
-    - ['4:33', 'Cowherd (p) solo, sparse at first, band joins gradually']
-    - ['7:31', 'Walden & Cowherd play composed melody, soft finish']
+    guide: |-
+      0:00 | Intro, bass plays melody freely
+      2:19 | Sax takes theme
+      2:50 | Butler (sop) solo
+      3:38 | Composed melody over new changes
+      4:07 | Walden (b-cl) states main theme
+      4:33 | Cowherd (p) solo, sparse at first, band joins gradually
+      7:31 | Walden & Cowherd play composed melody, soft finish
   notes: |-
     - Watch them perform “Landmarks” on KEXP (YouTube) for a live perspective.
 ---

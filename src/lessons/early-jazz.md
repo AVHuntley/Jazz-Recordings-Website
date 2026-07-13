@@ -51,9 +51,9 @@ sections:
       Recorded by musicologist Alan Lomax for the Library of Congress.
 
       Listen for differences between the 1 st and 2 nd renditions. The 2 nd is jazzed-up, or “hot.”
-    guide:
-    - ['0:00', '']
-    - ['', '']
+    guide: |-
+      0:00 | 
+       | 
   - title: Black Bottom Stomp
     performer: Jelly Roll Morton and his Red Hot Peppers
     composer: Jelly Roll Morton
@@ -98,13 +98,13 @@ sections:
 
       [(Hasse and Lathrop, p.64)](bibliography.html#hasse-lathrop-2012) ;
       <https://en.wikipedia.org/wiki/Black_Bottom_Stomp>
-    guide:
-    - ['1:03, 1:21', '**solo break** .']
-    - ['1:32, 1:50, and 2:28', “Black bottom” is the five dotted-quarter rhythm.]
-    - ['1:33', 'Piano solo. How is it accompanied? What is Morton''s left hand doing?']
-    - ['1:49-2:08', Trumpet **stop time** chorus]
-    - ['2:11', Banjo solo]
-    - ['2:29', 'We know things are really “swinging” when the whole ensemble is playing, and the front line is improvising collectively.']
+    guide: |-
+      1:03, 1:21 | **solo break** .
+      1:32, 1:50, and 2:28 | “Black bottom” is the five dotted-quarter rhythm.
+      1:33 | Piano solo. How is it accompanied? What is Morton's left hand doing?
+      1:49-2:08 | Trumpet **stop time** chorus
+      2:11 | Banjo solo
+      2:29 | We know things are really “swinging” when the whole ensemble is playing, and the front line is improvising collectively.
 - heading: Joe “King” Oliver
   artists:
   - name: Joe “King” Oliver
@@ -163,10 +163,10 @@ sections:
       Also recorded as “Sugarfoot Stomp” by Fletcher Henderson
 
       [(Bierman, p.55)](bibliography.html#bierman-2016) ; [(Hasse and Lathrop, p.61)](bibliography.html#hasse-lathrop-2012) ; [(Gioia, p.48)](bibliography.html#gioia-2011) ; [(Lawn, p.88)](bibliography.html#lawn-2013)
-    guide:
-    - ['0:36', 2 **stop-time** choruses for Johnny Dodds's clarinet solo]
-    - ['1:21-2:06', 'King Oliver solo. Very influential solo! The wah-wah effect inspired generations of horn players, including Armstrong. First note is a blues note: the m3.']
-    - ['2:06', Vocal break by bassist Bill Johnson (or maybe Dodds; some sources differ.)]
+    guide: |-
+      0:36 | 2 **stop-time** choruses for Johnny Dodds's clarinet solo
+      1:21-2:06 | King Oliver solo. Very influential solo! The wah-wah effect inspired generations of horn players, including Armstrong. First note is a blues note: the m3.
+      2:06 | Vocal break by bassist Bill Johnson (or maybe Dodds; some sources differ.)
 - heading: Louis Armstrong
   artists:
   - name: Louis Armstrong
@@ -233,10 +233,10 @@ sections:
       <http://dippermouth.blogspot.com/2010/07/hotter-than-that_09.html>
 
       [(Bierman, p.60)](bibliography.html#bierman-2016)
-    guide:
-    - ['1:19', Armstrong **scat** solo.]
-    - ['1:40', Notice **hemiola** pattern in scat solo ( **1** 2 3 **4** 1 2 **3** 4 1 **2** 3 4)]
-    - ['2:18', Kid Ory solo. Good example of “ **tailgate** ” trombone style.]
+    guide: |-
+      1:19 | Armstrong **scat** solo.
+      1:40 | Notice **hemiola** pattern in scat solo ( **1** 2 3 **4** 1 2 **3** 4 1 **2** 3 4)
+      2:18 | Kid Ory solo. Good example of “ **tailgate** ” trombone style.
   - title: West End Blues
     performer: Louis Armstrong and His Hot Five
     composer: Joe “King” Oliver
@@ -273,10 +273,10 @@ sections:
       Hines was said to have played in a “trumpet style.”
 
       Among those who were heavily influenced by the opening of this recording is Charlie Parker. He quoted that opening on more than one occasion. [This blog post](http://jazzontherecord.blogspot.com/2018/08/bird-quotes-satchmo.html) documents a few of those times.
-    guide:
-    - ['0:00', Introduction by Armstrong solo. One of the most influential licks in jazz.]
-    - ['2:11-2:21', Good example of “trumpet style” by Hines.]
-    - ['2:45', 'Armstrong plays in double time, but loosely. He plays with an elastic time feel.']
+    guide: |-
+      0:00 | Introduction by Armstrong solo. One of the most influential licks in jazz.
+      2:11-2:21 | Good example of “trumpet style” by Hines.
+      2:45 | Armstrong plays in double time, but loosely. He plays with an elastic time feel.
 - heading: Frankie Trumbauer and Bix Beiderbecke
   artists:
   - name: Frankie Trumbauer
@@ -342,10 +342,10 @@ sections:
       Lester Young reportedly learned Trumbauer’s solo from this recording.
 
       [(McCalla, p.33)](bibliography.html#mccalla-2000) ; [(Lawn, p.107)](bibliography.html#lawn-2013) ;
-    guide:
-    - ['0:06', Trumbauer (c-melody sax) solo]
-    - ['1:02', Beiderbecke (cornet) solo]
-    - ['2:00', Ensemble]
-    - ['2:14', Dorsey (clarinet) solo]
-    - ['2:29', Ensemble]
+    guide: |-
+      0:06 | Trumbauer (c-melody sax) solo
+      1:02 | Beiderbecke (cornet) solo
+      2:00 | Ensemble
+      2:14 | Dorsey (clarinet) solo
+      2:29 | Ensemble
 ---

@@ -52,17 +52,17 @@ sections:
         - The number of measures in each section is not predetermined; the musicians stretch or compress the length of each section as they wish.
         - There is no clearly defined harmony - no specified chords.
         - The bass player does not play a walking pattern.
-    guide:
-    - ['0:00', 'Intro, Higgins (drums) and Haden (bass) begin the song together. At first the drums play only sparsely. About 7 seconds in, Higgins begins to play a more rapid swing pattern. Haden plays two notes at a time on the bass, a technique called a **double-stop** .']
-    - ['0:19', 'Head In, First A - Coleman and Cherry play the melody together in octaves. The melody seems to float above the accompaniment, not quite in time, but not quite out-of-time either.']
-    - ['0:44', 'Head In, Second A']
-    - ['1:09', 'Head In, B - Coleman plays the B section of the head. Cherry and Haden play rising chromatic notes that build tension and create an ominous mood.']
-    - ['1:22', 'Head In, final A - Coleman and Cherry again play the A section together, in octaves.']
-    - ['1:47', 'Solo, A - Coleman takes a solo over the A section of the song. There is no set number of measures per section, so this section is of an indeterminate length. We can tell that he''s soloing over the A section because Haden is playing the same notes on the bass that he played during the A sections of the head.']
-    - ['2:21', 'Solo, B - The beginning of the B section is heralded by the rising chromatic notes played by Cherry and Haden.']
-    - ['2:34', 'Solo, A - Coleman continues his solo over another A section. Again, there is no clearly defined number of measures, but Haden''s use of double stops on a familiar (tonic) note signals that the musicians are playing the A section.']
-    - ['2:55', 'Head Out, AABA - As we expect from jazz songs, the piece ends with a restatement of the melody. It is played in mostly the same manner as the head in was.']
-    - ['4:20', 'Outro - Coleman and Cherry wail on their instruments for a brief time before dropping out. The piece ends how it began: with bass and drums alone. Cherry makes a mistake at 4:03.']
+    guide: |-
+      0:00 | Intro, Higgins (drums) and Haden (bass) begin the song together. At first the drums play only sparsely. About 7 seconds in, Higgins begins to play a more rapid swing pattern. Haden plays two notes at a time on the bass, a technique called a **double-stop** .
+      0:19 | Head In, First A - Coleman and Cherry play the melody together in octaves. The melody seems to float above the accompaniment, not quite in time, but not quite out-of-time either.
+      0:44 | Head In, Second A
+      1:09 | Head In, B - Coleman plays the B section of the head. Cherry and Haden play rising chromatic notes that build tension and create an ominous mood.
+      1:22 | Head In, final A - Coleman and Cherry again play the A section together, in octaves.
+      1:47 | Solo, A - Coleman takes a solo over the A section of the song. There is no set number of measures per section, so this section is of an indeterminate length. We can tell that he's soloing over the A section because Haden is playing the same notes on the bass that he played during the A sections of the head.
+      2:21 | Solo, B - The beginning of the B section is heralded by the rising chromatic notes played by Cherry and Haden.
+      2:34 | Solo, A - Coleman continues his solo over another A section. Again, there is no clearly defined number of measures, but Haden's use of double stops on a familiar (tonic) note signals that the musicians are playing the A section.
+      2:55 | Head Out, AABA - As we expect from jazz songs, the piece ends with a restatement of the melody. It is played in mostly the same manner as the head in was.
+      4:20 | Outro - Coleman and Cherry wail on their instruments for a brief time before dropping out. The piece ends how it began: with bass and drums alone. Cherry makes a mistake at 4:03.
 - heading: Eric Dolphy
   artists:
   - name: Eric Dolphy
@@ -97,13 +97,13 @@ sections:
       There is a head played by horns in unison.
 
       It’s helpful to focus on one instrument at a time.
-    guide:
-    - ['0:43', Dolphy (alto saxophone) solo]
-    - ['3:11', Hubbard (trumpet) solo]
-    - ['5:44', 'Hutcherson (vibraphone), Davis (bass), and Williams (drums)']
-    - ['8:15', 'Davis (bass) solo, no accompaniment']
-    - ['9:59', Dolphy and Hubbard trade short licks over Williams's drum solo]
-    - ['11:26', Head out]
+    guide: |-
+      0:43 | Dolphy (alto saxophone) solo
+      3:11 | Hubbard (trumpet) solo
+      5:44 | Hutcherson (vibraphone), Davis (bass), and Williams (drums)
+      8:15 | Davis (bass) solo, no accompaniment
+      9:59 | Dolphy and Hubbard trade short licks over Williams's drum solo
+      11:26 | Head out
 - heading: Cecil Taylor
   artists:
   - name: Cecil Taylor
@@ -167,17 +167,17 @@ sections:
 
       Liner notes to *Let My Children Hear Music* :
       <http://mingusmingusmingus.com/mingus/what-is-a-jazz-composer>
-    guide:
-    - ['0:00', 'Intro, animal noises']
-    - ['0:20', Trumpet entrance (probably Snooky Young)]
-    - ['0:51', 'A1, trombone and tuba enter with composed melody']
-    - ['1:11', 'A2, flute and other brass enter with counter line']
-    - ['1:31', 'A3, third counter line is added']
-    - ['1:53', 'B, circus-like theme in 3/4']
-    - ['2:12', 'C, still in 3/4']
-    - ['2:23', Back to 4/4]
-    - ['2:34', A4]
-    - ['2:54', 'Saxophones solo (tenor, right channel, and alto, left channel)']
+    guide: |-
+      0:00 | Intro, animal noises
+      0:20 | Trumpet entrance (probably Snooky Young)
+      0:51 | A1, trombone and tuba enter with composed melody
+      1:11 | A2, flute and other brass enter with counter line
+      1:31 | A3, third counter line is added
+      1:53 | B, circus-like theme in 3/4
+      2:12 | C, still in 3/4
+      2:23 | Back to 4/4
+      2:34 | A4
+      2:54 | Saxophones solo (tenor, right channel, and alto, left channel)
 - heading: Sun Ra
   artists:
   - name: Sun Ra
@@ -216,18 +216,18 @@ sections:
     spotify: 0WwkqtK9ieuYOuCn209EYo
     intro: |-
       "The titles [of Ra's compositions] were meant to serve as guides to the musicians as to what should be played, but he seldom elaborated on the meaning or gave the musicians more specific instructions. 'Each song and album title had a message in it,' Alton Abraham said... '"Call for all Demons," for example, was a warning about the future.'" ([Szwed, Space is the Place: The Lives and Times of Sun Ra](https://books.google.com/books?id=JtUIgpLqh4QC&pg=PT817&dq=sun+ra+call+for+all+demons))
-    guide:
-    - ['0:00', Groove established]
-    - ['0:10', Ra begins improvising. Listen for thick cluster chords and disjunct melodies.]
-    - ['0:48', Horns enter with melody. Tambourine also joins.]
-    - ['1:29', Gilmore (tenor saxophone) solo over F blues]
-    - ['1:58', Young (trumpet) solo]
-    - ['2:30', Scales (alto saxophone) solo]
-    - ['2:59', Tympani solo by Jim Herndon]
-    - ['3:14', Ra (piano) solo]
-    - ['3:29', Return to opening groove]
-    - ['3:34', Horns (with tambourine) enter and play melody.]
-    - ['4:15', Back to groove]
-    - ['4:21', 'Horns enter with new melody, played twice.']
-    - ['4:48', Collective improvisation and diminuendo to final chord.]
+    guide: |-
+      0:00 | Groove established
+      0:10 | Ra begins improvising. Listen for thick cluster chords and disjunct melodies.
+      0:48 | Horns enter with melody. Tambourine also joins.
+      1:29 | Gilmore (tenor saxophone) solo over F blues
+      1:58 | Young (trumpet) solo
+      2:30 | Scales (alto saxophone) solo
+      2:59 | Tympani solo by Jim Herndon
+      3:14 | Ra (piano) solo
+      3:29 | Return to opening groove
+      3:34 | Horns (with tambourine) enter and play melody.
+      4:15 | Back to groove
+      4:21 | Horns enter with new melody, played twice.
+      4:48 | Collective improvisation and diminuendo to final chord.
 ---

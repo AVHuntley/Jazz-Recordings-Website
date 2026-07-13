@@ -82,12 +82,12 @@ sections:
       Bud Powell was supposed to be the pianist on this date. He was replaced by Argonne Thornton. Gillespie played piano on some tunes. Miles Davis was playing trumpet, but he couldn’t keep up on “Koko,” so Dizzy plays both piano and trumpet on this track.
 
       [(Deveaux and Giddins, p.215)](bibliography.html#deveaux-giddins-2011) ; [(McCalla, p.99)](bibliography.html#mccalla-2000)
-    guide:
-    - ['0:00', 'Intro, played in unison by Parker and Gillespie']
-    - ['0:24-1:16', 'Chorus 1, Parker solo (AABA)']
-    - ['1:16-2:07', 'Chorus 2, more Parker solo (AABA)']
-    - ['2:07-2:30', Roach (d) solo]
-    - ['2:30-end', 'Outro, like intro.']
+    guide: |-
+      0:00 | Intro, played in unison by Parker and Gillespie
+      0:24-1:16 | Chorus 1, Parker solo (AABA)
+      1:16-2:07 | Chorus 2, more Parker solo (AABA)
+      2:07-2:30 | Roach (d) solo
+      2:30-end | Outro, like intro.
   - title: A Night In Tunisia
     performer: Charlie Parker Septet
     composer: Dizzy Gillespie and Frank Paparelli
@@ -110,11 +110,11 @@ sections:
       In Unit 4, we'll hear Parker’s solo interpreted in vocalese by Manhattan Transfer.
 
       [(McCalla, p.104)](bibliography.html#mccalla-2000)
-    guide:
-    - ['0:00', '']
-    - ['1:17', Parker's Solo break]
-    - ['2:06', 'Thompson (ts) solo. Does this sound like bebop vocabulary?']
-    - ['2:28', Garrison (g) solo]
+    guide: |-
+      0:00 | 
+      1:17 | Parker's Solo break
+      2:06 | Thompson (ts) solo. Does this sound like bebop vocabulary?
+      2:28 | Garrison (g) solo
   - title: Just Friends
     performer: Charlie Parker with Strings
     composer: John Klenner
@@ -148,17 +148,17 @@ sections:
       **Tin Pan Alley** tune
 
       [(Bierman, p.203)](bibliography.html#bierman-2016)
-    guide:
-    - ['0:00', 'Intro, strings']
-    - ['0:10', Parker (as) enters]
-    - ['0:18', 'A, Parker embellishing melody']
-    - ['0:46', 'B (1st half), strings take melody']
-    - ['1:00', 'B (2nd half), Parker']
-    - ['1:14', 'Transition (oboe? English Horn?)']
-    - ['1:21-2:17', 'A, Parker solo, now in Bbmaj']
-    - ['2:21', Freeman (p) solo]
-    - ['2:48', Parker again]
-    - ['3:13', Outro]
+    guide: |-
+      0:00 | Intro, strings
+      0:10 | Parker (as) enters
+      0:18 | A, Parker embellishing melody
+      0:46 | B (1st half), strings take melody
+      1:00 | B (2nd half), Parker
+      1:14 | Transition (oboe? English Horn?)
+      1:21-2:17 | A, Parker solo, now in Bbmaj
+      2:21 | Freeman (p) solo
+      2:48 | Parker again
+      3:13 | Outro
 - heading: Dizzy Gillespie
   artists:
   - name: Dizzy Gillespie
@@ -198,16 +198,16 @@ sections:
     spotify: 5rSSWY9DRbxfNwa5WFCTxA
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Intro]
-    - ['0:20', AA]
-    - ['0:33', B]
-    - ['0:40', A]
-    - ['0:48', Parker (as) solo]
-    - ['1:15', 'Gillespie (t) solo, high and fast']
-    - ['1:43', 'Haig (p) solo, Powell-style']
-    - ['2:10', Head out]
-    - ['2:38', Outro]
+    guide: |-
+      0:00 | Intro
+      0:20 | AA
+      0:33 | B
+      0:40 | A
+      0:48 | Parker (as) solo
+      1:15 | Gillespie (t) solo, high and fast
+      1:43 | Haig (p) solo, Powell-style
+      2:10 | Head out
+      2:38 | Outro
   - title: Salt Peanuts
     performer: artist
     composer: Dizzy Gillespie
@@ -261,12 +261,12 @@ sections:
       This tune provides a great example of **rhythmic displacement** (salt PEA-nuts, SALT pea-nuts!).
 
       [(Bierman, p.199)](bibliography.html#bierman-2016) ; McCalla 107; [(Lyons, p.182)](bibliography.html#lyons-1980)
-    guide:
-    - ['1:26', Parker solo]
-    - ['2:35', 'What''s happening…? Band seems to falter.']
-    - ['2:43', Gillespie (t) solo]
-    - ['3:58', Interlude]
-    - ['4:03', 'Powell (p) solo, around 4:50, good examples of Powell''s LH style.']
-    - ['5:44', Roach (d) solo]
-    - ['7:25', Outro]
+    guide: |-
+      1:26 | Parker solo
+      2:35 | What's happening…? Band seems to falter.
+      2:43 | Gillespie (t) solo
+      3:58 | Interlude
+      4:03 | Powell (p) solo, around 4:50, good examples of Powell's LH style.
+      5:44 | Roach (d) solo
+      7:25 | Outro
 ---

@@ -55,56 +55,77 @@ const processPage = (content, pagePath) => {
     existing = m;
     return "@@SOURCES@@";
   });
-  // Pass 1: collect every source used on the page (inline citations + general card).
-  const used = new Set();
-  for (const m of body.matchAll(/<a href="bibliography\.html#([a-z0-9-]+)">/g)) {
-    if (!bib[m[1]])
-      throw new Error(`Unknown bibliography ref "${m[1]}" in ${pagePath}`);
-    used.add(m[1]);
-  }
-  const genPages = new Map(); // pages consulted per section `sources:` fields
-  if (existing)
-    for (const m of existing.matchAll(
-      /<a href="bibliography\.html#([a-z0-9-]+)">[\s\S]*?<\/a>(?: — (pp?\.\s[^<\n]*))?/g
-    )) {
-      used.add(m[1]);
-      if (m[2]) genPages.set(m[1], m[2].trim());
-    }
-  const all = [...used];
-  if (!all.length) return content;
-  // Alphabetical by author, then year ascending (parsed from labels like "Gioia (2008)").
-  const sortKey = (ref) => {
-    const m = bib[ref].label.match(/^(.*?)\s*\((\d{4})\)/);
-    return m
-      ? { author: m[1].toLowerCase(), year: parseInt(m[2], 10) }
-      : { author: bib[ref].label.toLowerCase(), year: 9999 };
+  // Endnote model: markers are numbered in reading order. The same source at
+  // the same pages reuses its number; new pages get a new note. Two kinds:
+  //   [p. 41](bibliography.html#gioia-2008)      -> note links to the bibliography
+  //   [^Label text](https://example.com/...)     -> one-off web note, no bibliography entry
+  const notes = [];
+  const byKey = new Map();
+  const noteKeys = new Set();
+  const addNote = (key, html) => {
+    if (byKey.has(key)) return byKey.get(key);
+    const n = notes.length + 1;
+    byKey.set(key, n);
+    noteKeys.add(key);
+    notes.push(html);
+    return n;
   };
-  all.sort((a, b) => {
-    const ka = sortKey(a), kb = sortKey(b);
-    return ka.author < kb.author ? -1 : ka.author > kb.author ? 1 : ka.year - kb.year;
-  });
-  const num = new Map(all.map((ref, i) => [ref, i + 1]));
-  // Pass 2: swap citation links for numbered superscript markers.
   body = body.replace(
-    /<a href="bibliography\.html#([a-z0-9-]+)">([\s\S]*?)<\/a>/g,
-    (m, ref, label) => {
-      const n = num.get(ref);
-      const tip = escAttr(bib[ref].label + pagesLabel(parseLocator(label)));
-      return `<sup class="cite"><a href="#src-${n}" title="${tip}">${n}</a></sup>`;
+    /<a href="([^"]+)">(\^?)([\s\S]*?)<\/a>/g,
+    (m, href, caret, label) => {
+      const bibMatch = href.match(/^bibliography\.html#([a-z0-9-]+)$/);
+      if (bibMatch) {
+        const ref = bibMatch[1];
+        const entry = bib[ref];
+        if (!entry)
+          throw new Error(`Unknown bibliography ref "${ref}" in ${pagePath}`);
+        const pages = parseLocator(label);
+        const n = addNote(
+          `bib:${ref}|${pages}`,
+          `<a href="bibliography.html#${ref}">${entry.label}</a>${pagesLabel(pages)}`
+        );
+        const tip = escAttr(entry.label + pagesLabel(pages));
+        return `<sup class="cite"><a href="#src-${n}" title="${tip}">${n}</a></sup>`;
+      }
+      if (caret === "^" && /^https?:/.test(href)) {
+        const n = addNote(`web:${href}`, `<a href="${href}">${label}</a>`);
+        const tip = escAttr(label.replace(/<[^>]*>/g, ""));
+        return `<sup class="cite"><a href="#src-${n}" title="${tip}">${n}</a></sup>`;
+      }
+      return m; // ordinary link, leave untouched
     }
   );
   // Markers sit flush against the preceding word/punctuation.
   body = body.replace(/\s+(<sup class="cite">)/g, "$1");
-  const ol =
-    `\n<ol class="cite-notes">\n` +
-    all
-      .map(
-        (ref) =>
-          `<li id="src-${num.get(ref)}"><a href="bibliography.html#${ref}">${bib[ref].label}</a>${genPages.has(ref) ? " — " + genPages.get(ref) : ""}</li>`
-      )
-      .join("\n") +
-    `\n</ol>`;
-  const card = `<section class="sources" id="sources">\n<h2>Sources</h2>${ol}\n</section>`;
+  // General references from sections' `sources:` fields (rendered by the
+  // template), minus bibliography items that duplicate a numbered note exactly.
+  // Web items (non-bibliography hrefs) are always kept.
+  const general = [];
+  if (existing) {
+    const ulm = existing.match(/<ul class="cite-general">([\s\S]*?)<\/ul>/);
+    if (ulm)
+      for (const li of ulm[1].matchAll(/<li>[\s\S]*?<\/li>/g)) {
+        const item = li[0];
+        const bibm = item.match(
+          /bibliography\.html#([a-z0-9-]+)"[^>]*>[\s\S]*?<\/a>(?: — (pp?\.\s[^<\n]*))?/
+        );
+        if (bibm) {
+          const pages = bibm[2] ? bibm[2].trim().replace(/^pp?\.\s*/, "") : "";
+          if (noteKeys.has(`bib:${bibm[1]}|${pages}`)) continue;
+        }
+        general.push(item);
+      }
+  }
+  if (!notes.length && !general.length) return content;
+  const ol = notes.length
+    ? `\n<ol class="cite-notes">\n` +
+      notes.map((html, i) => `<li id="src-${i + 1}">${html}</li>`).join("\n") +
+      `\n</ol>`
+    : "";
+  const ul = general.length
+    ? `\n<ul class="cite-general">\n` + general.join("\n") + `\n</ul>`
+    : "";
+  const card = `<section class="sources" id="sources">\n<h2>Sources</h2>${ol}${ul}\n</section>`;
   if (existing) return body.replace("@@SOURCES@@", card);
   return body.replace(/<footer>/, card + "\n<footer>");
 };
@@ -129,6 +150,12 @@ const renderVideoFig = (v) => {
       `<video controls preload="none"${poster}${label}>` +
       `<source src="${esc(v.mp4)}" type="video/mp4"/>` +
       `Your browser doesn't support embedded video.${fallback}</video>`;
+  } else if (v.audio || v.mp3) {
+    const label = v.title ? ` aria-label="${esc(v.title)}"` : "";
+    const img = v.poster
+      ? `<img src="${esc(v.poster)}" alt="${esc(v.title || "")}" class="audio-poster"/>`
+      : "";
+    inner = `${img}<audio controls preload="none" src="${esc(v.audio || v.mp3)}"${label}>Your browser doesn't support embedded audio.</audio>`;
   } else if (v.youtube) {
     const params = v.params ? `?${v.params}` : "";
     inner = `<iframe src="https://www.youtube.com/embed/${esc(v.youtube)}${params}" title="${esc(v.title || "YouTube video")}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" class="wide"></iframe>`;
@@ -153,22 +180,55 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("md", (s, media) => {
     if (!s) return "";
     let out = md.render(String(s));
-    out = out.replace(/<p>\s*@video\(([\w-]+)\)\s*<\/p>/g, (m, id) => {
+    out = out.replace(/<p>\s*@(?:video|audio)\(([\w-]+)\)\s*<\/p>/g, (m, id) => {
       const v = media && media[id];
       if (!v)
         throw new Error(
-          `@video(${id}) has no matching entry in this lesson's media: map`
+          `@video/@audio(${id}) has no matching entry in this lesson's media: map`
         );
       return renderVideoFig(v);
     });
-    if (out.includes("@video("))
+    if (out.includes("@video(") || out.includes("@audio("))
       throw new Error(
-        "A @video(...) token wasn't expanded - it must sit in its own paragraph"
+        "A @video/@audio(...) token wasn't expanded - it must sit in its own paragraph"
       );
     return out;
   });
   // Single video object -> <figure> (for videos: lists on tracks/sections).
   eleventyConfig.addFilter("videoFig", renderVideoFig);
+
+  // Listening-guide rows. Preferred authoring: a plain text block, one row per
+  // line, "time | description" (commas, colons, and quotes are all safe):
+  //   guide: |-
+  //     0:00 | Head in, AA
+  //     0:36 | Brown (tp) solo
+  // Legacy [time, description] arrays still work; extra columns that YAML
+  // split off at commas are joined back into the description.
+  eleventyConfig.addFilter("guideRows", (guide) => {
+    if (!guide) return [];
+    // js-yaml (YAML 1.1) parses an unquoted 1:23 as the number 83 - undo that.
+    const timeStr = (v) => {
+      if (typeof v !== "number") return String(v);
+      return `${Math.floor(v / 60)}:${String(v % 60).padStart(2, "0")}`;
+    };
+    if (typeof guide === "string")
+      return guide
+        .split("\n")
+        .filter((l) => l.trim())
+        .map((line) => {
+          const i = line.indexOf("|");
+          if (i === -1)
+            throw new Error(
+              `Listening-guide line is missing its " | " separator: "${line.trim()}"`
+            );
+          return { time: line.slice(0, i).trim(), text: line.slice(i + 1).trim() };
+        });
+    return guide.map((row) =>
+      Array.isArray(row)
+        ? { time: timeStr(row[0]), text: row.slice(1).map(String).join(", ") }
+        : { time: "", text: String(row) }
+    );
+  });
   // Render markdown without the wrapping <p> (for short inline values).
   eleventyConfig.addFilter("mdInline", (s) => (s ? md.renderInline(String(s)) : ""));
 
@@ -226,21 +286,53 @@ module.exports = function (eleventyConfig) {
     if (!entry) throw new Error(`Unknown bibliography ref "${ref}" in a sources: list`);
     return entry.label;
   });
-  // Unique refs across all sections' `sources:` lists, in order of appearance,
-  // with consulted pages merged per source ("64-65" + "70" -> "pp. 64–65, 70").
+  // General references from all sections' `sources:` lists, in order of
+  // appearance. Entries are either bibliography refs ({ref, pages}) or one-off
+  // web sources ({url, label}). Pages merge per source ("64-65" + "70" ->
+  // "pp. 64–65, 70"). Returns display-ready {href, text, pagesText}.
   eleventyConfig.addFilter("allSourceRefs", (sections) => {
     const map = new Map();
-    for (const s of sections || [])
-      for (const src of s.sources || []) {
-        const pages = map.get(src.ref) || [];
+    for (const s of sections || []) {
+      const list = s.sources;
+      if (!list) continue;
+      if (!Array.isArray(list))
+        throw new Error(
+          `A section's sources: must be a list — start each entry with "- " (section "${s.heading}")`
+        );
+      for (const src of list) {
+        if (src && src.url) {
+          if (!map.has(src.url))
+            map.set(src.url, {
+              href: src.url,
+              text: src.label || src.url.replace(/^https?:\/\/(www\.)?/, "").split("/")[0],
+              pages: [],
+            });
+          continue;
+        }
+        if (!src || !src.ref)
+          throw new Error(
+            `A sources: entry needs a ref (bibliography id) or a url (section "${s.heading}")`
+          );
+        const entry = bib[src.ref];
+        if (!entry)
+          throw new Error(`Unknown bibliography ref "${src.ref}" in a sources: list`);
+        if (!map.has(src.ref))
+          map.set(src.ref, {
+            href: `bibliography.html#${src.ref}`,
+            text: entry.label,
+            pages: [],
+          });
         if (src.pages)
-          pages.push(String(src.pages).replace(/-/g, "–").replace(/\s+/g, ""));
-        map.set(src.ref, pages);
+          map.get(src.ref).pages.push(
+            String(src.pages).replace(/-/g, "–").replace(/\s+/g, "")
+          );
       }
-    return [...map.entries()].map(([ref, pages]) => {
+    }
+    return [...map.values()].map(({ href, text, pages }) => {
       const joined = pages.join(", ");
       return {
-        ref,
+        href,
+        text,
         pagesText: joined ? (/[–,]/.test(joined) ? "pp. " : "p. ") + joined : "",
       };
     });

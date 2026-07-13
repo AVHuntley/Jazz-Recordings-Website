@@ -45,14 +45,14 @@ sections:
       **Texture** of the piece is mostly Eldridge soloing over saxophone **backgrounds** .
 
       **Benny Carter** : composer, bandleader, alto saxophonist. Developed saxophone ensemble writing style that used **block chords** : lead alto plays melody, and the other saxes are written below, in harmony that follows the rhythmic and melodic contour of the melody.
-    guide:
-    - ['0:00', 'Intro, Eldridge (t) cadenza']
-    - ['0:21', '**A** section']
-    - ['0:42', '**B** section']
-    - ['1:03', '**C** section']
-    - ['1:48', '**C** with full band']
-    - ['2:25', 'Coda, with composed cadenza (we know it''s composed because the clarinet plays a response).']
-    - ['2:55', Eldridge (t) high note to finish the piece]
+    guide: |-
+      0:00 | Intro, Eldridge (t) cadenza
+      0:21 | **A** section
+      0:42 | **B** section
+      1:03 | **C** section
+      1:48 | **C** with full band
+      2:25 | Coda, with composed cadenza (we know it's composed because the clarinet plays a response).
+      2:55 | Eldridge (t) high note to finish the piece
 - heading: Coleman Hawkins
   artists:
   - name: Coleman Hawkins
@@ -85,9 +85,9 @@ sections:
       It was recorded as almost an afterthought at the end of a studio session with a larger (9-piece) band.
 
       [(McCalla, p.82)](bibliography.html#mccalla-2000) ; [(Bierman, p.103)](bibliography.html#bierman-2016) ;
-    guide:
-    - ['0:00', description]
-    - ['', '']
+    guide: |-
+      0:00 | description
+       | 
 - heading: Lester Young
   artists:
   - name: Lester Young
@@ -125,14 +125,14 @@ sections:
       **Rhythm changes** (32-bar AABA) riffs over A, no melody over B
 
       [(Bierman, p.129)](bibliography.html#bierman-2016)
-    guide:
-    - ['0:00', Count Basie piano intro]
-    - ['0:03', (1 st Chorus) Head;]
-    - ['0:34', (2 nd ) Lester Young (ts) solo]
-    - ['1:05', (3 rd ) Lester Young (ts) solo cont.]
-    - ['1:36', (4 th ) Young (ts) & Basie (p) trade 4s;]
-    - ['2:07', (5 th ) Young & Basie trade 4s with ensemble riff; Basie takes the **B**]
-    - ['2:38', '(6 th ) **AAB** Walter Page (b) walking solo, last **A** out.']
+    guide: |-
+      0:00 | Count Basie piano intro
+      0:03 | (1 st Chorus) Head;
+      0:34 | (2 nd ) Lester Young (ts) solo
+      1:05 | (3 rd ) Lester Young (ts) solo cont.
+      1:36 | (4 th ) Young (ts) & Basie (p) trade 4s;
+      2:07 | (5 th ) Young & Basie trade 4s with ensemble riff; Basie takes the **B**
+      2:38 | (6 th ) **AAB** Walter Page (b) walking solo, last **A** out.
 - heading: Django Reinhardt & Stéphan Grappelli
   artists:
   - name: Django Reinhardt
@@ -159,12 +159,12 @@ sections:
     spotify: 0NDjQezJaEC1KX9TfwEfzf
     intro: |-
       No discernible melody – just the introduction and final coda.
-    guide:
-    - ['0:00', Intro (short bass solo)]
-    - ['0:20', Reinhardt (g) solo]
-    - ['1:36', Grappelli (vln) solo]
-    - ['2:14', 'Reinhardt says, “come on!” and Grappelli is swingin’!']
-    - ['2:52', Outro (with short bass solo)]
+    guide: |-
+      0:00 | Intro (short bass solo)
+      0:20 | Reinhardt (g) solo
+      1:36 | Grappelli (vln) solo
+      2:14 | Reinhardt says, “come on!” and Grappelli is swingin’!
+      2:52 | Outro (with short bass solo)
 - heading: Charlie Christian
   artists:
   - name: Charlie Christian
@@ -198,10 +198,10 @@ sections:
       16-Bar form
 
       [(Sultanof, p.44)](bibliography.html#sultanof-2017)
-    guide:
-    - ['0:10', Christian (g) solo]
-    - ['2:00', Goodman (cl) solo]
-    - ['2:20', More Christian (g) solo]
+    guide: |-
+      0:10 | Christian (g) solo
+      2:00 | Goodman (cl) solo
+      2:20 | More Christian (g) solo
 - heading: Art Tatum
   artists:
   - name: Art Tatum
@@ -225,9 +225,9 @@ sections:
     spotify: 6ybpvr9LaPbw0auNaj7kdT
     intro: |-
       32-bar AABA
-    guide:
-    - ['0:00', Rubato head]
-    - ['0:43', 'Head again, more chord-based, decorated, and louder']
-    - ['1:32', Tatum kicks it into high gear and plays insanely quickly!]
-    - ['2:36', Good example of melody in cut time over fast LH.]
+    guide: |-
+      0:00 | Rubato head
+      0:43 | Head again, more chord-based, decorated, and louder
+      1:32 | Tatum kicks it into high gear and plays insanely quickly!
+      2:36 | Good example of melody in cut time over fast LH.
 ---

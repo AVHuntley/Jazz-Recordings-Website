@@ -68,16 +68,16 @@ sections:
     spotify: 1H6gbgi4nyZBtptvZz9ofQ
     intro: |-
       Form: ABA
-    guide:
-    - ['0:00', 'Intro, Pass (g) solos']
-    - ['0:14', Brass takes up riff. Wilson (p) fills]
-    - ['0:30', 'A: Melody, saxes. Brass continues riff.']
-    - ['0:45', 'B: Piano takes melody, band plays pads']
-    - ['1:01', 'A: Melody, saxes again.']
-    - ['1:16', Carmell Jones (tp) solo]
-    - ['2:20', Teddy Edwards (ts) solo]
-    - ['3:24', Joe Pass (g) solo]
-    - ['4:25', Ensemble]
+    guide: |-
+      0:00 | Intro, Pass (g) solos
+      0:14 | Brass takes up riff. Wilson (p) fills
+      0:30 | A: Melody, saxes. Brass continues riff.
+      0:45 | B: Piano takes melody, band plays pads
+      1:01 | A: Melody, saxes again.
+      1:16 | Carmell Jones (tp) solo
+      2:20 | Teddy Edwards (ts) solo
+      3:24 | Joe Pass (g) solo
+      4:25 | Ensemble
   notes: |-
     - This composition was written in honor of a bullfighter, Jose Ramon Tirado.
     - This tune became a hit for the band El Chicano when they [covered it on their 1970 album](https://open.spotify.com/track/6wbDINxAd1kUxvR3PKtUwR?si=IDcBY7k0Qfqqlox0YF7c3g) of the same name.
@@ -124,18 +124,18 @@ sections:
     spotify: 0Jw3cPBXlGnA6DEJrZSTI0
     intro: |-
       Form: it's kind of like a blues with a bridge
-    guide:
-    - [Form, it's kind of like a blues with a bridge]
-    - ['0:00', Intro. The thing that sounds like a person hooting in the background might be cuíca. Or it might be a person imitating a cuíca.]
-    - ['0:05', 'Bass drum, bass, and piano enter.']
-    - ['0:15', Hits signal the intro]
-    - ['0:18', A. It's a 12-bar blues. The use of flutes here is a common Quincy Jones technique.]
-    - ['0:56', B]
-    - ['1:08', A]
-    - ['1:27', C]
-    - ['1:38', '(fl) on abbreviated form. 1/2A, B']
-    - ['2:04', A]
-    - ['2:23', 'C, fade out.']
+    guide: |-
+      Form | it's kind of like a blues with a bridge
+      0:00 | Intro. The thing that sounds like a person hooting in the background might be cuíca. Or it might be a person imitating a cuíca.
+      0:05 | Bass drum, bass, and piano enter.
+      0:15 | Hits signal the intro
+      0:18 | A. It's a 12-bar blues. The use of flutes here is a common Quincy Jones technique.
+      0:56 | B
+      1:08 | A
+      1:27 | C
+      1:38 | (fl) on abbreviated form. 1/2A, B
+      2:04 | A
+      2:23 | C, fade out.
   notes: |-
     - Maybe you've heard this before in the opening sequence of [Austin Powers](https://youtu.be/ZWOhXEWk1K0) . And if you haven't, click that link and give yourself a treat.
     - As the title of the album gives away, this track was influenced by bossa nova music, which was booming in popularity in the early 1960s.
@@ -177,15 +177,15 @@ sections:
     spotify: 0UUSRffAId9MA6vgiHJTSe
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Intro]
-    - ['0:11', 'Melody played by flutes, alto sax, and muted trumpets; this an example of a trend in 1960s big band music: “creating different sonic color groups instead of writing for instrumental sections.” [(Sultanof, p.140)](bibliography.html#sultanof-2017)']
-    - ['0:37', Accompanying figures played by tenor saxes or muted brass]
-    - ['1:16', Starling (p) solo]
-    - ['2:00', Ensemble passage]
-    - ['2:23', Corre (ts) solo]
-    - ['3:23', Melody variant played by trumpets and saxes]
-    - ['4:18', Melody returns to end composition]
+    guide: |-
+      0:00 | Intro
+      0:11 | Melody played by flutes, alto sax, and muted trumpets; this an example of a trend in 1960s big band music: “creating different sonic color groups instead of writing for instrumental sections.” [(Sultanof, p.140)](bibliography.html#sultanof-2017)
+      0:37 | Accompanying figures played by tenor saxes or muted brass
+      1:16 | Starling (p) solo
+      2:00 | Ensemble passage
+      2:23 | Corre (ts) solo
+      3:23 | Melody variant played by trumpets and saxes
+      4:18 | Melody returns to end composition
   notes: |-
     - Watch this live version (with different personnel):
 
@@ -235,19 +235,19 @@ sections:
     spotify: 5G6lVYeGaI7oce5qDqqJiY
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', 'Rubato Introduction. Note how one of the woodwinds plays the same note on the top of (almost) every voicing, like the drone of a bagpipe.']
-    - ['0:24', 'Drums enter, and the theme is played in time.']
-    - ['1:22', Ellis (tp) solo; this is a wild solo in which Ellis plays with the crowd...]
-    - ['1:40', The band drops out and Ellis continues.]
-    - ['4:12', Band enters as Ellis continues soloing]
-    - ['5:17', Robinson (el-p) solo; played on a Rhodes...]
-    - ['6:26', Ferris (tb) solo]
-    - ['8:03', Klemmer (ts) and Falzone (ts) solo “battle”]
-    - ['11:12', '“Dixieland pseudo-waltz that drives the audience crazy” [(Sultanof, p.136)](bibliography.html#sultanof-2017)']
-    - ['12:37', Humphry (d) and Strimling (perc) duet]
-    - ['14:12', Melody]
-    - ['15:36', 'False ending, then Ellis (el-tp) solo, then prolonged ending']
+    guide: |-
+      0:00 | Rubato Introduction. Note how one of the woodwinds plays the same note on the top of (almost) every voicing, like the drone of a bagpipe.
+      0:24 | Drums enter, and the theme is played in time.
+      1:22 | Ellis (tp) solo; this is a wild solo in which Ellis plays with the crowd...
+      1:40 | The band drops out and Ellis continues.
+      4:12 | Band enters as Ellis continues soloing
+      5:17 | Robinson (el-p) solo; played on a Rhodes...
+      6:26 | Ferris (tb) solo
+      8:03 | Klemmer (ts) and Falzone (ts) solo “battle”
+      11:12 | “Dixieland pseudo-waltz that drives the audience crazy” [(Sultanof, p.136)](bibliography.html#sultanof-2017)
+      12:37 | Humphry (d) and Strimling (perc) duet
+      14:12 | Melody
+      15:36 | False ending, then Ellis (el-tp) solo, then prolonged ending
   notes: |-
     - This track was recorded live at Stanford University in CA. Earlier recordings exist, including [a studio recording from 1967](https://open.spotify.com/track/4zxAfUK07Ls7DJdNe5jJAl?si=3enUk0ThSGKTNEhubzVLYw) . But I want you to hear this live recording so you can get a sense of how the band interacted with the audience.
 - heading: Maynard Ferguson
@@ -280,12 +280,12 @@ sections:
     spotify: 6y3AVPV280FptCUrKBBLiO
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', A theme (no introduction)]
-    - ['0:18', 'A theme played by trumpet lead, answers by saxophone section']
-    - ['0:36', 'A theme, played 18ve higher, answers by trombones']
-    - ['1:01', 'A theme, continue into bridge, played even higher. Ferguson hits a high G at the melody''s peak.']
-    - ['1:40', '(ts) solo, accompanied by rhythm section only.']
+    guide: |-
+      0:00 | A theme (no introduction)
+      0:18 | A theme played by trumpet lead, answers by saxophone section
+      0:36 | A theme, played 18ve higher, answers by trombones
+      1:01 | A theme, continue into bridge, played even higher. Ferguson hits a high G at the melody's peak.
+      1:40 | (ts) solo, accompanied by rhythm section only.
   notes: |-
     - This is a cover of a 1968 Jimmy Webb composition, [first recorded by Richard Harris](https://open.spotify.com/track/5DBEFajBEaHgbbwe7oN0KP?si=26MR0udKRn2ivJs-Rm4EFg) . It's pretty unusual. It's structured like a classical piece: there are four sections, or "movements." Despite its peculiarity, it was fairly popular. It was even later covered by [Waylon Jennings](https://open.spotify.com/track/09c6fmAd8uvxROSmFHCkx9?si=FUuy9FhgTmeQj-hq4xSPIA) and [Donna Summer](https://open.spotify.com/track/1t2hs48AduLr9wik6nF0pw?si=B1wzwRg0RFG1TA6A2YM7fw) . Weird Al did [a parody of it](https://youtu.be/gh4zvQfDhi0) . Others have called it the [worst song ever written](https://en.wikipedia.org/wiki/List_of_music_considered_the_worst#Songs) .
 ---

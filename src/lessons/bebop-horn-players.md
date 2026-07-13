@@ -48,15 +48,15 @@ sections:
       The ensemble sounds warm in part because the trumpet is playing in middle register and there are two *tenor* saxes, but no alto.
 
       Dameron is sometimes remembered more as a composer/arranger than a pianist.
-    guide:
-    - ['0:00', Intro]
-    - ['0:11', 'Head in, tpt + 2x ts']
-    - ['0:33', Navarro (t) solo]
-    - ['1:17', Eager (ts) solo]
-    - ['1:39', Shout chorus (1st half)]
-    - ['1:50', Dameron (p) solo (2nd half)]
-    - ['2:01', Gray (ts) solo]
-    - ['2:23', Head out]
+    guide: |-
+      0:00 | Intro
+      0:11 | Head in, tpt + 2x ts
+      0:33 | Navarro (t) solo
+      1:17 | Eager (ts) solo
+      1:39 | Shout chorus (1st half)
+      1:50 | Dameron (p) solo (2nd half)
+      2:01 | Gray (ts) solo
+      2:23 | Head out
 - heading: James Louis "J.J." Johnson
   prose: |-
     He was one of the first trombonists to embrace bebop. He met Fats Novarro while working in a band led by Snookum Russell cir. 1942. Novarro encouraged Johnson to play more like Lester Young (ts).
@@ -82,12 +82,12 @@ sections:
       Clarke, Heath, and Lewis were all members of Dizzy Gillespie’s band. The were also the founding members of the Modern Jazz Quartet, which we'll listen to later in this unit (Clarke would be replaced quickly by Connie Kay).
 
       [(Gridley, p.154)](bibliography.html#gridley-2014)
-    guide:
-    - ['0:03', Head in ( **pedal point** on last A)]
-    - ['0:30', Johnson (tb) solo]
-    - ['1:24', Heath (ts) solo]
-    - ['2:18', Clifford Brown (t) solo]
-    - ['3:12', John Lewis (p) solo]
+    guide: |-
+      0:03 | Head in ( **pedal point** on last A)
+      0:30 | Johnson (tb) solo
+      1:24 | Heath (ts) solo
+      2:18 | Clifford Brown (t) solo
+      3:12 | John Lewis (p) solo
 - heading: Sonny Stitt
   prose: |-
     Very much influenced by Charlie Parker. Difficult to tell them apart on alto. Stitt for a while switched to tenor to avoid the comparison.
@@ -112,15 +112,15 @@ sections:
     spotify: 6xXOzvCRwsASphIJoAz0L0
     intro: |-
       There are two takes from this recording date. We're listening to the second of the two.
-    guide:
-    - ['0:00', A played in unison by Stitt and Johnson]
-    - ['0:15', 'A, Stitt takes melody, Johnson plays accompaniment with guide tones and harmony']
-    - ['0:29', 'B, Johnson takes melody, Stitt plays accompaniment.']
-    - ['0:43', 'Lewis (p) plays melody, Stitt and Johnson accompany.']
-    - ['0:58', Stitt (ts) solo AA]
-    - ['1:27', Johnson (tb) solo BA]
-    - ['1:57', Lewis (p) solo AA. Much less bebop-flavor than Stitt (or Bud Powell).]
-    - ['2:27', Head out from B.]
+    guide: |-
+      0:00 | A played in unison by Stitt and Johnson
+      0:15 | A, Stitt takes melody, Johnson plays accompaniment with guide tones and harmony
+      0:29 | B, Johnson takes melody, Stitt plays accompaniment.
+      0:43 | Lewis (p) plays melody, Stitt and Johnson accompany.
+      0:58 | Stitt (ts) solo AA
+      1:27 | Johnson (tb) solo BA
+      1:57 | Lewis (p) solo AA. Much less bebop-flavor than Stitt (or Bud Powell).
+      2:27 | Head out from B.
 - heading: Dexter Gordon & Wardell Gray
   artists:
   - name: Dexter Gordon
@@ -172,31 +172,31 @@ sections:
       Contrast their tones: Gordon's is bigger and fuller; Gray's is lighter, more ethereal (and maybe more like Young's).
 
       (Part 1 ends, Part 2 begins)
-    guide:
-    - ['0:02', Intro]
-    - ['0:17', AA]
-    - ['0:33', B]
-    - ['0:42', A]
-    - ['0:50', 'Gordon (ts) solo. 32 bars, AABA.']
-    - ['1:23', 'Gray (ts) solo. 32 bars, AABA']
-    - ['1:57', 'Gordon solo. 32 bars, AABA']
-    - ['2:29', 'Gray (ts) solo. 32 bars, AABA']
-    - ['3:02', 'Bunn (p) solo. 32 bars, AABA']
-    - ['3:30', 'Gray (?) solo. 16 bars, AA']
-    - ['3:46', 'Gordon solo. 16 bars, BA']
-    - ['4:02', Gray solo. 8 bars A]
-    - ['4:10', Gordon. 8 bars A]
-    - ['4:18', Gray. 8 bars B]
-    - ['4:26', Gordon. 8 bars A]
-    - ['4:34', Gray 4 bars | Gordon 4 bars A]
-    - ['4:42', Gray 4 bars | Gordon 4 bars A]
-    - ['4:51', Gray 4 bars | Gordon 4 bars B]
-    - ['4:58', Gray 4 bars | Gordon 4 bars A]
-    - ['5:07', 'Gray & Gordon play a riff together, which replaces the first 8 bars of each A section. They continue trading for the second half of each A, and for B.']
-    - ['5:37', Head out AA]
-    - ['5:53', Bunn (p) B]
-    - ['6:01', A]
-    - ['6:08', 'Outro, like intro']
+    guide: |-
+      0:02 | Intro
+      0:17 | AA
+      0:33 | B
+      0:42 | A
+      0:50 | Gordon (ts) solo. 32 bars, AABA.
+      1:23 | Gray (ts) solo. 32 bars, AABA
+      1:57 | Gordon solo. 32 bars, AABA
+      2:29 | Gray (ts) solo. 32 bars, AABA
+      3:02 | Bunn (p) solo. 32 bars, AABA
+      3:30 | Gray (?) solo. 16 bars, AA
+      3:46 | Gordon solo. 16 bars, BA
+      4:02 | Gray solo. 8 bars A
+      4:10 | Gordon. 8 bars A
+      4:18 | Gray. 8 bars B
+      4:26 | Gordon. 8 bars A
+      4:34 | Gray 4 bars | Gordon 4 bars A
+      4:42 | Gray 4 bars | Gordon 4 bars A
+      4:51 | Gray 4 bars | Gordon 4 bars B
+      4:58 | Gray 4 bars | Gordon 4 bars A
+      5:07 | Gray & Gordon play a riff together, which replaces the first 8 bars of each A section. They continue trading for the second half of each A, and for B.
+      5:37 | Head out AA
+      5:53 | Bunn (p) B
+      6:01 | A
+      6:08 | Outro, like intro
 - heading: Stan Getz
   artists:
   - name: Stan Getz
@@ -228,9 +228,9 @@ sections:
       12-bar blues that changes keys up 1/2 step every chorus. No head.
 
       Not the same “Crazy Chords” that Jelly Roll Morton and others have recorded!
-    guide:
-    - ['0:06', Getz (ts) solo]
-    - ['1:00', Haig (p) solo]
-    - ['1:44', Getz (ts) solo again]
-    - ['2:29', End]
+    guide: |-
+      0:06 | Getz (ts) solo
+      1:00 | Haig (p) solo
+      1:44 | Getz (ts) solo again
+      2:29 | End
 ---

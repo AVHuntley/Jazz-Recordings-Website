@@ -344,6 +344,18 @@ figure.video video {
   height: auto;
 }
 
+figure.video audio {
+  display: block;
+  width: 100%;
+}
+
+figure.video img.audio-poster {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 8px;
+  border-radius: 8px;
+}
+
 figure.video iframe {
   aspect-ratio: 4 / 3;
   height: auto;
@@ -402,6 +414,13 @@ sup.cite a:hover {
 .sources ol.cite-notes {
   margin: 0 0 0 1.6em;
   padding: 0;
+}
+
+/* General references (from sections' sources: fields), after the numbered notes */
+.sources ul.cite-general {
+  margin: 10px 0 0 1.6em;
+  padding: 0;
+  list-style: none;
 }
 
 .sources li {

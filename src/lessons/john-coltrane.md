@@ -41,8 +41,8 @@ sections:
     spotify: 33frjZowjDCfbMwLbmUJhU
     intro: |-
       Same personnel that would soon record *Kind of Blue* .
-    guide:
-    - ['3:07', Coltrane (ts) solo]
+    guide: |-
+      3:07 | Coltrane (ts) solo
 - heading: Change Running & Coltrane Changes
   prose: |-
     **Coltrane changes:** harmony that employs root movement of major and minor thirds, often as a substitute for more traditional harmony.
@@ -62,12 +62,12 @@ sections:
     spotify: 1pWP4A14Rw1qrKJxjbifVv
     intro: |-
       Tried recording this track March 26, 1959 with Cedar Walton (piano) and Lex Humphries (drums). See Take 3 (incomplete) and Take 6. Listen for Cedar Walton’s contrasting approaches to soloing over this difficult song.
-    guide:
-    - ['0:00', Head in]
-    - ['0:26', Coltrane (ts) solo]
-    - ['2:55', Flanagan (p) solo]
-    - ['3:44', Coltrane (ts) solo again]
-    - ['4:10', Head out]
+    guide: |-
+      0:00 | Head in
+      0:26 | Coltrane (ts) solo
+      2:55 | Flanagan (p) solo
+      3:44 | Coltrane (ts) solo again
+      4:10 | Head out
 - heading: Modal
   prose: |-
     Coltrane demonstrates a slightly different take on modal jazz than Davis did. He uses single chords for long stretches but plays much more rapid lines.
@@ -112,16 +112,16 @@ sections:
       This album inspired a religion: The Church of Coltrane in San Francisco. Their mission statement: “To paint the globe with the message of *A Love Supreme* , and in doing so promote global unity, peace on earth, and knowledge of the one true living God” (
       <http://www.coltranechurch.org>
       )
-    guide:
-    - ['0:00', 'Intro, gong, cymbals, piano comping, sax riff on 4 notes']
-    - ['0:30', Garrison (b) enters with bass line]
-    - ['0:40', Jones (d) begins groove]
-    - ['0:47', McCoy (p) enters]
-    - ['1:03', Coltrane (ts) enters]
-    - ['4:52', Coltrane plays the “A Love Supreme” riff played in a bunch of keys]
-    - ['6:04', Coltrane and Garrison chant “A Love Supreme”]
-    - ['6:42', 'Song begins winding down, Coltrane lays out, then McCoy.']
-    - ['7:21', 'Jones lays out, Garrison plays solo until end.']
+    guide: |-
+      0:00 | Intro, gong, cymbals, piano comping, sax riff on 4 notes
+      0:30 | Garrison (b) enters with bass line
+      0:40 | Jones (d) begins groove
+      0:47 | McCoy (p) enters
+      1:03 | Coltrane (ts) enters
+      4:52 | Coltrane plays the “A Love Supreme” riff played in a bunch of keys
+      6:04 | Coltrane and Garrison chant “A Love Supreme”
+      6:42 | Song begins winding down, Coltrane lays out, then McCoy.
+      7:21 | Jones lays out, Garrison plays solo until end.
 - heading: Free
   prose: ""
   tracks:
@@ -142,15 +142,15 @@ sections:
     - 6BUPCxkjFP71mK4u6pJ9yb
     intro: |-
       There are two “editions” of this song, both recorded the same day. Each “edition” is split into two parts, because the whole thing was too long to fit onto one side of a record. Our playlist contains Edition II, for no particular reason.
-    guide:
-    - ['0:00', Intro (ensemble)]
-    - ['3:10-5:48', Coltrane (ts) solo]
-    - ['7:45-9:30', Johnson (tp) solo]
-    - ['11:55-14:20', Sanders (ts) solo]
-    - ['15:40-17:40', Hubbard (tp) solo]
-    - ['18:50-20:00', Tchicai (as) solo]
-    - ['21:10-24:10', Shepp (ts) solo]
-    - ['25:10-27:16', Brown (as) solo]
-    - ['29:55-33:26', Tyner (p) solo]
-    - ['33:26-35:50', Davis (b) and Garrison (b) duet]
+    guide: |-
+      0:00 | Intro (ensemble)
+      3:10-5:48 | Coltrane (ts) solo
+      7:45-9:30 | Johnson (tp) solo
+      11:55-14:20 | Sanders (ts) solo
+      15:40-17:40 | Hubbard (tp) solo
+      18:50-20:00 | Tchicai (as) solo
+      21:10-24:10 | Shepp (ts) solo
+      25:10-27:16 | Brown (as) solo
+      29:55-33:26 | Tyner (p) solo
+      33:26-35:50 | Davis (b) and Garrison (b) duet
 ---

@@ -52,16 +52,16 @@ sections:
     - [Larry Grenadier, bass]
     - [Jorge Rossy, drums]
     spotify: 73ik3a517Lz2W7eLWejapJ
-    guide:
-    - ['0:00', Introduction]
-    - ['0:14', 'A, piano solo']
-    - ['0:39', 'A, drums enter']
-    - ['1:04', 'B theme, note Mehldau’s active left hand']
-    - ['1:45', A]
-    - ['2:09', C]
-    - ['2:34', Solo over C progression]
-    - ['3:23', A]
-    - ['3:47', 'Coda, repeating last measures of A']
+    guide: |-
+      0:00 | Introduction
+      0:14 | A, piano solo
+      0:39 | A, drums enter
+      1:04 | B theme, note Mehldau’s active left hand
+      1:45 | A
+      2:09 | C
+      2:34 | Solo over C progression
+      3:23 | A
+      3:47 | Coda, repeating last measures of A
   notes: |-
     - Thom Yorke was inspired by the "dense, terrifying sound" of *Bitches Brew* for Radiohead’s *OK Computer* .
     - The harmony has parallels to [Chopin's Prelude in E min, Op. 28, No. 4](https://open.spotify.com/track/3rsSbXnJF9qoasZYWbM4tz?si=S0p0pJceQki0VuzL182AbQ) .
@@ -84,21 +84,21 @@ sections:
     - [Vicente Archer, bass]
     - [Damion Reid, drums]
     spotify: 0yU6Y6DP77qclbJ7nupXed
-    guide:
-    - ['0:00', Intro]
-    - ['0:29', A]
-    - ['0:40', A]
-    - ['0:53', B]
-    - ['1:13', C (solo 16 bars)]
-    - ['1:27', A]
-    - ['1:39', A]
-    - ['1:50', B]
-    - ['2:10', Glasper solos over AABC]
-    - ['5:24', Archer (b) solo over new progression (based on C)]
-    - ['6:15', Glasper solo]
-    - ['6:28', 'Head out, AAB']
-    - ['7:20', 'Song ends, track continues']
-    - ['7:28', Hip hop addendum]
+    guide: |-
+      0:00 | Intro
+      0:29 | A
+      0:40 | A
+      0:53 | B
+      1:13 | C (solo 16 bars)
+      1:27 | A
+      1:39 | A
+      1:50 | B
+      2:10 | Glasper solos over AABC
+      5:24 | Archer (b) solo over new progression (based on C)
+      6:15 | Glasper solo
+      6:28 | Head out, AAB
+      7:20 | Song ends, track continues
+      7:28 | Hip hop addendum
 - heading: Jason Moran
   artists:
   - name: Jason Moran
@@ -131,20 +131,20 @@ sections:
       Lyrics by Andy Razaf
 
       Form: Originally AABA. This arrangement plays with the form a bit.
-    guide:
-    - ['0:00', Intro]
-    - ['0:21', 'Groove established, hook melody']
-    - ['0:31', Moran plays A melody]
-    - ['0:41', 'A with lyrics, vocals doubled by muted trumpet']
-    - ['0:52', 'A with lyrics, trumpet hook']
-    - ['1:00', 'B, melody disguised']
-    - ['1:10', 'A, melody by trumpet']
-    - ['1:20', 'Single-chord vamp, vocals repeat title']
-    - ['1:51', 'New progression (interlude), neo-soul vibe']
-    - ['2:31', Moran solos over A]
-    - ['2:40', Back to single-chord vamp]
-    - ['2:55', Trombone brief solo]
-    - ['3:07', Diminuendo to end]
+    guide: |-
+      0:00 | Intro
+      0:21 | Groove established, hook melody
+      0:31 | Moran plays A melody
+      0:41 | A with lyrics, vocals doubled by muted trumpet
+      0:52 | A with lyrics, trumpet hook
+      1:00 | B, melody disguised
+      1:10 | A, melody by trumpet
+      1:20 | Single-chord vamp, vocals repeat title
+      1:51 | New progression (interlude), neo-soul vibe
+      2:31 | Moran solos over A
+      2:40 | Back to single-chord vamp
+      2:55 | Trombone brief solo
+      3:07 | Diminuendo to end
   notes: |-
     - This album is a tribute to Fats Waller, blending early jazz stride with hip-hop/neo-soul elements.
     - Compare with [Waller’s original](https://open.spotify.com/track/1f4LAciqxob1qsKA6wn5n6?si=38I8-PwcQN2LDjGk6sc0xQ) for context.
@@ -169,14 +169,14 @@ sections:
     - [Stephan Crump, bass]
     - [Marcus Gilmore, drums]
     spotify: 17iLepcX3IKkJY1Bzgcm7j
-    guide:
-    - ['0:00', Ostinato of seven beats introduced]
-    - ['0:16', A melody in the bass register suggests a different meter]
-    - ['0:55', Ostinato moves an octave higher]
-    - ['1:34', 'Bass solo, Iyer comps high & low registers']
-    - ['2:54', Piano solo]
-    - ['4:46', 'Head out, ostinato & melody return']
-    - ['5:56', Last chord held to end]
+    guide: |-
+      0:00 | Ostinato of seven beats introduced
+      0:16 | A melody in the bass register suggests a different meter
+      0:55 | Ostinato moves an octave higher
+      1:34 | Bass solo, Iyer comps high & low registers
+      2:54 | Piano solo
+      4:46 | Head out, ostinato & melody return
+      5:56 | Last chord held to end
   notes: |-
     - This piece draws on South Indian rhythmic concepts.
     - Released on the ECM label, known for its distinctive aesthetic.
@@ -196,17 +196,17 @@ sections:
     - [Reid Anderson, bass]
     - [Dave King, drums]
     spotify: 1CdSQrf0mqQkjDRNJ0mXd4
-    guide:
-    - ['0:00', 'Verse (head in). Multiple conflicting rhythms: bass line, drum beat, melody']
-    - ['0:42', 'Verse again, altered harmony']
-    - ['1:21', Chorus]
-    - ['1:53', Short piano solo over verse progression]
-    - ['2:13', Verse again]
-    - ['2:37', Pre-chorus]
-    - ['2:50', Chorus]
-    - ['3:21', 'Piano solo, blends groove and improvisation (Ahmad Jamal-esque)']
-    - ['5:18', Pre-chorus]
-    - ['5:31', Chorus]
+    guide: |-
+      0:00 | Verse (head in). Multiple conflicting rhythms: bass line, drum beat, melody
+      0:42 | Verse again, altered harmony
+      1:21 | Chorus
+      1:53 | Short piano solo over verse progression
+      2:13 | Verse again
+      2:37 | Pre-chorus
+      2:50 | Chorus
+      3:21 | Piano solo, blends groove and improvisation (Ahmad Jamal-esque)
+      5:18 | Pre-chorus
+      5:31 | Chorus
   notes: |-
     - Listen to Cyndi Lauper’s original for context. The Bad Plus transforms this 80s pop tune into a complex jazz piece.
     - Here's a live video of the arrangement:

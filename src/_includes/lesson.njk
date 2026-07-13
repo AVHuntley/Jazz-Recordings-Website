@@ -80,8 +80,8 @@
      {{ t.guidenote | md(media) | safe }}
      <table>
       <tr><th>Time</th><th>Description</th></tr>
-      {%- for row in t.guide %}
-      <tr><td>{{ row[0] }}</td><td>{{ row[1] | mdInline | safe }}</td></tr>
+      {%- for row in t.guide | guideRows %}
+      <tr><td>{{ row.time }}</td><td>{{ row.text | mdInline | safe }}</td></tr>
       {%- endfor %}
      </table>
     </div>
@@ -110,7 +110,7 @@
    <h2>Sources</h2>
    <ul class="cite-general">
     {%- for s in generalRefs %}
-    <li><a href="bibliography.html#{{ s.ref }}">{{ s.ref | bibLabel }}</a>{% if s.pagesText %} — {{ s.pagesText }}{% endif %}</li>
+    <li><a href="{{ s.href }}">{{ s.text }}</a>{% if s.pagesText %} — {{ s.pagesText }}{% endif %}</li>
     {%- endfor %}
    </ul>
   </section>

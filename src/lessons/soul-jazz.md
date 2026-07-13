@@ -76,12 +76,12 @@ sections:
     spotify: 5IE8AEb5Q7bzJpkk8ZeqGB
     intro: |-
       Form: AABA
-    guide:
-    - ['0:00', 'Head in, Montgomery uses **octaves**']
-    - ['0:56', 'Montgomery solo, 1st chorus, uses **thumb-picking**']
-    - ['1:53', 'Montgomery solo, 2nd chorus, uses **chord soloing**']
-    - ['2:51', Flanagan (piano) solo]
-    - ['3:50', Head out from the B section]
+    guide: |-
+      0:00 | Head in, Montgomery uses **octaves**
+      0:56 | Montgomery solo, 1st chorus, uses **thumb-picking**
+      1:53 | Montgomery solo, 2nd chorus, uses **chord soloing**
+      2:51 | Flanagan (piano) solo
+      3:50 | Head out from the B section
   notes: |-
     Percy Heath was the bassist for MJQ.
 
@@ -125,14 +125,14 @@ sections:
     - [Kenny Burrell, guitar]
     - [Grady Tate, drums]
     spotify: 2mglU3qJrWXBtifbZjiyFw
-    guide:
-    - ['0:00', Intro]
-    - ['0:15', Smith mumbles]
-    - ['0:18', 'Head, played over pedal point']
-    - ['0:40', 'Burrell (guitar) solo, 12-bar blues']
-    - ['1:13', Smith (organ) solo]
-    - ['1:49', Smith mumbles again]
-    - ['2:09', Sudden ending]
+    guide: |-
+      0:00 | Intro
+      0:15 | Smith mumbles
+      0:18 | Head, played over pedal point
+      0:40 | Burrell (guitar) solo, 12-bar blues
+      1:13 | Smith (organ) solo
+      1:49 | Smith mumbles again
+      2:09 | Sudden ending
   notes: |-
     Smith mumbles comically at 0:15 and 1:49. He must have had a good sense of humor.
 
@@ -185,17 +185,17 @@ sections:
     spotify: 7JuGQ8ZL3xOeHS4AOPItUx
     intro: |-
       Form: 12-bar blues
-    guide:
-    - ['0:00', 'Intro, Scott solo']
-    - ['0:18', 'Head, played by Turrentine with hits from band']
-    - ['0:53', 'Turrentine solo. For the first two choruses, Turrentine **strolls** (plays without comping).']
-    - ['1:29', 'Turrentine solo continues, comping by Scott']
-    - ['2:40', 'Scott comps with big, two-handed chords']
-    - ['3:16', Scott solo]
-    - ['3:51', Scott comps with her left hand while soloing with her right]
-    - ['4:09', Turrentine plays a repeated background riff (in the Kansas City tradition)]
-    - ['5:01', Head out]
-    - ['5:21', Tag and **studio fade out** .]
+    guide: |-
+      0:00 | Intro, Scott solo
+      0:18 | Head, played by Turrentine with hits from band
+      0:53 | Turrentine solo. For the first two choruses, Turrentine **strolls** (plays without comping).
+      1:29 | Turrentine solo continues, comping by Scott
+      2:40 | Scott comps with big, two-handed chords
+      3:16 | Scott solo
+      3:51 | Scott comps with her left hand while soloing with her right
+      4:09 | Turrentine plays a repeated background riff (in the Kansas City tradition)
+      5:01 | Head out
+      5:21 | Tag and **studio fade out** .
   notes: |-
     This is a Kansas City style blues. Despite the different instrumentation, this track has a lot in common with early Count Basie recordings. Compare it to " [Broadway]($WIKI_REFERENCE$/pages/1-dot-5-swing-big-bands) ," for example.
 - heading: Les McCann & Eddie Harris
@@ -240,18 +240,18 @@ sections:
       A reviewer from the BBC wrote:
 
       The session (on the last night of the festival) was a truly impromptu event - this particular line up had never played together before and at least half of the group had no idea what material they were going to play as they took the stage!
-    guide:
-    - ['0:00', Intro]
-    - ['1:21', 'Chords move up in 1/2 steps from F7 to C7 (sus), then back.']
-    - ['2:03', 'Verse 1, sung by McCann. Between verses, Harris solos']
-    - ['2:52', Verse 2]
-    - ['3:43', 'Verse 3, “Sock it to me!”']
-    - ['4:09', Bailey (trumpet) solos]
-    - ['4:34', Verse 4]
-    - ['5:24', Chromatic climb up again]
-    - ['6:09', Verse 5]
-    - ['6:33', 'McCann solo, rapid repeated note and blues licks']
-    - ['8:02', Ending]
+    guide: |-
+      0:00 | Intro
+      1:21 | Chords move up in 1/2 steps from F7 to C7 (sus), then back.
+      2:03 | Verse 1, sung by McCann. Between verses, Harris solos
+      2:52 | Verse 2
+      3:43 | Verse 3, “Sock it to me!”
+      4:09 | Bailey (trumpet) solos
+      4:34 | Verse 4
+      5:24 | Chromatic climb up again
+      6:09 | Verse 5
+      6:33 | McCann solo, rapid repeated note and blues licks
+      8:02 | Ending
   notes: |-
     The song has been recorded many times by soul/funk/R&B artists, including: [Roberta Flack](https://open.spotify.com/track/3ZTEMmFm3FzfEtjqJN32c1?si=zhHZAMlhQKuYE9k7N_9p1w) , [Terence Blanchard and the E-Collective](https://open.spotify.com/track/19JS1PYEMxnHGfoYSbGs3l?si=HS1bwxymTAazH9tIRXci4w) , and [John Legend](https://open.spotify.com/track/6HwUwxon7QjBIf75SCz2QD?si=hSa6_TNWRdGguoe4CcI1jg) . The first recording was probably [this one](https://open.spotify.com/track/2p8CyCVtjf7P8flXljEVG3?si=ESCchXxKTXaLITIHlurCqg) , by McCann.
 
@@ -292,14 +292,14 @@ sections:
     - [Victor Gaskin, bass]
     - [Roy McCurdy, drums]
     spotify: 11zSX1BLCSxmbJxsZ9Yg15
-    guide:
-    - ['0:00', Spoken Introduction]
-    - ['0:06', 'First chorus, Zawinul enters on Wurlitzer']
-    - ['0:42', Spoken introduction ends]
-    - ['1:03', 'Second chorus, Zawinul joined by Nat and Cannonball']
-    - ['2:00', 'Third chorus, Zawinul solo. Listen to how restrained he plays. Not a bebop line to be heard. It''s all tasty blues and R&B licks, then he just plays the tune.']
-    - ['2:57', Fourth chorus. Zawinul continues soloing.]
-    - ['3:52', 'Fifth chorus, head out']
+    guide: |-
+      0:00 | Spoken Introduction
+      0:06 | First chorus, Zawinul enters on Wurlitzer
+      0:42 | Spoken introduction ends
+      1:03 | Second chorus, Zawinul joined by Nat and Cannonball
+      2:00 | Third chorus, Zawinul solo. Listen to how restrained he plays. Not a bebop line to be heard. It's all tasty blues and R&B licks, then he just plays the tune.
+      2:57 | Fourth chorus. Zawinul continues soloing.
+      3:52 | Fifth chorus, head out
   notes: |-
     \*The live nature of this recording was simulated. It was actually recorded in a studio in Hollywood with invited guests.
 

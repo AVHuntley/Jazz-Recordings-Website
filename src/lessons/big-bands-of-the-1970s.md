@@ -50,22 +50,22 @@ sections:
     spotify: 01lhOhs9MwgHJbZihJ4txH
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Intro groove with wah guitar]
-    - ['0:14', Melody]
-    - ['2:06', Abercrombie (g) and Kawasaki (g) trade solos with electronic effects]
-    - ['2:25', The whole band plays the melody again.]
-    - ['2:45', 'The whole band grooves together, improvising parts.']
-    - ['2:52', A riff from a synthesizer is added.]
-    - ['4:00', Bass and drums are practically the only instrument keeping time. Everyone is noodling.]
-    - ['4:57', Melody is played again. The bass clarinet part is easier to hear.]
-    - ['6:13', 'Bridge melody?']
-    - ['6:50', Guitar solo over synchronized background hits.]
-    - ['7:06', Melody again.]
-    - ['7:26', More jamming/noodling over the groove. It gets a little more wild here. Many instruments play atonally.]
-    - ['8:43', The band plays fragments of the melody together.]
-    - ['9:55', Melody played by full band again.]
-    - ['10:13', synth uses portamento to slide between octaves]
+    guide: |-
+      0:00 | Intro groove with wah guitar
+      0:14 | Melody
+      2:06 | Abercrombie (g) and Kawasaki (g) trade solos with electronic effects
+      2:25 | The whole band plays the melody again.
+      2:45 | The whole band grooves together, improvising parts.
+      2:52 | A riff from a synthesizer is added.
+      4:00 | Bass and drums are practically the only instrument keeping time. Everyone is noodling.
+      4:57 | Melody is played again. The bass clarinet part is easier to hear.
+      6:13 | Bridge melody?
+      6:50 | Guitar solo over synchronized background hits.
+      7:06 | Melody again.
+      7:26 | More jamming/noodling over the groove. It gets a little more wild here. Many instruments play atonally.
+      8:43 | The band plays fragments of the melody together.
+      9:55 | Melody played by full band again.
+      10:13 | synth uses portamento to slide between octaves
   notes: |-
     - This is a Jimi Hendrix composition that Evans arranged for his band. Compare this version to [the Hendrix original](https://open.spotify.com/track/4oarDDCWsSnX2WOIRKuQo1?si=y0cSDR-rTi-mh_TdYAWWTg) .
 - heading: Thad Jones - Mel Lewis Orchestra
@@ -117,14 +117,14 @@ sections:
     spotify: 0aVw8CE94VDRwLdAHBJUWj
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:12', Sir Rolland Hanna (p) solo]
-    - ['1:23', Ensemble]
-    - ['2:12', Snooky Young (tp) solo]
-    - ['3:15', Jimmy Nottingham (tp) solo]
-    - ['4:15', Joe Farrell (ts) solo]
-    - ['4:47', Hanna (p) plays a pedal point with tremolo octaves]
-    - ['5:52', 'Saxophone **soli** , lead sax is soprano (not alto like in most big bands). This was part of the Jones-Lewis sound.']
+    guide: |-
+      0:12 | Sir Rolland Hanna (p) solo
+      1:23 | Ensemble
+      2:12 | Snooky Young (tp) solo
+      3:15 | Jimmy Nottingham (tp) solo
+      4:15 | Joe Farrell (ts) solo
+      4:47 | Hanna (p) plays a pedal point with tremolo octaves
+      5:52 | Saxophone **soli** , lead sax is soprano (not alto like in most big bands). This was part of the Jones-Lewis sound.
   - title: Us
     performer: The Thad Jones/Mel Lewis Orchestra
     composer: Thad Jones
@@ -149,14 +149,14 @@ sections:
     spotify: 0Oipytskw32e2d0NzW2wnc
     intro: |-
       Sultanof calls this “rock music” (132)
-    guide:
-    - ['0:00', Ensemble riff trades with Jerome Richardson (ts)]
-    - ['0:37', Brass gospel fanfare]
-    - ['1:13', New groove established by rhythm section]
-    - ['1:29', 'New melody, Hanna (el-p) fills']
-    - ['2:02', Saxes play counter line]
-    - ['2:51', 'Tag, new section']
-    - ['3:00', Brass gospel fanfare again]
+    guide: |-
+      0:00 | Ensemble riff trades with Jerome Richardson (ts)
+      0:37 | Brass gospel fanfare
+      1:13 | New groove established by rhythm section
+      1:29 | New melody, Hanna (el-p) fills
+      2:02 | Saxes play counter line
+      2:51 | Tag, new section
+      3:00 | Brass gospel fanfare again
   notes: |-
     - Sultanof describes "Don't Get Sassy" as a "bluesy melody with a shuffle beat (the phrase used to describe it in jazz terms is *downhome* )” ([131](https://www.google.com/books/edition/Experiencing_Big_Band_Jazz/U7I3DwAAQBAJ?hl=en&gbpv=1&bsq=%22A%20bluesy%20melody%20with%20a%20shuffle%20beat%22))
     - Jones rarely plays trumpet. He frequently plays flugelhorn, and on this track he plays cornet.
@@ -207,27 +207,27 @@ sections:
     spotify: 0FfI23r9eyMJOSAh7j1Msn
     intro: |-
       "Minamata" is a three-part composition. Each part is labeled in the listening guide below.
-    guide:
-    - ['Peaceful Village (0:00-4:51)', '“Time becomes plastic, seeming to stretch out indefinitely. It is as if one experiences the hum of life within the village, a sound that is at once undisturbed and ominous. The tension increases, for it becomes clear that something must happen to break the spell.” [(Lyons, p.307)](bibliography.html#lyons-1980)']
-    - ['0:00', Michuri Mariano sings an introduction in Japanese without accompaniment.]
-    - ['0:22', 'Bass enters holding an arco pedal point, followed by brass and woodwinds. Time is rubato. Chords are held for minutes at a time while trumpet plays slow melodies. Drums play sustained sounds on the cymbals.']
-    - ['4:33', 'Short pauses interrupt the sustained sound, leading to the next part']
-    - ['Prosperity & Consequence (4:51-21:15)', '"While the melody is similar to bebop, the interplay of the band sections packs the punch of the swing style. Tabackin''s tenor solo, an extension of the Hawkins-Rollins tradition, builds in intensity through structure. Tabackin is a master of design, and these solos often take the form of long, unaccompanied, temperature-raising cadenzas in live performance." [(Lyons, p.307)](bibliography.html#lyons-1980)']
-    - ['4:52', 'Drums begin keeping time on hi-hat, signaling a new section. Saxophone plays a new melody. Brass responds with hits and a countermelody.']
-    - ['5:21', 'The saxophone section plays a new melody together, punctuated by brass hits.']
-    - ['5:51', Lew Tabackin (ts) solo. His vibrato sounds like that of Coleman Hawkins and Sonny Rollins.]
-    - ['8:24', 'Dick Spencer (as) solo. Modal, and intense.']
-    - ['11:02', Trombone solo]
-    - ['12:50', Noh vocals enter as the band plays a new theme.]
-    - ['13:09', Tenor saxophone solo]
-    - ['15:50', 'Trumpet #1 solos (Bobby Shew?)']
-    - ['16:20', 'Trumpet #2 solos (Steven Huffsteter?)']
-    - ['16:49', The two trumpets trade.]
-    - ['17:35', 'Noh vocals enter again and the band plays that same theme from 12:50. The music seems to grow more tense as several horn players improvise atonally.']
-    - ['19:26', 'Horns begin to layer one-by-one a new rhythmic theme that comes to a climax at 20:06.']
-    - ['20:21', 'Noh vocals return over a new instrumental theme. It begins to fade at 21:06 into the next part.']
-    - ['Epilogue (21:18-22:31)', '"A voice, supplied by a well-known actor in Japan''s Noh Theater, and *tzuzumi* drums reflect a solemn, eerie, and ageless perspective on the village''s unexpected fate." [(Lyons, p.307)](bibliography.html#lyons-1980)']
-    - ['21:18', Noh vocalist sings over arco pedal from the bass. Wind instruments play slow chords that crescendo and diminish together.]
+    guide: |-
+      Peaceful Village (0:00-4:51) | “Time becomes plastic, seeming to stretch out indefinitely. It is as if one experiences the hum of life within the village, a sound that is at once undisturbed and ominous. The tension increases, for it becomes clear that something must happen to break the spell.” [(Lyons, p.307)](bibliography.html#lyons-1980)
+      0:00 | Michuri Mariano sings an introduction in Japanese without accompaniment.
+      0:22 | Bass enters holding an arco pedal point, followed by brass and woodwinds. Time is rubato. Chords are held for minutes at a time while trumpet plays slow melodies. Drums play sustained sounds on the cymbals.
+      4:33 | Short pauses interrupt the sustained sound, leading to the next part
+      Prosperity & Consequence (4:51-21:15) | "While the melody is similar to bebop, the interplay of the band sections packs the punch of the swing style. Tabackin's tenor solo, an extension of the Hawkins-Rollins tradition, builds in intensity through structure. Tabackin is a master of design, and these solos often take the form of long, unaccompanied, temperature-raising cadenzas in live performance." [(Lyons, p.307)](bibliography.html#lyons-1980)
+      4:52 | Drums begin keeping time on hi-hat, signaling a new section. Saxophone plays a new melody. Brass responds with hits and a countermelody.
+      5:21 | The saxophone section plays a new melody together, punctuated by brass hits.
+      5:51 | Lew Tabackin (ts) solo. His vibrato sounds like that of Coleman Hawkins and Sonny Rollins.
+      8:24 | Dick Spencer (as) solo. Modal, and intense.
+      11:02 | Trombone solo
+      12:50 | Noh vocals enter as the band plays a new theme.
+      13:09 | Tenor saxophone solo
+      15:50 | Trumpet #1 solos (Bobby Shew?)
+      16:20 | Trumpet #2 solos (Steven Huffsteter?)
+      16:49 | The two trumpets trade.
+      17:35 | Noh vocals enter again and the band plays that same theme from 12:50. The music seems to grow more tense as several horn players improvise atonally.
+      19:26 | Horns begin to layer one-by-one a new rhythmic theme that comes to a climax at 20:06.
+      20:21 | Noh vocals return over a new instrumental theme. It begins to fade at 21:06 into the next part.
+      Epilogue (21:18-22:31) | "A voice, supplied by a well-known actor in Japan's Noh Theater, and *tzuzumi* drums reflect a solemn, eerie, and ageless perspective on the village's unexpected fate." [(Lyons, p.307)](bibliography.html#lyons-1980)
+      21:18 | Noh vocalist sings over arco pedal from the bass. Wind instruments play slow chords that crescendo and diminish together.
   notes: |-
     - The title is the name of both [a Japanese city](https://en.wikipedia.org/wiki/Minamata,_Kumamoto) and, subsequently, [the disease caused by severe mercury poisoning](https://en.wikipedia.org/wiki/Minamata_disease) . That the disease was named after the town suggests the tragedy that Akiyoshi's composition depicts. Between 1932 and 1968, a company released toxic waste into Minamata Bay which made its way into the citizens of the city. Thousands of people were poisoned.
     - Michuri Mariano, whose vocals begin the composition, is the (then) 13-year-old daughter of Akiyoshi.

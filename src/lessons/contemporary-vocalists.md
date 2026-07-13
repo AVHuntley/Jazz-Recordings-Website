@@ -44,15 +44,15 @@ sections:
       ETHEL: Cornelius Dufallo, Mary Rowell (violin); Ralph Farris (viola); Dorothy Lawson (cello);
 
       Form: AABC (on other versions, C is repeated for solos. A and B never repeat.)
-    guide:
-    - ['0:00', 'A: Vocal & piano rubato']
-    - ['0:33', 'A: Reharmonized chords']
-    - ['1:07', B]
-    - ['1:50', 'C, band enters, tempo established']
-    - ['2:49', 'D? Extension']
-    - ['3:27', 'Elling holds high note, band lays out briefly']
-    - ['3:36', 'Band reenters, final phrase']
-    - ['3:59', 'Vocal cadenza, strings + piano end']
+    guide: |-
+      0:00 | A: Vocal & piano rubato
+      0:33 | A: Reharmonized chords
+      1:07 | B
+      1:50 | C, band enters, tempo established
+      2:49 | D? Extension
+      3:27 | Elling holds high note, band lays out briefly
+      3:36 | Band reenters, final phrase
+      3:59 | Vocal cadenza, strings + piano end
   notes: |-
     - "Lush Life" by Billy Strayhorn is a sophisticated standard. Famous versions include Coltrane/Hartman’s.
     - ETHEL is an amplified, sometimes improvising string quartet.
@@ -83,19 +83,19 @@ sections:
     spotify: 7Joyne3CVPOx7OusuDvnqy
     intro: |-
       Form: It's a two-part structure. Perhaps just AB. I've labeled it Verse-Chorus below, since that's what it feels like to me.
-    guide:
-    - ['0:00', Intro]
-    - ['0:16', Verse 1]
-    - ['0:48', Chorus (partido alto groove)]
-    - ['1:21', Verse 2]
-    - ['1:52', Chorus]
-    - ['2:24', Sax solo]
-    - ['2:54', Sax solo over chorus]
-    - ['3:24', Verse 3]
-    - ['3:55', Chorus]
-    - ['4:29', Verse 4]
-    - ['4:59', Chorus]
-    - ['5:31', Vamp & fade]
+    guide: |-
+      0:00 | Intro
+      0:16 | Verse 1
+      0:48 | Chorus (partido alto groove)
+      1:21 | Verse 2
+      1:52 | Chorus
+      2:24 | Sax solo
+      2:54 | Sax solo over chorus
+      3:24 | Verse 3
+      3:55 | Chorus
+      4:29 | Verse 4
+      4:59 | Chorus
+      5:31 | Vamp & fade
   notes: |-
     - Watch the official music video for a visual narrative.
     - The chorus groove is a sped-up partido alto pattern from Brazilian funk music.
@@ -123,16 +123,16 @@ sections:
     - [Otis Brown, drums]
     - [Jamey Haddad, percussion]
     spotify: 3afeZ81GDy59tATovKyH6Z
-    guide:
-    - ['0:00', Intro bass line]
-    - ['0:23', Verse 1]
-    - ['0:44', Chorus (fast partido alto)]
-    - ['0:56', Verse 2]
-    - ['1:17', Chorus]
-    - ['1:38', Bridge]
-    - ['1:54', Piano solo over static harmony]
-    - ['2:15', Chorus]
-    - ['2:36', 'Back to intro groove, fade']
+    guide: |-
+      0:00 | Intro bass line
+      0:23 | Verse 1
+      0:44 | Chorus (fast partido alto)
+      0:56 | Verse 2
+      1:17 | Chorus
+      1:38 | Bridge
+      1:54 | Piano solo over static harmony
+      2:15 | Chorus
+      2:36 | Back to intro groove, fade
   notes: |-
     - Watch a live performance on YouTube to see Spalding’s remarkable stage presence and musicianship.
     - The chorus groove is borrowed from a Brazilian funk known as partido alto, sped up considerably.
@@ -160,16 +160,16 @@ sections:
     spotify: 4h42APp9n0wq4wIZHgcPPE
     intro: |-
       Form: AABA'
-    guide:
-    - ['0:00', Piano intro]
-    - ['0:15', A]
-    - ['0:32', A]
-    - ['0:48', B]
-    - ['1:05', A']
-    - ['1:29', Salvant “solos” by subtly altering melody & phrasing]
-    - ['2:38', Bass (Sikivie) solo]
-    - ['4:54', 'Head out, Salvant returns to lyrics, still improvisational']
-    - ['6:01', Ending]
+    guide: |-
+      0:00 | Piano intro
+      0:15 | A
+      0:32 | A
+      0:48 | B
+      1:05 | A'
+      1:29 | Salvant “solos” by subtly altering melody & phrasing
+      2:38 | Bass (Sikivie) solo
+      4:54 | Head out, Salvant returns to lyrics, still improvisational
+      6:01 | Ending
   notes: |-
     - Recorded live at the Village Vanguard.
     - Watch a video of a live performance of this arrangement to see her approach.
@@ -199,13 +199,13 @@ sections:
     spotify: 6qnpyuyEKEmcM2R0xbLjzm
     intro: |-
       *Form: AABA*
-    guide:
-    - ['0:03', 'AA, head in']
-    - ['0:17', B]
-    - ['0:24', A]
-    - ['0:35', Horn scats]
-    - ['1:08', Drum solo (Jennings)]
-    - ['1:35', AABA head out]
+    guide: |-
+      0:03 | AA, head in
+      0:17 | B
+      0:24 | A
+      0:35 | Horn scats
+      1:08 | Drum solo (Jennings)
+      1:35 | AABA head out
   notes: |-
     - Watch Horn perform this live to appreciate her joyful interpretation.
 - heading: Jacob Collier

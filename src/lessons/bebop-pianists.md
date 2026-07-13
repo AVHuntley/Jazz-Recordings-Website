@@ -35,13 +35,13 @@ sections:
       12-bar blues (Bb)
 
       [(McCalla, p.109)](bibliography.html#mccalla-2000) ; [(Hasse and Lathrop, p.148)](bibliography.html#hasse-lathrop-2012) ;
-    guide:
-    - ['0:00', Monk solo introduction]
-    - ['0:11', Head in]
-    - ['0:46', Milt Jackson (vib) solo]
-    - ['1:22', 'Monk (p) solo, 2 choruses']
-    - ['2:39', Head out]
-    - ['3:15', Whole tone scale run]
+    guide: |-
+      0:00 | Monk solo introduction
+      0:11 | Head in
+      0:46 | Milt Jackson (vib) solo
+      1:22 | Monk (p) solo, 2 choruses
+      2:39 | Head out
+      3:15 | Whole tone scale run
   - title: Round Midnight
     performer: artist
     composer: Thelonious Monk & Cootie Williams
@@ -58,12 +58,12 @@ sections:
     spotify: 4CUVRSVgLulmqRfoL6iDqE
     intro: |-
       Intro comes from the ending of Dizzy Gillespie’s recording of “I Can’t Get Started”
-    guide:
-    - ['0:00', Intro]
-    - ['0:26', Head in]
-    - ['2:17', Monk (p) solo]
-    - ['4:10', Griffin (ts) solo (1/2 chorus)]
-    - ['5:07', 'Head out, from bridge, played freely']
+    guide: |-
+      0:00 | Intro
+      0:26 | Head in
+      2:17 | Monk (p) solo
+      4:10 | Griffin (ts) solo (1/2 chorus)
+      5:07 | Head out, from bridge, played freely
 - heading: Bud Powell
   artists:
   - name: Bud Powell
@@ -99,16 +99,16 @@ sections:
       "His right-hand melodic lines are interwoven with chromatic bop runs, encirculations, ornaments and arpeggio figures, all executed with the attack of a hard-blown horn and an insistent intensely driving swing feel. The fast tempo doesn't prevent Powell striving to explore upper harmonic extensions in a tirade of eighth notes and triplets, punctuated by largely bare left-hand voicings of root plus third or seventh, leaving the right hand free for unhindered harmonic adventurousness." [(White, p.14)](bibliography.html#white-2016)
 
       Huw [(White, p.13)](bibliography.html#white-2016)
-    guide:
-    - ['0:00', Introduction]
-    - ['0:07', AA]
-    - ['0:21', B]
-    - ['0:28', A]
-    - ['0:34', Solo break into Powell (p) solo.]
-    - ['1:06', 2nd chorus of Powell solo]
-    - ['1:36', Duvivier (b) solo]
-    - ['2:06', Head out. Powell plays around the melody.]
-    - ['2:35', Outro]
+    guide: |-
+      0:00 | Introduction
+      0:07 | AA
+      0:21 | B
+      0:28 | A
+      0:34 | Solo break into Powell (p) solo.
+      1:06 | 2nd chorus of Powell solo
+      1:36 | Duvivier (b) solo
+      2:06 | Head out. Powell plays around the melody.
+      2:35 | Outro
 - heading: Erroll Garner
   artists:
   - name: Erroll Garner
@@ -146,13 +146,13 @@ sections:
       Listen for four-to-the-floor left hand chords, typical of Garner’s style.
 
       Left hand is very syncopated! Almost sounds like two pianists.
-    guide:
-    - ['0:00', Intro]
-    - ['0:30', Head in]
-    - ['1:32', Garner (p) solo]
-    - ['2:35', '2nd Chorus, listen for LH hemiola syncopation (again at 2:51 & 3:24)']
-    - ['3:38', Tag]
-    - ['3:53', Outro]
+    guide: |-
+      0:00 | Intro
+      0:30 | Head in
+      1:32 | Garner (p) solo
+      2:35 | 2nd Chorus, listen for LH hemiola syncopation (again at 2:51 & 3:24)
+      3:38 | Tag
+      3:53 | Outro
 - heading: Marian McPartland
   artists:
   - name: Marian McPartland
@@ -183,9 +183,9 @@ sections:
       Listen for use of LH, and clever piano arrangements.
 
       LH counterpoint, almost baroque-style. Maybe sounds like Nina Simone?
-    guide:
-    - ['0:00', Intro]
-    - ['0:08', 'Head in, listen for LH counter-lines']
-    - ['1:03', McPartland (p) solo]
-    - ['2:09', Head out]
+    guide: |-
+      0:00 | Intro
+      0:08 | Head in, listen for LH counter-lines
+      1:03 | McPartland (p) solo
+      2:09 | Head out
 ---

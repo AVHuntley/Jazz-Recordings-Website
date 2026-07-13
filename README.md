@@ -52,15 +52,19 @@ Open e.g. `src/lessons/hard-bop.md`. A track looks like this:
     Prose goes here. Plain text, with **bold**, *italics*, and
     [links](https://example.com). To cite a source, link page numbers
     to its bibliography anchor: [p. 257](bibliography.html#porter-ullman-1993)
-  guide:
-    - ["0:00", "Head in, AA"]
-    - ["0:36", "Brown (tp) solo"]
+  guide: |-
+    0:00 | Head in, AA
+    0:36 | Brown (tp) solo
   notes: |
     Anything for the "Additional Information" box.
 ```
 
 Fields you leave blank simply don't appear (no more empty "Arranger:" lines). To paste a new
 Spotify track, you only need the ID — the part of the embed URL after `/track/`.
+
+Listening-guide rows are plain text lines, `time | description`, split at the **first** pipe.
+Commas, colons, quotes, and apostrophes are all safe on either side; the time column can be
+anything ("0:36", "1:03, 1:21", "Form"). A line without a `|` fails the build.
 
 ## Videos
 
@@ -88,7 +92,9 @@ There exists exactly one video recording of Bessie Smith...
 A token pointing at a name that isn't in `media:` fails the build. For YouTube, use
 `youtube: <video-id>` (plus optional `params: list=...` for playlist context) instead of `mp4:`.
 For sources that only offer embed codes (like Internet Archive), use
-`iframe: https://archive.org/embed/...`. Prefer `mp4:` when the source offers a direct file (Library of Congress National
+`iframe: https://archive.org/embed/...`. For plain audio files, use `audio: <url>` and place it
+with an `@audio(name)` token (same map, same figure styling — prefer .mp3 over .ogg, which
+Safari can't play; Wikimedia Commons publishes .mp3 transcodes of its audio files). Prefer `mp4:` when the source offers a direct file (Library of Congress National
 Screening Room items do): it uses the browser's native player, loads nothing until pressed, and
 keeps the page free of third-party scripts. Captions take markdown, so credit the source with a
 link. (Tracks and sections can also take a `videos:` list of the same objects for fixed
@@ -106,19 +112,35 @@ source's anchor:
 ...the highest paid Black performing artist in the world [p. 41](bibliography.html#gioia-2008).
 ```
 
-At build time this becomes a small numbered superscript. The page number stays with the marker —
-hovering shows "Gioia (2008), p. 41" — and clicking jumps to that source's entry in the
-**Sources** card at the bottom of the page. Each source has one number per page, no matter how
-many times or on which pages it's cited; the Sources entry names the source once (no page
-numbers) and links to the full citation in the bibliography. Older labels
+At build time this becomes a small numbered superscript (endnote style: numbered in reading
+order). Hovering shows "Gioia (2008), p. 41"; clicking jumps to that note in the **Sources**
+card at the bottom of the page, where the note shows the pages and links to the full citation
+in the bibliography. Citing the same source at the same pages reuses its number; different
+pages get a new note — that's how footnotes work.
+
+**Web citations** are for one-off sources that don't belong in the bibliography. Start the link
+text with `^` to make it a numbered note instead of a plain link:
+
+```markdown
+...named to the National Film Registry in 2006.[^National Film Registry, Library of Congress](https://www.loc.gov/programs/...)
+```
+
+The note shows the label, linked to the URL. Links *without* the `^` stay ordinary hyperlinks
+and never touch the Sources card. Older labels
 like `[(Lyons, p.182)](...)` still work — only the page numbers are read — but `[p. 182](...)` is
 the preferred form going forward.
 
 **Section sources** are general references for a whole section (not tied to one claim). Declare
-them in the section's front matter; they're merged into the page's Sources card with duplicates
-removed, and their consulted pages show on the entry ("Porter & Ullman (1993) — pp. 64–65").
-The whole list sorts alphabetically by author, then by year. Pages from *inline* citations stay
-in the marker tooltips and never clutter the card.
+them in the section's front matter; they render as an unnumbered list after the numbered notes,
+with consulted pages shown ("Porter & Ullman (1993) — pp. 64–65"). One is dropped only if a
+numbered note already cites exactly the same source and pages. Entries are either bibliography
+refs or one-off web sources — each entry **must start with `- `** (it's a YAML list):
+
+```yaml
+sources:
+- {ref: gioia-2008, pages: 40-41}
+- {url: 'https://www.ragtimepiano.ca/rags/classical.htm', label: 'Classic ragtime piano — ragtimepiano.ca'}
+```
 
 One-off pointers — especially web sources — don't need the bibliography at all: an ordinary
 markdown link in prose is the right tool. Promote a web source to `bibliography.yaml` only when

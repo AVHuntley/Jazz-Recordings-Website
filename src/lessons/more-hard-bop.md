@@ -39,19 +39,19 @@ sections:
       No drums on bridge creates a “floating” sound.
 
       Only 2 chords on A sections.
-    guide:
-    - ['0:00', Spoken introduction]
-    - ['0:46', Intro]
-    - ['0:55', A]
-    - ['1:13', A]
-    - ['1:30', 'B, drums lay out']
-    - ['1:48', A]
-    - ['2:05', 'Farmer (tp) solo, AA']
-    - ['2:40', 'Golson (ts) solo, BA, last A backgrounds played by Fuller (tb) and Farmer (tp)']
-    - ['3:15', 'Fuller (tb) solo, AA, second A backgrounds (@3:40, quotes “Easy Living”)']
-    - ['3:49', 'Tyner (p) solo, BA, mostly chordal w/ blues licks']
-    - ['4:24', 'Head out, A only']
-    - ['4:50', “Killer Joe!”]
+    guide: |-
+      0:00 | Spoken introduction
+      0:46 | Intro
+      0:55 | A
+      1:13 | A
+      1:30 | B, drums lay out
+      1:48 | A
+      2:05 | Farmer (tp) solo, AA
+      2:40 | Golson (ts) solo, BA, last A backgrounds played by Fuller (tb) and Farmer (tp)
+      3:15 | Fuller (tb) solo, AA, second A backgrounds (@3:40, quotes “Easy Living”)
+      3:49 | Tyner (p) solo, BA, mostly chordal w/ blues licks
+      4:24 | Head out, A only
+      4:50 | “Killer Joe!”
   - title: Mox Nix
     performer: The Art Farmer & Benny Golson Jazztet
     composer: Art Farmer
@@ -65,14 +65,14 @@ sections:
     - [Addison Farmer, bass]
     - [Lex Humphries, drums]
     spotify: 1wpFPNZxy1BN2hq59yJls8
-    guide:
-    - ['0:00', 'Introduction, unlike the rest of the song']
-    - ['0:18', 'A, tight horn arrangement']
-    - ['0:33', Farmer (tp) solo]
-    - ['1:24', Golson (ts) solo]
-    - ['2:02', 'Fuller (tb) solo, drums lay out, then background added, then drums return.']
-    - ['2:54', Tyner (p) solo]
-    - ['3:31', 'Outro, new chords and form']
+    guide: |-
+      0:00 | Introduction, unlike the rest of the song
+      0:18 | A, tight horn arrangement
+      0:33 | Farmer (tp) solo
+      1:24 | Golson (ts) solo
+      2:02 | Fuller (tb) solo, drums lay out, then background added, then drums return.
+      2:54 | Tyner (p) solo
+      3:31 | Outro, new chords and form
 - heading: Lee Morgan
   artists:
   - name: Lee Morgan
@@ -109,16 +109,16 @@ sections:
       Barry Harris was not just an important pianist of this era. He was also a dedicated educator. His master classes are among the best jazz videos on the internet. Here's an example:
 
       [Feeling the &quot;and&quot;](https://www.youtube.com/watch?v=_uMNrujMdJU&t=285s)
-    guide:
-    - ['0:00', 'Intro, it’s the song form without a melody']
-    - ['0:37', Head in]
-    - ['1:13', Head 2 nd time]
-    - ['1:50', Morgan (tp) solo]
-    - ['3:40', Henderson (ts) solo]
-    - ['5:33', 'Harris (p) solo, very sparse and riff-based']
-    - ['7:26', Cranshaw (b) solo]
-    - ['8:43', Head out]
-    - ['9:58', Studio fade]
+    guide: |-
+      0:00 | Intro, it’s the song form without a melody
+      0:37 | Head in
+      1:13 | Head 2 nd time
+      1:50 | Morgan (tp) solo
+      3:40 | Henderson (ts) solo
+      5:33 | Harris (p) solo, very sparse and riff-based
+      7:26 | Cranshaw (b) solo
+      8:43 | Head out
+      9:58 | Studio fade
 - heading: Joe Henderson
   artists:
   - name: Joe Henderson
@@ -147,14 +147,14 @@ sections:
       *Page One* was Henderson’s debut release.
 
       Almost certainly a misspelling of “recuérdame,” which means “remember me” in Spanish. This song has also been released as “no me esqueca” which is probably a misspelling of the Portuguese “não me esqueça” which means “don’t forget me.”
-    guide:
-    - ['0:00', Intro (which more people should learn)]
-    - ['0:12', Head in]
-    - ['0:55', Henderson (ts) solo]
-    - ['2:20', Dorham (tp) solo]
-    - ['3:44', Tyner (p) solo]
-    - ['4:48', Background lines added over piano solo]
-    - ['5:08', Head out]
+    guide: |-
+      0:00 | Intro (which more people should learn)
+      0:12 | Head in
+      0:55 | Henderson (ts) solo
+      2:20 | Dorham (tp) solo
+      3:44 | Tyner (p) solo
+      4:48 | Background lines added over piano solo
+      5:08 | Head out
 - heading: Charles Mingus
   artists:
   - name: Charles Mingus
@@ -191,9 +191,9 @@ sections:
       *Mingus Ah Um* was released the same year as *Kind of Blue* , *Giant Steps* , *Time Out* , and *The Shape of Jazz to Come* , 1959 (what a year to be a jazz fan!).
 
       [(Deveaux and Giddins, p.267)](bibliography.html#deveaux-giddins-2011) ; [(Lawn, p.277)](bibliography.html#lawn-2013) ;
-    guide:
-    - ['0:00', 'Intro, head, each chorus a new riff']
-    - ['0:55', Ervin (ts) solo]
-    - ['1:40', 'Parlan (p) solo, first over backgrounds with single riffs, then more typical solo stuff.']
-    - ['3:31', Richmond (d) solo]
+    guide: |-
+      0:00 | Intro, head, each chorus a new riff
+      0:55 | Ervin (ts) solo
+      1:40 | Parlan (p) solo, first over backgrounds with single riffs, then more typical solo stuff.
+      3:31 | Richmond (d) solo
 ---

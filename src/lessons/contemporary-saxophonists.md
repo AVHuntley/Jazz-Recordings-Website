@@ -29,11 +29,11 @@ sections:
     - [Nat Reeves, bass]
     - [Ronald Bruner, drums]
     spotify: 4F2GVbpLBE0G7dPIZMp0tC
-    guide:
-    - ['0:00', Head in]
-    - ['0:48', Garrett (as) solo]
-    - ['3:37', Gonzalez (p) solo]
-    - ['5:21', Head out]
+    guide: |-
+      0:00 | Head in
+      0:48 | Garrett (as) solo
+      3:37 | Gonzalez (p) solo
+      5:21 | Head out
   notes: |-
     - This track evokes the Coltrane/Tyner tradition. The rhythmic figure and fourth-based voicings resemble McCoy Tyner’s style (see "Passion Dance").
     - Garrett uses pentatonic scales and plays “outside” the harmony, then resolves back to the home key (B♭ minor).
@@ -59,22 +59,22 @@ sections:
     spotify: 2eH9fbAlUoeEoW3VIC3Uct
     intro: |-
       Form: AABACA
-    guide:
-    - ['0:00', 'Drum roll into groove, Rhodes, organ, bass']
-    - ['0:25', A theme (tp & ts in unison)]
-    - ['0:50', B]
-    - ['1:02', A]
-    - ['1:13', C]
-    - ['1:26', A']
-    - ['1:40', 'Payton (tp) solo, chromatic “out” notes']
-    - ['2:02', Overdubbed trumpets support the solo]
-    - ['2:51', 'Redman (ts) solo, quoting Payton’s ending phrase']
-    - ['3:18', Overdubbed sax lines support Redman’s solo]
-    - ['4:04', Payton & Redman trade]
-    - ['5:03', A' head out]
-    - ['5:15', Vamp continues]
-    - ['5:27', Organ lick repeated]
-    - ['6:29', Rhodes & organ drop out]
+    guide: |-
+      0:00 | Drum roll into groove, Rhodes, organ, bass
+      0:25 | A theme (tp & ts in unison)
+      0:50 | B
+      1:02 | A
+      1:13 | C
+      1:26 | A'
+      1:40 | Payton (tp) solo, chromatic “out” notes
+      2:02 | Overdubbed trumpets support the solo
+      2:51 | Redman (ts) solo, quoting Payton’s ending phrase
+      3:18 | Overdubbed sax lines support Redman’s solo
+      4:04 | Payton & Redman trade
+      5:03 | A' head out
+      5:15 | Vamp continues
+      5:27 | Organ lick repeated
+      6:29 | Rhodes & organ drop out
   notes: |-
     - Jazz-funk is now an established part of the jazz landscape. This track shows Redman’s funk side.
     - Sam Yahel often collaborates with Redman, notable on organ and piano.
@@ -102,16 +102,16 @@ sections:
     spotify: 6HkuGt2ZjfxYkGMCXK43BA
     intro: |-
       ...
-    guide:
-    - ['0:00', 'Potter plays ilimba (thumb piano), unaccompanied']
-    - ['0:36', Groove established with drums]
-    - ['0:59', Piano enters with open intervals]
-    - ['1:23', Potter (ts) melody]
-    - ['2:37', Potter solo]
-    - ['5:04', Virelles (p) solo]
-    - ['7:05', Composed hits return]
-    - ['7:19', Gilmore (d) solo]
-    - ['9:07', Head out]
+    guide: |-
+      0:00 | Potter plays ilimba (thumb piano), unaccompanied
+      0:36 | Groove established with drums
+      0:59 | Piano enters with open intervals
+      1:23 | Potter (ts) melody
+      2:37 | Potter solo
+      5:04 | Virelles (p) solo
+      7:05 | Composed hits return
+      7:19 | Gilmore (d) solo
+      9:07 | Head out
   notes: |-
     - Ilimba is a thumb piano similar to an mbira.
 - heading: Donny McCaslin
@@ -140,14 +140,14 @@ sections:
     spotify: 2hNdWIQgBP0zEZSGEAj2G6
     intro: |-
       6:15 –
-    guide:
-    - ['0:00', 'Intro groove, synth noises']
-    - ['0:29', A melody]
-    - ['1:36', Anthem-style theme]
-    - ['3:00', McCaslin solo builds slowly]
-    - ['4:55', 'Distorted keys, vamp for drums']
-    - ['7:09', Anthem theme returns]
-    - ['7:38', Vocals added for anthem-like climax]
+    guide: |-
+      0:00 | Intro groove, synth noises
+      0:29 | A melody
+      1:36 | Anthem-style theme
+      3:00 | McCaslin solo builds slowly
+      4:55 | Distorted keys, vamp for drums
+      7:09 | Anthem theme returns
+      7:38 | Vocals added for anthem-like climax
   notes: |-
     - Same band as Bowie’s *Blackstar* sessions.
 - heading: Melissa Aldana
@@ -170,11 +170,11 @@ sections:
     - [Pablo Menares, bass]
     - [Tommy Crane, drums]
     spotify: 4araZQQ2FfuBV1neE1WGJM
-    guide:
-    - ['0:00', 'Aldana solo intro, referencing melody']
-    - ['1:15', 'Rhythm section enters, Aldana states head (long form, mixing melody & improv)']
-    - ['3:17', 'Harris (p) solo, intricate voice-leading, shifting in & out of dissonance']
-    - ['5:19', Head out]
+    guide: |-
+      0:00 | Aldana solo intro, referencing melody
+      1:15 | Rhythm section enters, Aldana states head (long form, mixing melody & improv)
+      3:17 | Harris (p) solo, intricate voice-leading, shifting in & out of dissonance
+      5:19 | Head out
   notes: |-
     - Notice how Aldana seamlessly blends melody and improvisation over a long form.
     - Harris’s piano solo references gospel voicings (4:25) and Monk-like dissonances (5:00).

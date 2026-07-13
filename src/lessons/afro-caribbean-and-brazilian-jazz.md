@@ -51,14 +51,14 @@ sections:
     - [Mongo Santamaria, 'congas, percussion']
     - [Vicentico Valdes, vocals]
     spotify: 6F98aw7U8XiovcnowOi8VV
-    guide:
-    - ['0:00', Intro]
-    - ['0:14', Head in]
-    - ['0:53', Interlude]
-    - ['1:03', 'Mambo section, campana (bell), moñas (horn riffs)']
-    - ['1:24', Baritone sax solo]
-    - ['2:10', B section of melody]
-    - ['2:19', Outro]
+    guide: |-
+      0:00 | Intro
+      0:14 | Head in
+      0:53 | Interlude
+      1:03 | Mambo section, campana (bell), moñas (horn riffs)
+      1:24 | Baritone sax solo
+      2:10 | B section of melody
+      2:19 | Outro
   notes: |-
     - This piece is in 2-3 son clave. Notice how after the initial arranged section, the band settles into a groove with montunos, tumbaos, and moñas.
 - heading: Mongo Santamaria
@@ -81,17 +81,17 @@ sections:
     - [Mongo Santamaria, 'congas, percussion']
     - ['Armando Peraza, Modesto Duran, Carlos Vidal, Francisco Aguabella, Willie Bobo, Jose Gamboa, Juan Cheda, Jerry Rivera', additional percussion]
     spotify: 7L92MWLFM6m3Ry1vCdthmj
-    guide:
-    - ['0:00', Congas intro]
-    - ['0:04', Bass enters]
-    - ['0:12', Chékere]
-    - ['0:19', Marimba enters with 6/8 clave]
-    - ['0:27', Head in (flute & marimba)]
-    - ['1:05', B section]
-    - ['1:29', Flute solo]
-    - ['2:14', Marimba solo]
-    - ['3:00', Conga solo with flute riff]
-    - ['3:45', 'Outro, all play 6/8 clave']
+    guide: |-
+      0:00 | Congas intro
+      0:04 | Bass enters
+      0:12 | Chékere
+      0:19 | Marimba enters with 6/8 clave
+      0:27 | Head in (flute & marimba)
+      1:05 | B section
+      1:29 | Flute solo
+      2:14 | Marimba solo
+      3:00 | Conga solo with flute riff
+      3:45 | Outro, all play 6/8 clave
   notes: |-
     - This uses a 6/8 clave rather than son or rumba clave. "Afro Blue" became a jazz standard recorded famously by John Coltrane and many others.
   figures:
@@ -124,16 +124,16 @@ sections:
     - [George Ortiz, percussion]
     - ['Joey De Leon, Jr.', 'bongo, percussion, drums']
     spotify: 0Y4AMrbLO8PQBXtOt8D70S
-    guide:
-    - ['0:00', Intro]
-    - ['0:12', Head in]
-    - ['0:53', Ensemble soli]
-    - ['1:03', Blanchard (tp) solo]
-    - ['2:11', Trombone solo]
-    - ['3:29', Percussion solo over montuno & tumbao]
-    - ['4:24', Moña (horn riff)]
-    - ['4:43', Head out (quotes "Four")]
-    - ['4:58', Outro]
+    guide: |-
+      0:00 | Intro
+      0:12 | Head in
+      0:53 | Ensemble soli
+      1:03 | Blanchard (tp) solo
+      2:11 | Trombone solo
+      3:29 | Percussion solo over montuno & tumbao
+      4:24 | Moña (horn riff)
+      4:43 | Head out (quotes "Four")
+      4:58 | Outro
   notes: |-
     - A jazz standard played over a salsa groove. The piano plays a montuno, the bass a tumbao, and horns contribute a moña. The bongocero switches to the bongo bell during the solos.
   figures:
@@ -166,14 +166,14 @@ sections:
     - [Tommy Williams, bass]
     - [Milton Banana, drums]
     spotify: 58TnktmMKygKvmKEHInhuc
-    guide:
-    - ['0:00', Intro]
-    - ['0:07', João sings in Portuguese]
-    - ['1:22', Astrud sings in English]
-    - ['2:35', Getz (ts) solo]
-    - ['3:48', Jobim (p) plays A section]
-    - ['4:17', Astrud sings B section out]
-    - ['4:59', Vamp and fade]
+    guide: |-
+      0:00 | Intro
+      0:07 | João sings in Portuguese
+      1:22 | Astrud sings in English
+      2:35 | Getz (ts) solo
+      3:48 | Jobim (p) plays A section
+      4:17 | Astrud sings B section out
+      4:59 | Vamp and fade
   notes: |-
     - Listen to the singers’ forward-phrasing and the gentle, understated rhythm. This recording defined bossa nova for many listeners worldwide.
 - heading: Art Blakey
@@ -197,14 +197,14 @@ sections:
     - [Reggie Workman, bass]
     - [Art Blakey, drums]
     spotify: 5DGTmpn0z4qlqEq2ZBd8XH
-    guide:
-    - ['0:00', Intro]
-    - ['0:11', Head in]
-    - ['1:42', Hubbard solo]
-    - ['3:14', Shorter solo]
-    - ['4:45', Walton solo]
-    - ['6:14', Head out]
-    - ['7:43', Vamp & fade]
+    guide: |-
+      0:00 | Intro
+      0:11 | Head in
+      1:42 | Hubbard solo
+      3:14 | Shorter solo
+      4:45 | Walton solo
+      6:14 | Head out
+      7:43 | Vamp & fade
   notes: |-
     - Though this is a bossa nova tune, Blakey’s band gives it a slightly more swinging, energetic feel—sometimes termed "swamba." This reflects how versatile jazz musicians became at blending styles.
 - heading: Eliane Elias
@@ -224,16 +224,16 @@ sections:
     - [Marcelo Mariano, electric bass]
     - [Edu Ribeiro, drums]
     spotify: 5S0aF2zI9r3o6810b97mj0
-    guide:
-    - ['0:00', Intro]
-    - ['0:11', A]
-    - ['0:21', A]
-    - ['0:32', B]
-    - ['1:06', 2nd chorus (AA)]
-    - ['1:23', B section again]
-    - ['1:54', Interlude]
-    - ['1:58', Elias (p) solo]
-    - ['3:06', Head out]
+    guide: |-
+      0:00 | Intro
+      0:11 | A
+      0:21 | A
+      0:32 | B
+      1:06 | 2nd chorus (AA)
+      1:23 | B section again
+      1:54 | Interlude
+      1:58 | Elias (p) solo
+      3:06 | Head out
   notes: |-
     - "O Pato" (“The Duck”) was one of the early bossa novas, included on the seminal *Jazz Samba* album that popularized bossa nova in the U.S.
     - The “Quen, Quen” lyric mimics “Quack, Quack.”

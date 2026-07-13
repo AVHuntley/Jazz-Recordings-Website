@@ -39,13 +39,13 @@ sections:
       This is from the same recording session that gave us versions of "Salt Peanuts," "Shaw ‘Nuff," and "Hot House"—classic bebop recordings.
 
       Observe the two-part horn backgrounds played during the head.
-    guide:
-    - ['0:00', 'Intro, Gillespie (trumpet) and Parker (alto saxophone)']
-    - ['0:16', 'Head in, Vaughan (vocals)']
-    - ['1:12', Bridge]
-    - ['2:08', Gillespie (trumpet) solo]
-    - ['2:38', Head out]
-    - ['3:08', Outro]
+    guide: |-
+      0:00 | Intro, Gillespie (trumpet) and Parker (alto saxophone)
+      0:16 | Head in, Vaughan (vocals)
+      1:12 | Bridge
+      2:08 | Gillespie (trumpet) solo
+      2:38 | Head out
+      3:08 | Outro
 - heading: Betty Carter
   artists:
   - name: Betty Carter
@@ -82,11 +82,11 @@ sections:
     spotify: 7L7IyFjHLHTgj1xPdau2Ic
     intro: |-
       Spanish for “frenzy.”
-    guide:
-    - ['0:46', '**Solo break** → solo']
-    - ['1:10', Carter (vocals) trades with band]
-    - ['1:33', 'Shout, Carter, shout, Carter']
-    - ['2:05', Outro]
+    guide: |-
+      0:46 | **Solo break** → solo
+      1:10 | Carter (vocals) trades with band
+      1:33 | Shout, Carter, shout, Carter
+      2:05 | Outro
 - heading: Carmen McRae
   artists:
   - name: Carmen McRae
@@ -118,10 +118,10 @@ sections:
     spotify: 5YAHjeWElbdSRJp3bZhiBi
     intro: |-
       0:00 – Intro riff same as “Walkin’” (Miles Davis, recorded April 1954, released June 1957. Clarke (drums) was on that date too; maybe he taught it to McRae…?)
-    guide:
-    - ['0:14', 'Head in, AABA']
-    - ['1:03', 'Mann (flute), trade with McRae (vocals), AA']
-    - ['1:28', 'Head out, BA']
+    guide: |-
+      0:14 | Head in, AABA
+      1:03 | Mann (flute), trade with McRae (vocals), AA
+      1:28 | Head out, BA
 - heading: Anita O’Day
   artists:
   - name: Anita O’Day
@@ -195,12 +195,12 @@ sections:
     spotify: 5nmyve9VcibEIgeSDtmqAK
     intro: |-
       Listen for very clever imitation between Tormé and the soloists/band.
-    guide:
-    - ['1:11', Quote from "Lullaby of the Leaves"]
-    - ['1:50', 'Trading with trumpets, trombone']
-    - ['2:09', 'Quote from *Birth of the Cool* ("Godchild" ~2:10)']
-    - ['3:00', Quote from “Blue Moon”]
-    - ['3:58', Ensemble passage a quote from "Hot House" (Charlie Parker)]
-    - ['4:11', Head in again]
-    - ['4:25', Bass drops out]
+    guide: |-
+      1:11 | Quote from "Lullaby of the Leaves"
+      1:50 | Trading with trumpets, trombone
+      2:09 | Quote from *Birth of the Cool* ("Godchild" ~2:10)
+      3:00 | Quote from “Blue Moon”
+      3:58 | Ensemble passage a quote from "Hot House" (Charlie Parker)
+      4:11 | Head in again
+      4:25 | Bass drops out
 ---

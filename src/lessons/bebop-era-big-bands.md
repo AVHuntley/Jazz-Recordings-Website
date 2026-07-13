@@ -34,16 +34,16 @@ sections:
     spotify: 1KZus7Qi1v1WzXo89YxzE5
     intro: |-
       Fats Navarro, Shorty McConnell, Gail Brockman, Boonie Hazel (tp); Gerald Valentine, Taswell Baird, Howard Scott, Alfred "Chippy" Outcalt (tb); John Jackson, Bill Frazier (as); Budd Johnson, Gene Ammons (ts); Leo Parker (bar); John Malachi (p); Connie Wainwright (g); Tommy Potter (b); Art Blakey (d)
-    guide:
-    - ['0:00', 'Saxes play melody, brass plays long chords']
-    - ['0:41', 'Navarro (t) solo, bebop vocabulary, fat tone']
-    - ['1:18', Budd Johnson (ts) solo]
-    - ['1:46', Gene Ammons (ts) solo - Opens with a good example of false fingerings.]
-    - ['2:13', Ensemble transition]
-    - ['2:22', Full band]
-    - ['2:36', Malachi (p) solo]
-    - ['2:43', Full band]
-    - ['3:17', 'End, applause, “That one knocked me out of my chair and into the air!”']
+    guide: |-
+      0:00 | Saxes play melody, brass plays long chords
+      0:41 | Navarro (t) solo, bebop vocabulary, fat tone
+      1:18 | Budd Johnson (ts) solo
+      1:46 | Gene Ammons (ts) solo - Opens with a good example of false fingerings.
+      2:13 | Ensemble transition
+      2:22 | Full band
+      2:36 | Malachi (p) solo
+      2:43 | Full band
+      3:17 | End, applause, “That one knocked me out of my chair and into the air!”
 - heading: Dizzy Gillespie
   artists:
   - name: Dizzy Gillespie
@@ -74,15 +74,15 @@ sections:
       Dameron originally wrote this for Eckstine’s band. One day, when Gillespie needed music, Eckstine told him to go to his office and pick whatever he wanted. [(Sultanof, p.81)](bibliography.html#sultanof-2017)
 
       This rhythm section - Milt Jackson, Ray Brown, Kenny Clarke - were original members of MJQ. (Brown would be replaced by Percey Heath, and Clarke by Connie Kay)
-    guide:
-    - ['0:00', Intro (Bill Evans later used this same introduction for his trio arrangement of this song.)]
-    - ['0:16', 'Head in, full band']
-    - ['0:37', 'B section, trombones, full band']
-    - ['0:58', Gillespie (t) solo]
-    - ['1:19', Interlude]
-    - ['1:25', Ray Abrams (ts) solo]
-    - ['1:41', 'Interlude, Gillespie, Interlude, etc…']
-    - ['2:22', Ending]
+    guide: |-
+      0:00 | Intro (Bill Evans later used this same introduction for his trio arrangement of this song.)
+      0:16 | Head in, full band
+      0:37 | B section, trombones, full band
+      0:58 | Gillespie (t) solo
+      1:19 | Interlude
+      1:25 | Ray Abrams (ts) solo
+      1:41 | Interlude, Gillespie, Interlude, etc…
+      2:22 | Ending
   - title: Manteca
     performer: Dizzy Gillespie and His Orchestra
     composer: Chano Pozo & Dizzy Gillespie
@@ -116,19 +116,19 @@ sections:
       Chano Pozo originally didn't write a bridge. Dizzy wrote the bridge so that the song included a bebop section (see above video).
 
       “Manteca!” is being yelled by Pozo
-    guide:
-    - ['0:00', 'The bass line and percussion begin, with "Manteca" in the vocal']
-    - ['0:07', 'The baritone sax and the rest of saxes, then trombones, then trumpets add riffs, with Gillespie soloing on trumpet']
-    - ['0:32', The horns rest]
-    - ['0:38', 'When the horns enter, they play the first A section, which is a set of interlocking riffs']
-    - ['0:48', Second A section]
-    - ['1:00', 'The bridge section begins. It has a varied chord progression, in contrast to the ostinato (repeated bass pattern) in the A section. It lasts for 16 measures']
-    - ['1:22', 'The A section is heard again, followed by some additional measures of ostinato.']
-    - ['1:42', Full ensemble passage that introduces the solo section.]
-    - ['1:48', Solo by tenor saxophonist "Big Nick" Nicholas over rhythm changes.]
-    - ['2:00', Quotes “Blue Moon”]
-    - ['2:09', The bridge is scored for the full ensemble. Gillespie solos on the second half.]
-    - ['2:32', 'The riffs and shouts of "Manteca" continue, then get softer as instruments drop out to just bass and drums, then a drum idea ends the track.']
+    guide: |-
+      0:00 | The bass line and percussion begin, with "Manteca" in the vocal
+      0:07 | The baritone sax and the rest of saxes, then trombones, then trumpets add riffs, with Gillespie soloing on trumpet
+      0:32 | The horns rest
+      0:38 | When the horns enter, they play the first A section, which is a set of interlocking riffs
+      0:48 | Second A section
+      1:00 | The bridge section begins. It has a varied chord progression, in contrast to the ostinato (repeated bass pattern) in the A section. It lasts for 16 measures
+      1:22 | The A section is heard again, followed by some additional measures of ostinato.
+      1:42 | Full ensemble passage that introduces the solo section.
+      1:48 | Solo by tenor saxophonist "Big Nick" Nicholas over rhythm changes.
+      2:00 | Quotes “Blue Moon”
+      2:09 | The bridge is scored for the full ensemble. Gillespie solos on the second half.
+      2:32 | The riffs and shouts of "Manteca" continue, then get softer as instruments drop out to just bass and drums, then a drum idea ends the track.
 - heading: Machito
   artists:
   - name: Machito
@@ -169,21 +169,21 @@ sections:
       “Machito’s first theme song, Chano Pozo’s composition “Nagüe,” opened and closed sets in the band’s early days. However, in 1943 they adopted a new theme, “Tanga”, which has been touted as the “first Afro-Cuban jazz compo-sition.” The origin of “Tanga” is vague. An oft-told story recounts that during a break at La Conga while Machito was in the Army, the pianist Luis Varona started playing a vamp from the introduction to “El botellero,” which the band had recently recorded with Miguelito Valdés. Bassist Julio Andino joined in and the catchy sound caught Bauzá’s attention. The next day, at the band’s rehearsal at the Park Plaza-Palace, Bauzá asked the musicians to replicate what they had done the night before. Bauzá aurally dictated horn parts and created a texture with modernistic chord extensions manifesting in a pyramidal manner in the saxophone section (see mm. 7–22). He asked some of the band’s African American musicians to improvise jazz solos over this pat-tern. The blend of Afro-Cuban rhythms and African American jazz improvisation exemplified Bauzá’s “greatest lesson” and built on the experiments he had carried out with Gillespie in Cab Calloway’s band.”
 
       “As for the tune’s name, musicologist Max Salazar says that the Puerto Rican songwriter Pedro Flores heard an early performance and remarked that the sound was “as exciting [as] a tanga,” which he claimed to be an “African” word for marijuana.” ([http://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1106&context=books (Links to an external site.)](http://cupola.gettysburg.edu/cgi/viewcontent.cgi?article=1106&context=books))([http://cupola.gettysburg.edu/books/107/?utm\_source=cupola.gettysburg.edu%2Fbooks%2F107&utm\_medium=PDF&utm\_campaign=PDFCoverPages (Links to an external site.)](http://cupola.gettysburg.edu/books/107/?utm_source=cupola.gettysburg.edu%2Fbooks%2F107&utm_medium=PDF&utm_campaign=PDFCoverPages))
-    guide:
-    - ['0:00', 'Intro, piano montuno with percussion']
-    - ['0:06', Layered horns to create large chords with extensions]
-    - ['0:14', Machito sings "La tanga llego!"]
-    - ['0:28', Band repeats "Tanga!" while Machito riffs. This is called a " Coro-pregón ."]
-    - ['0:53', Singing stops. Just rhythm section]
-    - ['1:00', Key change (from C to F#m)]
-    - ['1:37', Lead trumpet plays solo-like riffs above layered horns.]
-    - ['2:04', Texture reduced to rhythm section.]
-    - ['2:09', Key change (F#m to C)]
-    - ['2:12', Saxophone solo]
-    - ['2:57', Layered horns signal end of solo]
-    - ['3:18', Band plays together]
-    - ['3:24', Tenor sax solo with trumpet background riffs]
-    - ['4:56', Outro]
+    guide: |-
+      0:00 | Intro, piano montuno with percussion
+      0:06 | Layered horns to create large chords with extensions
+      0:14 | Machito sings "La tanga llego!"
+      0:28 | Band repeats "Tanga!" while Machito riffs. This is called a " Coro-pregón ."
+      0:53 | Singing stops. Just rhythm section
+      1:00 | Key change (from C to F#m)
+      1:37 | Lead trumpet plays solo-like riffs above layered horns.
+      2:04 | Texture reduced to rhythm section.
+      2:09 | Key change (F#m to C)
+      2:12 | Saxophone solo
+      2:57 | Layered horns signal end of solo
+      3:18 | Band plays together
+      3:24 | Tenor sax solo with trumpet background riffs
+      4:56 | Outro
 - heading: Tadd Dameron
   artists:
   - name: Tadd Dameron
@@ -213,12 +213,12 @@ sections:
       16-bar form
 
       [(Bierman, p.211)](bibliography.html#bierman-2016)
-    guide:
-    - ['0:00', Head in]
-    - ['0:24', Head again]
-    - ['0:47', Fats Navarro (tp) solo]
-    - ['1:13', Kai Winding (tb) solo]
-    - ['1:37', Dexter Gordon]
-    - ['1:59', Unison line played by all horns.]
-    - ['2:23', Head out]
+    guide: |-
+      0:00 | Head in
+      0:24 | Head again
+      0:47 | Fats Navarro (tp) solo
+      1:13 | Kai Winding (tb) solo
+      1:37 | Dexter Gordon
+      1:59 | Unison line played by all horns.
+      2:23 | Head out
 ---

@@ -71,16 +71,16 @@ sections:
     - [Andy McKee, bass]
     - [Adam Cruz, drums]
     spotify: 3AfmpoqFIgbLO9HujfTYnn
-    guide:
-    - ['0:00', 'Intro, Andy McKee (b) and John Stubblefield (ts). Stubblefield quotes “Take the Coltrane.”']
-    - ['0:14', Drums and 2nd sax enter]
-    - ['0:28', Kenny Drew (p) and Frank Lacy (tb) enter]
-    - ['0:42', Head in]
-    - ['1:25', Frank Lacy (tb) solo]
-    - ['3:17', 'Kenny Drew, Jr. (p) solo, no accompaniment']
-    - ['4:05', 'Drew (p) plays a montuno, drums and bass enter']
-    - ['4:24', Horn backgrounds added]
-    - ['5:06', Head out]
+    guide: |-
+      0:00 | Intro, Andy McKee (b) and John Stubblefield (ts). Stubblefield quotes “Take the Coltrane.”
+      0:14 | Drums and 2nd sax enter
+      0:28 | Kenny Drew (p) and Frank Lacy (tb) enter
+      0:42 | Head in
+      1:25 | Frank Lacy (tb) solo
+      3:17 | Kenny Drew, Jr. (p) solo, no accompaniment
+      4:05 | Drew (p) plays a montuno, drums and bass enter
+      4:24 | Horn backgrounds added
+      5:06 | Head out
   notes: |-
     - [The first recording of "Jump Monk"](https://open.spotify.com/track/4tN17zX7lKkFQjWnabQ66x?si=eRQL_12uSnWDKLhpHeSUKQ) comes from Mingus's 1955 album *Mingus at the Bohemia* with Max Roach. Even in the opening moments of that original recording, you can hear the collective improvisation that was a hallmark of Mingus's style.
 - heading: Gordon Goodwin
@@ -117,16 +117,16 @@ sections:
     spotify: 6O1Wq633TG4EGDPbVZW7YU
     intro: |-
       Bergeron (tp) was in Maynard Ferguson’s band and played trumpet on *The Incredibles* soundtrack.
-    guide:
-    - ['0:00', 'Saxophones alone, cartoon-like theme']
-    - ['0:47', 'Trombones alone, same theme']
-    - ['1:26', 'Band enters, same theme']
-    - ['2:18', 'Andy Martin (tb) solo, band swings, minor blues']
-    - ['3:13', Brian Scanlon (ts) solo]
-    - ['4:07', Luis Conte (bongos) solo]
-    - ['4:19', Band layers riffs to crescendo]
-    - ['5:19', Band and drums trade phrases]
-    - ['5:40', 'Outro, cartoon-theme again']
+    guide: |-
+      0:00 | Saxophones alone, cartoon-like theme
+      0:47 | Trombones alone, same theme
+      1:26 | Band enters, same theme
+      2:18 | Andy Martin (tb) solo, band swings, minor blues
+      3:13 | Brian Scanlon (ts) solo
+      4:07 | Luis Conte (bongos) solo
+      4:19 | Band layers riffs to crescendo
+      5:19 | Band and drums trade phrases
+      5:40 | Outro, cartoon-theme again
   notes: |-
     - If this recording reminds you of cartoon music, that's no mistake. Goodwin has composed for both *The Incredibles* and Looney Tunes. The title refers to Elmer Fudd’s phrase "Hunting Wabbits."
 - heading: Bill Holman
@@ -160,17 +160,17 @@ sections:
     - [Joel Hamilton, bass]
     - [Kevin Kanner, drums]
     spotify: 2sjWREmviP41o48GILXSRo
-    guide:
-    - ['0:00', Piano intro]
-    - ['0:06', Head in]
-    - ['0:32', Saxophones play counter-line]
-    - ['0:57', Christian Jacob (p) solo]
-    - ['2:15', '(tp) solo, with backgrounds']
-    - ['3:33', Ensemble passage]
-    - ['4:01', Ensemble trades with Kevin Kanner (d)]
-    - ['4:49', (ts) solo]
-    - ['6:08', Head out]
-    - ['7:28', Outro]
+    guide: |-
+      0:00 | Piano intro
+      0:06 | Head in
+      0:32 | Saxophones play counter-line
+      0:57 | Christian Jacob (p) solo
+      2:15 | (tp) solo, with backgrounds
+      3:33 | Ensemble passage
+      4:01 | Ensemble trades with Kevin Kanner (d)
+      4:49 | (ts) solo
+      6:08 | Head out
+      7:28 | Outro
   notes: |-
     - This arrangement was first recorded in 1997 and released on the album *Brilliant Corners* (also a famous Monk album title). Holman recorded this arrangement again for *Hommage* .
 - heading: Maria Schneider
@@ -206,17 +206,17 @@ sections:
     - [Jay Anderson, bass]
     - [Clarence Penn, drums]
     spotify: 0CGn33qDCIANhMkyONBSWj
-    guide:
-    - ['0:00', 'Piano chords, high note on accordion sets mood']
-    - ['0:09', 'A, played by Scott Robinson on alto clarinet']
-    - ['0:18', Bass enters]
-    - ['0:43', 'A again, with horn background pad']
-    - ['1:19', B]
-    - ['1:54', 'A, piano leads, accordion & clarinet in background']
-    - ['2:29', Robinson (alto clarinet) solo]
-    - ['3:35', Kimbrough (p) solo]
-    - ['4:05', Robinson solos again]
-    - ['4:30', 'Melody ends, piano, accordion, and bass fade']
+    guide: |-
+      0:00 | Piano chords, high note on accordion sets mood
+      0:09 | A, played by Scott Robinson on alto clarinet
+      0:18 | Bass enters
+      0:43 | A again, with horn background pad
+      1:19 | B
+      1:54 | A, piano leads, accordion & clarinet in background
+      2:29 | Robinson (alto clarinet) solo
+      3:35 | Kimbrough (p) solo
+      4:05 | Robinson solos again
+      4:30 | Melody ends, piano, accordion, and bass fade
   notes: |-
     - The album is based on poetry by Ted Kooser. "Walking By Flashlight" is inspired by his poem about November mornings.
     - Schneider offers charts and play-along tracks via ArtistShare.
@@ -252,14 +252,14 @@ sections:
     - [Carlos Henriquez, 'bass, electric bass']
     - [Ali Jackson, 'drums, percussion']
     spotify: 3hRFWwZW2YMifBoDtX9oj1
-    guide:
-    - ['0:00', 'Bass intro in 7, then b-cl, then fl and p']
-    - ['0:22', 'Melody, muted tp (and fl?)']
-    - ['1:29', 'Groove interlude, bass and drums']
-    - ['1:40', Nash (sop) solo]
-    - ['3:49', 'Groove interlude again, w/ piano LH']
-    - ['4:01', 'Melody again, unmuted brass']
-    - ['5:11', 'Groove with bass, chekeré, piano']
+    guide: |-
+      0:00 | Bass intro in 7, then b-cl, then fl and p
+      0:22 | Melody, muted tp (and fl?)
+      1:29 | Groove interlude, bass and drums
+      1:40 | Nash (sop) solo
+      3:49 | Groove interlude again, w/ piano LH
+      4:01 | Melody again, unmuted brass
+      5:11 | Groove with bass, chekeré, piano
   notes: |-
     - Here's a video of a live performance of this album’s material. Ted Nash introduces the band at 0:53. The reading of “Tryst with Destiny” and “Spoken at Midnight” start at 11:38.
 
@@ -294,19 +294,19 @@ sections:
     - [Gregg August, bass]
     - [Vince Cherico, drums]
     spotify: 5sSe8lFTyXpHK51g8CKncf
-    guide:
-    - ['0:00', 'Intro, solo piano']
-    - ['1:23', Beginning (where video starts)]
-    - ['2:41', 'Clarinet, piano, and trombone all solo at once']
-    - ['3:38', Theme]
-    - ['4:16', '(ts) solo, only bass and perc at first']
-    - ['5:50', Ensemble]
-    - ['5:54', 'Rubato, flute and piano and perc.']
-    - ['6:40', Piano plays line in octaves to establish time]
-    - ['7:00', 'Out of time again, piano hints at intro vamp']
-    - ['7:27', 'Drums reenter, band layers']
-    - ['8:23', 'Theme, full band']
-    - ['8:44', Band and drums trade 2s]
+    guide: |-
+      0:00 | Intro, solo piano
+      1:23 | Beginning (where video starts)
+      2:41 | Clarinet, piano, and trombone all solo at once
+      3:38 | Theme
+      4:16 | (ts) solo, only bass and perc at first
+      5:50 | Ensemble
+      5:54 | Rubato, flute and piano and perc.
+      6:40 | Piano plays line in octaves to establish time
+      7:00 | Out of time again, piano hints at intro vamp
+      7:27 | Drums reenter, band layers
+      8:23 | Theme, full band
+      8:44 | Band and drums trade 2s
   notes: |-
     - Here's a video of a live performance from December 18, 2014 (the day before recording began):
 
@@ -342,18 +342,18 @@ sections:
     spotify: 7H0Ie2lJE0wXT5TfjznEGT
     intro: |-
       Form: AABA
-    guide:
-    - ['0:00', Strings and choir introduction]
-    - ['0:39', Bass begins groove]
-    - ['0:46', Drums and piano enter]
-    - ['1:04', 'Theme, (ts) and (tb), choir and strings backgrounds']
-    - ['2:13', Ryan Porter (tb) solo]
-    - ['2:47', Synth background at bridge of (tb) solo]
-    - ['3:21', Washington (ts) solo]
-    - ['5:57', 'Washington repeats riff, harmony becomes static. Groove.']
-    - ['6:29', Theme returns]
-    - ['7:35', Tag ending]
-    - ['7:55', Last chord]
+    guide: |-
+      0:00 | Strings and choir introduction
+      0:39 | Bass begins groove
+      0:46 | Drums and piano enter
+      1:04 | Theme, (ts) and (tb), choir and strings backgrounds
+      2:13 | Ryan Porter (tb) solo
+      2:47 | Synth background at bridge of (tb) solo
+      3:21 | Washington (ts) solo
+      5:57 | Washington repeats riff, harmony becomes static. Groove.
+      6:29 | Theme returns
+      7:35 | Tag ending
+      7:55 | Last chord
   notes: |-
     - Here's a live performance from August 2015 (“Re-Run” starts at 1:15:12):
 
@@ -391,16 +391,16 @@ sections:
     - [Peter Erskine, drums]
     - [Aaron Serfaty, percussion]
     spotify: 1HdiG60WRLq4XNjEf736mm
-    guide:
-    - ['0:00', Intro]
-    - ['0:16', Head in]
-    - ['1:29', Send-off]
-    - ['1:37', Mintzer (ts) solo]
-    - ['2:00', Backgrounds added]
-    - ['2:43', Adam Schroeder (bar) solo]
-    - ['3:52', Ensemble passage]
-    - ['4:01', 'Saxophone soli, trade with full band']
-    - ['4:40', Head out]
+    guide: |-
+      0:00 | Intro
+      0:16 | Head in
+      1:29 | Send-off
+      1:37 | Mintzer (ts) solo
+      2:00 | Backgrounds added
+      2:43 | Adam Schroeder (bar) solo
+      3:52 | Ensemble passage
+      4:01 | Saxophone soli, trade with full band
+      4:40 | Head out
   notes: |-
     - Many of the musicians on this album are USC faculty, including Mintzer, Sheppard, Erskine, Ferrante, Livingston, Serfaty, Stever, and Thomas. Many others are USC graduates.
     - You can buy sophisticated play-along tracks for this album if you have an iOS device. Such services are common today, as album sales alone are not always lucrative.
@@ -434,14 +434,14 @@ sections:
     - [Christian McBride, bass]
     - [Quincy Phillips, drums]
     spotify: 6AAUsr4Bq6r9nAgCaebDKo
-    guide:
-    - ['0:00', Intro]
-    - ['0:16', Head in]
-    - ['1:18', (tp) solo]
-    - ['2:56', (ts) solo]
-    - ['4:36', 'New groove established by bari, b-tb, and bass']
-    - ['4:54', Rodney Jones (g) solo]
-    - ['5:54', 'Head out, but without explicit melody']
+    guide: |-
+      0:00 | Intro
+      0:16 | Head in
+      1:18 | (tp) solo
+      2:56 | (ts) solo
+      4:36 | New groove established by bari, b-tb, and bass
+      4:54 | Rodney Jones (g) solo
+      5:54 | Head out, but without explicit melody
   notes: |-
     - Christian McBride visited UNT in 2017. He performed "Gettin' To It" with the One O'Clock Lab Band at 00:28:43 on the UNT archive page.
     - Pianist Xavier Davis is the brother of UNT drum professor Quincy Davis.
@@ -465,20 +465,20 @@ sections:
     credits:
     - 'Personnel: John Daversa (trumpet) + 53 unidentified dreamer musicians'
     spotify: 35LMyikKwcxc9WFhRSmeQj
-    guide:
-    - ['0:00', Drum solo intro]
-    - ['0:05', 'A section: band plays first phrase, voices respond "Don''t Fence Me In!"']
-    - ['0:16', “¡No robes mi sueño!” ("Don't steal my dream!")]
-    - ['0:33', Bridge]
-    - ['0:43', A again]
-    - ['0:55', 'Daversa (tp) solo (Grammy-winning solo). Free form, not strictly following tune.']
-    - ['2:03', Daversa trades phrases with band]
-    - ['2:29', 'Controlled chaos: everyone plays at once']
-    - ['2:42', 'Daversa plays the first phrase of tune’s melody, transposing up']
-    - ['3:30', 'Chaos subsides, violin & piano play tune "western" style']
-    - ['3:48', 'Drum fill, band in. Sax soli + brass hits']
-    - ['4:17', Band hits alternate with short trumpet solos]
-    - ['4:38', '"Don''t fence me in!"']
+    guide: |-
+      0:00 | Drum solo intro
+      0:05 | A section: band plays first phrase, voices respond "Don't Fence Me In!"
+      0:16 | “¡No robes mi sueño!” ("Don't steal my dream!")
+      0:33 | Bridge
+      0:43 | A again
+      0:55 | Daversa (tp) solo (Grammy-winning solo). Free form, not strictly following tune.
+      2:03 | Daversa trades phrases with band
+      2:29 | Controlled chaos: everyone plays at once
+      2:42 | Daversa plays the first phrase of tune’s melody, transposing up
+      3:30 | Chaos subsides, violin & piano play tune "western" style
+      3:48 | Drum fill, band in. Sax soli + brass hits
+      4:17 | Band hits alternate with short trumpet solos
+      4:38 | "Don't fence me in!"
   notes: |-
     - Cole Porter wrote this tune in 1934 as a cowboy tune. In the 2018 context, it references the detention of immigrants at the southern border of the US, giving the lyrics a more political, urgent meaning.
 ---

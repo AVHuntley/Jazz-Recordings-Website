@@ -45,14 +45,14 @@ sections:
     spotify: 1eesahm8KPMP9hTEv9W3QL
     intro: |-
       Sultanof, \_\_\_
-    guide:
-    - ['0:00', Opens with quote from Irving Berlin’s “A Pretty Girl is Like a Melody”]
-    - ['0:11', Melody begins]
-    - ['0:55', Transition]
-    - ['1:01', Verse]
-    - ['1:20', Bix Beiderbecke (cornet) solo]
-    - ['2:02', '“Hot” jazz-style rendition of verse melody by Trumbauer (c-melody sax), Jimmy Dorsey (alto sax) and Chester Hazlett (tenor sax)']
-    - ['2:41', Clarinet (Dorsey) outro]
+    guide: |-
+      0:00 | Opens with quote from Irving Berlin’s “A Pretty Girl is Like a Melody”
+      0:11 | Melody begins
+      0:55 | Transition
+      1:01 | Verse
+      1:20 | Bix Beiderbecke (cornet) solo
+      2:02 | “Hot” jazz-style rendition of verse melody by Trumbauer (c-melody sax), Jimmy Dorsey (alto sax) and Chester Hazlett (tenor sax)
+      2:41 | Clarinet (Dorsey) outro
 - heading: Fletcher Henderson
   artists:
   - name: Fletcher Henderson
@@ -87,8 +87,8 @@ sections:
     spotify: 6tgPJP87nihnbSMKO87RoD
     intro: |-
       Form: sectional. AABBBAACAABBCA-?-Coda. A’s are 8 bars, B’s are 12-bar blues, C’s are 16 bars.
-    guide:
-    - ['0:42', Armstrong (trumpet) solo]
+    guide: |-
+      0:42 | Armstrong (trumpet) solo
 - heading: Duke Ellington
   artists:
   - name: Duke Ellington
@@ -139,18 +139,18 @@ sections:
       Form: **AAB (C for solos) AB.** C’s are **12-bar blues** alternating major & minor.
 
       [(Sultanof, p.18)](bibliography.html#sultanof-2017)
-    guide:
-    - ['0:00', Introduction that was not present on earlier (10/1/1928) recording]
-    - ['0:08', "**A**\n- with interjections from Bubber Miley"]
-    - ['0:24', "**A**\n- same"]
-    - ['0:39', '**B**']
-    - ['0:54', "**C**\n- piano solo (unlike 10/1/1928 recording)"]
-    - ['1:18', "**C**\n- Composed solo by Barney Bigard (clarinet) in low range"]
-    - ['1:41', 'Trading licks between Bubber Miley (trumpet) and Johnny Hodges (alto sax). Miley plays in minor, Hodges in major.']
-    - ['2:05', "**C**\n- Johnny Hodges (alto sax) solo, in major"]
-    - ['2:29', Intro]
-    - ['2:37', '**A**']
-    - ['2:53', '**B**']
+    guide: |-
+      0:00 | Introduction that was not present on earlier (10/1/1928) recording
+      0:08 | **A** - with interjections from Bubber Miley
+      0:24 | **A** - same
+      0:39 | **B**
+      0:54 | **C** - piano solo (unlike 10/1/1928 recording)
+      1:18 | **C** - Composed solo by Barney Bigard (clarinet) in low range
+      1:41 | Trading licks between Bubber Miley (trumpet) and Johnny Hodges (alto sax). Miley plays in minor, Hodges in major.
+      2:05 | **C** - Johnny Hodges (alto sax) solo, in major
+      2:29 | Intro
+      2:37 | **A**
+      2:53 | **B**
   - title: Ko Ko
     performer: Duke Ellington and His Famous Orchestra
     composer: Duke Ellington
@@ -190,16 +190,16 @@ sections:
       Very dissonant. Example of Ellington’s harmonic sophistication. Uses whole-tone cluster during solo.
 
       [(Lawn, p.146)](bibliography.html#lawn-2013) ; [(Sultanof, p.52)](bibliography.html#sultanof-2017)
-    guide:
-    - ['0:00', Intro over **pedal point**]
-    - ['0:12', Melody by Juan Tizol (valve trombone). Responses by saxophone section.]
-    - ['0:31', “Tricky Sam” Nanton (trombone) talking trombone solo]
-    - ['1:07', Ellington (piano) solo. Whole tone harmony and rhythmically active.]
-    - ['1:26', Unison trumpets answer by saxes and trombones]
-    - ['1:43', Band and Blanton (bass) trade]
-    - ['2:02', '**Shout chorus** : When whole band plays new material at high dynamic level']
-    - ['2:22', Intro repeated]
-    - ['2:34', Outro]
+    guide: |-
+      0:00 | Intro over **pedal point**
+      0:12 | Melody by Juan Tizol (valve trombone). Responses by saxophone section.
+      0:31 | “Tricky Sam” Nanton (trombone) talking trombone solo
+      1:07 | Ellington (piano) solo. Whole tone harmony and rhythmically active.
+      1:26 | Unison trumpets answer by saxes and trombones
+      1:43 | Band and Blanton (bass) trade
+      2:02 | **Shout chorus** : When whole band plays new material at high dynamic level
+      2:22 | Intro repeated
+      2:34 | Outro
 - heading: Bennie Moten
   artists:
   - name: Bennie Moten
@@ -231,9 +231,9 @@ sections:
     spotify: 5MOt6R0X6VXEdgzk9yeLvz
     intro: |-
       Kansas City sound. 4-to-the-floor walking bass line, “chunking” guitar, “tinkling” piano from Basie, repeated riffs, foot-tapping swing.
-    guide:
-    - ['0:57', Eddie Durham “puts down his trombone to take a solo on guitar”]
-    - ['1:17', Eddie Barefield (alto sax) solo]
-    - ['1:57', Oran Thaddeus “Hot Lips” Page (trumpet) solo]
-    - ['2:36', First statement of melody]
+    guide: |-
+      0:57 | Eddie Durham “puts down his trombone to take a solo on guitar”
+      1:17 | Eddie Barefield (alto sax) solo
+      1:57 | Oran Thaddeus “Hot Lips” Page (trumpet) solo
+      2:36 | First statement of melody
 ---

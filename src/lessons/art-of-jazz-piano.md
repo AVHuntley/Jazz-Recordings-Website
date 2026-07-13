@@ -37,9 +37,9 @@ sections:
     spotify: 1l5FjyFdQaJlo2ZW7uT6xx
     intro: |-
       Recorded live at Chicago’s Pershing Lounge – reached #3 on the *Billboard* album chart, and remained on the list for two years.
-    guide:
-    - ['0:00', '']
-    - ['', '']
+    guide: |-
+      0:00 | 
+       | 
 - heading: Bill Evans
   artists:
   - name: Bill Evans
@@ -84,9 +84,9 @@ sections:
     spotify: 1KCy2UXoSL4m3ei418O1kf
     intro: |-
       Recorded weeks before LaFaro was killed in a car accident (July 6, 1961)
-    guide:
-    - ['0:00', '']
-    - ['', '']
+    guide: |-
+      0:00 | 
+       | 
 - heading: McCoy Tyner
   artists:
   - name: McCoy Tyner
@@ -113,9 +113,9 @@ sections:
     spotify: 0lELi5BqmUO4hXTFfAUf60
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['1:10', Tyner (p) solo]
-    - ['', '']
+    guide: |-
+      1:10 | Tyner (p) solo
+       | 
 - heading: Oscar Peterson
   artists:
   - name: Oscar Peterson
@@ -139,7 +139,7 @@ sections:
     spotify: 4aThNuFztJ15YremppiZUJ
     intro: |-
       Killer solo break!
-    guide:
-    - ['0:00', '']
-    - ['', '']
+    guide: |-
+      0:00 | 
+       | 
 ---

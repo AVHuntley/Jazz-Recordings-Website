@@ -52,12 +52,12 @@ sections:
       Form: AABA
 
       [(Bierman, p.228)](bibliography.html#bierman-2016) ; Lawn 234
-    guide:
-    - ['0:00', Head in]
-    - ['0:46', 'Mulligan (bar) solo, AA']
-    - ['1:11', 'Baker (tp) solo, BA']
-    - ['1:35', 'Mulligan (bar) and Baker (tp) solo together, AA']
-    - ['1:59', 'Head out, BA']
+    guide: |-
+      0:00 | Head in
+      0:46 | Mulligan (bar) solo, AA
+      1:11 | Baker (tp) solo, BA
+      1:35 | Mulligan (bar) and Baker (tp) solo together, AA
+      1:59 | Head out, BA
 - heading: Chet Baker
   artists:
   - name: Chet Baker
@@ -83,12 +83,12 @@ sections:
     spotify: 0F845nujLVqCb0XMZCh5Pc
     intro: |-
       Released by the label Pacific Jazz
-    guide:
-    - ['0:00', 'Head in, Baker (vcl) sings']
-    - ['0:57', Baker (tp) solo]
-    - ['1:56', 'Freeman (p) solo, AA']
-    - ['2:25', 'Head out, Baker (vlc) sings, BA']
-    - ['2:56', 'Outro, Baker (tp) solos']
+    guide: |-
+      0:00 | Head in, Baker (vcl) sings
+      0:57 | Baker (tp) solo
+      1:56 | Freeman (p) solo, AA
+      2:25 | Head out, Baker (vlc) sings, BA
+      2:56 | Outro, Baker (tp) solos
 - heading: Dave Brubeck
   artists:
   - name: Dave Brubeck
@@ -128,12 +128,12 @@ sections:
       The term rondo means a composition whose main theme alternates with one or more contrasting themes. "Blue Rondo à la Turk" might fit this description. Its form can be written as: A-A-A-B-A-C-A-D-E-F-G-H-F-A-D-E, where A is the main theme. Section F also hints at the main theme.
 
       Detailed listening clips available on Alexander Street: [https://libproxy.library.unt.edu/login?url=https://search.alexanderstreet.com/view/work/be|recorded\_cd|li\_upc\_888608524889](https://libproxy.library.unt.edu/login?url=https://search.alexanderstreet.com/view/work/be%7Crecorded_cd%7Cli_upc_888608524889)
-    guide:
-    - ['1:52', Desmond (as) trades with 9/8]
-    - ['2:14', Desmond (as) solo]
-    - ['3:52', Brubeck (p) solo]
-    - ['5:34', Desmond (s) trades with 9/8 again]
-    - ['5:51', Head out]
+    guide: |-
+      1:52 | Desmond (as) trades with 9/8
+      2:14 | Desmond (as) solo
+      3:52 | Brubeck (p) solo
+      5:34 | Desmond (s) trades with 9/8 again
+      5:51 | Head out
 - heading: Paul Desmond
   artists:
   - name: Paul Desmond
@@ -190,15 +190,15 @@ sections:
     - [Percy Heath, bass]
     - [Connie Kay, drums]
     spotify: 4ZD4ZwMVEPsnhCSJ3eBiQZ
-    guide:
-    - ['0:00', Desmond (as) intro]
-    - ['0:05', Head in]
-    - ['0:44', Solo break into Desmond (as) solo. No comping by guitar (Hall strolls )]
-    - ['1:27', 'Desmond (as) solo, 2nd chorus. Hall (g) comps.']
-    - ['2:09', 'Desmond (as) solo, 3rd chorus.']
-    - ['2:51', Hall (g) solo]
-    - ['3:33', 'Hall (g) solo, 2nd chorus']
-    - ['4:13', Hall (g) and Desmond (as) trade and solo collectively.]
-    - ['4:55', 2nd chorus of same. No real head out.]
-    - ['5:34', Outro]
+    guide: |-
+      0:00 | Desmond (as) intro
+      0:05 | Head in
+      0:44 | Solo break into Desmond (as) solo. No comping by guitar (Hall strolls )
+      1:27 | Desmond (as) solo, 2nd chorus. Hall (g) comps.
+      2:09 | Desmond (as) solo, 3rd chorus.
+      2:51 | Hall (g) solo
+      3:33 | Hall (g) solo, 2nd chorus
+      4:13 | Hall (g) and Desmond (as) trade and solo collectively.
+      4:55 | 2nd chorus of same. No real head out.
+      5:34 | Outro
 ---

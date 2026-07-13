@@ -60,17 +60,17 @@ sections:
       @video(benny-goodman)
 
       [This article from AllAboutJazz](https://www.allaboutjazz.com/benny-goodman-sing-sing-sing-benny-goodman-by-david-rickert.php?page=1) covers a brief history of "Sing, Sing, Sing," describing it as essentially a drum feature for Gene Krupa.
-    guide:
-    - ['0:00', 'Opens with Krupa on drums, establishing the groove that defines the arrangement.']
-    - ['0:07', Opening theme (A)]
-    - ['0:59', Goodman begins soloing between full band statements.]
-    - ['1:16–3:44', Arrangement alternates between Krupa (drums) soloing and theme statements by the whole band.]
-    - ['3:44', 'Song seems to end, audience applauds, then the band continues.']
-    - ['3:48', Band picks back up for a tenor saxophone solo. Backgrounds are slowly introduced.]
-    - ['4:37', 'Goodman (clarinet) introduces new theme, which the band echoes.']
-    - ['5:29', Trumpet solo]
-    - ['7:28', Goodman (clarinet) solo. Listen to how quietly they play!]
-    - ['9:27', 'Stacy (piano) solo. According to the above AllAboutJazz article, Stacy did not expect to be asked to play a solo. The article states, "Used to just playing rhythm on the tune, he [Stacy] was unprepared for a turn in the spotlight, but what came out of his fingers was a graceful, impressionistic marvel with classical flourishes, yet still managed to swing. It was the best thing he ever did, and it''s ironic that such a layered, nuanced performance came at the end of such a chaotic, bombastic tune."']
+    guide: |-
+      0:00 | Opens with Krupa on drums, establishing the groove that defines the arrangement.
+      0:07 | Opening theme (A)
+      0:59 | Goodman begins soloing between full band statements.
+      1:16–3:44 | Arrangement alternates between Krupa (drums) soloing and theme statements by the whole band.
+      3:44 | Song seems to end, audience applauds, then the band continues.
+      3:48 | Band picks back up for a tenor saxophone solo. Backgrounds are slowly introduced.
+      4:37 | Goodman (clarinet) introduces new theme, which the band echoes.
+      5:29 | Trumpet solo
+      7:28 | Goodman (clarinet) solo. Listen to how quietly they play!
+      9:27 | Stacy (piano) solo. According to the above AllAboutJazz article, Stacy did not expect to be asked to play a solo. The article states, "Used to just playing rhythm on the tune, he [Stacy] was unprepared for a turn in the spotlight, but what came out of his fingers was a graceful, impressionistic marvel with classical flourishes, yet still managed to swing. It was the best thing he ever did, and it's ironic that such a layered, nuanced performance came at the end of such a chaotic, bombastic tune."
 - heading: Count Basie
   artists:
   - name: Count Basie
@@ -117,14 +117,14 @@ sections:
       Old Testament Band (1936-1950)
 
       Note the band’s incredible dynamic control while still always swingin’.
-    guide:
-    - ['0:07', Harry “Sweets” Edison solo (short)]
-    - ['0:14', '**AA**']
-    - ['0:35', '**B** Count Basie (piano) solo']
-    - ['0:45', '**A**']
-    - ['0:59', Lester Young (tenor saxophone) solo]
-    - ['1:40', Harry “Sweets” Edison solo]
-    - ['2:23', Count Basie (piano) solo]
+    guide: |-
+      0:07 | Harry “Sweets” Edison solo (short)
+      0:14 | **AA**
+      0:35 | **B** Count Basie (piano) solo
+      0:45 | **A**
+      0:59 | Lester Young (tenor saxophone) solo
+      1:40 | Harry “Sweets” Edison solo
+      2:23 | Count Basie (piano) solo
   - title: Blues In Hoss' Flat
     performer: Count Basie and His Orchestra
     composer: Frank Foster
@@ -163,8 +163,8 @@ sections:
       There's a hilarious scene in the 1961 film The Errand Boy in which Jerry Lewis pantomimes to this recording: [Jerry Lewis - The Errand Boy (1961) Pantomime.flv](https://www.youtube.com/watch?v=Q4v8UdkTx30)
 
       [(Sultanof, p.115)](bibliography.html#sultanof-2017)
-    guide:
-    - ['0:07', Harry “Sweets” Edison solo (short)]
+    guide: |-
+      0:07 | Harry “Sweets” Edison solo (short)
 - heading: Mary Lou Williams
   artists:
   - name: Mary Lou Williams
@@ -201,10 +201,10 @@ sections:
     spotify: 0DTK1wka31c9Iam2OywdKg
     intro: |-
       32-bar AABA
-    guide:
-    - ['1:13', 'Lick that Thelonious Monk adopted for “Rhythm-a-Ning.” (Gioia, Jazz Standards, 343)']
-    - ['1:22', Mary Lou Williams (piano) solo]
-    - ['2:22', Sax lines behind trumpets reference “The Peanut Vendor”]
+    guide: |-
+      1:13 | Lick that Thelonious Monk adopted for “Rhythm-a-Ning.” (Gioia, Jazz Standards, 343)
+      1:22 | Mary Lou Williams (piano) solo
+      2:22 | Sax lines behind trumpets reference “The Peanut Vendor”
 - heading: Glenn Miller
   artists:
   - name: Glenn Miller
@@ -248,11 +248,11 @@ sections:
       Sultanof discusses two versions, one from a live recording on 7/28/39 that features a longer arrangement. The other is this album version.
 
       Theme is a riffed 12-bar blues. Solos are 16 bars.
-    guide:
-    - ['1:08', 'Tex Beneke (tenor saxophone), Al Klink (tenor saxophone) duel solo']
-    - ['1:37', Unknown (trumpet) solo]
-    - ['2:20', 1 st False ending]
-    - ['2:44', 2 nd False ending (cowbell!)]
-    - ['3:05', 3 rd False ending]
-    - ['3:21', Pretty neat ascending chromatic ending]
+    guide: |-
+      1:08 | Tex Beneke (tenor saxophone), Al Klink (tenor saxophone) duel solo
+      1:37 | Unknown (trumpet) solo
+      2:20 | 1 st False ending
+      2:44 | 2 nd False ending (cowbell!)
+      3:05 | 3 rd False ending
+      3:21 | Pretty neat ascending chromatic ending
 ---

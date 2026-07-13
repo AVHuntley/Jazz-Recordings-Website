@@ -44,17 +44,17 @@ sections:
       Became a **jazz standard** (“Musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners” – Wikipedia)
 
       Listen for bebop vocabulary from soloists played in a somewhat less frantic manner than Parker and Gillespie.
-    guide:
-    - ['0:00', 'Head in, AA']
-    - ['0:17', 'Head in, B']
-    - ['0:24', 'Head in, A']
-    - ['0:33', 'Head in, Coda?']
-    - ['0:36', Brown (tp) solo. Brown is not as frenetic as Dizzy. Long and smooth phrases. Tone is brassy but not aggressive.]
-    - ['1:40', Powell (p) solo]
-    - ['2:11', Land (ts) solo]
-    - ['2:42', 'Roach (d) solo. Listen for melodic, motivic playing. You can almost hear melodies in the drum solo, especially 2:47-2:57.']
-    - ['3:12', Head out]
-    - ['3:43', Outro]
+    guide: |-
+      0:00 | Head in, AA
+      0:17 | Head in, B
+      0:24 | Head in, A
+      0:33 | Head in, Coda?
+      0:36 | Brown (tp) solo. Brown is not as frenetic as Dizzy. Long and smooth phrases. Tone is brassy but not aggressive.
+      1:40 | Powell (p) solo
+      2:11 | Land (ts) solo
+      2:42 | Roach (d) solo. Listen for melodic, motivic playing. You can almost hear melodies in the drum solo, especially 2:47-2:57.
+      3:12 | Head out
+      3:43 | Outro
 - heading: Sonny Rollins
   artists:
   - name: Sonny Rollins
@@ -84,14 +84,14 @@ sections:
     spotify: 5c3CSR3FyHpoULnNNxe3jl
     intro: |-
       “Rollins has a raspier timbre, and often likes to build up his lines gradually from small figures into longer phrases.” [(McCalla, p.124)](bibliography.html#mccalla-2000)
-    guide:
-    - ['0:00', Head in]
-    - ['0:40', Brown (tp) solo]
-    - ['2:40', 'Rollins (ts) solo. Listen to the way Rollins echoes the end of Brown’s solo, then works with both that theme and melodic material from the head.']
-    - ['4:43', 'Richie Powell (p) solo. Note blues licks at 5:43 and after– very hard bop-ish. A mix of bebop, Monk-ish stuff, funky blues licks, and riffs.']
-    - ['6:47', Trading 2’s with Roach (d)]
-    - ['7:27', 'Roach (d) solo. How does Roach indicate the form of the tune during his solo?']
-    - ['8:06', Head out]
+    guide: |-
+      0:00 | Head in
+      0:40 | Brown (tp) solo
+      2:40 | Rollins (ts) solo. Listen to the way Rollins echoes the end of Brown’s solo, then works with both that theme and melodic material from the head.
+      4:43 | Richie Powell (p) solo. Note blues licks at 5:43 and after– very hard bop-ish. A mix of bebop, Monk-ish stuff, funky blues licks, and riffs.
+      6:47 | Trading 2’s with Roach (d)
+      7:27 | Roach (d) solo. How does Roach indicate the form of the tune during his solo?
+      8:06 | Head out
   - title: St Thomas
     performer: The Sonny Rollins Quartet
     composer: Sonny Rollins
@@ -105,15 +105,15 @@ sections:
     spotify: 05LNBtMuc26HSAHh7C6iG8
     intro: |-
       This is a calypso-style song. Calypso is a genre of music with origins in [Trinidad and Tobago](https://en.wikipedia.org/wiki/Trinidad_and_Tobago) . It became wildly popular in the United States following the release of Harry Belafonte's 1956 album [*Calypso*](https://en.wikipedia.org/wiki/Calypso_(album)) .
-    guide:
-    - ['0:00', Drum intro]
-    - ['0:18', Head in]
-    - ['0:37', Head 2nd time]
-    - ['0:56', Rollins (ts) solo]
-    - ['2:28', Roach (d) solo]
-    - ['3:53', Rollins and Watkins (b) enter again. Rollins continues soloing.]
-    - ['5:02', Flanagan (p) solo]
-    - ['6:10', Head out]
+    guide: |-
+      0:00 | Drum intro
+      0:18 | Head in
+      0:37 | Head 2nd time
+      0:56 | Rollins (ts) solo
+      2:28 | Roach (d) solo
+      3:53 | Rollins and Watkins (b) enter again. Rollins continues soloing.
+      5:02 | Flanagan (p) solo
+      6:10 | Head out
 - heading: Art Blakey
   artists:
   - name: Art Blakey
@@ -148,13 +148,13 @@ sections:
     spotify: 4Vkk3iD1VrENHJEACNddvt
     intro: |-
       [(Bierman, p.233)](bibliography.html#bierman-2016) ; [(Porter, p.269)](bibliography.html#porter-ullman-1993) ;
-    guide:
-    - ['0:00', Head in]
-    - ['0:59', Morgan (tp) solo]
-    - ['3:03', Golson (ts) solo]
-    - ['5:02', Timmons (p) solo]
-    - ['7:01', Merritt (b) solo]
-    - ['7:58', Head out]
+    guide: |-
+      0:00 | Head in
+      0:59 | Morgan (tp) solo
+      3:03 | Golson (ts) solo
+      5:02 | Timmons (p) solo
+      7:01 | Merritt (b) solo
+      7:58 | Head out
 - heading: Horace Silver
   artists:
   - name: Horace Silver
@@ -180,12 +180,12 @@ sections:
       Based on the chords of " [Show Me the Way to Go Home](https://open.spotify.com/track/0QbxKCtk105LjrnrBhN0yh?si=tKIer_XvSY-9UofxuqmNJw) ," which Silver often used to end his concerts.
 
       Form: 16-bar AB
-    guide:
-    - ['0:00', Head in]
-    - ['0:45', Dorham (tp) solo]
-    - ['1:26', Mobley (ts) solo]
-    - ['2:09', 'Silver (p) solo. Hardly a bebop lick to be heard! For second half, horns play backgrounds.']
-    - ['3:31', Head out]
+    guide: |-
+      0:00 | Head in
+      0:45 | Dorham (tp) solo
+      1:26 | Mobley (ts) solo
+      2:09 | Silver (p) solo. Hardly a bebop lick to be heard! For second half, horns play backgrounds.
+      3:31 | Head out
   - title: Song For My Father
     performer: Horace Silver Quintet
     composer: Horace Silver
@@ -202,13 +202,13 @@ sections:
       Inspired by Cape Verdean-Portuguese musical roots of his father. “My dad, through the years, had always said to me ‘Why don’t you take some of this Portuguese folk music and put it into jazz?’ I never could see it.” But a trip to Rio de Janeiro convinced him otherwise.
 
       **AAB** (2) -> Silver (p) -> Henderson (ts) - > Vamp -> AAB
-    guide:
-    - ['0:00', Vamp in]
-    - ['0:07', Head in]
-    - ['1:40', Silver (p) solo]
-    - ['3:54', Henderson (ts) solo]
-    - ['5:22', Vamp on one chord.]
-    - ['5:44', Head out]
-    - ['6:25', Vamp on one chord until end]
-    - ['7:13', End]
+    guide: |-
+      0:00 | Vamp in
+      0:07 | Head in
+      1:40 | Silver (p) solo
+      3:54 | Henderson (ts) solo
+      5:22 | Vamp on one chord.
+      5:44 | Head out
+      6:25 | Vamp on one chord until end
+      7:13 | End
 ---

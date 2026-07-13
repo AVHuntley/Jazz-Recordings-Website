@@ -40,14 +40,14 @@ sections:
       Form: It's a blues with a bridge. It's often AABA, where each A is a 12 bar blues, and the B is a 16 bar habanera in a minor key. Sometimes musicians invert this, however, playing BAA instead. In this track, they play with the form, extending a single section as long as the soloist needs.
     guidenote: |-
       **Form:** A variation on AABA form with blues sections and a minor-key habanera. They manipulate form as needed for solos.
-    guide:
-    - ['0:00', B section]
-    - ['0:31', AA (12-bar blues x2)]
-    - ['1:17', Gordon (tbn) “talking” solo over multiple B sections]
-    - ['2:15', Cunningham (sop) solo over A]
-    - ['2:59', Kellso (tp) solo]
-    - ['3:45', Dease (bar) solo]
-    - ['4:29', Head out from B]
+    guide: |-
+      0:00 | B section
+      0:31 | AA (12-bar blues x2)
+      1:17 | Gordon (tbn) “talking” solo over multiple B sections
+      2:15 | Cunningham (sop) solo over A
+      2:59 | Kellso (tp) solo
+      3:45 | Dease (bar) solo
+      4:29 | Head out from B
   notes: |-
     - We’ve heard “St. Louis Blues” by Bessie Smith and Ella Fitzgerald earlier in the course. This is a modern take on an old standard.
     - This track shows that older styles remain part of the contemporary toolkit.
@@ -76,15 +76,15 @@ sections:
       Form: AABA'. The final A is much shorter than the first two. Maybe more like a tag or a coda.
     guidenote: |-
       **Form:** AABA’, with a shorter final A.
-    guide:
-    - ['0:00', 'A, head in (tp melody, ts counters)']
-    - ['0:33', A]
-    - ['1:03', 'B (Irabagon melody, Douglas counters)']
-    - ['1:35', A' (short final A)]
-    - ['1:51', Oh (b) solo on A]
-    - ['2:24', Mitchell (p) solo on A]
-    - ['2:57', 'Irabagon (ts) solo on B, with Douglas line behind']
-    - ['3:29', Head out on final A]
+    guide: |-
+      0:00 | A, head in (tp melody, ts counters)
+      0:33 | A
+      1:03 | B (Irabagon melody, Douglas counters)
+      1:35 | A' (short final A)
+      1:51 | Oh (b) solo on A
+      2:24 | Mitchell (p) solo on A
+      2:57 | Irabagon (ts) solo on B, with Douglas line behind
+      3:29 | Head out on final A
   notes: |-
     - Watch the filmed recording session on YouTube.
     - “Deep River” is a 19th-century spiritual. Compare this interpretation with a traditional version.
@@ -110,14 +110,14 @@ sections:
     - [David Ginyard, bass]
     - [Oscar Seaton, drums]
     spotify: 45qc0mhB3SrAQ4Qebc9a7p
-    guide:
-    - ['0:00', Drums groove]
-    - ['0:23', 'Bass, guitar with wah, radio chatter samples']
-    - ['0:53', Blanchard melody (effects-laden)]
-    - ['1:36', Altura (g) solo]
-    - ['4:48', Band hits end guitar solo]
-    - ['4:57', Blanchard (tp) solo with reverb/delay effects]
-    - ['7:09', 'Radio chatter returns, Blanchard stops solo']
+    guide: |-
+      0:00 | Drums groove
+      0:23 | Bass, guitar with wah, radio chatter samples
+      0:53 | Blanchard melody (effects-laden)
+      1:36 | Altura (g) solo
+      4:48 | Band hits end guitar solo
+      4:57 | Blanchard (tp) solo with reverb/delay effects
+      7:09 | Radio chatter returns, Blanchard stops solo
   notes: |-
     - The E-Collective also performed with UNT guitar faculty Davy Mooney; check the provided YouTube link.
 - heading: Snarky Puppy
@@ -151,21 +151,21 @@ sections:
       Form: It's long and, although there are repeating sections, it's somewhat through-composed
     guidenote: |-
       **Form:** Complex and somewhat through-composed, with repeated thematic sections (A, B, C) and extensive solos.
-    guide:
-    - ['0:00', Intro groove (Rhodes w/ phaser effect)]
-    - ['0:08', A (Horns melody)]
-    - ['0:46', B]
-    - ['1:00', C (guitar)]
-    - ['1:19', A]
-    - ['1:56', B]
-    - ['2:29', C]
-    - ['2:47', C with new groove]
-    - ['3:04', Sax & trumpet trade over C]
-    - ['3:57', C melody again]
-    - ['4:15', 'Breakdown, Cory Henry readies for solo']
-    - ['4:57', Cory Henry’s epic synth solo]
-    - ['8:11', 'Band hits (2-3 clave?), horns play lines, Henry solos between phrases']
-    - ['9:52', 'End, applause']
+    guide: |-
+      0:00 | Intro groove (Rhodes w/ phaser effect)
+      0:08 | A (Horns melody)
+      0:46 | B
+      1:00 | C (guitar)
+      1:19 | A
+      1:56 | B
+      2:29 | C
+      2:47 | C with new groove
+      3:04 | Sax & trumpet trade over C
+      3:57 | C melody again
+      4:15 | Breakdown, Cory Henry readies for solo
+      4:57 | Cory Henry’s epic synth solo
+      8:11 | Band hits (2-3 clave?), horns play lines, Henry solos between phrases
+      9:52 | End, applause
   notes: |-
     - Watch the original YouTube video of this performance. The energy and interplay are best experienced visually.
 - heading: SFJazz Collective

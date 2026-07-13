@@ -6,13 +6,22 @@ media:
   ghana-postal-workers:
     youtube: por5SopwHDc
     title: 'Ghana Postal Workers video'
+  maple-leaf-rag-roll:
+    audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg/Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg.mp3
+    title: Maple Leaf Rag, 1916 piano roll (MIDI realization)
+    caption: 'A modern MIDI realization of the piano roll Joplin cut in 1916 — the
+      roll''s note data played back directly, with no later editing or re-performance.'
   st-louis-blues-1929:
     mp4: https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00063365/00063365.mp4
     poster: https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00063365/00063365.jpg
     size: large
     title: St. Louis Blues (RKO, 1929)
-    caption: '*St. Louis Blues* (RKO, 1929), Bessie Smith’s only film appearance.
-      Video from the [Library of Congress National Screening Room](https://www.loc.gov/item/2023602002/).'
+    caption: '*St. Louis Blues* (RKO, 1929), Bessie Smith’s only film appearance. Video from the [Library of Congress National Screening Room](https://www.loc.gov/item/2023602002/).'
+  desecration-rag:
+    mp3: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17608_01_b14541_02:dlc_victor_17608_01_b14541_02/full/full/0/full/default.mp3
+    poster: https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17608_01_b14541_02:dlc_victor_17608_01_b14541_02/full/pct:12.5/0/default.jpg
+    title: Desecration Rag (A Classical Nightmare), by Felix Arndt
+    caption: 1914 recording by Felix Arndt. Sheet music available [here](https://digital.library.yorku.ca/node/1099240).
 intro: |-
   Jazz did not emerge in isolation. Like every style of music, early jazz was a development of existing musical styles and a synthesis of myriad influences. The earliest jazz musicians—in New Orleans and (to a lesser extent) Chicago and New York—were awash in stylistic influcences from African, African American, and European musical traditions. Indeed, many of the key characteristics of jazz (especially early jazz) can be plainly heard in these abutting musical styles.
 
@@ -65,18 +74,18 @@ sections:
       > "'Simpah,' with its strong surging rhythm, and its dramatic vursts of sound, has... multi-leveled texturing. There is the regular rhythm of the shakers or scrapers, the deeper drums generally accenting what would be the European third and fourth beats of the phrase, counting the beats of the scapers as 4/4. The middle drums have a shifting, crossping pattern. ...And within these patterns there is continuial shift and emphasis." [p. 2](bibliography.html#charters-1972)
 
       Try to hear the three groups of percussion and the way their parts interact. Listen as well to the call-and-response between the solo vocalist and the ensemble. First the solo vocalist sings a phrase (the *call*), then a chorus of other vocalists sing a reply (the *response*).
-    guide:
-    - ['0:00', High-pitched shakers open the piece.]
-    - ['0:09', 'Mid-range drums enter, and we hear the first vocal *call*.']
-    - ['0:18', Vocal *response* from the ensemble.]
-    - ['0:25', 'Deep drums enter, adding to the polyrhythmic texture.']
-    - ['0:31', Second vocal *call*]
-    - ['0:41', Second vocal *response*]
-    - ['0:53', Third vocal *call*]
-    - ['1:03', Third vocal *response*]
-    - ['1:15', 'The following calls and responses are shorter phrases. Here, we get both in quick sucsession, twice.']
-    - ['1:29', A break from the call-and-response pattern; the ensemble of vocalists takes up the "call" phrase.]
-    - ['1:55', 'Recording begins to fade. It''s unclear how long the actual performance lasted, but this is all we get from this field recording.']
+    guide: |-
+      0:00 | High-pitched shakers open the piece.
+      0:09 | Mid-range drums enter, and we hear the first vocal *call*.
+      0:18 | Vocal *response* from the ensemble.
+      0:25 | Deep drums enter, adding to the polyrhythmic texture.
+      0:31 | Second vocal *call*
+      0:41 | Second vocal *response*
+      0:53 | Third vocal *call*
+      1:03 | Third vocal *response*
+      1:15 | The following calls and responses are shorter phrases. Here, we get both in quick sucsession, twice.
+      1:29 | A break from the call-and-response pattern; the ensemble of vocalists takes up the "call" phrase.
+      1:55 | Recording begins to fade. It's unclear how long the actual performance lasted, but this is all we get from this field recording.
   notes: |-
     This recording was first released (as far as I can tell) on a 1964 compilation of field recordings from Ethnomusicologist Ivan Annan, released as [*Folk Music of Ghana*](https://folkways.si.edu/folk-music-of-ghana/world/album/smithsonian) under the [Smithsonian Folk Ways Recordings](https://folkways.si.edu/) label. Liner notes are available online [here](https://folkways-media.si.edu/docs/folkways/artwork/FW08859.pdf).
 
@@ -121,13 +130,13 @@ sections:
       A traditional (meaning "composer unknown") work song meant to accompany axe-chopping labor performed by prison [chain gangs](https://en.wikipedia.org/wiki/Chain_gang) . Though he didn't write it, Lead Belly was the first to record the piece, in 1934, having learned it during his stint at Angola prison, where he met the Lomaxes. He went on to record it many times, including in 1944—the recording below. But the first few recordings can be found on [*Leadbelly ARD & Library of Congress Recordings Vol.1 (1934-1935)*](https://open.spotify.com/album/0Q5uq4lDDaKaffCHwvDMOO?si=tyy4TqPdRtCQyg0IY7WJsQ) .
 
       Listen to the the straightforward melody and harmonic progression (I-V), and Lead Belly's vocalised imitation of the sound of an axe chop ("wah!"). In a work context, the "wah" would be the *response* to the singer's *call* of the verse. The consistent rhythmic vocalization and simple harmonic pattern presage the groove orientation and improvisational spirit of jazz.
-    guide:
-    - ['0:00', Verse 1 - "Juliana Johnson"]
-    - ['0:11', Verse 2 - "Juliana Johnson"]
-    - ['0:22', Verse 3 - "Gonna leave you"]
-    - ['0:33', Verse 4 - "Look out Julie"]
-    - ['0:43', Verse 5 - "What's the matter with Julie"]
-    - ['0:54', Verse 6 - "Gonna leave you"]
+    guide: |-
+      0:00 | Verse 1 - "Juliana Johnson"
+      0:11 | Verse 2 - "Juliana Johnson"
+      0:22 | Verse 3 - "Gonna leave you"
+      0:33 | Verse 4 - "Look out Julie"
+      0:43 | Verse 5 - "What's the matter with Julie"
+      0:54 | Verse 6 - "Gonna leave you"
   notes: |-
     Here's another famous (among musicologists) example of a work song, this one a field recording, of postal workers in Ghana canceling stamps. It was recorded by Jim Koetting in 1975. Hear the workers whistling a tune as they provide percussion accompaniment with their hands and stamps.
 
@@ -222,20 +231,20 @@ sections:
       To that point, listen also to his pitches - the notes he sings. He's not limited to the notes on a piano (or those represented on the musical staff). He sings pitches that lie between, and often slides from one pitch to another. These in-between notes (typically the 3rd, 7th, or flat-5th of the tonic key) are called **blue notes**, and are a characteristic feature of the style.
 
       Finally, note the AAB structure of each chorus. Johnson repeats a phrase twice before concluding with a different one.
-    guide:
-    - ['0:00', Intro]
-    - ['0:09', First Chorus - A]
-    - ['0:24', A]
-    - ['0:36', B]
-    - ['0:50', Second chorus - A]
-    - ['1:03', A]
-    - ['1:12', B]
-    - ['1:25', Third chorus - A]
-    - ['1:35', A]
-    - ['1:45', B]
-    - ['1:57', Fourth chorus - A]
-    - ['2:10', A]
-    - ['2:20', B]
+    guide: |-
+      0:00 | Intro
+      0:09 | First Chorus - A
+      0:24 | A
+      0:36 | B
+      0:50 | Second chorus - A
+      1:03 | A
+      1:12 | B
+      1:25 | Third chorus - A
+      1:35 | A
+      1:45 | B
+      1:57 | Fourth chorus - A
+      2:10 | A
+      2:20 | B
   notes: |-
     - I recommend listening to more of Robert Johnson's recordings - they are all available on the compilation album *[The Complete Recordings](https://open.spotify.com/album/6QwHn86Rw53qli3Y6b41Rd?si=ZMLMFvwqRJiv6Bc-wx1DgQ)*. Each track is quite similar; it's clear that Johnson had a well-developed style.
 
@@ -253,7 +262,7 @@ sections:
 
     Her vocal style reflects the technology of her time. Microphones and amplification were not yet common, so Smith, like all vocalists of her time, learned to sing without them. She developed a powerful tone that she could project to fill large venues. This was part of her appeal, and it's unfortunate that the recording technology of her time leaves us only relatively low fidelity records. She recorded a lot - one hundred fifty recordings over a ten year period - but likely none capture the full resonance of her voice.
 
-    Her personal life was not easy (even compared to that of most Black Americans at the time). She lost both of her parents and one brother before her tenth birthday, leaving her older sister to raise her. Her first performances - at around the age of twelve - were to the guitar accompaniment of her brother. A series of record deals with Columbia propelled her to stardom by the mid 1920s, though her popularity waned in the proceeding decade. Her career ended when she died in a car accident while traveling to a peformance.
+    Her personal life was not easy. She lost both of her parents and one brother before her tenth birthday, leaving her older sister to raise her. Her first performances - at around the age of twelve - were to the guitar accompaniment of her brother. A series of record deals with Columbia propelled her to stardom by the mid 1920s, though her popularity waned in the proceeding decade. Her career ended when she died in a car accident while traveling to a peformance.
   sources:
   - {ref: porter-ullman-1993, pages: 64-65}
   - {ref: martin-waters-2006, pages: '34'}
@@ -271,22 +280,42 @@ sections:
     - [Fred Longshaw, harmonium]
     spotify: 4u2mGcx8iAPueKUOFNQUmb
     intro: |-
-      St. Louis Blues is likely the single most recorded blues song in history. A classic blues with a more complex AABC form (A & C are 12-bar blues sections, B is a 16-bar minor section). Widely recorded and central to jazz history.
+      St. Louis Blues is likely the single most recorded blues song in history, and (as of 2019 at least) the second most recorded jazz song, with 2,191 recordings listed on the [Tom Lord discography](https://www.lordisco.com/). A Ted Gioia notes in *The Jazz Standards*, "only 'Silent Night' was recorded more requently during the first half of the twentieth century." [p. 355](bibliography.html#gioia-2012) As a result of the composition's popularity, its composer, W.C. Handy, is often dubbed "The Father of the Blues."
 
       You can find the sheet music as originally published in 1914 in [this online collection from Brown University Library](https://repository.library.brown.edu/studio/item/bdr:19839/).
+      
+      This is a blues with a twist: it follows an AABA form where the A sections are each a standard 12-bar blues, but the B section is a 16-bar strain that, usually, incorporates a habanera rhythm (think of the famous [aria from the opera *Carmen*](https://en.wikipedia.org/wiki/Habanera_(aria))). This habanera bridge is the defining feature of "St. Louis Blues" - what sets it apart from most other blues compositions.
+
+      This recording features Bessie Smith accompanied by a [harmonium](https://en.wikipedia.org/wiki/Pump_organ#Harmonium), an accordion-like instrument that looks like a small piano powered by a hand-operated air pump. Aso present on this recording is a young [Louis Armstrong](./early-jazz.html#louis-armstrong) playing the cornet.      
     guidenote: |-
-      Bessie Smith’s soulful delivery, Armstrong’s bluesy cornet, and the harmonium create a unique blend that points toward early jazz styles.
+      Listen not only to Smith's vocal prowess - her powerful resonant voice - but also to Armstrong's accompaniment. Listen to how his improvised melodies on cornet fill the gaps between Smith's sung phrases.
+    guide: |-
+      0:00 | Intro - a single chord played on the harmonium and one note held by Armstrong
+      0:03 | A - Smith (v) sings the first verse. Armstrong plays accompanying melodies.
+      0:49 | 2nd A
+      1:32 | B - This is the bridge. Usually people play the habanera rhythm here, but in this recording they don't.
+      2:27 | Last A - another 12-bar blues, some melodic variation
   notes: |-
-    There exists exactly one video recording of Bessie Smith, and it is a short film featuring her performance of "St. Louis Blues". Perfect. This film is a gem for jazz historians. In addition to Smith, it features James P. Johnson (discussed later in this lesson) as the pianist and bandleader. It also depicts the lives of Black Americans in the mid 1920s - partially accurate perhaps, but also heavily shaped by sterotypes. As Mark Cantor writes in [an essay for the Library of Congress](https://www.loc.gov/static/programs/national-film-preservation-board/documents/st_louis_blues.pdf), the 15-minute film:
+    - There exists exactly one video recording of Bessie Smith, and it is a short film featuring her performance of "St. Louis Blues". Perfect. This film is a gem for jazz historians. In addition to Smith, it features James P. Johnson (discussed later in this lesson) as the pianist and bandleader. It also depicts the lives of Black Americans in the mid 1920s - partially accurate perhaps, but also heavily shaped by sterotypes. As Mark Cantor writes in an essay for the Library of Congress,[^Mark Cantor, “St. Louis Blues,” National Film Registry essay (Library of Congress)](https://www.loc.gov/static/programs/national-film-preservation-board/documents/st_louis_blues.pdf) the 15-minute film:  
+    
+      > ...effectively tells its story, while also reinforcing various stereotypes about African-Americans: black men spend their days on their knees getting drunk and shooting craps; the light-skinned black woman is more desirable than the darker skinned African-American woman; black people drink and sing the blues when they are sad; black women forgive their philandering males with little or no thought. Both story and stereotypes are framed within the context of W.C. Handy’s lyrics.
 
-    >...effectively tells its story, while also reinforcing various stereotypes about African-Americans: black men spend their days on their knees getting drunk and shooting craps; the light-skinned black woman is more desirable than the darker skinned African-American woman; black people drink and sing the blues when they are sad; black women forgive their philandering males with little or no thought. Both story and stereotypes are framed within the context of W.C. Handy’s lyrics.
+      > So what makes this film so essential? ...First and foremost, this is the only known footage of the greatest of all classic blues singers, Bessie Smith ...Second, this is the only film in which the Fletcher Henderson band, or at least a portion of it, appears on both soundtrack and screen. True, Fletcher is not there -- his place is taken at the piano by James P. Johnson -- but the rest of the band is either drawn from Fletcher’s band from the period, or are musicians who had played with him ...\[Third,\] the film is also important because it is one of the earliest to present images of black life, albeit stereotypical, in a film intended for both black and white audiences.
 
-    >So what makes this film so essential? ...First and foremost, this is the only known footage of the greatest of all classic blues singers, Bessie Smith ...Second, this is the only film in which the Fletcher Henderson band, or at least a portion of it, appears on both soundtrack and screen. True, Fletcher is not there -- his place is taken at the piano by James P. Johnson -- but the rest of the band is either drawn from Fletcher’s band from the period, or are musicians who had played with him ...[Third,] the film is also important because it is one of the earliest to present images of black life, albeit stereotypical, in a film intended for both black and white audiences.
+      @video(st-louis-blues-1929)
 
-    @video(st-louis-blues-1929)
+    - It also may behoove the interested student to listen to other versions of this song. A couple are covered in this course. But my favorite is [Herbie Hancock's 1998 recording with Stevie Wonder](https://open.spotify.com/track/1rzV9wr9myXgDWvTcfIiq4?si=6f33f3e95bff4b03).
+
 - heading: Ragtime
   prose: |-
+    As early as the 1870s, American musicians might "rag" an existing composition by altering it to include more **syncopation** (an emphasis on off- or up- beats as opposed to beats 1 and 3).  A straight performance of a well-known piece might be followed by a "ragged" version, likely partially improvised. In some cases, a composer would published ragtime renditions of existing repertory - a good example is Felix Arndt's "Desecration Rag" from 1914, which contains rags of six popular "classical" themes[^https://www.ragtimepiano.ca/rags/classical.htm#felix]:
+    
+    @audio(desecration-rag)
+    
     Ragtime was a piano-based style popular in the late 19th and early 20th centuries. It used syncopated (or “ragged”) rhythms over a steady bass line. Though not improvised like jazz, it contributed syncopation, sectional forms, and a more piano-centric tradition that influenced early jazz pianists.
+
+  sources:
+  - {url: 'https://www.ragtimepiano.ca/rags/classical.htm', label: 'Classic ragtime piano — ragtimepiano.ca'}
 - heading: Scott Joplin
   artists:
   - name: Scott Joplin
@@ -296,15 +325,40 @@ sections:
     The foremost ragtime composer, Joplin wrote 44 piano rags. He helped popularize the form, achieving commercial success and influencing later stride pianists.
   tracks:
   - title: Maple Leaf Rag
-    performer: Scott Joplin
-    recorded: 1916 piano roll
+    performer: Joshua Rifkin
+    composer: Scott Joplin
+    recorded: 2005
     personnel:
-    - [Scott Joplin, piano]
-    spotify: 50VEndFOoh4EdOuViMQDVI
+    - [Joshua Rifkin, piano]
+    spotify: 5cO1oGqX8S2w96CwISPlLE
     intro: |-
       Published in 1899, it became one of the most famous rags. Its sectional form (AABBACCDD) and syncopated melody laid the foundation for later jazz pianistic approaches.
+
+      No direct recordings of Joplin playing the piano exist. When the composition was published, it was in the form of sheet music. So (like all music in the time before audio recordings) those who heard it heard it played live - either on the piano or as interpreted on other instuments. For this lesson, we'll use a 2005 recording by pianist Joshua Rifkin.
+
     guidenote: |-
-      Compare ragtime’s strict form and written notation to jazz’s improvisation. Still, the syncopation and feel anticipate jazz rhythms.
+      To a modern ear, the syncopation that made ragtime so exciting to audiences of the time may not be obvious. Most popular music today has similar rhythmic complexity. But compare the rhythms here to those, for example, in a Mozart piece, and you may get a sense of the the "hotness" that made ragtime so appealing and which, when elaborated upon, became the basis for "hot" jazz.
+
+      Try also to hear the form of the piece as noted in the listening guide below. The *strains*, as they're called, follow a precise form that originated in marches (think of John Philip Sousa), but was standard for ragtime pieces. There are four distinct strains, with the latter two in a different (the subdominant) key.
+    guide: |-
+      0:00 | A (key of Ab)
+      0:21 | A
+      0:43 | B
+      1:04 | B
+      1:26 | A
+      1:47 | C (key of Db)
+      2:09 | C
+      2:30 | D
+      2:51 | D
+  notes: |-
+    - Although no direct recordings of Joplin exist, there is a way to hear him. Before audio recordings existed, there were player pianos. These were pianos outfitted with a pneumatic (air-powered) system that let it play itself - without a pianist! The 'instructions' for what the piano played were encoded in long, rolled up sheets of paper called "piano rolls." The rolls had many small holes punched in them which triggered key presses. To create the rolls, a pianist plays as it spins at a constant rate. In this way, a piano roll could 'record' a performance, and its subsequent playback could accurately reproduce the original. (A strong analogy can be made to the contemporary MIDI format, which similarly encodes only instructions for playback, not audio itself.)
+
+      In the last year of his life, Joplin recorded several such piano rolls, including two of "Maple Leaf Rag." Nearly a century later, these rolls were converted to MIDI, allowing playback through virtual (digital) instruments. Listen to the audio below, sourced from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg), to hear just that - not Joplin directly, but a kind of echo of his playing, recorded to piano roll in 1916:
+
+      @audio(maple-leaf-rag-roll)
+
+      As you might notice, it's not the best performance. The tempo varies, and the technique is not precise. Writings from his time suggest Joplin was an accomplished pianist, but in this last year of his life, he was quite sick with syphillis, so his poor performance here likely the result of his illness.
+
 - heading: Stride
   prose: |-
     Stride piano evolved from ragtime, retaining syncopation but adding greater virtuosity, swing, and improvisation. Stride pianists used the left hand to stride between low bass notes and mid-range chords, and the right hand for elaborate melodies. It moved closer to jazz’s improvisational character.

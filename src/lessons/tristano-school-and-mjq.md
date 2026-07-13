@@ -46,13 +46,13 @@ sections:
       No set form, harmony, or key. The only thing decided ahead of time was the timing of instrument entrances.
 
       “As soon as we began playing, the engineer threw up his hands and left his machine. The A&R man and management thought I was such an idiot that they refused to pay me for the sides and to release them.” Konitz describes how they all smoked marijuana to help them play free. ( *Lennie Tristano: His Life in Music* , Eunmi Shim)
-    guide:
-    - ['0:00', Tristano (p) alone]
-    - ['0:20', Konitz (as) enters]
-    - ['0:33', Fishkin (b) enters]
-    - ['0:41', Bauer (g) enters]
-    - ['1:08', Marsh (ts) enters]
-    - ['1:50', Song begins to dissolve]
+    guide: |-
+      0:00 | Tristano (p) alone
+      0:20 | Konitz (as) enters
+      0:33 | Fishkin (b) enters
+      0:41 | Bauer (g) enters
+      1:08 | Marsh (ts) enters
+      1:50 | Song begins to dissolve
   - title: East Thirty Second
     performer: Lennie Tristano
     recorded: 1954-1955
@@ -74,8 +74,8 @@ sections:
       Backing track had been recorded for Tristano to practice with.
 
       Check out [this excellent essay about extended studio techniques employed by Tristano](https://www.arpjournal.com/asarpwp/what-is-a-jazz-record-anyway-lennie-tristano-and-the-use-of-extended-studio-techniques-in-jazz/) .
-    guide:
-    - ['0:00', '...']
+    guide: |-
+      0:00 | ...
 - heading: Lee Konitz
   artists:
   - name: Lee Konitz
@@ -109,16 +109,16 @@ sections:
       A (piano), A (guitar), B (alto), A (piano) -> Coda
 
       [(Gridley, p.126)](bibliography.html#gridley-2014) ; [(McCalla, p.130)](bibliography.html#mccalla-2000)
-    guide:
-    - ['0:00', Head in]
-    - ['0:31', Tristano (p) solo]
-    - ['1:02', Bauer (g) solo]
-    - ['1:34', Konitz (as) solo]
-    - ['2:05', 'A section, Tristano (p)']
-    - ['2:12', 'A section, Bauer (g)']
-    - ['2:20', 'B section, Konitz (as)']
-    - ['2:28', 'A section, Tristano (p)']
-    - ['2:35', 'Outro, new melody']
+    guide: |-
+      0:00 | Head in
+      0:31 | Tristano (p) solo
+      1:02 | Bauer (g) solo
+      1:34 | Konitz (as) solo
+      2:05 | A section, Tristano (p)
+      2:12 | A section, Bauer (g)
+      2:20 | B section, Konitz (as)
+      2:28 | A section, Tristano (p)
+      2:35 | Outro, new melody
 - heading: Warne Marsh
   artists:
   - name: Warne Marsh
@@ -147,13 +147,13 @@ sections:
       Bop-like in that two horns play head together. But quieter, more subdued. No piano.
 
       Note the long (>2min) solos. This is a better reflection of actual performance practices.
-    guide:
-    - ['0:00', Head in]
-    - ['0:55', Konitz (as) solo]
-    - ['2:51', Marsh (ts) solo]
-    - ['3:09 - 3:47', Bill Evans comping (very faint)]
-    - ['5:37', 'Konitz (as) enters again, solos']
-    - ['6:36', 'Head out, this time in harmony']
+    guide: |-
+      0:00 | Head in
+      0:55 | Konitz (as) solo
+      2:51 | Marsh (ts) solo
+      3:09 - 3:47 | Bill Evans comping (very faint)
+      5:37 | Konitz (as) enters again, solos
+      6:36 | Head out, this time in harmony
 - heading: Modern Jazz Quartet
   prose: |-
     Members were in Gillespie’s Big Band – originally with Ray Brown (bass) and Kenny Clarke (drums)
@@ -181,12 +181,12 @@ sections:
     spotify: 1wHKgpL6wb7V922tOJCIl3
     intro: |-
       Lewis wrote this song in 1954 as a tribute to Django Reinhardt, who had died the previous year. It was first recorded in 1954 with drummer Kenny Clarke. This version, with Connie Kay, was recorded in the studio for MJQ's 1960 album *Pyramid* .
-    guide:
-    - ['0:00', Head in]
-    - ['0:31', Jackson (vibes) solo; note that the changes for the solos are different than those used in the head]
-    - ['1:17', 'Jackson solo, 2nd chorus']
-    - ['2:02', 'Short interlude to separate solos; same melody as head, but faster']
-    - ['2:08', Lewis (piano) solo]
-    - ['2:53', 'Lewis solo, 2nd chorus']
-    - ['3:40', Head out]
+    guide: |-
+      0:00 | Head in
+      0:31 | Jackson (vibes) solo; note that the changes for the solos are different than those used in the head
+      1:17 | Jackson solo, 2nd chorus
+      2:02 | Short interlude to separate solos; same melody as head, but faster
+      2:08 | Lewis (piano) solo
+      2:53 | Lewis solo, 2nd chorus
+      3:40 | Head out
 ---

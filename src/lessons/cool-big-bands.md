@@ -53,17 +53,17 @@ sections:
       Listen for bop-style phrasing in solis
 
       [(McCalla, p.130)](bibliography.html#mccalla-2000) ; [(Bierman, p.210)](bibliography.html#bierman-2016)
-    guide:
-    - ['0:00', 'Head in, played by sax section']
-    - ['0:35', Zoot Sims (ts) solo]
-    - ['0:52', Serge Chaloff (bar) solo]
-    - ['1:09', Herbie Steward (ts) solo]
-    - ['1:27', Stan Getz (ts) solo]
-    - ['1:44', Brass and Reeds play off one another]
-    - ['2:02', Woody Herman (cl) solo]
-    - ['2:10', Ensemble passage]
-    - ['2:19', Shout]
-    - ['2:55', 'Outro, played by saxes separately, then all together.']
+    guide: |-
+      0:00 | Head in, played by sax section
+      0:35 | Zoot Sims (ts) solo
+      0:52 | Serge Chaloff (bar) solo
+      1:09 | Herbie Steward (ts) solo
+      1:27 | Stan Getz (ts) solo
+      1:44 | Brass and Reeds play off one another
+      2:02 | Woody Herman (cl) solo
+      2:10 | Ensemble passage
+      2:19 | Shout
+      2:55 | Outro, played by saxes separately, then all together.
 - heading: Lionel Hampton
   artists:
   - name: Lionel Hampton
@@ -95,19 +95,19 @@ sections:
       Listen for Mingus’s big sound, excellent technique, and featured soloing
 
       Form: Is this rhythm changes?
-    guide:
-    - ['0:00', 'Intro, dissonant, thick']
-    - ['0:11', A Groove begins. Melody played by Mingus (b) with horn hits]
-    - ['0:23', A repeat]
-    - ['0:33', B section]
-    - ['0:47', Mingus plays pedal point arco tremolo]
-    - ['1:00', 'arco bass break, then back to pizz']
-    - ['1:02', 'Bass + horn hits, Mingus takes melody again.']
-    - ['1:26', Lionel Hampton (vib) solo (B section)]
-    - ['1:40', 'A section, Hampton solo']
-    - ['1:52', 'Ensemble interlude, dissonant, thick']
-    - ['2:05', Fragmented ensemble passage]
-    - ['2:30', 'Bass takes lead again, then vibes, then ensemble']
+    guide: |-
+      0:00 | Intro, dissonant, thick
+      0:11 | A Groove begins. Melody played by Mingus (b) with horn hits
+      0:23 | A repeat
+      0:33 | B section
+      0:47 | Mingus plays pedal point arco tremolo
+      1:00 | arco bass break, then back to pizz
+      1:02 | Bass + horn hits, Mingus takes melody again.
+      1:26 | Lionel Hampton (vib) solo (B section)
+      1:40 | A section, Hampton solo
+      1:52 | Ensemble interlude, dissonant, thick
+      2:05 | Fragmented ensemble passage
+      2:30 | Bass takes lead again, then vibes, then ensemble
 - heading: Stan Kenton
   artists:
   - name: Stan Kenton
@@ -154,13 +154,13 @@ sections:
       In 1956 Kenton commissioned Johnny Richards (arr.) to write the music for an album of ‘authentic’ Latin music. The album, *Cuban Fire* , is now considered a classic. [(Sultanof, p.118)](bibliography.html#sultanof-2017)
 
       Lucky Thompson (ts) is a guest.
-    guide:
-    - ['0:46', 'Tpts play melody, Thompson solos']
-    - ['1:23', 'B section, trombones and French horn and trumpets']
-    - ['1:41', 'A section, piano lead']
-    - ['2:09', Lennie Niehaus (as) solo]
-    - ['2:52', Sam Noto (t) solo]
-    - ['3:45', Carl Fontana (tb) solo]
+    guide: |-
+      0:46 | Tpts play melody, Thompson solos
+      1:23 | B section, trombones and French horn and trumpets
+      1:41 | A section, piano lead
+      2:09 | Lennie Niehaus (as) solo
+      2:52 | Sam Noto (t) solo
+      3:45 | Carl Fontana (tb) solo
 - heading: Claude Thornhill
   artists:
   - name: Claude Thornhill
@@ -207,18 +207,18 @@ sections:
     spotify: 3QTTtM5lvo8y7PegZ45Lkm
     intro: |-
       “Excellent example of a bebop instrumental composition adapted for a dance band.” [(Sultanof, p.87)](bibliography.html#sultanof-2017)
-    guide:
-    - ['0:00', 'A, piano']
-    - ['0:12', 'A, piano']
-    - ['0:22', 'A, key change, ensemble']
-    - ['0:45', 'B, saxophones in harmony']
-    - ['0:56', 'A, full band']
-    - ['1:07', 'Lee Konitz (as) solo break, then solo']
-    - ['1:36', 'Red Rodney (1:36) solo']
-    - ['1:59', 'Ensemble passage, key change']
-    - ['2:12', Barry Galbraith (g) solo]
-    - ['2:44', 'A, head out']
-    - ['2:55', 'A, Outro. Dissonant ending typical of Evans’s style.']
+    guide: |-
+      0:00 | A, piano
+      0:12 | A, piano
+      0:22 | A, key change, ensemble
+      0:45 | B, saxophones in harmony
+      0:56 | A, full band
+      1:07 | Lee Konitz (as) solo break, then solo
+      1:36 | Red Rodney (1:36) solo
+      1:59 | Ensemble passage, key change
+      2:12 | Barry Galbraith (g) solo
+      2:44 | A, head out
+      2:55 | A, Outro. Dissonant ending typical of Evans’s style.
 - heading: Gil Evans
   artists:
   - name: Gil Evans

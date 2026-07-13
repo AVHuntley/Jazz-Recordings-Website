@@ -26,14 +26,14 @@ sections:
     spotify: 644zdVPhE3YFFnAom35JGi
     intro: |-
       Group known as Miles’s “ **First Great Quintet** ”
-    guide:
-    - ['0:00', Drum intro]
-    - ['0:09', Head in]
-    - ['0:43', 'Davis (tp) solo: melodic, legato']
-    - ['2:39', Coltrane (ts) solo]
-    - ['4:29', Garland (p) solo]
-    - ['5:47', Davis & Jones trade fours]
-    - ['6:24', Head out]
+    guide: |-
+      0:00 | Drum intro
+      0:09 | Head in
+      0:43 | Davis (tp) solo: melodic, legato
+      2:39 | Coltrane (ts) solo
+      4:29 | Garland (p) solo
+      5:47 | Davis & Jones trade fours
+      6:24 | Head out
 - heading: Modal Era
   prose: |-
     Modal jazz replaces rapid chord changes with static harmonic fields, allowing musicians to focus on melodic invention. Davis’s *Kind of Blue* epitomizes this approach. As Davis said, “You don’t have to worry about changes... The challenge... is to see how inventive you can become melodically.”
@@ -59,14 +59,14 @@ sections:
       Bass pedal point on second chorus first A.
     guidenote: |-
       Based on two modes, minimal chord movement, and infinite melodic possibilities.
-    guide:
-    - ['0:00', Gil Evans-composed intro]
-    - ['0:33', Bass melody “so what” riff]
-    - ['1:30', Davis solo]
-    - ['3:25', Coltrane solo]
-    - ['5:16', Adderley solo]
-    - ['7:03', Evans (p) solo with horn pads]
-    - ['8:16', Head out]
+    guide: |-
+      0:00 | Gil Evans-composed intro
+      0:33 | Bass melody “so what” riff
+      1:30 | Davis solo
+      3:25 | Coltrane solo
+      5:16 | Adderley solo
+      7:03 | Evans (p) solo with horn pads
+      8:16 | Head out
 - heading: Second Great Quintet (Post-Bop)
   prose: |-
     The “Second Great Quintet” (Davis, Wayne Shorter, Herbie Hancock, Ron Carter, Tony Williams) pushed jazz into post-bop territory. Harmony was freer, chords less functional, and the rhythm section more interactive and open. Hired at 17, Tony Williams brought a fresh rhythmic conception. The group’s approach was spontaneous and exploratory.
@@ -85,12 +85,12 @@ sections:
     spotify: 61K5CsgNZy69TFzrsFS1XM
     intro: |-
       Known as Miles’s “ **Second Great Quintet** ”
-    guide:
-    - ['0:00', Head in]
-    - ['0:28', Shorter solo]
-    - ['1:22', Davis solo]
-    - ['4:03', Hancock solo]
-    - ['4:52', Head out]
+    guide: |-
+      0:00 | Head in
+      0:28 | Shorter solo
+      1:22 | Davis solo
+      4:03 | Hancock solo
+      4:52 | Head out
 - heading: Fusion Era
   prose: |-
     In the late 1960s, Davis pioneered jazz-rock fusion, mixing electric instruments, rock rhythms, and avant-garde harmonies. *Bitches Brew* (1970) is a landmark, featuring extensive improvisation, minimal instructions, and heavy studio editing. The personnel on *Bitches Brew* included future stars of 1970s fusion.

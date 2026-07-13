@@ -35,12 +35,12 @@ sections:
       Holiday co-wrote the song with Arthur Herzog, Jr. Arthur Herzog approached Billie Holiday and suggested that they collaborate on a song. He asked her to suggest an old-fashioned Southern expression that they could turn into a song.
 
       “That’s what we used to say – your mother’s got money, your father’s got money, your sister’s got money, your cousin’s got money, but if you haven’t got it yourself, God bless the child that’s got his own.” (Holiday, quoted in Gioia, *The Jazz Standards* , 131)
-    guide:
-    - ['0:12', A section]
-    - ['1:12', Eldridge (trumpet) fill]
-    - ['1:16', B section]
-    - ['2:13', Eldridge (trumpet) solo]
-    - ['2:44', Outro]
+    guide: |-
+      0:12 | A section
+      1:12 | Eldridge (trumpet) fill
+      1:16 | B section
+      2:13 | Eldridge (trumpet) solo
+      2:44 | Outro
   - title: Strange Fruit
     performer: Billie Holiday with Orchestra
     composer: Abel Meeropol
@@ -103,17 +103,17 @@ sections:
     spotify: 1Oa8Ye8yIuIREyVPkPu4Ep
     intro: |-
       Lyrics are from an old nursery rhyme first recorded in 1879.
-    guide:
-    - ['0:00', Intro]
-    - ['0:18', AA]
-    - ['0:42', B]
-    - ['0:53', A]
-    - ['1:04', 'Interlude, same as intro']
-    - ['1:21', 'A, but in parallel minor']
-    - ['1:32', Call and response between Fitzgerald and the rest of the band singing]
-    - ['1:56', B]
-    - ['2:07', A]
-    - ['2:18', More call and response with band]
+    guide: |-
+      0:00 | Intro
+      0:18 | AA
+      0:42 | B
+      0:53 | A
+      1:04 | Interlude, same as intro
+      1:21 | A, but in parallel minor
+      1:32 | Call and response between Fitzgerald and the rest of the band singing
+      1:56 | B
+      2:07 | A
+      2:18 | More call and response with band
   - title: St. Louis Blues
     performer: Ella Fitzgerald
     composer: W.C. Handy
@@ -133,15 +133,15 @@ sections:
       “Blind pig” also shows up as part of a piece of folk advice with an old Russian saying, "Even a blind pig finds an acorn every once in a while." In the deep south it was little changed to, "Even a blind hog roots up a few acorns.” (
       <http://morleans.blogspot.com/2010/08/i-wouldnt-give-blind-pig.html>
       )
-    guide:
-    - ['0:00', Swing]
-    - ['0:48', Double-time *feel*]
-    - ['1:12', Back to first time feel]
-    - ['1:36', 'Tango, double time']
-    - ['2:00', Double-time]
-    - ['2:24', '“I wouldn’t give a blind sparrow an acorn, wouldn’t give a crippled crab a crutch.”']
-    - ['2:34', Fitzgerald (vocals) scat solo – 19 choruses!]
-    - ['3:17', “…wonder what I’m singin’!” What pitch control!]
+    guide: |-
+      0:00 | Swing
+      0:48 | Double-time *feel*
+      1:12 | Back to first time feel
+      1:36 | Tango, double time
+      2:00 | Double-time
+      2:24 | “I wouldn’t give a blind sparrow an acorn, wouldn’t give a crippled crab a crutch.”
+      2:34 | Fitzgerald (vocals) scat solo – 19 choruses!
+      3:17 | “…wonder what I’m singin’!” What pitch control!
 - heading: Frank Sinatra
   artists:
   - name: Frank Sinatra
@@ -187,13 +187,13 @@ sections:
     spotify: 1iZgzgmsFsi0deffe0rleB
     intro: |-
       How much of this features improvisation?
-    guide:
-    - ['0:07', Vocal Chorus 1]
-    - ['0:40', Vocal Chorus 2]
-    - ['1:12', 'Ensemble chorus, characteristic dynamic control of Basie band']
-    - ['1:45', Vocal Chorus 3]
-    - ['2:09', Tag ending]
-    - ['2:23', “Basie ending”]
+    guide: |-
+      0:07 | Vocal Chorus 1
+      0:40 | Vocal Chorus 2
+      1:12 | Ensemble chorus, characteristic dynamic control of Basie band
+      1:45 | Vocal Chorus 3
+      2:09 | Tag ending
+      2:23 | “Basie ending”
 - heading: Nat “King” Cole
   artists:
   - name: Nat “King” Cole

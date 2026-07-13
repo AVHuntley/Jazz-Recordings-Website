@@ -68,14 +68,14 @@ sections:
     spotify: 3nI8BtKM8FwNyUwO04eVhk
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:04', Head in]
-    - ['0:47', Davis (tp) solo]
-    - ['2:37', Shorter (ts) solo]
-    - ['4:48', Brief melody statement by band]
-    - ['4:53', Hancock (p) solo]
-    - ['6:15', Head out]
-    - ['', '']
+    guide: |-
+      0:04 | Head in
+      0:47 | Davis (tp) solo
+      2:37 | Shorter (ts) solo
+      4:48 | Brief melody statement by band
+      4:53 | Hancock (p) solo
+      6:15 | Head out
+       | 
   notes: |-
     Tony Williams was 17 years old when Davis hired him. Mark Gridley calls Williams “the most imaginative drummer in jazz history.” (189)
 
@@ -114,13 +114,13 @@ sections:
     spotify: 564Khg2mzPja306jcif1rI
     intro: |-
       Solos: Hubbard (tpt) -> Dolphy (fl) -> Nelson (ts) -> Evans (p)
-    guide:
-    - ['0:00', Head in]
-    - ['1:20', Hubbard (tp) solo]
-    - ['3:01', Eric Dolphy (fl) solo]
-    - ['4:14', Nelson (ts) solo]
-    - ['5:53', Evans (p) solo]
-    - ['7:04', Head out]
+    guide: |-
+      0:00 | Head in
+      1:20 | Hubbard (tp) solo
+      3:01 | Eric Dolphy (fl) solo
+      4:14 | Nelson (ts) solo
+      5:53 | Evans (p) solo
+      7:04 | Head out
   notes: |-
     At 5:15, Nelson, playing saxophone, sounds a lot like Miles Davis playing trumpet with a Harmon mute.
 
@@ -147,12 +147,12 @@ sections:
     spotify: 0qxiaagtTvTeNvzxHHc441
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', Head in]
-    - ['1:27', Shorter (ts) solo]
-    - ['4:15', Hubbard (tp) solo]
-    - ['5:40', Hancock (p) solo]
-    - ['7:03', Head out]
+    guide: |-
+      0:00 | Head in
+      1:27 | Shorter (ts) solo
+      4:15 | Hubbard (tp) solo
+      5:40 | Hancock (p) solo
+      7:03 | Head out
 - heading: Herbie Hancock
   artists:
   - name: Herbie Hancock
@@ -178,16 +178,16 @@ sections:
     spotify: 0T1EaGm6b9eM7xBf4F1hlc
     intro: |-
       Form: AABA
-    guide:
-    - ['0:00', Intro]
-    - ['0:16', Head in]
-    - ['1:19', Coleman (ts) solo]
-    - ['2:20', Hubbard (tp) solo.]
-    - ['3:55', Cool ensemble figure w/ Hubbard and Hancock.]
-    - ['4:23', Hancock (p) solo]
-    - ['4:52', Time is so loose!]
-    - ['6:01', Similar ensemble figure]
-    - ['6:23', Head out]
+    guide: |-
+      0:00 | Intro
+      0:16 | Head in
+      1:19 | Coleman (ts) solo
+      2:20 | Hubbard (tp) solo.
+      3:55 | Cool ensemble figure w/ Hubbard and Hancock.
+      4:23 | Hancock (p) solo
+      4:52 | Time is so loose!
+      6:01 | Similar ensemble figure
+      6:23 | Head out
   notes: |-
     Every chord in this tune is a [sus chord](https://en.wikipedia.org/wiki/Suspended_chord#Jazz_sus_chord) !
 
@@ -216,19 +216,19 @@ sections:
     spotify: 2JdllRPH6a8NCpt2bpxpns
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', 'Intro, modal sequence, no time']
-    - ['1:05', White (d) enters with groove]
-    - ['1:13', Carter (b) enters]
-    - ['1:21', Hancock (ep) enters]
-    - ['1:27', Head in]
-    - ['2:24', Hubbard (tp) solo]
-    - ['4:33', Hancock (ep) solo]
-    - ['6:29', Henderson (ts) solo]
-    - ['8:53', Carter (b) solo]
-    - ['10:08', Groove is reestablished]
-    - ['10:22', Head out]
-    - ['11:42', 'Outro, like intro']
+    guide: |-
+      0:00 | Intro, modal sequence, no time
+      1:05 | White (d) enters with groove
+      1:13 | Carter (b) enters
+      1:21 | Hancock (ep) enters
+      1:27 | Head in
+      2:24 | Hubbard (tp) solo
+      4:33 | Hancock (ep) solo
+      6:29 | Henderson (ts) solo
+      8:53 | Carter (b) solo
+      10:08 | Groove is reestablished
+      10:22 | Head out
+      11:42 | Outro, like intro
   notes: |-
     Red Clay shows the influence of rock and roll, an influence that would blossom into jazz fusion within the next decade.
 ---

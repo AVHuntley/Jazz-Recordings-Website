@@ -57,14 +57,14 @@ sections:
     spotify: 6RYNoJNA6xhhDrnmN4hbte
     intro: |-
       Form: AABA
-    guide:
-    - ['0:00', 'Head in, A. Opening chord is held a little longer.']
-    - ['0:27', Second A]
-    - ['0:50', B]
-    - ['1:10', Last A]
-    - ['1:33', 'B section, no lyrics, just "ooh" and "ahh"']
-    - ['1:50', 'A, with lyrics']
-    - ['2:14', Interlude (2x)]
+    guide: |-
+      0:00 | Head in, A. Opening chord is held a little longer.
+      0:27 | Second A
+      0:50 | B
+      1:10 | Last A
+      1:33 | B section, no lyrics, just "ooh" and "ahh"
+      1:50 | A, with lyrics
+      2:14 | Interlude (2x)
   notes: |-
     - Here's a music video of the Four Freshmen performing this song in 1952:
 
@@ -98,19 +98,19 @@ sections:
       Lyrics by Annie Ross
 
       [Bracketed items refer to [Wardell Gray recording](https://open.spotify.com/track/3uur489G7JzeRgI46DidfR?si=iOTX582IRvaGyFQ_iLo4eQ) for comparison.]
-    guide:
-    - ['0:00', 'Intro. Short melody, played only once']
-    - ['0:02', Head in. Two choruses.]
-    - ['0:37', 1st chorus of vocalese of Grey's solo]
-    - ['0:53', 2nd chorus]
-    - ['1:11', 3rd chrous]
-    - ['1:29', 'Short (comical) interlude, then head out, 2x.']
-    - ['0:00', Intro. Short melody played four times.]
-    - ['0:10', Head in. One chorus.]
-    - ['0:27', 1st chorus of improvisation]
-    - ['0:43', 2nd chorus]
-    - ['1:00', 3rd chorus]
-    - ['1:16', Piano solo...]
+    guide: |-
+      0:00 | Intro. Short melody, played only once
+      0:02 | Head in. Two choruses.
+      0:37 | 1st chorus of vocalese of Grey's solo
+      0:53 | 2nd chorus
+      1:11 | 3rd chrous
+      1:29 | Short (comical) interlude, then head out, 2x.
+      0:00 | Intro. Short melody played four times.
+      0:10 | Head in. One chorus.
+      0:27 | 1st chorus of improvisation
+      0:43 | 2nd chorus
+      1:00 | 3rd chorus
+      1:16 | Piano solo...
   notes: |-
     - Jon Hendricks will be featured in many of the tracks from today's lesson. We'll cover him in more detail below.
 - heading: Manhattan Transfer & Bobby McFerrin
@@ -151,19 +151,19 @@ sections:
       This is an arrangement of Dizzy Gillespie’s “A Night in Tunisia.” It combines original arrangement techniques with vocalese from the famous Charlie Parker recording. At 1:43, Jon Hendricks sings a vocalese rendition of Parker's solo from the track we listened to in our lesson on [Diz and Bird](diz-and-bird.html) , including that infamous break. At 2:12, Manhattan Transfer sings a harmonized arrangement of Miles Davis's solo over the B section of that same recording.
 
       Above is the official, \* *fabulous\** music video for this recording. Highly recommended.
-    guide:
-    - ['0:00', Intro. That's Bobby McFerrin singing the bass line and countermelody. The arrangement for this part is in 7 (3+4).]
-    - ['0:11', Manhattan Transfer enters with chord pattern.]
-    - ['0:20', McFerrin sings the A section melody.]
-    - ['0:57', 'Manhattan Transfer sings the B section, imitating the timbre of horns. McFerrin sings a walking bass line in 4/4.']
-    - ['1:09', A section again (back to 7)]
-    - ['1:26', C section. Manhattan Transfer sings harmonized melody. McFerrin sings bass line.]
-    - ['1:43', 'AA, Jon Hendricks sings vocalese of Charlie Parker’s solo.']
-    - ['2:12', 'B, Manhattan Transfer scats harmonized arrangement of Miles Davis solo.']
-    - ['2:24', A section by Manhattan Transfer and McFerrin]
-    - ['2:36', Breakdown - the percussion effects all various vocal sounds.]
-    - ['2:58', 'C section in three parts, the melody, the counter melody, and the bass line.']
-    - ['3:22', 'Head out, they repeat the A as they fade.']
+    guide: |-
+      0:00 | Intro. That's Bobby McFerrin singing the bass line and countermelody. The arrangement for this part is in 7 (3+4).
+      0:11 | Manhattan Transfer enters with chord pattern.
+      0:20 | McFerrin sings the A section melody.
+      0:57 | Manhattan Transfer sings the B section, imitating the timbre of horns. McFerrin sings a walking bass line in 4/4.
+      1:09 | A section again (back to 7)
+      1:26 | C section. Manhattan Transfer sings harmonized melody. McFerrin sings bass line.
+      1:43 | AA, Jon Hendricks sings vocalese of Charlie Parker’s solo.
+      2:12 | B, Manhattan Transfer scats harmonized arrangement of Miles Davis solo.
+      2:24 | A section by Manhattan Transfer and McFerrin
+      2:36 | Breakdown - the percussion effects all various vocal sounds.
+      2:58 | C section in three parts, the melody, the counter melody, and the bass line.
+      3:22 | Head out, they repeat the A as they fade.
   notes: |-
     - This is an arrangement of Dizzy Gillespie’s “A Night in Tunisia.” It combines original arrangement techniques with vocalese from the famous Charlie Parker recording. At 1:43, Jon Henricks sings a vocalese rendition of Parker's solo from the track we listened to in our lesson on [Diz and Bird](diz-and-bird.html) , including that infamous break. At 2:12, Manhattan Transfer sings a harmonized arrangement of Miles Davis's solo over the B section of that same recording.
     - Here's the official, \* *fabulous\** music video for this recording. Highly recommended.
@@ -196,15 +196,15 @@ sections:
     spotify: 67CtzSmZ5xKfkkOqVaQZYE
     intro: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    guide:
-    - ['0:00', 'Intro, one chorus, piano solo']
-    - ['0:20', 'Head in, two choruses. Jarreau, Benson, and Hendricks sing the horn parts of the original. McFerrin sings Wynton Kelly''s piano riffs between phrases.']
-    - ['1:02', Bobby McFerrin sings Wynton Kelly's solo.]
-    - ['2:23', Al Jarreau sings Miles Davis's solo.]
-    - ['4:29', Hendricks sings John Coltrane's solo. Listen to this! Coltrane's style doesn't seem conducive to having lyrics added; it must take such talent to write (let alone sing) them!]
-    - ['6:13', George Benson sings Cannonball Adderley's solo.]
-    - ['7:59', Rhythm section takes a chorus.]
-    - ['8:18', 'Head out, like the head in.']
+    guide: |-
+      0:00 | Intro, one chorus, piano solo
+      0:20 | Head in, two choruses. Jarreau, Benson, and Hendricks sing the horn parts of the original. McFerrin sings Wynton Kelly's piano riffs between phrases.
+      1:02 | Bobby McFerrin sings Wynton Kelly's solo.
+      2:23 | Al Jarreau sings Miles Davis's solo.
+      4:29 | Hendricks sings John Coltrane's solo. Listen to this! Coltrane's style doesn't seem conducive to having lyrics added; it must take such talent to write (let alone sing) them!
+      6:13 | George Benson sings Cannonball Adderley's solo.
+      7:59 | Rhythm section takes a chorus.
+      8:18 | Head out, like the head in.
   notes: |-
     - This is a vocalese rendition of Miles Davis's famous recording from *Kind of Blue* . There are four vocalists, each a significant musician on his own. Each vocalist sings the part of one of the instrumentalists from the original recording:
       - Bobby McFerrin - Wynton Kelly (p)
@@ -235,19 +235,19 @@ sections:
     spotify: 6gKBNe5Fgjj7hkCIAbQTfK
     intro: |-
       Lyrics by Kim Nazarian & Peter Eldridge
-    guide:
-    - ['0:00', Two choruses of a sung walking bass line with piano comping.]
-    - ['0:28', Head in sung by one voice. Lyrics have been added to Coltrane's melody.]
-    - ['0:42', Head sung by all five voices.]
-    - ['0:55', 'All five voices sing a harmonized version of the first few measures of Coltrane''s solo. (They use vocables, not lyrics, so it''s maybe not *technically* vocalese, but a close relative.)']
-    - ['1:00', Darmon Meader takes a scat solo.]
-    - ['1:51', Mulgrew Miller (p) solo.]
-    - ['2:46', 'Voices sing the head in several parts, like improvised counterpoint. Melody, walking bass, and interior voices. Bass drops out. Piano comps lightly. Drums play only hi-hat.']
-    - ['3:14', 'Vocal soli, with hits from rhythm section.']
-    - ['3:29', Vocal soli continues in several polyphonic parts.]
-    - ['3:43', Vocal and rhythm section hits alternate with drum solo.]
-    - ['4:09', Head out with all voices.]
-    - ['4:37', Brief outro.]
+    guide: |-
+      0:00 | Two choruses of a sung walking bass line with piano comping.
+      0:28 | Head in sung by one voice. Lyrics have been added to Coltrane's melody.
+      0:42 | Head sung by all five voices.
+      0:55 | All five voices sing a harmonized version of the first few measures of Coltrane's solo. (They use vocables, not lyrics, so it's maybe not *technically* vocalese, but a close relative.)
+      1:00 | Darmon Meader takes a scat solo.
+      1:51 | Mulgrew Miller (p) solo.
+      2:46 | Voices sing the head in several parts, like improvised counterpoint. Melody, walking bass, and interior voices. Bass drops out. Piano comps lightly. Drums play only hi-hat.
+      3:14 | Vocal soli, with hits from rhythm section.
+      3:29 | Vocal soli continues in several polyphonic parts.
+      3:43 | Vocal and rhythm section hits alternate with drum solo.
+      4:09 | Head out with all voices.
+      4:37 | Brief outro.
   notes: |-
     - Mulgrew Miller (1955-2013) was an excellent and well-renowned pianist and educator.
 ---
