@@ -22,9 +22,9 @@ permalink: /vocabulary.html
   </section>
   <section class="glossary" id="glossary">
    <dl>
-    {%- for v in glossary %}
-    <dt id="{{ v.term | slug }}">{{ v.term }}</dt>
-    <dd>{{ v.definition }} <a class="vocab-source" href="{{ v.source }}.html">— {{ v.sourceTitle }}</a></dd>
+    {%- for v in vocab %}
+    <dt id="{{ v.term | cleanSlug }}">{{ v.term }}</dt>
+    <dd>{{ v.definition | mdInline | safe }}{% if v.source %} <a class="vocab-source" href="{{ v.source }}.html">— {{ v.sourceTitle }}</a>{% endif %}</dd>
     {%- endfor %}
    </dl>
   </section>

@@ -16,6 +16,11 @@ Nothing here touches your existing pages in the parent folder — it's a self-co
 - `src/index.njk` — the home page; its lesson list builds itself from the lesson files.
 - `src/_data/bibliography.yaml` — **the bibliography.** One entry per source: anchor id, short
   label, and the full citation. The bibliography page and every citation label render from it.
+- `src/_data/vocab.yaml` — **the vocabulary.** One entry per term (term, definition, source
+  lesson). The vocabulary page renders from it, and any prose link to
+  `vocabulary.html#<term-slug>` is validated at build time and gets a hover-definition tooltip:
+  `[call and response](vocabulary.html#call-and-response)`. Term slugs are the lowercased,
+  hyphenated term (quotes dropped) — the same anchors as on the vocabulary page.
 - `src/images/` — copied through as-is.
 - `_site/` — the **built website** (generated; don't edit by hand).
 - `convert-from-html.py` — a script that turns an existing page in the parent folder into a
@@ -89,6 +94,10 @@ There exists exactly one video recording of Bessie Smith...
 @video(st-louis-blues-1929)
 ```
 
+Tokens take optional per-placement overrides after a comma: `@audio(desecration-rag, noposter)`
+hides the artwork just for that placement; `@video(some-clip, large)` (or `small`) overrides the
+size without changing the entry.
+
 A token pointing at a name that isn't in `media:` fails the build. For YouTube, use
 `youtube: <video-id>` (plus optional `params: list=...` for playlist context) instead of `mp4:`.
 For sources that only offer embed codes (like Internet Archive), use
@@ -112,11 +121,11 @@ source's anchor:
 ...the highest paid Black performing artist in the world [p. 41](bibliography.html#gioia-2008).
 ```
 
-At build time this becomes a small numbered superscript (endnote style: numbered in reading
-order). Hovering shows "Gioia (2008), p. 41"; clicking jumps to that note in the **Sources**
-card at the bottom of the page, where the note shows the pages and links to the full citation
-in the bibliography. Citing the same source at the same pages reuses its number; different
-pages get a new note — that's how footnotes work.
+At build time this becomes a small numbered superscript. Each **source** gets one note in the
+Sources card at the bottom of the page (numbered by first citation), aggregating every page
+cited from it — "Gioia (2008), p. 41, pp. 40–41" — and linking to the full citation in the
+bibliography. All markers for a source share its number; each marker's own page shows in its
+hover tooltip.
 
 **Web citations** are for one-off sources that don't belong in the bibliography. Start the link
 text with `^` to make it a numbered note instead of a plain link:
@@ -131,9 +140,9 @@ like `[(Lyons, p.182)](...)` still work — only the page numbers are read — b
 the preferred form going forward.
 
 **Section sources** are general references for a whole section (not tied to one claim). Declare
-them in the section's front matter; they render as an unnumbered list after the numbered notes,
-with consulted pages shown ("Porter & Ullman (1993) — pp. 64–65"). One is dropped only if a
-numbered note already cites exactly the same source and pages. Entries are either bibliography
+them in the section's front matter. If the source is already a numbered note on the page, its
+pages merge into that note; otherwise it renders in an unnumbered list after the notes, with
+consulted pages shown ("Porter & Ullman (1993) — pp. 64–65"). Entries are either bibliography
 refs or one-off web sources — each entry **must start with `- `** (it's a YAML list):
 
 ```yaml

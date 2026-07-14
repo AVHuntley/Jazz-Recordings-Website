@@ -4,17 +4,18 @@ description: A history of jazz styles and figures through selected recordings
 order: 1
 intro: |-
   This music covered in this section exemplifies some of the earliest that is widely recognized as jazz. This is the common foundation of all the other (sub)genres this course covers.
-vocabulary:
-- term: Three-horn front line
-  definition: Trumpet/cornet, clarinet, and trombone.  Typically the trumpet plays the melody, the clarinet plays decorative  lines above the melody, and the trombone plays close to the root of the chord, below the melody. Compare this instrumentation to that of the contemporary big band.
-- term: Rhythm section
-  definition: Tuba/Bass; Banjo/Guitar/Piano. Drums were only sometimes recorded. It was hard to record drum set with early technology, so percussionists often played on wood blocks.
-- term: “Tailgate” trombone
-  definition: a style of playing that included many trombone specific techniques such as growling, scoops, falls, and slides. Named for the way Dixieland trombonists would often sit and play at the back of an open trailer.
-- term: Stop time
-  definition: the band plays a series of coordinated hits behind the soloist, often on the first beat of the measure, and the soloist continues, temporarily without accompaniment.
-- term: Solo break
-  definition: the rhythm section stops playing behind a soloist for a brief period, often about half-way through a song form.
+
+  Here's some useful vocabulary:
+
+  [Three-horn front line](vocabulary.html#three-horn-front-line): Trumpet/cornet, clarinet, and trombone.  Typically the trumpet plays the melody, the clarinet plays decorative  lines above the melody, and the trombone plays close to the root of the chord, below the melody. Compare this instrumentation to that of the contemporary big band.  
+  term: Rhythm section
+  definition: Tuba/Bass; Banjo/Guitar/Piano. Drums were only sometimes recorded. It was hard to record drum set with early technology, so percussionists often played on wood blocks.  
+  term: “Tailgate” trombone
+  definition: a style of playing that included many trombone specific techniques such as growling, scoops, falls, and slides. Named for the way Dixieland trombonists would often sit and play at the back of an open trailer.  
+  term: Stop time
+  definition: the band plays a series of coordinated hits behind the soloist, often on the first beat of the measure, and the soloist continues, temporarily without accompaniment.  
+  term: Solo break
+  definition: the rhythm section stops playing behind a soloist for a brief period, often about half-way through a song form.  
 sections:
 - heading: Jelly Roll Morton
   prose: |-

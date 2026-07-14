@@ -21,7 +21,8 @@ media:
     mp3: https://tile.loc.gov/streaming-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17608_01_b14541_02:dlc_victor_17608_01_b14541_02/full/full/0/full/default.mp3
     poster: https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_17608_01_b14541_02:dlc_victor_17608_01_b14541_02/full/pct:12.5/0/default.jpg
     title: Desecration Rag (A Classical Nightmare), by Felix Arndt
-    caption: 1914 recording by Felix Arndt. Sheet music available [here](https://digital.library.yorku.ca/node/1099240).
+    caption: |- 
+      "Desecration Rag (A Classical Nightmare). 1914 recording by Felix Arndt. Sheet music available [here](https://digital.library.yorku.ca/node/1099240).
 intro: |-
   Jazz did not emerge in isolation. Like every style of music, early jazz was a development of existing musical styles and a synthesis of myriad influences. The earliest jazz musicians—in New Orleans and (to a lesser extent) Chicago and New York—were awash in stylistic influcences from African, African American, and European musical traditions. Indeed, many of the key characteristics of jazz (especially early jazz) can be plainly heard in these abutting musical styles.
 
@@ -59,7 +60,7 @@ sections:
 - heading: Hausa Drummers
   artists: Hausa Drummers
   prose: |-
-    The [Hausa people](https://en.wikipedia.org/wiki/Hausa_people) are an Islamic African ethnic group primarily found in the Sahelian region in West Africa. Their music exemplifies polyrhythms, layered percussion groups, and call-and-response vocals—all crucial elements that echo in later jazz. The recreational drummers featured in here were recorded in Ghana circa 1964.
+    The [Hausa people](https://en.wikipedia.org/wiki/Hausa_people) are an Islamic African ethnic group primarily found in the Sahelian region in West Africa. Their music exemplifies polyrhythms, layered percussion groups, and [call-and-response](vocabulary.html#call-and-response) vocals—all crucial elements that echo in later jazz. The recreational drummers featured in here were recorded in Ghana circa 1964.
   tracks:
   - title: Simpa (Fire)
     performer: Hausa Drummers
@@ -308,29 +309,42 @@ sections:
 
 - heading: Ragtime
   prose: |-
-    As early as the 1870s, American musicians might "rag" an existing composition by altering it to include more **syncopation** (an emphasis on off- or up- beats as opposed to beats 1 and 3).  A straight performance of a well-known piece might be followed by a "ragged" version, likely partially improvised. In some cases, a composer would published ragtime renditions of existing repertory - a good example is Felix Arndt's "Desecration Rag" from 1914, which contains rags of six popular "classical" themes[^https://www.ragtimepiano.ca/rags/classical.htm#felix]:
-    
-    @audio(desecration-rag)
-    
-    Ragtime was a piano-based style popular in the late 19th and early 20th centuries. It used syncopated (or “ragged”) rhythms over a steady bass line. Though not improvised like jazz, it contributed syncopation, sectional forms, and a more piano-centric tradition that influenced early jazz pianists.
+    As early as the 1870s, American musicians might "rag" an existing composition by altering it to include more **syncopation** (an emphasis on off- or up- beats as opposed to beats 1 and 3).  A straight performance of a well-known piece might be followed by a "ragged" version, likely partially improvised. In some cases, a composer would published ragtime renditions of existing repertory - a good example is Felix Arndt's "Desecration Rag" from 1914, which contains, per its center label, "ragtime perversions of 'Humoresque' (Dvorak); '2nd Hungarian rhapsody' (Liszt); 'Rustle of spring' (Sinding); 'Impromptu' (Chopin); 'Militaire polonaise' (Chopin); and Chopin's 'Funeral march'" [](bibliography.html#tjaden-2021)
 
-  sources:
-  - {url: 'https://www.ragtimepiano.ca/rags/classical.htm', label: 'Classic ragtime piano — ragtimepiano.ca'}
+    @audio(desecration-rag, noposter)
+    
+    Ragtime reached full maturity by around 1917, when the [first ragtime composition](https://en.wikipedia.org/wiki/William_Krell), so labeled, was published.[p. 20](bibliography.html#gioia-2011) It is mainly a piano music, though other instruments and ensembles played it. Notably, some scholars think it was on banjos that ragtime's characteristic syncopation was first developed.[p.21](bibliography.html#martin-waters-2006)
+
+    The form of ragtime comes from marches (like those by John Philip Sousa)[p.33](bibliography.html#schuller-1968). Sections (called "strains") are usually 16-bars long and arranged in the form AABBACCDD. The C section is in a different key, usually the subdominant (P4 up or P5 down). This song form did not survive into jazz.
+
+    What did clearly influence jazz development was the exhilarating combination of rhythmically complex melodies and a harmonic vocabulary emphasizing four-note chords, all undergirded by a steady, two-feel groove that invites dancing. The left-hand pattern in particular is clearly present in early jazz (and in [stride](#stride)) - a continuous alternation of bass note and chord, requiring the pianist's left hand to jump back and forth between the low and middle registers of the keyboard.
+
+    Among all the musical genres discussed in this lesson, Ragtime potentially has the strongest connection to early jazz. The transition was mostly seemless; from roughly 1900 to 1917, ragtime's popularity diminished at the rate jazz's rose. One could argue "not only that jazz replaced ragtime but also that ragtime *became* early jazz at a later stage."[p.26](bibliography.html#martin-waters-2006)
+
+    On the other hand, no style of music (except those lost to time) ever goes extinct. Another strain of ragtime, seeking to preserve its Joplin-era features, continues to this day. It retains the strain-based song form and is primarily notated (not improvised). For an example, listen to <a href="https://open.spotify.com/track/6VX6FUglwtwHj3D9Zs66E0?si=da84e9d9ed8e4bbc" target="_blank" rel="noopener noreferrer">William Bolcom's "Graceful Ghost Rag"</a>, written in 1970.
+
 - heading: Scott Joplin
   artists:
   - name: Scott Joplin
     born: 1868
     died: 1917
   prose: |-
-    The foremost ragtime composer, Joplin wrote 44 piano rags. He helped popularize the form, achieving commercial success and influencing later stride pianists.
+    Scott Jopin is the composer most associated with ragtime, and his compositions are considered "the pinnacle of the classic ragtime canon."[p. 23](bibliography.html#martin-waters-2006). Born in Texarcana, TX, he lived most of his live in Missouri, which similarly attracted many colleagues and students, and which became the cultural hub of ragtime.[p.20](bibliography.html#gioia-2011). He worked as a professional pianist, and later as a music teacher and even singer.
+
+    He composed "Maple Leaf Rag" around 1897, and two years later it began to suge in popularity. It sold more than a million copies - the first piece ever (of any style) to do so. As Gioia notes, "this figure [becomes] all the more stunning when one realizes that there were fewer than 100,000 professional musicians and music teachers in the United States at the time."[p.23](bibliography.html#gioia-2011)
+
+    Perhaps part of Joplin's breakout sucess, argues Karlton Hester, can be attributed simply to his ability to notate the musical practice that was previously only transmitted auarlly: "Nobody knew how to write the syncopated rags down on paper. Jopin was the first musician to notate genuine ragtime rhythms."[p.102](bibliography.html#hester-2004)
+
+    Joplin had ambitions to elevate Ragtime, in the public consciousness, to the level of concert hall art music, alongside [Debussy](https://en.wikipedia.org/wiki/Claude_Debussy), [Strauss](https://en.wikipedia.org/wiki/Richard_Strauss), and [MacDowell](https://en.wikipedia.org/wiki/Edward_MacDowell). To that end, he wrote an opera, [*Treemonisha*](https://en.wikipedia.org/wiki/Treemonisha), which, though it performed only once during his lifetime, won him a posthumous Pulitzer Prize in 1976.
   tracks:
   - title: Maple Leaf Rag
-    performer: Joshua Rifkin
+    performer: William Bolcom
     composer: Scott Joplin
-    recorded: 2005
+    album: Euphonic Sounds (The Scott Joplin Album)
+    released: 1988
     personnel:
-    - [Joshua Rifkin, piano]
-    spotify: 5cO1oGqX8S2w96CwISPlLE
+    - [William Bolcom, piano]
+    spotify: 0gEKcaIEG0GELlyVLq4pMA
     intro: |-
       Published in 1899, it became one of the most famous rags. Its sectional form (AABBACCDD) and syncopated melody laid the foundation for later jazz pianistic approaches.
 
@@ -348,16 +362,16 @@ sections:
       1:26 | A
       1:47 | C (key of Db)
       2:09 | C
-      2:30 | D
+      2:30 | D (key of Ab)
       2:51 | D
   notes: |-
-    - Although no direct recordings of Joplin exist, there is a way to hear him. Before audio recordings existed, there were player pianos. These were pianos outfitted with a pneumatic (air-powered) system that let it play itself - without a pianist! The 'instructions' for what the piano played were encoded in long, rolled up sheets of paper called "piano rolls." The rolls had many small holes punched in them which triggered key presses. To create the rolls, a pianist plays as it spins at a constant rate. In this way, a piano roll could 'record' a performance, and its subsequent playback could accurately reproduce the original. (A strong analogy can be made to the contemporary MIDI format, which similarly encodes only instructions for playback, not audio itself.)
+    - Although no direct recordings of Joplin exist, there is a way to hear him. Before audio recordings existed, there were player pianos. These were pianos outfitted with an air-powered mechanism that let it play itself - without a pianist! The the music was encoded in long, rolled up sheets of paper called "piano rolls," into which many small hoes were punched, each recording a key press. The rolls could be created live such that its subsequent playback would fully reproduce the original performance. Audio is never encoded directly. (A strong analogy can be made to the contemporary [MIDI](https://en.wikipedia.org/wiki/MIDI) format, which similarly encodes only instructions for playback, not audio itself.)
 
-      In the last year of his life, Joplin recorded several such piano rolls, including two of "Maple Leaf Rag." Nearly a century later, these rolls were converted to MIDI, allowing playback through virtual (digital) instruments. Listen to the audio below, sourced from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg), to hear just that - not Joplin directly, but a kind of echo of his playing, recorded to piano roll in 1916:
+      In the last year of his life, Joplin recorded several such piano rolls, including two of "Maple Leaf Rag." Nearly a century later, these rolls were converted to MIDI, allowing playback through virtual (digital) instruments. Listen to the audio below, sourced from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg), to hear just that - not Joplin directly, but a kind of echo of his playing, recorded to piano roll in 1916 and played back on a virtual piano:
 
       @audio(maple-leaf-rag-roll)
 
-      As you might notice, it's not the best performance. The tempo varies, and the technique is not precise. Writings from his time suggest Joplin was an accomplished pianist, but in this last year of his life, he was quite sick with syphillis, so his poor performance here likely the result of his illness.
+      As you might notice, it's not the best performance. The tempo varies, and the technique is sloppy. Writings from his time suggest Joplin was an accomplished pianist, but in this last year of his life, he was quite sick with syphillis, so his poor performance here likely the result of his illness.
 
 - heading: Stride
   prose: |-

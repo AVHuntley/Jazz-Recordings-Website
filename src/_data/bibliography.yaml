@@ -91,14 +91,12 @@
     McCalla, James. *Jazz: A Listener’s Guide*. 3rd ed. Upper Saddle River, NJ:
     Prentice Hall, 2000.
 
-# TODO (Alec): confirm this is the Porter edition cited on the hard bop and Coltrane pages
 - id: porter-ullman-1993
   label: Porter & Ullman (1993)
   citation: >-
     Porter, Lewis, and Michael Ullman, with Edward Hazell. *Jazz: From Its Origins to
     the Present*. Englewood Cliffs, NJ: Prentice Hall, 1993.
 
-# TODO (Alec): confirm edition
 - id: schuller-1968
   label: Schuller (1968)
   citation: >-
@@ -110,6 +108,11 @@
   citation: >-
     Sultanof, Jeff. *Experiencing Big Band Jazz: A Listener’s Companion*. Lanham,
     MD: Rowman & Littlefield, 2017.
+
+- id: tjaden-2021
+  label: Tjaden (2021)
+  citation: >-
+    Tjaden, Ted. "The Interplay Between Classical Music, Ragtime, and Jazz." https://www.ragtimepiano.ca/rags/classical.htm.
 
 - id: white-2016
   label: White (2016)

@@ -22,6 +22,19 @@ const md = markdownIt({ html: true, linkify: false, typographer: false });
 const bibEntries = yaml.load(fs.readFileSync("src/_data/bibliography.yaml", "utf8"));
 const bib = Object.fromEntries(bibEntries.map((e) => [e.id, e]));
 
+// Vocabulary terms (src/_data/vocab.yaml), keyed by slug. Links in prose
+// to vocabulary.html#<slug> are validated and get a hover-definition tooltip.
+// Read once at startup, like the bibliography. (Named `vocab`, not
+// `vocabulary`, so it doesn't collide with lessons' per-page vocabulary lists.)
+const cleanSlugJS = (s) =>
+  String(s)
+    .toLowerCase()
+    .replace(/[’'‘“”"]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+const vocabEntries = yaml.load(fs.readFileSync("src/_data/vocab.yaml", "utf8"));
+const vocab = Object.fromEntries(vocabEntries.map((v) => [cleanSlugJS(v.term), v]));
+
 // "64-65" -> ", pp. 64–65";  "41" -> ", p. 41";  "" -> ""
 const pagesLabel = (pages) => {
   if (!pages) return "";
@@ -55,20 +68,22 @@ const processPage = (content, pagePath) => {
     existing = m;
     return "@@SOURCES@@";
   });
-  // Endnote model: markers are numbered in reading order. The same source at
-  // the same pages reuses its number; new pages get a new note. Two kinds:
+  // Endnote model, consolidated per source: each source gets ONE numbered
+  // note, in order of first citation, aggregating every page cited
+  // ("Gioia (2008), p. 41, pp. 40–41"). Markers share the source's number;
+  // each marker's own page stays in its tooltip. Two kinds:
   //   [p. 41](bibliography.html#gioia-2008)      -> note links to the bibliography
   //   [^Label text](https://example.com/...)     -> one-off web note, no bibliography entry
-  const notes = [];
+  const notes = []; // {kind:'bib', ref, pages:[]} | {kind:'web', href, label}
   const byKey = new Map();
-  const noteKeys = new Set();
-  const addNote = (key, html) => {
+  const addNote = (key, make) => {
     if (byKey.has(key)) return byKey.get(key);
-    const n = notes.length + 1;
-    byKey.set(key, n);
-    noteKeys.add(key);
-    notes.push(html);
-    return n;
+    notes.push(make());
+    byKey.set(key, notes.length);
+    return notes.length;
+  };
+  const addPages = (note, pages) => {
+    if (pages && !note.pages.includes(pages)) note.pages.push(pages);
   };
   body = body.replace(
     /<a href="([^"]+)">(\^?)([\s\S]*?)<\/a>/g,
@@ -80,15 +95,13 @@ const processPage = (content, pagePath) => {
         if (!entry)
           throw new Error(`Unknown bibliography ref "${ref}" in ${pagePath}`);
         const pages = parseLocator(label);
-        const n = addNote(
-          `bib:${ref}|${pages}`,
-          `<a href="bibliography.html#${ref}">${entry.label}</a>${pagesLabel(pages)}`
-        );
+        const n = addNote(`bib:${ref}`, () => ({ kind: "bib", ref, pages: [] }));
+        addPages(notes[n - 1], pages);
         const tip = escAttr(entry.label + pagesLabel(pages));
         return `<sup class="cite"><a href="#src-${n}" title="${tip}">${n}</a></sup>`;
       }
       if (caret === "^" && /^https?:/.test(href)) {
-        const n = addNote(`web:${href}`, `<a href="${href}">${label}</a>`);
+        const n = addNote(`web:${href}`, () => ({ kind: "web", href, label }));
         const tip = escAttr(label.replace(/<[^>]*>/g, ""));
         return `<sup class="cite"><a href="#src-${n}" title="${tip}">${n}</a></sup>`;
       }
@@ -98,8 +111,8 @@ const processPage = (content, pagePath) => {
   // Markers sit flush against the preceding word/punctuation.
   body = body.replace(/\s+(<sup class="cite">)/g, "$1");
   // General references from sections' `sources:` fields (rendered by the
-  // template), minus bibliography items that duplicate a numbered note exactly.
-  // Web items (non-bibliography hrefs) are always kept.
+  // template). A general reference to a source that's already a numbered note
+  // merges its pages into that note; the rest stay in the unnumbered list.
   const general = [];
   if (existing) {
     const ulm = existing.match(/<ul class="cite-general">([\s\S]*?)<\/ul>/);
@@ -110,16 +123,32 @@ const processPage = (content, pagePath) => {
           /bibliography\.html#([a-z0-9-]+)"[^>]*>[\s\S]*?<\/a>(?: — (pp?\.\s[^<\n]*))?/
         );
         if (bibm) {
-          const pages = bibm[2] ? bibm[2].trim().replace(/^pp?\.\s*/, "") : "";
-          if (noteKeys.has(`bib:${bibm[1]}|${pages}`)) continue;
+          const n = byKey.get(`bib:${bibm[1]}`);
+          if (n) {
+            const pages = bibm[2]
+              ? bibm[2].trim().replace(/^pp?\.\s*/, "").replace(/\s+/g, "")
+              : "";
+            addPages(notes[n - 1], pages);
+            continue;
+          }
+        } else {
+          const hm = item.match(/<a href="([^"]+)"/);
+          if (hm && byKey.has(`web:${hm[1]}`)) continue;
         }
         general.push(item);
       }
   }
   if (!notes.length && !general.length) return content;
+  const noteHtml = (note) => {
+    if (note.kind === "web") return `<a href="${note.href}">${note.label}</a>`;
+    return (
+      `<a href="bibliography.html#${note.ref}">${bib[note.ref].label}</a>` +
+      note.pages.map(pagesLabel).join("")
+    );
+  };
   const ol = notes.length
     ? `\n<ol class="cite-notes">\n` +
-      notes.map((html, i) => `<li id="src-${i + 1}">${html}</li>`).join("\n") +
+      notes.map((note, i) => `<li id="src-${i + 1}">${noteHtml(note)}</li>`).join("\n") +
       `\n</ol>`
     : "";
   const ul = general.length
@@ -180,14 +209,26 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("md", (s, media) => {
     if (!s) return "";
     let out = md.render(String(s));
-    out = out.replace(/<p>\s*@(?:video|audio)\(([\w-]+)\)\s*<\/p>/g, (m, id) => {
-      const v = media && media[id];
-      if (!v)
-        throw new Error(
-          `@video/@audio(${id}) has no matching entry in this lesson's media: map`
-        );
-      return renderVideoFig(v);
-    });
+    out = out.replace(
+      /<p>\s*@(?:video|audio)\(([\w-]+)((?:\s*,\s*[\w-]+)*)\)\s*<\/p>/g,
+      (m, id, opts) => {
+        const v = media && media[id];
+        if (!v)
+          throw new Error(
+            `@video/@audio(${id}) has no matching entry in this lesson's media: map`
+          );
+        const o = { ...v };
+        for (const opt of opts.split(",").map((x) => x.trim()).filter(Boolean)) {
+          if (opt === "noposter") o.poster = null;
+          else if (["small", "medium", "large"].includes(opt)) o.size = opt;
+          else
+            throw new Error(
+              `Unknown @video/@audio option "${opt}" on ${id} (use noposter, small, medium, or large)`
+            );
+        }
+        return renderVideoFig(o);
+      }
+    );
     if (out.includes("@video(") || out.includes("@audio("))
       throw new Error(
         "A @video/@audio(...) token wasn't expanded - it must sit in its own paragraph"
@@ -342,8 +383,32 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addTransform("citations", function (content) {
     if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) return content;
     if (this.page.outputPath.endsWith("bibliography.html")) return content;
-    if (!content.includes("bibliography.html#")) return content;
+    const hasCitations =
+      content.includes("bibliography.html#") ||
+      /<a href="https?:[^"]+">\^/.test(content);
+    if (!hasCitations) return content;
     return processPage(content, this.page.inputPath);
+  });
+
+  // Decorate vocabulary links with hover-definition tooltips. Unknown terms
+  // fail the build.
+  eleventyConfig.addTransform("vocabTips", function (content) {
+    if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) return content;
+    if (this.page.outputPath.endsWith("vocabulary.html")) return content;
+    if (!content.includes("vocabulary.html#")) return content;
+    return content.replace(
+      /<a href="(?:\.\/)?vocabulary\.html#([a-z0-9-]+)">([\s\S]*?)<\/a>/g,
+      (m, slug, text) => {
+        const v = vocab[slug];
+        if (!v)
+          throw new Error(
+            `Unknown vocabulary term "#${slug}" in ${this.page.inputPath}`
+          );
+        let def = md.renderInline(String(v.definition)).replace(/<[^>]*>/g, "");
+        if (def.length > 280) def = def.slice(0, 277).replace(/\s+\S*$/, "") + "…";
+        return `<a class="vocab" href="vocabulary.html#${slug}">${text}<span class="vocab-tip" role="tooltip">${def}</span></a>`;
+      }
+    );
   });
 
   // Static assets copied straight through to the output folder.
