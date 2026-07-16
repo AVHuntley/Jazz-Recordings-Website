@@ -406,7 +406,7 @@ module.exports = function (eleventyConfig) {
           );
         let def = md.renderInline(String(v.definition)).replace(/<[^>]*>/g, "");
         if (def.length > 280) def = def.slice(0, 277).replace(/\s+\S*$/, "") + "…";
-        return `<a class="vocab" href="vocabulary.html#${slug}">${text}<span class="vocab-tip" role="tooltip">${def}</span></a>`;
+        return `<a class="vocab" href="vocabulary.html#${slug}">${text}<span class="vocab-tip" role="tooltip"><strong>${v.term}:</strong> ${def}</span></a>`;
       }
     );
   });

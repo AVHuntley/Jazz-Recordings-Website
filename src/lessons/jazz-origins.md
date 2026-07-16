@@ -23,6 +23,16 @@ media:
     title: Desecration Rag (A Classical Nightmare), by Felix Arndt
     caption: |- 
       "Desecration Rag (A Classical Nightmare). 1914 recording by Felix Arndt. Sheet music available [here](https://digital.library.yorku.ca/node/1099240).
+  morton-st-louis-scene:
+    mp3: https://archive.org/download/308wininboybluespt.2/3-02%20The%20St.%20Louis%20Scene.mp3#t=169
+    title: Jelly Roll Morton on the St. Louis scene (1938 Library of Congress sessions)
+    caption: |-
+      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. "Maple Leaf Rag", "the way they played it in [St. Louis] Missouri" begins at 2:49.
+  morton-maple-leaf-rag:
+    mp3: https://archive.org/download/308wininboybluespt.2/3-03%20Maple%20Leaf%20Rag.mp3#t=56
+    title: Jelly Roll Morton on Maple Leaf Rag (1938 Library of Congress sessions)
+    caption: |-
+      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. Continuation of previous recording, including the last part of prior performance. Morton plays "Maple Leaf Rag" the New-Orleans style performance at 0:56.
 intro: |-
   Jazz did not emerge in isolation. Like every style of music, early jazz was a development of existing musical styles and a synthesis of myriad influences. The earliest jazz musicians—in New Orleans and (to a lesser extent) Chicago and New York—were awash in stylistic influcences from African, African American, and European musical traditions. Indeed, many of the key characteristics of jazz (especially early jazz) can be plainly heard in these abutting musical styles.
 
@@ -40,7 +50,7 @@ intro: |-
 sections:
 - heading: African Drumming
   prose: |-
-    African drumming is, of course, not just one thing. Africa is home to thousands of distinct cultural traditions, whose origins stretch back into prehistory. Nor were those Black American jazz musicians in the early 20th century likely to have been direct inheritors of any specific African musical style; they were, for the most part, American-born descendants of formerly enslaved people taken from myriad culturally-distinct groups. As Samuel Charters writes in the liner notes of *Roots of Black Music in America*, "The tribe is so important in any consideration of African music that it is misleading to talk about something as general as music of Africa." ([Charters, liner notes to *Roots of Black Music in America*, 1972.](bibliography.html#charters-1972))
+    African drumming is, of course, not just one thing. Africa is home to thousands of distinct cultural traditions, whose origins stretch back into prehistory. Nor were those Black American jazz musicians in the early 20th century likely to have been direct inheritors of any specific African musical style; they were, for the most part, American-born descendants of formerly enslaved people taken from myriad culturally-distinct groups. As Samuel Charters writes in the liner notes of *Roots of Black Music in America*, "The tribe is so important in any consideration of African music that it is misleading to talk about something as general as music of Africa." [Charters, liner notes to *Roots of Black Music in America*, 1972.](bibliography.html#charters-1972)
 
     Further confounding any effort to trace a direct musical lineage from American jazz to its African roots is the absence of objective historical records. There are no recordings of pre-colonial West African drummers; the technology did not exist. And even the claim (as I here repeat) that these musical traditions survived in the cultural memory of enslaved people is fraught. Memory is fickle, and the tribal identities that distinguish various African musical cultures did not survive in the United States. As Charters notes (writing in 1972):
 
@@ -56,7 +66,7 @@ sections:
     - improvisation
     - instrumental “vocalization” techniques
     - repeating melodic phrases ("riffs" in jazz parlance)
-    - oral transmission rather than written notation
+    - aural transmission rather than written notation
 - heading: Hausa Drummers
   artists: Hausa Drummers
   prose: |-
@@ -73,7 +83,7 @@ sections:
       In the liner notes to *Roots of Black Music in America*, Charters offers this description:
 
       > "'Simpah,' with its strong surging rhythm, and its dramatic vursts of sound, has... multi-leveled texturing. There is the regular rhythm of the shakers or scrapers, the deeper drums generally accenting what would be the European third and fourth beats of the phrase, counting the beats of the scapers as 4/4. The middle drums have a shifting, crossping pattern. ...And within these patterns there is continuial shift and emphasis." [p. 2](bibliography.html#charters-1972)
-
+    guidenote: |-
       Try to hear the three groups of percussion and the way their parts interact. Listen as well to the call-and-response between the solo vocalist and the ensemble. First the solo vocalist sings a phrase (the *call*), then a chorus of other vocalists sing a reply (the *response*).
     guide: |-
       0:00 | High-pitched shakers open the piece.
@@ -119,7 +129,7 @@ sections:
 
     John Lomax was a lecturer, and in late 1934 began having Ledbetter perform during his lectures and fundraising attempts. On January 3, 1935, the *New York Herald Tribune* published a flattering review of one such lecture, writing, "Lead Belly made a tremendous hit when he sang before the Modern Language Association in Philadelphia last friday." Two days later, Lomax officially became Ledbetter's manager, and later that month, Ledbetter made the first of several studio recordings.
 
-    Ledbetter is considered a vituoso of the 12-string guitar, though he also played piano, mandolin, harmonica, violin, and windjammer (a kind of accordion), and, of course, he also sang.
+    Ledbetter is considered a vituoso of the 12-string guitar, though he also played piano, mandolin, harmonica, violin, and windjammer (a kind of accordion). And, of course, he also sang.
   tracks:
   - title: Juliana Johnson
     performer: Lead Belly
@@ -128,8 +138,9 @@ sections:
     - [Lead Belly, 'vocals, guitar']
     spotify: 1oVh2fPh7KhyfkKAEFRnV8
     intro: |-
-      A traditional (meaning "composer unknown") work song meant to accompany axe-chopping labor performed by prison [chain gangs](https://en.wikipedia.org/wiki/Chain_gang) . Though he didn't write it, Lead Belly was the first to record the piece, in 1934, having learned it during his stint at Angola prison, where he met the Lomaxes. He went on to record it many times, including in 1944—the recording below. But the first few recordings can be found on [*Leadbelly ARD & Library of Congress Recordings Vol.1 (1934-1935)*](https://open.spotify.com/album/0Q5uq4lDDaKaffCHwvDMOO?si=tyy4TqPdRtCQyg0IY7WJsQ) .
+      A traditional (meaning "composer unknown") work song meant to accompany axe-chopping labor performed by prison [chain gangs](https://en.wikipedia.org/wiki/Chain_gang) . Though he didn't write it, Lead Belly was the first to record the piece, in 1934, having learned it during his stint at Angola prison, where he met the Lomaxes. He went on to record it many times, including in 1944—the recording below. But the first few recordings can be found on [*Leadbelly ARD & Library of Congress Recordings Vol.1 (1934-1935)*](https://open.spotify.com/album/0Q5uq4lDDaKaffCHwvDMOO?si=tyy4TqPdRtCQyg0IY7WJsQ).
 
+    guidenote: |-
       Listen to the the straightforward melody and harmonic progression (I-V), and Lead Belly's vocalised imitation of the sound of an axe chop ("wah!"). In a work context, the "wah" would be the *response* to the singer's *call* of the verse. The consistent rhythmic vocalization and simple harmonic pattern presage the groove orientation and improvisational spirit of jazz.
     guide: |-
       0:00 | Verse 1 - "Juliana Johnson"
@@ -351,18 +362,18 @@ sections:
       No direct recordings of Joplin playing the piano exist. When the composition was published, it was in the form of sheet music. So (like all music in the time before audio recordings) those who heard it heard it played live - either on the piano or as interpreted on other instuments. For this lesson, we'll use a 2005 recording by pianist Joshua Rifkin.
 
     guidenote: |-
-      To a modern ear, the syncopation that made ragtime so exciting to audiences of the time may not be obvious. Most popular music today has similar rhythmic complexity. But compare the rhythms here to those, for example, in a Mozart piece, and you may get a sense of the the "hotness" that made ragtime so appealing and which, when elaborated upon, became the basis for "hot" jazz.
+      To a modern ear, the syncopation that made ragtime so exciting to audiences of the time may not be obvious. Most popular music today has similar rhythmic complexity. But compare the rhythms here to those, for example, in a Mozart sonata, and you may get a sense of the the "hotness" that made ragtime so appealing and which, when elaborated upon, became the basis for "hot" jazz.
 
-      Try also to hear the form of the piece as noted in the listening guide below. The *strains*, as they're called, follow a precise form that originated in marches (think of John Philip Sousa), but was standard for ragtime pieces. There are four distinct strains, with the latter two in a different (the subdominant) key.
+      If you're not familiar with listening to a song's form, this is good practice; use the listening guide to help you identify each strain.
     guide: |-
       0:00 | A (key of Ab)
       0:21 | A
       0:43 | B
       1:04 | B
       1:26 | A
-      1:47 | C (key of Db)
+      1:47 | C (modulates to key of Db)
       2:09 | C
-      2:30 | D (key of Ab)
+      2:30 | D (modulates back to key of Ab)
       2:51 | D
   notes: |-
     - Although no direct recordings of Joplin exist, there is a way to hear him. Before audio recordings existed, there were player pianos. These were pianos outfitted with an air-powered mechanism that let it play itself - without a pianist! The the music was encoded in long, rolled up sheets of paper called "piano rolls," into which many small hoes were punched, each recording a key press. The rolls could be created live such that its subsequent playback would fully reproduce the original performance. Audio is never encoded directly. (A strong analogy can be made to the contemporary [MIDI](https://en.wikipedia.org/wiki/MIDI) format, which similarly encodes only instructions for playback, not audio itself.)
@@ -373,10 +384,25 @@ sections:
 
       As you might notice, it's not the best performance. The tempo varies, and the technique is sloppy. Writings from his time suggest Joplin was an accomplished pianist, but in this last year of his life, he was quite sick with syphillis, so his poor performance here likely the result of his illness.
 
+    - One of the great historical treasures in jazz history is a series of recordings of Jelly Roll Morton, made in 1938 by Alan Lomax. In one of these recordings Morton (a pioneer of jazz whom we'll discuss in the next lesson) performs "Maple Leaf Rag" in two constrasting styles:
+    
+      - first, "the way they played it in Missouri", which, though faster than Joplin would likely have preferred, reflects the performances practices of ragtime as Morton remembers it.  
+
+      @audio(morton-st-louis-scene)
+
+      - second, "the style that I played it in New Orleans," which Morton claims is more representitive of jazz, noting, "In my estimation it’s a vast difference."
+
+      @audio(morton-maple-leaf-rag)
+
+        Contrast these two performances and you'll begin to identify the qualities that uniquely characterize jazz, especially as a direct descendant of ragtime.
+
 - heading: Stride
   prose: |-
-    Stride piano evolved from ragtime, retaining syncopation but adding greater virtuosity, swing, and improvisation. Stride pianists used the left hand to stride between low bass notes and mid-range chords, and the right hand for elaborate melodies. It moved closer to jazz’s improvisational character.
+    Should stride piano even be considered its own genre? Or is stride just the way pianists played early jazz? It's similarity to both ragtime and jazz speaks to their relationship. Perhaps stride is just ragtime on its way to becoming jazz. Or maybe stride shouldn't be considered a genre, but rather a technique: the pianist's left hand *strides* between low roots, often in 10ths, and full chords in the middle of the piano.
 
+    From ragtime, stride retained the left hand "oom-pah", the basic harmonic vocabulary, and (in some cases) the strain-based song form. But it zhuzhed it all up. The rhythms were complexified, the harmonies expanded. Skilled pianists played with the rhythm, offsetting the "oom-pah" to add exciting syncopation. Or they emphasized guide tone lines between bass notes to bring out tenor melodies. And, importantly, they **[swung](vocabulary.html#swing-rhythm)**!
+    
+    Stride is a virtuosic style that requires enourmous technique. Often played faster than ragtime, it gave pianists a fun way to show off. To that end, stride pianists engaged in public **cutting contests**
 - heading: James P. Johnson
   artists:
   - name: James P. Johnson

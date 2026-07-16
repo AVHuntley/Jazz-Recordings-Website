@@ -128,6 +128,11 @@
   source: early-jazz
   sourceTitle: 'Early Jazz'
 
+- term: 'Swing (rhythm)'
+  definition: a rhythmic feel that interprets eighth notes as long on downbeats and short on upbeats, creating a "long-short" feel. Notated either as 8th-note triplet or dotted 16ths subdivisions.
+  source: jazz-origins
+  sourceTitle: 'Jazz Origins'
+
 - term: 'Syncopation'
   definition: 'a rhythmic device in which the expected beat is displaced or accented in an unexpected way.'
   source: jazz-origins
