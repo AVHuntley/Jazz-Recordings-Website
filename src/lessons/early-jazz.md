@@ -17,6 +17,30 @@ intro: |-
   term: Solo break
   definition: the rhythm section stops playing behind a soloist for a brief period, often about half-way through a song form.  
 sections:
+- heading: Stride
+  prose: |-
+    Should stride piano even be considered its own genre? Or is stride just the way pianists played early jazz? It's similarity to both ragtime and jazz speaks to their relationship. Perhaps stride is just ragtime on its way to becoming jazz. Or maybe stride shouldn't be considered a genre, but rather a technique: the pianist's left hand *strides* between low roots, often in 10ths, and full chords in the middle of the piano.
+
+    From ragtime, stride retained the left hand "oom-pah", the basic harmonic vocabulary, and (in some cases) the strain-based song form. But it zhuzhed it all up. The rhythms were complexified, the harmonies expanded. Instead of sticking to the rigid bass-chord pattern of ragtime, skilled pianists played with the rhythm, offsetting the "oom-pah" to add exciting syncopation. And they emphasized guide tone lines between bass notes to bring out tenor melodies. And, importantly, they **[swung](vocabulary.html#swing-rhythm)**!
+    
+    Stride is a virtuosic style that requires enourmous technique. Often played faster than ragtime, it gave pianists a fun way to show off. To that end, stride pianists engaged in public **cutting contests** - competitive affairs where musicians tried to out play one another.
+- heading: James P. Johnson
+  artists:
+  - name: James P. Johnson
+    born: 1894
+    died: 1955
+  prose: |-
+    Often called the “Father of Stride Piano,” Johnson influenced Fats Waller and many Harlem pianists. Stride was more flexible than ragtime, allowing improvisation and cutting contests.
+  tracks:
+  - title: Carolina Shout
+    performer: James P. Johnson
+    recorded: '1921'
+    personnel:
+    - [James P. Johnson, piano]
+    spotify: 20MqMBvmdiPXDFEsmUkFN8
+    intro: |-
+      Johnson’s virtuosic performa
+      
 - heading: Jelly Roll Morton
   prose: |-
     Ferdinand “Jelly Roll” Morton. “Jelly Roll” was slang for female genitalia!

@@ -62,9 +62,10 @@ revision and represents the target quality bar.
 ~95 sections without "additional information" notes, ~15 empty or thin listening guides, ~11
 lessons without introductions, plus prose polish and typo passes throughout. Beyond writing:
 linking vocabulary terms across all lessons, filling citations in later lessons (coverage is
-strongest in early ones), a handful of known cleanup items (a few dead links from the original
-conversion), and eventually **deployment** — the site currently runs locally; no public host
-has been chosen yet.
+strongest in early ones), and a handful of known cleanup items (a few dead links from the
+original conversion). The site is **live on GitHub Pages**
+(https://avhuntley.github.io/Jazz-Recordings-Website/) and redeploys automatically on every
+push.
 
 **Reasonable framing of scale:** infrastructure ~complete; content perhaps 60–70% present but
 at varying depth, with one lesson at target quality and 34 to bring up to it. The honest unit
