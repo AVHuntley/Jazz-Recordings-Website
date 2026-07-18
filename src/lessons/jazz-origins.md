@@ -395,27 +395,26 @@ sections:
       @audio(morton-maple-leaf-rag)
 
         Contrast these two performances and you'll begin to identify the qualities that uniquely characterize jazz, especially as a direct descendant of ragtime.
-
-- heading: Stride
+- heading: New Orleans Brass Bands
   prose: |-
-    Should stride piano even be considered its own genre? Or is stride just the way pianists played early jazz? It's similarity to both ragtime and jazz speaks to their relationship. Perhaps stride is just ragtime on its way to becoming jazz. Or maybe stride shouldn't be considered a genre, but rather a technique: the pianist's left hand *strides* between low roots, often in 10ths, and full chords in the middle of the piano.
-
-    From ragtime, stride retained the left hand "oom-pah", the basic harmonic vocabulary, and (in some cases) the strain-based song form. But it zhuzhed it all up. The rhythms were complexified, the harmonies expanded. Instead of sticking to the rigid bass-chord pattern of ragtime, skilled pianists played with the rhythm, offsetting the "oom-pah" to add exciting syncopation. And they emphasized guide tone lines between bass notes to bring out tenor melodies. And, importantly, they **[swung](vocabulary.html#swing-rhythm)**!
-    
-    Stride is a virtuosic style that requires enourmous technique. Often played faster than ragtime, it gave pianists a fun way to show off. To that end, stride pianists engaged in public **cutting contests** - competitive affairs where musicians tried to out play one another.
-- heading: James P. Johnson
+    In New Orleans, brass bands played for parades, funerals (with solemn processional music followed by celebratory tunes), and social events. They often employed collective improvisation and established roles for each horn that mirrored early jazz arrangements. The enthusiastic dancers and followers behind the band formed the “second line.” 
+- heading: Bunk Johnson
   artists:
-  - name: James P. Johnson
-    born: 1894
-    died: 1955
+  - name: Bunk Johnson
+    born: 1879
+    died: 1949
   prose: |-
-    Often called the “Father of Stride Piano,” Johnson influenced Fats Waller and many Harlem pianists. Stride was more flexible than ragtime, allowing improvisation and cutting contests.
+    A New Orleans cornetist who led brass bands in the early 1900s. Rediscovered in the 1940s, he recorded examples of early brass band styles for the Dixieland revival. Though recorded decades after their heyday, these sessions hint at the flavor of original New Orleans brass band traditions.
   tracks:
-  - title: Carolina Shout
-    performer: James P. Johnson
-    recorded: '1921'
+  - title: In Gloryland
+    performer: Bunk's Brass Band
+    recorded: May 18, 1945
     personnel:
-    - [James P. Johnson, piano]
-    spotify: 20MqMBvmdiPXDFEsmUkFN8
+    - [Bunk Johnson, ???]
+    spotify: 7AVLHdMlwvKlTwwU7xNBDE
     intro: |-
-      Johnson’s virtuosic performa
+      Adapted from the gospel tune “Just Over in the Gloryland,” this performance mixes collective improvisation, simple harmonic structure, and a strong rhythmic feel that would inspire early jazz. 
+    guidenote: |-
+      Note the refrain/verse structure and the gradual increase in “heat” (swing feeling) toward the end. The horns’ interplay and rhythmic drive prefigure the polyphonic texture of early jazz combos.
+  sources:
+    - {ref: hasse-lathrop-2012, pages: 34-35}
