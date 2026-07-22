@@ -23,6 +23,10 @@ media:
     title: Desecration Rag (A Classical Nightmare), by Felix Arndt
     caption: |- 
       "Desecration Rag (A Classical Nightmare). 1914 recording by Felix Arndt. Sheet music available [here](https://digital.library.yorku.ca/node/1099240).
+  graceful-ghost-rag:
+    spotify: 6VX6FUglwtwHj3D9Zs66E0
+    title: Graceful Ghost Rag, composed by William Bolcom, performed by Marc-André Hamelin
+    caption: Graceful Ghost Rag, composed by William Bolcom, performed by Marc-André Hamelin
   morton-st-louis-scene:
     mp3: https://archive.org/download/308wininboybluespt.2/3-02%20The%20St.%20Louis%20Scene.mp3#t=169
     title: Jelly Roll Morton on the St. Louis scene (1938 Library of Congress sessions)
@@ -32,7 +36,23 @@ media:
     mp3: https://archive.org/download/308wininboybluespt.2/3-03%20Maple%20Leaf%20Rag.mp3#t=56
     title: Jelly Roll Morton on Maple Leaf Rag (1938 Library of Congress sessions)
     caption: |-
-      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. Continuation of previous recording, including the last part of prior performance. Morton plays "Maple Leaf Rag" the New-Orleans style performance at 0:56.
+      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. Continuation of previous recording, including the last part of prior performance. Morton plays "Maple Leaf Rag" in the "style that [he] played it in New Orleans" at 0:56.
+  marine-band-maple-leaf-rag:
+    spotify: 63cCw3NnND9XN7tW5SRvW9
+    title: Maple Leaf Rag, United States Marine Band, 1906
+    caption: |-
+      The first ever recording of "Maple Leaf Rag", by the United States Marine Band in 1906.
+  eureka-west-lawn-dirge:
+    spotify: 5BW2jR7FVRqmQg1PDfS1ou
+    title: West Lawn Dirge, Eueka Brass Band
+    caption: |-
+      "West Lawn Dirge" performed by Eureka Brass Band. Recorded in 1951. An example of somber music that might accompany a funeral procession.
+  new-orleans-brass-band-history:
+    youtube: _aOttgf05I8
+    title: |-
+      Brass Band History | Part 1: Roots and Rhythms | Following the Beat on the Street
+    caption: |-
+      Brass Band History | Part 1: Roots and Rhythms | Following the Beat on the Street. Produced by The Historic New Orleans Collection. See [this playlist](https://youtube.com/playlist?list=PLnUU1wHIWjsJ6FePPzJ-0zmMp2-3fD3sa&si=vwmVVf0IMGXMn6H0) for the rest of the series.
 intro: |-
   Jazz did not emerge in isolation. Like every style of music, early jazz was a development of existing musical styles and a synthesis of myriad influences. The earliest jazz musicians—in New Orleans and (to a lesser extent) Chicago and New York—were awash in stylistic influcences from African, African American, and European musical traditions. Indeed, many of the key characteristics of jazz (especially early jazz) can be plainly heard in these abutting musical styles.
 
@@ -332,7 +352,9 @@ sections:
 
     Among all the musical genres discussed in this lesson, Ragtime potentially has the strongest connection to early jazz. The transition was mostly seemless; from roughly 1900 to 1917, ragtime's popularity diminished at the rate jazz's rose. One could argue "not only that jazz replaced ragtime but also that ragtime *became* early jazz at a later stage."[p.26](bibliography.html#martin-waters-2006)
 
-    On the other hand, no style of music (except those lost to time) ever goes extinct. Another strain of ragtime, seeking to preserve its Joplin-era features, continues to this day. It retains the strain-based song form and is primarily notated (not improvised). For an example, listen to <a href="https://open.spotify.com/track/6VX6FUglwtwHj3D9Zs66E0?si=da84e9d9ed8e4bbc" target="_blank" rel="noopener noreferrer">William Bolcom's "Graceful Ghost Rag"</a>, written in 1970.
+    On the other hand, no style of music (except those lost to time) ever goes extinct. Another strain of ragtime, seeking to preserve its Joplin-era features, continues to this day. It retains the strain-based song form and is primarily notated (not improvised). For an example, listen to William Bolcom's "Graceful Ghost Rag", written in 1970:
+
+    @audio(graceful-ghost-rag)
 
 - heading: Scott Joplin
   artists:
@@ -397,11 +419,34 @@ sections:
         Contrast these two performances and you'll begin to identify the qualities that uniquely characterize jazz, especially as a direct descendant of ragtime.
 - heading: New Orleans Brass Bands
   prose: |-
-    In New Orleans, brass bands played for parades, funerals (with solemn processional music followed by celebratory tunes), and social events. They often employed collective improvisation and established roles for each horn that mirrored early jazz arrangements. The enthusiastic dancers and followers behind the band formed the “second line.” 
+    Brass bands are named for their instrumentation - composed mostly of brass instruments like trumpets, tubas, trombones, and saxophones. Even today, they are common in New Orleans, performing on stages or in the street, entertaining parties and festivals, and leading parades and (notably) funeral processions.
+    
+    The American brass band is has roots least as old as America itself. But it was around the time of the American Civil war that they surged in popularity in New Orleans. In the mid-19th century, it was common for American towns to form community brass bands that would, on occasion, accompany the training drills of local militias.[p.12](bibliography.html#troiano-2021). Such martial music became a major part of the American Civil War - brass bands performed to maintain morale during long marches, rest, and even combat.[p.13](bibliography.html#troiano-2021) During the war, New Orleans was occupied by federal forces whose numerous brass bands had a large influence on the city and its musical future.[^Karl Koenig, Jazz Essays, Vol. 1, basinstreet.com](http://basinstreet.com/wp-content/uploads/2016/09/essays1.pdf)
+    
+    Over time, brass bands in New Orleans took on a cultural significance distinct from that of the rest of the country. Of special note is their function in funeral processions. They begin with slow and somber dirges. But as the procession continues, they switch to upbeat, higher tempo dance music.The mournful air becomes celebratory, and atendees begin to dance, clap, sing, and play their own inststruments as the follow the band in a **second line**.
+
+    It's important to note that, no recordings of this music exist before the mid-1940s. What we *do* have are tesimonies from musicians of the time and recordings from later decades by those who attempt to replicate how they and other bands sounded in decades past. To get a sense of what a listener in 1910 might have heard, we need to triangulate using several sources.
+    
+    For a first example, listen to this dirge recorded in 1951 by the Eureka Brass Band, which was formed in the 1920s. This reflects what a brass band might play during the first part of a funeral procession.
+
+    @audio(eureka-west-lawn-dirge)
+
+    Over time, brass bands in New Orleans diverged from those in the rest of the country. They were smaller, incorporating only about a dozen members.[^Samuel Barclay Charters, liner notes to *The Music of New Orleans*](https://folkways-media.si.edu/docs/folkways/artwork/FW02462.pdf). And while 19th century American brass bands likely stuck mostly to notated or memorized parts, those in New Orleans around the turn of the century began incorporating improvisation and rhythmic syncopation, establishing roles for each instrument that mirrored early jazz arrangements.
+    
+    As ragtime became America's popular music of choice, brass bands began incorporated rags into their repertory. For exmaple, listen to this recording from 1906 by the United States Marine Band. This is the earliest recording we'll hear in this entire course, and provides a good example of a (mostly) brass band playing in the pre-New Orleans style, without improvisation. It's also the first ever *audio* recording of "Maple Leaf Rag".
+
+    @audio(marine-band-maple-leaf-rag)
+
+    This fruitful combination of brass bands and ragtime sounds so much like early jazz that it's easy to understand the connection. As with ragtime itself, the division between turn-of-the-century New Orleans brass bands and jazz is blurry. Early jazz groups retined the instrumentation and social function of brass bands, and brass bands began incorporating jazz tunes in their repertories. Today, New Orleans brass band music may as well be considered a type of jazz.
+
+    [This video series](https://youtube.com/playlist?list=PLnUU1wHIWjsJ6FePPzJ-0zmMp2-3fD3sa&si=vwmVVf0IMGXMn6H0), presented by The Historic New Orleans Collection, provides a great summary of this history, replete with audio examples, historic footage, and musical demonstrations. Here's part one of four:
+
+    @video(new-orleans-brass-band-history)
+    
 - heading: Bunk Johnson
   artists:
   - name: Bunk Johnson
-    born: 1879
+    born: 1889
     died: 1949
   prose: |-
     A New Orleans cornetist who led brass bands in the early 1900s. Rediscovered in the 1940s, he recorded examples of early brass band styles for the Dixieland revival. Though recorded decades after their heyday, these sessions hint at the flavor of original New Orleans brass band traditions.
@@ -410,11 +455,32 @@ sections:
     performer: Bunk's Brass Band
     recorded: May 18, 1945
     personnel:
-    - [Bunk Johnson, ???]
+    - ['Willie "Bunk" Johnson, Louis "Kid Shots" Madison', trumpet]
+    - [Jim Robinson, trombone]
+    - [George Lewis, clarinet]
+    - [Isidore Barbarin, alto horn]
+    - [Adolphe "Tats" Alexander Jr., baritone horn]
+    - [Joe "Red" Clark, bass horn]
+    - [Warren "Baby" Dodds, snare drum]
+    - [Lawrence Marrero, bass drum]
+    - [Alcide Pavageau, bass]
     spotify: 7AVLHdMlwvKlTwwU7xNBDE
     intro: |-
-      Adapted from the gospel tune “Just Over in the Gloryland,” this performance mixes collective improvisation, simple harmonic structure, and a strong rhythmic feel that would inspire early jazz. 
+      This recording comes from a session organized by producer William Russell, whose intention was to preserve on record this earliest style of jazz. He gathered musicians who had played in the first decades of the 20th century and had Bunk Johnson lead them through a repertory intended to capture a musical tradition 30 years old and never previously recorded. It was an influential record, stimulating a revival of traditional jazz in the years that followed.[Alyn Shipton, p.25](bibliography.html#smithsonian-anthology)
+
+      Although the recording session was organized to demonstrate the pre-jazz brass band tradition, it's clear that the musicians here are jazz players, and this recording sounds more like early jazz than a pre-jazz brass band. Listen to this track alongside the two recordings above (of the Marine Band and the Eureka Brass Band), and try to triangulate how early New Orleans brass bands might have sounded.
     guidenote: |-
-      Note the refrain/verse structure and the gradual increase in “heat” (swing feeling) toward the end. The horns’ interplay and rhythmic drive prefigure the polyphonic texture of early jazz combos.
+      It's a 24 bar form, with two parallel halves, A and B, each 12 bars. In the listening guide below, each row corresponds to one time through the form (in jazz parlance, this would be a **chorus**). Despite the 12-bar sections, this is not a blues.
+      
+      Listen to the gradual increase in “heat” (jazz feeling) as the song progresses. Try to pick out an individual instrument, then listen to how that instrument fits within the polyphonic tapestry. The trumpets drive the melody, the tuba plays a steady 2-feel bass, the trombone improvises counterlines in the lower register, while the clarinet does the same in higher register.
+    guide: |-
+      0:00 | Intro - Dodds (snare) sets the tempo, then Marrero (bass drum) brings in the band.
+      0:09 | 1st chorus
+      0:38 | 2nd chorus
+      1:10 | 3rd chorus
+      1:40 | 4th chorus
+      2:08 | 5th chorus
+      2:36 | 6th chorus
+      2:50 | Outro
   sources:
     - {ref: hasse-lathrop-2012, pages: 34-35}

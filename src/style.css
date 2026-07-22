@@ -403,6 +403,14 @@ figure.video iframe.wide {
   aspect-ratio: 16 / 9;
 }
 
+/* Compact Spotify player (thin bar, for citing audio within prose) */
+figure.video iframe.spotify-compact {
+  aspect-ratio: auto;
+  height: 80px;
+  box-shadow: none;
+  background-color: transparent;
+}
+
 figure.video figcaption {
   margin-top: 8px;
   font-size: 0.9em;

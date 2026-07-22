@@ -185,6 +185,8 @@ const renderVideoFig = (v) => {
       ? `<img src="${esc(v.poster)}" alt="${esc(v.title || "")}" class="audio-poster"/>`
       : "";
     inner = `${img}<audio controls preload="none" src="${esc(v.audio || v.mp3)}"${label}>Your browser doesn't support embedded audio.</audio>`;
+  } else if (v.spotify) {
+    inner = `<iframe src="https://open.spotify.com/embed/track/${esc(v.spotify)}?utm_source=generator" title="${esc(v.title || "Spotify player")}" loading="lazy" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen="" class="spotify-compact"></iframe>`;
   } else if (v.youtube) {
     const params = v.params ? `?${v.params}` : "";
     inner = `<iframe src="https://www.youtube.com/embed/${esc(v.youtube)}${params}" title="${esc(v.title || "YouTube video")}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" class="wide"></iframe>`;

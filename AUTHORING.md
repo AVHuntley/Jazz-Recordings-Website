@@ -82,6 +82,8 @@ media:
     youtube: dQw4w9WgXcQ                    # or: iframe: https://archive.org/embed/...
   some-recording:
     mp3: https://.../file.mp3#t=95          # audio; #t= starts playback at 95 seconds
+  some-track:
+    spotify: 4u2mGcx8iAPueKUOFNQUmb        # renders Spotify's thin compact player
 ```
 
 ```markdown
