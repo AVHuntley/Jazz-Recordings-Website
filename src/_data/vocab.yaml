@@ -4,42 +4,42 @@
 # - source/sourceTitle: the lesson where the term is introduced
 
 - term: 'Barbershop quartet singing'
-  definition: '“Characterized by homophonic, close-harmony, four-part arrangements… with the melody performed by the second tenor, or “lead.” The style frequently uses "snakes" or "swipes," which is when a chord is altered by a change in one or more non-melodic voices. It was popular 1810-1910, but was re-popularized in the 1940s, when the style we hear today was codified. ( Grove Music Online )'
+  definition: 'A small-group choral style characterized by homophonic, close-harmony, and four-part arrangements.'
   source: vocal-ensembles
   sourceTitle: 'Vocal Ensembles'
 
 - term: 'Bebop'
-  definition: 'A style of jazz developed in the late 30s and early 40s. Originated largely in jam sessions at Minton''s Playhouse and Monroe''s Uptown House, both in Harlem.'
+  definition: 'A style of jazz developed in the late 30s and early 40s. Characterized by fast tempos, chromaticism, and virtuosic improvisation. The style was pioneered by Charlie Parker, Dizzy Gillespie, and Thelonious Monk.'
   source: diz-and-bird
   sourceTitle: 'Diz and Bird'
 
 - term: 'Block chords'
-  definition: 'lead alto plays melody, and the other saxes are written below, in harmony that follows the rhythmic and melodic contour of the melody.'
+  definition: 'Chords played in a blocked texture, where all voices move together in the same direction.'
   source: swing-era-soloists
   sourceTitle: 'Swing Era Soloists'
 
 - term: 'Blue notes'
-  definition: 'microtonal pitches that lie between the notes of the well-tempered (Western) musical scale, a little sharp or flat, difficult to transcribe using standard notation.'
+  definition: 'Microtonal pitches that lie between the notes of the well-tempered (Western) musical scale, a little sharp or flat, difficult to transcribe using standard notation.'
   source: jazz-origins
   sourceTitle: 'Jazz Origins'
 
 - term: 'Bossa Nova'
-  definition: 'A Brazilian style that emerged in the late 1950s, blending samba with a quieter, more subdued aesthetic, featuring guitar, soft vocals, and complex harmonies.'
+  definition: 'A Brazilian musicalstyle that emerged in the late 1950s, blending samba with a quieter, more subdued aesthetic, featuring guitar, soft vocals, and complex harmonies.'
   source: afro-caribbean-and-brazilian-jazz
   sourceTitle: 'Afro-Caribbean & Brazilian Jazz'
 
 - term: 'Call-and-response'
-  definition: 'a musical structure in which a leader (or soloist) makes a musical statement (the call) and the ensemble, or another musician, answers with a direct or contrasting reply (the response).'
+  definition: 'A musical structure in which a leader (or soloist) makes a musical statement (the call) and the ensemble, or another musician, answers with a direct or contrasting reply (the response).'
   source: jazz-origins
   sourceTitle: 'Jazz Origins'
 
 - term: 'Clave'
-  definition: 'A two-part rhythmic pattern (e.g., son or rumba clave) that organizes the entire ensemble. It can be in 2-3 or 3-2 order. Aligning parts with the correct side of the clave is crucial.'
+  definition: 'A two-part rhythmic pattern that organizes the entire ensemble. The clave is the foundation of Afro-Caribbean music, and is often played on a pair of wooden sticks called claves.'
   source: afro-caribbean-and-brazilian-jazz
   sourceTitle: 'Afro-Caribbean & Brazilian Jazz'
 
 - term: 'Contrafact'
-  definition: 'New head on changes to existing tune (like rhythm changes)'
+  definition: 'A composition that features a new melody over the harmony of an existing tune'
   source: diz-and-bird
   sourceTitle: 'Diz and Bird'
 
@@ -49,37 +49,32 @@
   sourceTitle: 'Afro-Caribbean & Brazilian Jazz'
 
 - term: 'Cu-bop'
-  definition: 'a mix of Cuban music and bebop.'
+  definition: 'A mix of Cuban music and bebop.'
   source: bebop-era-big-bands
   sourceTitle: 'Bebop Era Big Bands'
 
 - term: 'Dropping Bombs'
-  definition: 'Bass drum hits as punctuation'
+  definition: 'Bebop slang for when a drummer plays strong bass drum hits as punctuation.'
   source: diz-and-bird
   sourceTitle: 'Diz and Bird'
 
 - term: 'Flatted Fifth (or #4)'
-  definition: '“The boppers flat their fifths. We drink ours.” - Eddie Condon'
+  definition: 'A pitch that is one half-step lower than the perfect fifth of a scale. In jazz, the flatted fifth is often used in blues and bebop contexts, creating a dissonant sound that adds tension and color to the music.'
   source: diz-and-bird
   sourceTitle: 'Diz and Bird'
 
 - term: 'Ghost band'
-  definition: 'a band that plays under the name of a deceased leader. Several bands from the swing era exist in this form, including the Glenn Miller Orchestra , the Count Basie Orchestra , the Ellington Orchestra , and the Mingus Big Band .'
+  definition: 'A band that plays under the name of a deceased leader.'
   source: contemporary-big-bands
   sourceTitle: 'Contemporary Big Bands'
 
-- term: 'Harmolodic'
-  definition: 'harmony + movement + melody. As Coleman described it in the liner notes of Dancing in Your Head , "This means the rhythms, harmonics and tempos are all equal in relationship and independent melodies at the same time."'
-  source: free-jazz-and-avant-garde
-  sourceTitle: 'Free Jazz and the Avant Garde'
-
 - term: 'Improvisation'
-  definition: 'to play without a preconceived or notated part, freely creating music in the moment. Note that improvising does not always mean playing without restrictions; improvisers often confine themselves to stylistic and idomatic guidelines.'
+  definition: 'Performing without a preconceived or notated part.'
   source: jazz-origins
   sourceTitle: 'Jazz Origins'
 
-- term: 'Jazz standards'
-  definition: '"Doodlin''," "Nica''s Dream," "Opus de Funk," "Peace," "Sister Sadie," and of course "The Preacher" and "Song for My Father."'
+- term: 'Jazz standard'
+  definition: 'A popular instrumental or vocal piece that has become a part of the standard repertoire of jazz musicians.'
   source: hard-bop
   sourceTitle: 'Hard Bop'
 
@@ -94,57 +89,47 @@
   sourceTitle: 'Afro-Caribbean & Brazilian Jazz'
 
 - term: 'Rehearsal band'
-  definition: '“A big band that meets for enjoyment and practice, or to play new compositions and arrangements, only occasionally performing in front of an audience; (now also) a smaller group of musicians that meet informally to play big band music.” ( Oxford Dictionary )'
+  definition: 'A big band that meets for enjoyment and practice, or to play new compositions and arrangements, only occasionally performing in front of an audience'
   source: big-bands-of-the-1960s
   sourceTitle: 'Big Bands of the 1960s'
 
-- term: 'Rhythm and timbre'
-  definition: 'unlike much of the music in the European "classical" idiom of late 19th/early 20th century, jazz and its stylistic antecedents often emphasized rhythm, groove, and timbre (the quality of a sound distinct from its pitch), over unexpected harmonies and rubato tempos.'
-  source: jazz-origins
-  sourceTitle: 'Jazz Origins'
-
 - term: 'Rhythm section'
-  definition: 'Tuba/Bass; Banjo/Guitar/Piano. Drums were only sometimes recorded. It was hard to record drum set with early technology, so percussionists often played on wood blocks.'
+  definition: 'The group of instruments that provide the harmonic and rhythmic foundation for a jazz ensemble, typically including piano, bass, drums, and sometimes guitar or percussion.'
   source: early-jazz
   sourceTitle: 'Early Jazz'
 
 - term: 'Salsa'
-  definition: 'A catch-all term for Afro-Caribbean dance music. Designed primarily for dancing, often features a vocalist and horn section.'
+  definition: 'A catch-all term for Afro-Caribbean music designed primarily for dancing, often featuring a vocalist and horn section.'
   source: afro-caribbean-and-brazilian-jazz
   sourceTitle: 'Afro-Caribbean & Brazilian Jazz'
 
-- term: 'Sectional form'
-  definition: 'A1, A2, A3, then B1…B7'
-  source: early-jazz
-  sourceTitle: 'Early Jazz'
-
 - term: 'Shout chorus'
-  definition: 'When whole band plays new material at high dynamic level'
+  definition: 'A climactic section of a big band arrangement, often featuring the full ensemble playing in unison or harmony, typically occurring near the end of a piece.'
   source: early-big-bands
   sourceTitle: 'Early Big Bands'
 
 - term: 'Stop time'
-  definition: 'the band plays a series of coordinated hits behind the soloist, often on the first beat of the measure, and the soloist continues, temporarily without accompaniment.'
+  definition: 'A musical device in which the rhythm section stops playing for a brief period, allowing a soloist or ensemble to play unaccompanied or with minimal accompaniment. Often used to create dramatic effect or highlight a particular moment in a performance.'
   source: early-jazz
   sourceTitle: 'Early Jazz'
 
 - term: 'Swing (rhythm)'
-  definition: a rhythmic feel that interprets eighth notes as long on downbeats and short on upbeats, creating a "long-short" feel. Notated either as 8th-note triplet or dotted 16ths subdivisions.
+  definition: 'A rhythmic feel that interprets eighth notes as long on downbeats and short on upbeats, creating a "long-short" feel. Notated either as 8th-note triplet or dotted 16ths subdivisions.'
   source: jazz-origins
   sourceTitle: 'Jazz Origins'
 
 - term: 'Syncopation'
-  definition: 'a rhythmic device in which the expected beat is displaced or accented in an unexpected way.'
+  definition: 'A rhythmic device in which the expected beat is displaced or accented in an unexpected way.'
   source: jazz-origins
   sourceTitle: 'Jazz Origins'
 
 - term: 'Tailgate trombone'
-  definition: 'a style of playing that included many trombone specific techniques such as growling, scoops, falls, and slides. Named for the way Dixieland trombonists would often sit and play at the back of an open trailer.'
+  definition: 'A style of trombone playing that features techniques such as growling, scoops, falls, and slides. Named for the way Dixieland trombonists would often sit and play at the back of an open trailer.'
   source: early-jazz
   sourceTitle: 'Early Jazz'
 
 - term: 'Three-horn front line'
-  definition: 'Trumpet/cornet, clarinet, and trombone. Typically the trumpet plays the melody, the clarinet plays decorative lines above the melody, and the trombone plays close to the root of the chord, below the melody. Compare this instrumentation to that of the contemporary big band.'
+  definition: 'A common configuration in early jazz ensembles, consisting of three horn players (typically trumpet, clarinet, and trombone) who play the melody and harmonies together.'
   source: early-jazz
   sourceTitle: 'Early Jazz'
 
@@ -159,6 +144,6 @@
   sourceTitle: 'Afro-Caribbean & Brazilian Jazz'
 
 - term: 'Vocalese'
-  definition: 'the practice of writing and singing lyrics to preexisting melodies. These melodies can be the composed "head" of a song, or, frequently, a recorded improvised solo. The Grove Music Online article about vocalese credits Eddie Jefferson with pioneering the style in the 1940s and King Pleasure with popularizing it in the 1950s. As an example, listen to " Moody''s Mood for Love, " performed by King Pleasure. The melody comes from an improvised solo by James Moody over the standard "I''m in the Mood for Love." Then Eddie Jefferson wrote lyrics that fit the improvised solo, and King Pleasure recorded them.'
+  definition: 'The practice of writing and singing lyrics to preexisting melodies. These melodies can be the composed "head" of a song, or, frequently, a recorded improvised solo.'
   source: vocal-ensembles
   sourceTitle: 'Vocal Ensembles'
