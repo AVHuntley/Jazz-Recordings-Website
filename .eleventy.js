@@ -125,10 +125,11 @@ const processPage = (content, pagePath) => {
         if (bibm) {
           const n = byKey.get(`bib:${bibm[1]}`);
           if (n) {
-            const pages = bibm[2]
-              ? bibm[2].trim().replace(/^pp?\.\s*/, "").replace(/\s+/g, "")
-              : "";
-            addPages(notes[n - 1], pages);
+            // An aggregated general reference may hold several ranges
+            // ("pp. 88, 105–107"); add each so they format individually.
+            const pagesStr = bibm[2] ? bibm[2].trim().replace(/^pp?\.\s*/, "") : "";
+            for (const p of pagesStr.split(",").map((s) => s.trim()).filter(Boolean))
+              addPages(notes[n - 1], p);
             continue;
           }
         } else {

@@ -434,7 +434,7 @@ sections:
 
     The historians who "found" Johnson raised money for a set of false teeth and a new trumpet, and arranged for him to perform and record. Beginning in 1942, the recordings he made and concerts he performed helped reinvigorate the public's interest in early jazz - so much so that this period was later called ["The Great Jazz Revival"](https://exhibits.stanford.edu/sftjf/feature/the-great-revival).[^Hal Smith, "Bunk Johnson", The San Francisco Traditional Jazz Foundation Collection](https://exhibits.stanford.edu/sftjf/feature/bunk-johnson)
 
-    *Johnson reported his birthday as 1879, but many scholars think he was born 10 years later, and lied about his birthday to afford himself more credibility as a jazz innovator. By most reports, Johnson was not an honest man, so this seems plausible.
+    *Johnson reported his birthday as 1879, but many scholars think he was born 10 years later and lied about his birthday to afford himself more credibility as a jazz innovator. By most reports, Johnson was not an honest man, so this seems plausible.
 
   tracks:
   - title: In Gloryland

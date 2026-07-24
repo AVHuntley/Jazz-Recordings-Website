@@ -108,6 +108,11 @@
   source: early-big-bands
   sourceTitle: 'Early Big Bands'
 
+- term: 'Solo break'
+  definition: 'The rhythm section stops playing behind a soloist for a brief period, often about half-way through a song form.'
+  source: early-jazz
+  sourceTitle: 'Early Jazz'
+
 - term: 'Stop time'
   definition: 'A musical device in which the rhythm section stops playing for a brief period, allowing a soloist or ensemble to play unaccompanied or with minimal accompaniment. Often used to create dramatic effect or highlight a particular moment in a performance.'
   source: early-jazz

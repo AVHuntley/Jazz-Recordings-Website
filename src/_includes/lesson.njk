@@ -75,16 +75,20 @@
 
     {%- for v in t.videos %}{{ v | videoFig | safe }}{% endfor %}
 
+    {%- if t.guide or t.guidenote %}
     <div class="listening-guide">
      <h5>Listening Guide</h5>
      {{ t.guidenote | md(media) | safe }}
+     {%- if t.guide %}
      <table>
       <tr><th>Time</th><th>Description</th></tr>
       {%- for row in t.guide | guideRows %}
       <tr><td>{{ row.time }}</td><td>{{ row.text | mdInline | safe }}</td></tr>
       {%- endfor %}
      </table>
+     {%- endif %}
     </div>
+    {%- endif %}
 
    </div>
    {%- endfor %}
