@@ -1,7 +1,7 @@
 ---
 title: Even More Vocalists
 description: A history of jazz styles and figures through selected recordings
-order: 21
+order: 22
 media:
   joe-williams:
     youtube: SVFOcofCLkY

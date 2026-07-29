@@ -1,7 +1,7 @@
 ---
 title: Big Bands of the 1970s
 description: A history of jazz styles and figures through selected recordings
-order: 24
+order: 25
 intro: ""
 sections:
 - heading: Gil Evans

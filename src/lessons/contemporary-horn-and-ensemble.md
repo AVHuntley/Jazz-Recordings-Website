@@ -1,7 +1,7 @@
 ---
 title: Horn Players & Ensembles
 description: A survey of contemporary horn players and ensembles in jazz.
-order: 32
+order: 33
 media:
   snarky-puppy:
     youtube: j_rOAmnISzE

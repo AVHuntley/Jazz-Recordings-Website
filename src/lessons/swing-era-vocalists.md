@@ -1,7 +1,7 @@
 ---
 title: Swing Era Vocalists
 description: A history of jazz styles and figures through selected recordings
-order: 5
+order: 6
 intro: ""
 sections:
 - heading: Billie Holiday

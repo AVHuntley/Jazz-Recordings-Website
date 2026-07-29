@@ -297,7 +297,7 @@ sections:
       
       This is a blues with a twist: it follows an AABA form where the A sections are each a standard 12-bar blues, but the B section is a 16-bar strain that, usually, incorporates a habanera rhythm (think of the famous [aria from the opera *Carmen*](https://en.wikipedia.org/wiki/Habanera_(aria))). This habanera bridge is the defining feature of "St. Louis Blues" - what sets it apart from most other blues compositions.
 
-      This recording features Bessie Smith accompanied by a [harmonium](https://en.wikipedia.org/wiki/Pump_organ#Harmonium), an accordion-like instrument that looks like a small piano powered by a hand-operated air pump. Also present on this recording is a young [Louis Armstrong](./early-jazz.html#louis-armstrong) playing the cornet.      
+      This recording features Bessie Smith accompanied by a [harmonium](https://en.wikipedia.org/wiki/Pump_organ#Harmonium), an accordion-like instrument that looks like a small piano powered by a hand-operated air pump. Also present on this recording is a young [Louis Armstrong](./louis-armstrong.html#louis-armstrong) playing the cornet.      
     guidenote: |-
       Listen not only to Smith's vocal prowess - her powerful resonant voice - but also to Armstrong's accompaniment. Listen to how his improvised melodies on cornet fill the gaps between Smith's sung phrases.
     guide: |-

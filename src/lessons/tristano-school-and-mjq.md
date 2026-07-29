@@ -1,7 +1,7 @@
 ---
 title: Tristano School & The MJQ
 description: A history of jazz styles and figures through selected recordings
-order: 11
+order: 12
 intro: |-
   **Third Stream –** Jazz that incorporates elements of “classical” music [(Lawn, p.230)](bibliography.html#lawn-2013)
 sections:

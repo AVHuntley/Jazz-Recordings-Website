@@ -1,7 +1,7 @@
 ---
 title: Bebop Pianists
 description: A history of jazz styles and figures through selected recordings
-order: 7
+order: 8
 heading: introduction
 intro: ""
 sections:

@@ -1,7 +1,7 @@
 ---
 title: String Players (& a Drummer)
 description: A survey of contemporary jazz guitarists, string players, and a prominent drummer.
-order: 33
+order: 34
 media:
   mary-halvorson:
     youtube: kXvs5_rLU9g

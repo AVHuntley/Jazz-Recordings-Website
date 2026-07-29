@@ -1,7 +1,7 @@
 ---
 title: West Coast Cool
 description: A history of jazz styles and figures through selected recordings
-order: 12
+order: 13
 intro: |-
   Some characteristics of "cool" jazz:
 

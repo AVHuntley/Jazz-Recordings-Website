@@ -1,7 +1,7 @@
 ---
 title: Bebop Horn Players
 description: A history of jazz styles and figures through selected recordings
-order: 8
+order: 9
 intro: |-
   Theodore “Fats” Navarro
 

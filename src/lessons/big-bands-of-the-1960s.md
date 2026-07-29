@@ -1,7 +1,7 @@
 ---
 title: Big Bands of the 1960s
 description: A history of jazz styles and figures through selected recordings
-order: 23
+order: 24
 media:
   buddy-rich:
     youtube: VJh9W3Gcpmo

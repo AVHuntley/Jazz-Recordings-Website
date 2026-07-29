@@ -1,7 +1,7 @@
 ---
 title: Diz and Bird
 description: A history of jazz styles and figures through selected recordings
-order: 6
+order: 7
 intro: |-
   **Bebop**
   - A style of jazz developed in the late 30s and early 40s. Originated largely in jam sessions at Minton's Playhouse and Monroe's Uptown House, both in Harlem.

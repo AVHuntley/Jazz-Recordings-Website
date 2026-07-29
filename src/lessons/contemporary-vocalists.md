@@ -1,7 +1,7 @@
 ---
 title: Vocalists
 description: A survey of contemporary jazz vocalists.
-order: 34
+order: 35
 media:
   kurt-elling:
     youtube: TVqb9X8gGtQ

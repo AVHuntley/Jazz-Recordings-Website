@@ -1,7 +1,7 @@
 ---
 title: Afro-Caribbean & Brazilian Jazz
 description: Afro-Caribbean & Brazilian Jazz
-order: 25
+order: 26
 vocabulary:
 - term: Salsa
   definition: A catch-all term for Afro-Caribbean dance music. Designed primarily for dancing, often features a vocalist and horn section.

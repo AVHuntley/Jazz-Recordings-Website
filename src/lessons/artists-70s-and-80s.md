@@ -1,7 +1,7 @@
 ---
 title: Influential Artists of the 70s and 80s
 description: A history of jazz styles and figures through selected recordings
-order: 27
+order: 28
 media:
   intro:
     youtube: Txe--PwJhEY

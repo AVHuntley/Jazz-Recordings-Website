@@ -1,7 +1,7 @@
 ---
 title: Soul Jazz
 description: A history of jazz styles and figures through selected recordings
-order: 20
+order: 21
 media:
   wes-montgomery:
     youtube: 3yNmp2TqdgA

@@ -1,7 +1,7 @@
 ---
 title: More Hard Bop
 description: A history of jazz styles and figures through selected recordings
-order: 16
+order: 17
 intro: ""
 sections:
 - heading: Art Farmer & Benny Golson

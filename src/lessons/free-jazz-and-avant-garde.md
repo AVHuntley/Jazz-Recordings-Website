@@ -1,7 +1,7 @@
 ---
 title: Free Jazz and the Avant Garde
 description: A history of jazz styles and figures through selected recordings
-order: 18
+order: 19
 intro: |-
   “Free jazz might be witty, even funny, but it wasn’t entertainment; it was a serious, challenging music, requiring the listener’s full concentration – art for art’s sake.” [(Deveaux & Giddins, p.309)](bibliography.html#deveaux-giddins-2011)
 

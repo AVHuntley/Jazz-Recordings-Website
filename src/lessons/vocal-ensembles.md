@@ -1,7 +1,7 @@
 ---
 title: Vocal Ensembles
 description: A history of jazz styles and figures through selected recordings
-order: 28
+order: 29
 media:
   the-four-freshmen:
     youtube: l4NafK3NFhA

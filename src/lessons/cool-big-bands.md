@@ -1,7 +1,7 @@
 ---
 title: Cool Big Bands
 description: A history of jazz styles and figures through selected recordings
-order: 10
+order: 11
 intro: |-
   Characteristics of "cool" big bands include:
 

@@ -1,7 +1,7 @@
 ---
 title: Coltrane
 description: A history of jazz styles and figures through selected recordings
-order: 17
+order: 18
 heading: John Coltrane
 intro: |-
   John William Coltrane (1926-1967)

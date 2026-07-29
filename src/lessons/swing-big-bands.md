@@ -1,7 +1,7 @@
 ---
 title: Swing Big Bands
 description: A history of jazz styles and figures through selected recordings
-order: 3
+order: 4
 media:
   benny-goodman:
     youtube: OypwMHYt1nE

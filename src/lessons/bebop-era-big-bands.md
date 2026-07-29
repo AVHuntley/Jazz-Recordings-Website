@@ -1,7 +1,7 @@
 ---
 title: Bebop Era Big Bands
 description: A history of jazz styles and figures through selected recordings
-order: 9
+order: 10
 intro: ""
 sections:
 - heading: Billy Eckstine

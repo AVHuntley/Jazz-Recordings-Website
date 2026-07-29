@@ -1,7 +1,7 @@
 ---
 title: Pianists
 description: A survey of contemporary jazz pianists and their contributions to modern jazz.
-order: 30
+order: 31
 media:
   jason-moran:
     youtube: Rju-pmY8MBk

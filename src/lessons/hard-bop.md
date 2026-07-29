@@ -1,7 +1,7 @@
 ---
 title: Hard Bop
 description: A history of jazz styles and figures through selected recordings
-order: 15
+order: 16
 intro: |-
   Perhaps drummers led the charge into hard bop. The role of drummers in hard bop contrasts greatly with that of cool jazz. Hard bop drummers (e.g., Blakey, Roach, Philly Joe Jones) “accompanied, but also commented on and completed” soloists’ statements. Sometimes they were even criticized as “too loud, or even crude.” [(Porter, p.257)](bibliography.html#porter-ullman-1993)
 

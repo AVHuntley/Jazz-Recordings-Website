@@ -1,7 +1,7 @@
 ---
 title: Early Big Bands
 description: A history of jazz styles and figures through selected recordings
-order: 2
+order: 3
 intro: ""
 sections:
 - heading: Paul Whiteman

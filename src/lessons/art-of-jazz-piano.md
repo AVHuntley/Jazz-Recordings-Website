@@ -1,7 +1,7 @@
 ---
 title: The Art of Jazz Piano
 description: A history of jazz styles and figures through selected recordings
-order: 19
+order: 20
 intro: ""
 sections:
 - heading: Ahmad Jamal

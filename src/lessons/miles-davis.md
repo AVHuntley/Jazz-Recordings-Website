@@ -1,7 +1,7 @@
 ---
 title: Miles
 description: A survey of Miles Davis's career eras and stylistic innovations.
-order: 14
+order: 15
 heading: Miles Dewey Davis III (1926-1991)
 intro: |-
   We have encountered Miles Davis in previous lessons with Charlie Parker and Gil Evans. Davis is celebrated for his stylistic diversity—he was an innovator in bebop, hard bop, cool, modal, third stream, and fusion. He was also an exceptional bandleader who curated ensembles that were often greater than the sum of their parts.

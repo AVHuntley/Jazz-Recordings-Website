@@ -1,7 +1,7 @@
 ---
 title: Fusion
 description: A history of jazz styles and figures through selected recordings
-order: 26
+order: 27
 media:
   weather-report:
     youtube: I63bOi477cA

@@ -1,7 +1,7 @@
 ---
 title: Post Bop
 description: A history of jazz styles and figures through selected recordings
-order: 22
+order: 23
 media:
   miles-davis-second-great-quintet:
     youtube: b9-rUvrt0N4

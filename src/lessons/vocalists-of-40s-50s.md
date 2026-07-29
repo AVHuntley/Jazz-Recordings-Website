@@ -1,7 +1,7 @@
 ---
 title: Vocalists of the 40s and 50s
 description: A history of jazz styles and figures through selected recordings
-order: 13
+order: 14
 media:
   carmen-mcrae:
     youtube: muTavqYrOmQ

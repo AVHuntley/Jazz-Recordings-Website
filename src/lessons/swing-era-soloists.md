@@ -1,7 +1,7 @@
 ---
 title: Swing Era Soloists
 description: A history of jazz styles and figures through selected recordings
-order: 4
+order: 5
 media:
   art-tatum:
     youtube: JycfQd9nk9M
