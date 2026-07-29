@@ -1,6 +1,6 @@
 ---
 title: Jazz Origins
-description: A survey of early influences and musical genres that contributed to the origins of jazz.
+description: A survey of the early influences and musical genres that contributed to the creation of jazz.
 order: 0
 media:
   lead-belly-march-of-time:

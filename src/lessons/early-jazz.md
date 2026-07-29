@@ -3,7 +3,15 @@ title: Early Jazz
 description: The first recordings widely recognized as jazz, from New Orleans polyphony to the Chicago style and the rise of the soloist.
 order: 1
 intro: |-
-  This music covered in this section exemplifies some of the earliest that is widely recognized as jazz. This is the common foundation of all the other (sub)genres this course covers.
+  the first jazz record 1917 - livery stable vblues and/or other?
+
+  schuller says sounds bad? I dunno - it's better live
+
+  Again, no real representitive recordings.
+
+  three-horn front line , tailgate trombone?
+
+  rhythm section instrumentation - and how it evolved(?)
 
   Here's some useful vocabulary:
 
@@ -15,11 +23,17 @@ intro: |-
 sections:
 - heading: Stride
   prose: |-
-    Should stride piano be considered a precursor to jazz, or is it just the way pianists played early jazz? Its similarity to both ragtime and jazz speaks to their relationship. Perhaps stride is just ragtime on its way to becoming jazz. Or maybe stride shouldn't be considered a genre, but rather a technique: the pianist's left hand *strides* between low roots, often in 10ths, and full chords in the middle of the piano.
+    The setting is 1920s Harlem, a neighborhood in New York City known for its Black population, may of whom had fled the oppressive "Jim Crow" South as part of the "[Great Migration](https://en.wikipedia.org/wiki/Great_Migration_(African_American))." There's an explosion of culture - writing, poetry, dance, theater, and music - a era known today as the [Harlem Reneissance](https://en.wikipedia.org/wiki/Harlem_Renaissance). But wealth of culture did not mean wealth of citizens. To help pay for housing, Harlemites throw [rent parties](https://en.wikipedia.org/wiki/Rent_party), charging attendees a small fee to join the festivities.[p.90](bibliography.html#gioia-2011) Record players are rare and expensive, so music is provided live, played on the host's piano.
+    
+    It's from this rich milieu that a new kind of piano music develops: what has come to be called **stride**. It's like ragtime, but faster, more improvisatory, more virtuosic, and reflecting the same "hotness" that characterizes the emerging style of jazz. From ragtime, stride retains the left hand "oom-pah", the basic harmonic vocabulary, and in some cases the strain-based song form. But it zhuzhed it all up. The rhythms were complexified, the harmonies expanded. Instead of sticking to the rigid bass-chord pattern of ragtime, skilled pianists played with the rhythm, offsetting the "oom-pah" to add exciting syncopation. They might play 'walking' 10ths that create counter melodies in their left-hand accompaniment. And perhaps most importantly, they **[swing](vocabulary.html#swing-rhythm)**!
 
-    From ragtime, stride retained the left hand "oom-pah", the basic harmonic vocabulary, and (in some cases) the strain-based song form. But it zhuzhed it all up. The rhythms were complexified, the harmonies expanded. Instead of sticking to the rigid bass-chord pattern of ragtime, skilled pianists played with the rhythm, offsetting the "oom-pah" to add exciting syncopation. And they emphasized guide tone lines between bass notes to bring out tenor melodies. And, importantly, they **[swung](vocabulary.html#swing-rhythm)**!
+    Because stride is is such a virtuosic style - requiring enormous technique - it gave pianists a fun way to show off and even compete with one another. To that end, stride pianists engaged in public **cutting contests** - competitive affairs where musicians tried to out play one another and impress their audiences.[p.93](bibliography.html#martin-waters-2006) This culture of musical ambition fueled the style's virtuosity and fostered its development through the 1920s and 30s.
 
-    Stride is a virtuosic style that requires enormous technique. Often played faster than ragtime, it gave pianists a fun way to show off. To that end, stride pianists engaged in public **cutting contests** - competitive affairs where musicians tried to out play one another.
+    Should stride piano be considered a precursor to jazz, or is it just early jazz as played on the piano? Its similarity to both ragtime and jazz speaks to the relationship between the two styles. Perhaps stride, as many have argued, is just ragtime on its way to becoming jazz.[p.93](bibliography.html#martin-waters-2006) Or maybe stride shouldn't be considered a style of music, but rather a specific technique whereby the the pianist's left hand *strides* between low roots and full chords in the middle of the piano. I think the answer is all-of-the-above. Regardless, its development coincides with that of ensemble jazz, and they share a lot in common. Indeed, as you'll hear, many piano solos within recordings by early jazz ensembles are essentially stride.
+
+    Many pianists have played stride, but only a handful are considered canonnical masters: Thomas "Fats" Waller, Willie "The Lion" Smith, and the "father of stride" himself, James P. Johnson. In an 1953 interview, Johnson suggested why stride piano developed in New York (and not, for example, New Olreans):
+
+    >The other sections of the country never developed the piano as far as the New York boys did. Only lately have they caught up. The reason the New York boys became such high-class musicians was because the New York piano was developed by the European method, system and style. The people in New York were used to hearing good piano played in concerts and cafés. The ragtime player had to live up to that standard. They had to get orchestral effects, sound harmonies, chords and all the techniques of European concert pianists who were playing their music all over the city.[^*The Jazz Review* Vol. 2, No. 5, June 1959, p.15](https://www.jazzstudiesonline.org/files/jso/resources/pdf/JZReviewVol2No5June1959.pdf)
 
 - heading: James P. Johnson
   artists:
@@ -39,6 +53,8 @@ sections:
       Johnson’s virtuosic performance highlights stride’s complexity. The form (Intro – AABCCCCC – Coda) is more playful than strict ragtime. The melody evolves slightly in each C.
     guidenote: |-
       Note the driving left hand and intricate right hand lines. Stride builds a bridge from ragtime to jazz’s freer, swinging piano style.
+    notes: |-
+      - There's a great interview from 1953 with Johnson speaking to one Tom Davin. It was published in 1959 in [Vol. 2, No. 5 of *The Jazz Review*](https://www.jazzstudiesonline.org/files/jso/resources/pdf/JZReviewVol2No5June1959.pdf), page 15.
 
 - heading: Jelly Roll Morton
   prose: |-
@@ -48,18 +64,6 @@ sections:
 
     Perhaps the first jazz arranger. In the Alan Lomax interviews, he suggests that he invented jazz. Most historians don't give him that much credit.
   tracks:
-  - title: Maple Leaf Rag (St. Louis Style / New Orleans Style)
-    performer: Jelly Roll Morton
-    composer: Scott Joplin
-    recorded: '1938'
-    album: The Complete Library of Congress Recordings
-    personnel:
-    - [Jelly Roll Morton, piano]
-    spotify: 7cCRMGvy0RiudLvwKZ2E8b
-    intro: |-
-      Recorded by musicologist Alan Lomax for the Library of Congress.
-
-      Listen for differences between the 1st and 2nd renditions. The 2nd is jazzed-up, or “hot.”
   - title: Black Bottom Stomp
     performer: Jelly Roll Morton and his Red Hot Peppers
     composer: Jelly Roll Morton
