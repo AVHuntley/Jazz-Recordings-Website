@@ -23,6 +23,13 @@ media:
       "Carolina Shout" on a player piano, 1918 piano roll
     caption: |-
       Artis Wodehouse operates a player piano to play a 1918 piano roll of James P. Johnson's "Carolina Shout" - the first ever recording of this piece.
+  
+  morton-alabama-bound:
+    spotify: 1VxzJUCcRmhZrm37g0uCmp
+    title: |-
+      "The Story of 'I'm Alabama Bound'", *Jelly Roll Morton: The Complete Library of Congress Recordings*
+    caption: |-
+      "The Story of 'I'm Alabama Bound'", *Jelly Roll Morton: The Complete Library of Congress Recordings*
 intro: |-
   the first jazz record 1917 - livery stable vblues and/or other?
 
@@ -117,18 +124,28 @@ sections:
 - heading: Jelly Roll Morton
   artists:
   - name: Jelly Roll Morton
-    born: 1885/90(?)
+    born: 1890
     died: 1941
   prose: |-
-    The recorded legacy of Ferdinand “Jelly Roll” Morton comes in two forms. First his music, which exemplifies early New Orleans sound, uses compositional elemenets to coordinate band members in an otherwise usually improvised format (creole vs black?), and presaged the rise of the soloist in jazz by using lots ob instrumental "breaks" that featured individual musicians (some composed, some improvised, unclear).
+    Ferdinand Joseph LeMothe was a New Orleanian pianist and composer who considered himself the "world's greated hot tune writer"[^Morton's business card, History Colorado Online Collections](https://5008.sydneyplus.com/HistoryColorado_ArgusNet_Final/Portal/Portal.aspx?component=AAFG&record=ecd26a99-1cec-4490-9fcd-d0f522ccc0a4) and the inventor of jazz. Today, he's remembered as one of the greatest jazz pianists and perhaps the first great jazz composer. He was also immortalized by a series of interviews he recorded in 1938 with Alan Lomax, which have become one of of jazz history's most treasured primary sources.
 
-    His second contribution to the recorded history of jazz was a set of interviews for the Library of Congress, recorded in 1938 with Alan Lomax.
+    Morton's biographers often note his tendencies to stretch the truth. For instance, he claimed to have been born in 1985 so that he could seem five years older than he was (and thus more plausibly involved with jazz's creation).[p.38](bibliography.html#gioia-2011) And his claim to have invented jazz was a stretch, at best. Nevertheless, his clear skill as both performer and composer provides compelling testimony to his role in the early evolution of the style.
+
+    Morton was born in or around New Orleans in 1890, though he left circa 1907-8, never to return.[p.137](bibliography.html#schuller-1968). He traveled from one engagement to the next, all around the country, to many of the cities and states where he and the rest of the New Orleans jazz diaspora brought their music over the following decades - notably Chicago. It was there, in 1926, that Morton made a series of recordings with a group he called his "Red Hot Peppers." These recordings, in the opinion of Gunther Schuller, constitute "the finest recorded tribute to New Orleans music ever achieved."[p.138](bibliography.html#schuller-1968) (Gioia jokes that "one of the supreme ironies of the history of New Orleans jazz is that so much of it took place in Chicago."[p.42](bibliography.html#gioia-2011))
+
+    The "Red Hot Peppers" recordings employ most (all?) of the musical devices characteristic of early New Orleans jazz: [solo breaks], [stop time], and the [collective improvisation] of a [three-horn front line] accompanied by a [rhythm section] that often included a banjo. His compositions, however, were mostly [**sectional**](vocabulary.html#sectional-form) (or *multithematic*), which was typical in ragtime but quickly fell out of favor in jazz (supplanted by the [head-solos-head form](vocabulary.html#head-solo-head)). Still, strains served Morton well, and he used them masterfully - indeed, his arrangements owe much of their vitality to the variety between their sections.Gioia writes:
+
+    >This [sectional] style would soon become anachronistic—in fact, it may alraedy have been so by [1926]—as jazz came to forget its origins in the multithematic ragtime form. In this context, Morton's work represents both the highest pitch and final flowering of this approach.[p.40](bibliography.html#gioia-2011)
+
+    Len Lyons offers this description of Morton's transitional piano style:
+
+    >Although Jelly Roll's boast that he invented jazz is absurd, there is good reason to see him as a transitional figure from the relative stiffness of ragtime to the flexibility of later jazz. In fact, Morton always maintained that any music could be "jazzed," while he recognized both ragtime and the blues as more strictly defined forms. His piano playing exemplifies the transition in its increased swing and feeling of freedom. The rag's rigid, occationally martial bass is smoothed out by Morton. While the ragtimer's left hand almost never syncopates, Morton's left frequently his slightly (about a sixteenth note) before the beat, introducing another dimension to the cross-rhythm. His right hand is more expansive and extemporaneous.[p.84](bibliography.html#lyons-1980)
+
+    Perhaps Morton's most significant contribution to jazz was not his music at all, but the oral (and aural) history he recorded with Alan Lomax for the Library of Congress in 1938. (The contrasting renditions of ["Maple Leaf Rag"](jazz-origins.html#maple-leaf-rag) from the [previous lesson](jazz-origins.html) are from this series.) These interviews are truly a treasure. They're worth listening to even as a casual jazz fan, if only to experience a bit of his vintage charisma; it's like time travel. Listen to him weave a story about his time as a pool shark, slipping in and out of song as he accompanies himself expertly on piano:
+
+    @audio(morton-alabama-bound)
     
-    Morton was born in New Orleans - it's unclear when. He claims (in the Lomax interviews) that he was born in 1885. Some later scholars suggest 1890 and that Morton exaggerated his age to lend credibility to his being perceived as a jazz innovator. His life went like this..... He identified as Creole, and maybe he could provide an example of the claim that jazz = Black imrpovisaiton + Creole training.
-
-    >Although Jelly Roll's boast that he invented jazz is absurd, there is good reason to see him as a transitional figure from the relative stiffness of ragtime to the flexibility of later jazz. In fact, Morton always maintained that any music could be "jazzed," while he recognized both ragtime and the blues as more strictly defined forms. His piano playing exemplifies the transitionin its increased swing and feeling of freedom. The rag's rigid, occationally martial bass is smoothed out by Morton. While the ragtimer's left hand almost never syncopates, Morton's left frequently his slightly (about a sixteenth note) before the beat, introducing another dimension to the cross-rhythm. His right hand is more expansive and extemporaneous.[p.84](bibliography.html#lyons-1980)
-
-    Schuller calls him the first jazz composer.
+    Unfortunately, despite being created for the Library of Congress, the recorded interview is not yet in the public domain, so are not all easy to stream. [This playlist on Spotify](https://open.spotify.com/playlist/0mklyaLyMMiilDvydlgt4G?si=18565dd3459844ad) compiles what's available there. And you can find a transcript of the spoken portions of the interview on [this site](https://www.doctorjazz.co.uk/locspeech1.html).
 
   tracks:
   - title: Black Bottom Stomp
@@ -137,19 +154,17 @@ sections:
     arranger: Jelly Roll Morton
     recorded: September 15, 1926
     personnel:
-    - [Jelly Roll Morton, Piano]
+    - [Jelly Roll Morton, piano]
+    - [George Mitchell, cornet]
+    - [Omer Simeon, clarinet]
+    - [Kid Ory, trombone]
+    - [Johnny St. Cyr, banjo]
+    - [John Lindsay, bass]
+    - [Andrew Hilaire, drums]
 
     spotify: 0vyNsBWtvJet4j1XXH0RLA
     intro: |-
-      Recorded in Chicago.
-
-      Notice the banjo, the use of bass instead of tuba, and the presence of piano and drums.
-
-      **Sectional form**: A1, A2, A3, then B1…B7
-
-      Most of this is composed. A’s are all composed; the B’s contain some improvisation.
-
-      **Solo breaks** at mm. 7-8 of B sections.
+      Gunther Schuller calls "Black Bottom Stomp" __________ (really good)
 
       Associated with “black bottom” dance, or maybe the Black Bottom area of Detroit. It also refers to a specific rhythm. [p.64](bibliography.html#hasse-lathrop-2012)
 
@@ -173,6 +188,8 @@ sections:
       2:50 | **B7** - Full band; three-horn polyphony
       2:56 | Trombone **break**
       3:08 | Outro (2 bars)
+  notes: |-
+    - Morton is credited for authoring the first jazz arrangement ever published: "The 'Jelly Roll' Blues" in 1915. You can find it on [IMSLP](https://imslp.org/wiki/Special:ReverseLookup/438540).
 
 - heading: Joe “King” Oliver
   artists:

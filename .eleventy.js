@@ -35,6 +35,22 @@ const cleanSlugJS = (s) =>
 const vocabEntries = yaml.load(fs.readFileSync("src/_data/vocab.yaml", "utf8"));
 const vocab = Object.fromEntries(vocabEntries.map((v) => [cleanSlugJS(v.term), v]));
 
+// Optional `aka:` synonyms. Linking vocabulary.html#<alias-slug> resolves to the
+// canonical entry (and the link is rewritten to the canonical anchor), so prose
+// can use whichever name reads best while the tooltip teaches the headword.
+const vocabAlias = {};
+for (const v of vocabEntries)
+  for (const alt of v.aka || []) {
+    const slug = cleanSlugJS(alt);
+    if (vocab[slug])
+      throw new Error(
+        `vocab.yaml: "${alt}" is listed as an alias of "${v.term}" but is also its own term`
+      );
+    if (vocabAlias[slug] && vocabAlias[slug] !== cleanSlugJS(v.term))
+      throw new Error(`vocab.yaml: alias "${alt}" is claimed by two different terms`);
+    vocabAlias[slug] = cleanSlugJS(v.term);
+  }
+
 // "64-65" -> ", pp. 64–65";  "41" -> ", p. 41";  "" -> ""
 const pagesLabel = (pages) => {
   if (!pages) return "";
@@ -401,11 +417,12 @@ module.exports = function (eleventyConfig) {
     if (!content.includes("vocabulary.html#")) return content;
     return content.replace(
       /<a href="(?:\.\/)?vocabulary\.html#([a-z0-9-]+)">([\s\S]*?)<\/a>/g,
-      (m, slug, text) => {
+      (m, rawSlug, text) => {
+        const slug = vocab[rawSlug] ? rawSlug : vocabAlias[rawSlug];
         const v = vocab[slug];
         if (!v)
           throw new Error(
-            `Unknown vocabulary term "#${slug}" in ${this.page.inputPath}`
+            `Unknown vocabulary term "#${rawSlug}" in ${this.page.inputPath}`
           );
         let def = md.renderInline(String(v.definition)).replace(/<[^>]*>/g, "");
         if (def.length > 280) def = def.slice(0, 277).replace(/\s+\S*$/, "") + "…";

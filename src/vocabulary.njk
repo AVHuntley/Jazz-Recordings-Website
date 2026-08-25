@@ -23,7 +23,8 @@ permalink: /vocabulary.html
   <section class="glossary" id="glossary">
    <dl>
     {%- for v in vocab %}
-    <dt id="{{ v.term | cleanSlug }}">{{ v.term }}</dt>
+    <dt id="{{ v.term | cleanSlug }}">{{ v.term }}
+     {%- if v.aka %}<span class="vocab-aka">also called {% for alt in v.aka %}<span id="{{ alt | cleanSlug }}">{{ alt }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}</dt>
     <dd>{{ v.definition | mdInline | safe }}{% if v.source %} <a class="vocab-source" href="{{ v.source }}.html">— {{ v.sourceTitle }}</a>{% endif %}</dd>
     {%- endfor %}
    </dl>

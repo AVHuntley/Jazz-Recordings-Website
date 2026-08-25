@@ -293,6 +293,14 @@ a.vocab:focus .vocab-tip {
   margin-top: 18px;
 }
 
+.glossary .vocab-aka {
+  font-size: 0.8em;
+  font-weight: normal;
+  font-style: italic;
+  color: #777;
+  margin-left: 0.5em;
+}
+
 .glossary dd {
   margin: 4px 0 0 0;
   line-height: 1.6;

@@ -107,6 +107,21 @@ page. The slug is the lowercased, hyphenated term:
 Unknown term slugs fail the build. Add new terms to `src/_data/vocab.yaml`; the vocabulary page
 updates itself. `source`/`sourceTitle` are optional (they render the "introduced in" backlink).
 
+**Synonyms.** A term can list alternate names with `aka:`. Any of them works as a link slug and
+resolves to the canonical entry, so prose can use whichever name reads best in the sentence while
+the tooltip still teaches the headword:
+
+```yaml
+- term: 'Sectional form'
+  aka: ['multithematic form', 'multi-strain form', 'strain-based form']
+  definition: '...'
+```
+
+`[multi-strain form](vocabulary.html#multi-strain-form)` links to the "Sectional form" entry and
+pops up "**Sectional form:** …". The vocabulary page lists the synonyms after the headword and
+gives each its own anchor, so direct links to an alias also land correctly. An alias that
+collides with another term (or with another term's alias) fails the build.
+
 ## Formatting gotchas
 
 - Write blockquotes with `>`, never raw `<blockquote>` tags — markdown (including citations)

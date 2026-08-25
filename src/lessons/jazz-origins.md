@@ -32,12 +32,12 @@ media:
     mp3: https://archive.org/download/308wininboybluespt.2/3-02%20The%20St.%20Louis%20Scene.mp3#t=169
     title: Jelly Roll Morton on the St. Louis scene (1938 Library of Congress sessions)
     caption: |-
-      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. "Maple Leaf Rag", "the way they played it in [St. Louis] Missouri" begins at 2:49.
+      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. "Maple Leaf Rag", "the way they played it in [St. Louis] Missouri" begins at 2:49.[^*Jelly Roll Morton The Complete Library of Congress Recordings - Vol 3*, Internet Archive](https://archive.org/details/308wininboybluespt.2)
   morton-maple-leaf-rag:
     mp3: https://archive.org/download/308wininboybluespt.2/3-03%20Maple%20Leaf%20Rag.mp3#t=56
     title: Jelly Roll Morton on Maple Leaf Rag (1938 Library of Congress sessions)
     caption: |-
-      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. Continuation of previous recording, including the last part of prior performance. Morton plays "Maple Leaf Rag" in the "style that [he] played it in New Orleans" at 0:56.
+      Jelly Roll Morton in 1938 for the Library of Congress. Recorded by Alan Lomax. Continuation of previous recording, including the last part of prior performance. Morton plays "Maple Leaf Rag" in the "style that [he] played it in New Orleans" at 0:56.[^*Jelly Roll Morton The Complete Library of Congress Recordings - Vol 3*, Internet Archive](https://archive.org/details/308wininboybluespt.2)
   marine-band-maple-leaf-rag:
     spotify: 63cCw3NnND9XN7tW5SRvW9
     title: Maple Leaf Rag, United States Marine Band, 1906

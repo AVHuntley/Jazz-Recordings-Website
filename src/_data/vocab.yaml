@@ -68,6 +68,11 @@
   source: contemporary-big-bands
   sourceTitle: 'Contemporary Big Bands'
 
+- term: 'Head-solos-head form'
+  aka: ['chorus form', 'strophic form', 'head-solo-head']
+  definition: |-
+    The standard performance practice in jazz, where a chord progression is repeated throughout a piece, which begins and ends with the composed melody, and between, players improvise.
+
 - term: 'Improvisation'
   definition: 'Performing without a preconceived or notated part.'
   source: jazz-origins
@@ -98,6 +103,12 @@
   source: early-jazz
   sourceTitle: 'Early Jazz'
 
+- term: 'Sectional form'
+  aka: ['multithematic form', 'multi-strain form', 'strain-based form']
+  definition: 'A muscal structure in which the composition is divided into distinct sections, each with its own melody, harmony, and rhythm. Typical in marches and ragtime.'
+  source: early-jazz
+  sourceTitle: 'Early Jazz'
+
 - term: 'Salsa'
   definition: 'A catch-all term for Afro-Caribbean music designed primarily for dancing, often featuring a vocalist and horn section.'
   source: afro-caribbean-and-brazilian-jazz
@@ -117,6 +128,11 @@
   definition: 'A musical device in which the rhythm section stops playing for a brief period, allowing a soloist or ensemble to play unaccompanied or with minimal accompaniment. Often used to create dramatic effect or highlight a particular moment in a performance.'
   source: early-jazz
   sourceTitle: 'Early Jazz'
+
+- term: 'Strain'
+  definition: 'A section of a composition that uses a *sectional* or *multithematic* form, which is typical in marches and ragtime.'
+  source: jazz-origins
+  sourceTitle: 'Jazz Origins'
 
 - term: 'Swing (rhythm)'
   definition: 'A rhythmic feel that interprets eighth notes as long on downbeats and short on upbeats, creating a "long-short" feel. Notated either as 8th-note triplet or dotted 16ths subdivisions.'
