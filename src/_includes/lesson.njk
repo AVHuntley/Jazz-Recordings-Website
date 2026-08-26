@@ -32,6 +32,7 @@
   {%- for section in sections %}
   <section class="artist" id="{{ section.heading | slug }}">
    <h2>{{ section.heading | artistHeading(section.artists) | safe }}</h2>
+   {{ section.artists | portraits | safe }}
    {{ section.prose | md(media) | safe }}
    {%- for v in section.videos %}{{ v | videoFig | safe }}{% endfor %}
 

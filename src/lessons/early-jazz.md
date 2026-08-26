@@ -71,7 +71,7 @@ sections:
     
     It's from this rich milieu that a new kind of piano music developed: what has come to be called (Harlem) **stride**. It's like ragtime, but faster, more improvisatory, more virtuosic, and reflecting the same "hotness" that characterizes the emerging style of jazz. From ragtime, stride retains the left hand "oom-pah", the basic harmonic vocabulary, and in some cases the strain-based song form. But it zhuzhed it all up. The rhythms were complexified, the harmonies expanded. Instead of sticking to the rigid bass-chord pattern of ragtime, skilled pianists played with the rhythm, offsetting the "oom-pah" to add exciting syncopation. They might play 'walking' 10ths that create counter melodies in their left-hand accompaniment. And perhaps most importantly, they **[swing](vocabulary.html#swing-rhythm)**!
 
-    Because stride is such a virtuosic style - requiring enormous technique - it gave pianists a fun way to show off and even compete with one another. To that end, stride pianists engaged in public **cutting contests** - competitive affairs where musicians tried to out play one another and impress their audiences.[p.93](bibliography.html#martin-waters-2006) This culture of musical ambition fueled the style's virtuosity and fostered its development through the 1920s and 30s.
+    Because stride is such a virtuosic style - requiring enormous technique - it gave pianists a way to show off and even compete with one another. To that end, stride pianists engaged in public **cutting contests** - competitive affairs where musicians tried to out play one another and impress their audiences.[p.93](bibliography.html#martin-waters-2006) This culture of musical ambition fueled the style's virtuosity and fostered its development through the 1920s and 30s.
 
     Should stride piano be considered a precursor to jazz, or is it just early jazz as played on the piano? Its similarity to both ragtime and jazz speaks to the relationship between the two styles. Perhaps stride, as many have argued, is just ragtime on its way to becoming jazz.[p.93](bibliography.html#martin-waters-2006) Or maybe stride shouldn't be considered a style of music, but rather a specific technique whereby the the pianist's left hand *strides* between low roots and full chords in the middle of the piano. I think the answer is all-of-the-above. Regardless, its development coincides with that of ensemble jazz, and they share a lot in common. Indeed, as you'll hear, many piano solos within recordings by early jazz ensembles are essentially stride.
 
@@ -145,8 +145,12 @@ sections:
 
     Morton's biographers often note his tendencies to stretch the truth. For instance, he claimed to have been born in 1985 so that he could seem five years older than he was (and thus more plausibly involved with jazz's creation).[p.38](bibliography.html#gioia-2011) And his claim to have invented jazz was a stretch, at best. Nevertheless, his clear skill as both performer and composer provides compelling testimony to his role in the early evolution of the style.
 
-    Morton was born in or around New Orleans in 1890, though he left circa 1907-8, never to return.[p.137](bibliography.html#schuller-1968). He traveled from one engagement to the next, all around the country, to many of the cities and states where he and the rest of the New Orleans jazz diaspora brought their music over the following decades - notably Chicago. It was there, in 1926, that Morton made a series of recordings with a group he called his "Red Hot Peppers." These recordings, in the opinion of Gunther Schuller, constitute "the finest recorded tribute to New Orleans music ever achieved."[p.138](bibliography.html#schuller-1968) (Gioia jokes that "one of the supreme ironies of the history of New Orleans jazz is that so much of it took place in Chicago."[p.42](bibliography.html#gioia-2011))
+    :::aside(right)
+    Gioia jokes that "one of the supreme ironies of the history of New Orleans jazz is that so much of it took place in Chicago."[p.42](bibliography.html#gioia-2011)
+    :::
 
+    Morton was born in or around New Orleans in 1890, though he left circa 1907-8, never to return.[p.137](bibliography.html#schuller-1968). He traveled from one engagement to the next, all around the country, to many of the cities and states where he and the rest of the New Orleans jazz diaspora brought their music over the following decades - notably Chicago. It was there, in 1926, that Morton made a series of recordings with a group he called his "Red Hot Peppers." These recordings, in the opinion of Gunther Schuller, constitute "the finest recorded tribute to New Orleans music ever achieved."[p.138](bibliography.html#schuller-1968) 
+    
     The "Red Hot Peppers" recordings employ most (all?) of the musical devices characteristic of early New Orleans jazz: [solo breaks], [stop time], [tailgate trombone], and the [collective improvisation] of a [three-horn front line] accompanied by a [rhythm section] that often included a banjo. His compositions, however, were mostly [**sectional**](vocabulary.html#sectional-form) (or *multithematic*), which was typical in ragtime but quickly fell out of favor in jazz (supplanted by the [head-solos-head form](vocabulary.html#head-solo-head)). Gioia writes:
 
     >This [sectional] style would soon become anachronistic—in fact, it may alraedy have been so by [1926]—as jazz came to forget its origins in the multithematic ragtime form. In this context, Morton's work represents both the highest pitch and final flowering of this approach.[p.40](bibliography.html#gioia-2011)
@@ -220,7 +224,7 @@ sections:
     - Morton famously claimed that jazz needed to have "these little tinges of Spanish in it" to get the feeling just right. It's a phrase that has been oft repeated by jazz musicians and fans today. Listen to him introduce it in one of the 1938 interview recordings:
 
       @audio(morton-new-orleans-blues)
-      
+
     - His chosen name, "Jelly Roll," was slang for female genitalia.
 
 - heading: Joe “King” Oliver

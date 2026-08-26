@@ -495,3 +495,166 @@ sup.cite a:hover {
 .sources li:target {
   background-color: #fdf3d7;
 }
+
+
+/* ---------------------------------------------------------------------------
+   Images
+   Size and float come from the media entry or the @image() token options.
+   Floated figures wrap text on wide screens and become full-width blocks on
+   narrow ones (see the media query at the end of this file).
+   --------------------------------------------------------------------------- */
+figure.image {
+  margin: 20px auto;
+  max-width: 640px;
+  text-align: center;
+}
+
+figure.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figure.image figcaption {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #777;
+  font-style: italic;
+  text-align: left;
+}
+
+figure.image.size-small { max-width: 260px; }
+figure.image.size-large { max-width: 100%; }
+
+figure.image.float-right {
+  float: right;
+  max-width: 40%;
+  margin: 6px 0 18px 24px;
+}
+
+figure.image.float-left {
+  float: left;
+  max-width: 40%;
+  margin: 6px 24px 18px 0;
+}
+
+figure.image.float-right.size-small,
+figure.image.float-left.size-small { max-width: 200px; }
+
+figure.image.float-right.size-large,
+figure.image.float-left.size-large { max-width: 55%; }
+
+/* Artist portraits: a consistent small figure at the top of an artist section */
+figure.portrait {
+  float: right;
+  width: 200px;
+  margin: 0 0 16px 24px;
+  text-align: center;
+}
+
+figure.portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+figure.portrait figcaption {
+  margin-top: 6px;
+  font-size: 0.8em;
+  line-height: 1.4;
+  color: #888;
+  font-style: italic;
+}
+
+/* Sections must contain their floats */
+.artist::after,
+.introduction::after,
+.additional-info::after,
+.track-intro::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ---------------------------------------------------------------------------
+   Asides: tangential anecdotes, set apart without shouting
+   --------------------------------------------------------------------------- */
+aside.aside {
+  background-color: #f4f1ea;
+  border-radius: 6px;
+  padding: 12px 15px;
+  font-size: 0.88em;
+  line-height: 1.55;
+  color: #444;
+}
+
+/* Sidebar asides: prose wraps around them, so they cost no vertical space */
+aside.aside.float-right {
+  float: right;
+  width: 42%;
+  max-width: 300px;
+  margin: 6px 0 18px 24px;
+}
+
+aside.aside.float-left {
+  float: left;
+  width: 42%;
+  max-width: 300px;
+  margin: 6px 24px 18px 0;
+}
+
+/* Full-width variant, for an aside too long to sit in the margin */
+aside.aside.wide {
+  margin: 22px 0;
+  font-size: 0.94em;
+  padding: 14px 18px;
+}
+
+aside.aside > *:first-child { margin-top: 0; }
+aside.aside > *:last-child { margin-bottom: 0; }
+
+aside.aside .aside-label {
+  font-style: italic;
+  font-weight: bold;
+  color: #8a7c5f;
+  margin-bottom: 6px;
+}
+
+
+/* ---------------------------------------------------------------------------
+   Narrow screens: floats become full-width blocks so nothing gets squeezed
+   --------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  figure.image.float-left,
+  figure.image.float-right,
+  figure.image.float-left.size-small,
+  figure.image.float-right.size-small,
+  figure.image.float-left.size-large,
+  figure.image.float-right.size-large {
+    float: none;
+    max-width: 100%;
+    margin: 20px auto;
+  }
+
+  figure.portrait {
+    float: none;
+    width: 220px;
+    margin: 0 auto 20px;
+  }
+
+  aside.aside.float-left,
+  aside.aside.float-right {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  body {
+    padding: 12px;
+  }
+}

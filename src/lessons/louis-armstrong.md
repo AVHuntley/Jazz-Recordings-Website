@@ -8,6 +8,8 @@ sections:
   - name: Louis Armstrong
     born: 1901
     died: 1971
+    portrait: https://tile.loc.gov/image-services/iiif/public:music:musgottlieb-00171-002:0001/full/pct:50.0/0/default.jpg
+    portraitCredit: 'William P. Gottlieb, [LOC](https://www.loc.gov/collections/gottlieb/).'
   prose: |-
     Born in New Orleans. Came from a difficult background. Eventually found himself running errands for his idol, King Oliver. Got some lessons in return.
 

@@ -95,6 +95,68 @@ Prefer `mp3:`/`mp4:` direct files (native player, no third-party scripts); use `
 `iframe:` when that's all the source offers. Unknown names or options fail the build. Prefer
 .mp3 over .ogg (Safari). In URLs, encode spaces as `%20`, never `+`.
 
+## Images
+
+Images live in the same `media:` map as audio and video, and are placed with `@image(name)`:
+
+```yaml
+media:
+  creole-jazz-band:
+    image: https://tile.loc.gov/.../band.jpg    # externally hosted, like all media
+    title: King Oliver's Creole Jazz Band, 1923 # used as alt text unless `alt:` is given
+    caption: 'Chicago, 1923. [Library of Congress](https://www.loc.gov/).'
+```
+
+```markdown
+@image(creole-jazz-band)                 <- own line, centred, 640px max
+@image(creole-jazz-band, right, small)   <- floats right at 200px, text wraps
+@image(creole-jazz-band, left, large)    <- floats left, wide
+```
+
+Options are `small` / `medium` (default) / `large` and `left` / `right`. Without a float the
+figure sits on its own line; with one, prose wraps around it. On screens under 640px every
+floated figure becomes a full-width block automatically, so nothing gets squeezed on a phone.
+
+**Artist portraits** go on the artist entry rather than in `media:`, and render as a small
+right-floated figure at the top of the section:
+
+```yaml
+artists:
+- name: Louis Armstrong
+  born: 1901
+  died: 1971
+  portrait: https://tile.loc.gov/.../armstrong.jpg
+  portraitCredit: 'William P. Gottlieb, [Library of Congress](https://www.loc.gov/collections/gottlieb/).'
+```
+
+For public-domain photographs of this period, the **William P. Gottlieb Collection** at the
+Library of Congress (roughly 1938–1948, no known rights restrictions) is the best source, and it
+serves images from the same `tile.loc.gov` endpoints used elsewhere on the site.
+
+## Asides
+
+For anecdotes that are true and delightful but tangential — the kind of thing that would derail a
+paragraph. Use sparingly; roughly one per section keeps them special.
+
+```markdown
+:::aside Did you know?
+"Jelly Roll" was period slang for female genitalia. Morton, never modest, chose it himself.
+:::
+```
+
+By default an aside floats **right** as a narrow sidebar and the prose wraps around it, so it
+costs no vertical space. Options mirror the image tokens:
+
+```markdown
+:::aside(left) A label
+:::aside(right)          <- the default
+:::aside(wide)           <- full-width block, for a digression too long for the margin
+```
+
+The label is optional. Markdown works inside, including media tokens and citations. The closing
+`:::` must be on its own line; an unclosed block fails the build. On screens under 640px every
+floated aside becomes a full-width block.
+
 ## Vocabulary
 
 Link a term anywhere in prose to get a hover-definition tooltip and a link to the vocabulary

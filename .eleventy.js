@@ -176,6 +176,30 @@ const processPage = (content, pagePath) => {
   return body.replace(/<footer>/, card + "\n<footer>");
 };
 
+// Render one image as a <figure>. Used by @image(id) tokens inside prose.
+// Optional `size:` small | medium (default) | large, and `float:` left | right
+// (text wraps around it; falls back to a full-width block on narrow screens).
+const renderImageFig = (v) => {
+  if (!v.image) throw new Error(`media entry has no image: url`);
+  const size = v.size || "medium";
+  if (!["small", "medium", "large"].includes(size))
+    throw new Error(`Unknown image size "${v.size}" (use small, medium, or large)`);
+  if (v.float && !["left", "right"].includes(v.float))
+    throw new Error(`Unknown image float "${v.float}" (use left or right)`);
+  const cls = ["image"];
+  if (v.float) cls.push(`float-${v.float}`);
+  if (size !== "medium") cls.push(`size-${size}`);
+  const alt = v.alt !== undefined ? v.alt : v.title || "";
+  const caption = v.caption
+    ? `<figcaption>${md.renderInline(String(v.caption))}</figcaption>`
+    : "";
+  return (
+    `<figure class="${cls.join(" ")}">` +
+    `<img src="${escAttr(v.image)}" alt="${escAttr(alt)}" loading="lazy"/>` +
+    `${caption}</figure>`
+  );
+};
+
 // Render one video as a <figure>. Used by the `videoFig` filter (for videos:
 // lists on tracks/sections) and by @video(id) tokens inside prose.
 // Optional `size:` small | medium (default) | large controls display width.
@@ -223,39 +247,94 @@ module.exports = function (eleventyConfig) {
   );
 
   // Render a markdown string to a full block (paragraphs, lists, blockquotes).
-  // Optional `media` map (lesson front matter) enables @video(id) tokens: a
-  // paragraph containing only `@video(some-id)` becomes that video's figure.
-  eleventyConfig.addFilter("md", (s, media) => {
-    if (!s) return "";
-    let out = md.render(String(s));
+  // Optional `media` map (lesson front matter) enables @video/@audio/@image
+  // tokens and :::aside blocks. Asides are lifted out before rendering (so the
+  // markers don't get swallowed into a paragraph) and their bodies are rendered
+  // recursively, which means media tokens and markdown work inside them.
+  const renderProse = (text, media) => {
+    const asides = [];
+    let src = String(text).replace(
+      /^:::aside(?:\(([^)]*)\))?[ \t]*(.*)$\n([\s\S]*?)^:::[ \t]*$/gm,
+      (m, opts, label, body) => {
+        let float = "right"; // sidebars by default; prose wraps around them
+        for (const opt of (opts || "").split(",").map((x) => x.trim()).filter(Boolean)) {
+          if (["left", "right"].includes(opt)) float = opt;
+          else if (opt === "wide") float = null;
+          else
+            throw new Error(
+              `Unknown :::aside option "${opt}" (use left, right, or wide)`
+            );
+        }
+        asides.push({ label: label.trim(), body, float });
+        return `\n@@ASIDE${asides.length - 1}@@\n`;
+      }
+    );
+    if (/^:::/m.test(src))
+      throw new Error(
+        "An unclosed ::: block - every :::aside needs a closing ::: on its own line"
+      );
+    let out = md.render(src);
     out = out.replace(
-      /<p>\s*@(?:video|audio)\(([\w-]+)((?:\s*,\s*[\w-]+)*)\)\s*<\/p>/g,
+      /<p>\s*@(?:video|audio|image)\(([\w-]+)((?:\s*,\s*[\w-]+)*)\)\s*<\/p>/g,
       (m, id, opts) => {
         const v = media && media[id];
         if (!v)
           throw new Error(
-            `@video/@audio(${id}) has no matching entry in this lesson's media: map`
+            `@video/@audio/@image(${id}) has no matching entry in this lesson's media: map`
           );
         const o = { ...v };
         for (const opt of opts.split(",").map((x) => x.trim()).filter(Boolean)) {
           if (opt === "noposter") o.poster = null;
           else if (["small", "medium", "large"].includes(opt)) o.size = opt;
+          else if (["left", "right"].includes(opt)) o.float = opt;
           else
             throw new Error(
-              `Unknown @video/@audio option "${opt}" on ${id} (use noposter, small, medium, or large)`
+              `Unknown option "${opt}" on ${id} (use noposter, small, medium, large, left, or right)`
             );
         }
-        return renderVideoFig(o);
+        return o.image ? renderImageFig(o) : renderVideoFig(o);
       }
     );
-    if (out.includes("@video(") || out.includes("@audio("))
+    if (/@(?:video|audio|image)\(/.test(out))
       throw new Error(
-        "A @video/@audio(...) token wasn't expanded - it must sit in its own paragraph"
+        "A @video/@audio/@image(...) token wasn't expanded - it must sit in its own paragraph"
       );
+    // Drop the rendered asides back in.
+    out = out.replace(/<p>@@ASIDE(\d+)@@<\/p>/g, (m, i) => {
+      const a = asides[Number(i)];
+      const cls = "aside" + (a.float ? ` float-${a.float}` : " wide");
+      return (
+        `<aside class="${cls}">` +
+        (a.label ? `<p class="aside-label">${a.label}</p>` : "") +
+        renderProse(a.body, media) +
+        `</aside>`
+      );
+    });
     return out;
-  });
+  };
+  eleventyConfig.addFilter("md", (s, media) => (s ? renderProse(s, media) : ""));
   // Single video object -> <figure> (for videos: lists on tracks/sections).
   eleventyConfig.addFilter("videoFig", renderVideoFig);
+
+  // Artist portraits. Each entry in a section's `artists:` list may carry a
+  // `portrait:` URL (externally hosted) and an optional `portraitCredit:`.
+  // They render as small right-floated figures at the top of the section.
+  eleventyConfig.addFilter("portraits", (artists) => {
+    if (!Array.isArray(artists)) return "";
+    return artists
+      .filter((a) => a && a.portrait)
+      .map((a) => {
+        const credit = a.portraitCredit
+          ? `<figcaption>${md.renderInline(String(a.portraitCredit))}</figcaption>`
+          : "";
+        return (
+          `<figure class="portrait">` +
+          `<img src="${escAttr(a.portrait)}" alt="${escAttr(a.name || "")}" loading="lazy"/>` +
+          `${credit}</figure>`
+        );
+      })
+      .join("");
+  });
 
   // Listening-guide rows. Preferred authoring: a plain text block, one row per
   // line, "time | description" (commas, colons, and quotes are all safe):
