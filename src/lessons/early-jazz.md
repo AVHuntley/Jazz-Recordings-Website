@@ -24,12 +24,26 @@ media:
     caption: |-
       Artis Wodehouse operates a player piano to play a 1918 piano roll of James P. Johnson's "Carolina Shout" - the first ever recording of this piece.
   
+  morton-king-porter:
+    spotify: 63qzV58XIZTzhRID1Y5hqz
+    title: |-
+      "King Porter (Stomp)"
+    caption: |-
+      "King Porter" (AKA "King Porter Stomp") recorded in Richmond, Indiana, July 17, 1923.[^Tom Lord Discography](https://lordisco.com/tjd/LeaderDetail?lid=18012&rid=99937)
+  
   morton-alabama-bound:
     spotify: 1VxzJUCcRmhZrm37g0uCmp
     title: |-
       "The Story of 'I'm Alabama Bound'", *Jelly Roll Morton: The Complete Library of Congress Recordings*
     caption: |-
       "The Story of 'I'm Alabama Bound'", *Jelly Roll Morton: The Complete Library of Congress Recordings*
+
+  morton-new-orleans-blues:
+    mp3: https://archive.org/download/612thecrave/6-08%20New%20Orleans%20Blues.mp3#t=226
+    title: |-
+      "New Orleans Blues", *Jelly Roll Morton: The Complete Library of Congress Recordings*
+    caption: |-
+      Morton performs "New Orleans Blues", then (at 3:46) drops one of the more famous lines in jazz: "If one can’t manage a way to put these tinges of Spanish in these tunes, they’ll never be able to get the right season, I may call it, for jazz music."[^*Jelly Roll Morton The Complete Library of Congress Recordings - Vol 6*, Internet Archive](https://archive.org/details/612thecrave/6-08+New+Orleans+Blues.mp3)
 intro: |-
   the first jazz record 1917 - livery stable vblues and/or other?
 
@@ -133,25 +147,28 @@ sections:
 
     Morton was born in or around New Orleans in 1890, though he left circa 1907-8, never to return.[p.137](bibliography.html#schuller-1968). He traveled from one engagement to the next, all around the country, to many of the cities and states where he and the rest of the New Orleans jazz diaspora brought their music over the following decades - notably Chicago. It was there, in 1926, that Morton made a series of recordings with a group he called his "Red Hot Peppers." These recordings, in the opinion of Gunther Schuller, constitute "the finest recorded tribute to New Orleans music ever achieved."[p.138](bibliography.html#schuller-1968) (Gioia jokes that "one of the supreme ironies of the history of New Orleans jazz is that so much of it took place in Chicago."[p.42](bibliography.html#gioia-2011))
 
-    The "Red Hot Peppers" recordings employ most (all?) of the musical devices characteristic of early New Orleans jazz: [solo breaks], [stop time], and the [collective improvisation] of a [three-horn front line] accompanied by a [rhythm section] that often included a banjo. His compositions, however, were mostly [**sectional**](vocabulary.html#sectional-form) (or *multithematic*), which was typical in ragtime but quickly fell out of favor in jazz (supplanted by the [head-solos-head form](vocabulary.html#head-solo-head)). Still, strains served Morton well, and he used them masterfully - indeed, his arrangements owe much of their vitality to the variety between their sections.Gioia writes:
+    The "Red Hot Peppers" recordings employ most (all?) of the musical devices characteristic of early New Orleans jazz: [solo breaks], [stop time], [tailgate trombone], and the [collective improvisation] of a [three-horn front line] accompanied by a [rhythm section] that often included a banjo. His compositions, however, were mostly [**sectional**](vocabulary.html#sectional-form) (or *multithematic*), which was typical in ragtime but quickly fell out of favor in jazz (supplanted by the [head-solos-head form](vocabulary.html#head-solo-head)). Gioia writes:
 
     >This [sectional] style would soon become anachronistic—in fact, it may alraedy have been so by [1926]—as jazz came to forget its origins in the multithematic ragtime form. In this context, Morton's work represents both the highest pitch and final flowering of this approach.[p.40](bibliography.html#gioia-2011)
 
-    Len Lyons offers this description of Morton's transitional piano style:
+    Indeed, strains served Morton well, and he used them masterfully. His arrangements owe much of their vitality to the variety between their sections - employing varying instrumentation, performance techniques, rhythm, and even melody and harmony. His piano playing, too, represents a transitional style. Len Lyons offers this analysis:
 
-    >Although Jelly Roll's boast that he invented jazz is absurd, there is good reason to see him as a transitional figure from the relative stiffness of ragtime to the flexibility of later jazz. In fact, Morton always maintained that any music could be "jazzed," while he recognized both ragtime and the blues as more strictly defined forms. His piano playing exemplifies the transition in its increased swing and feeling of freedom. The rag's rigid, occationally martial bass is smoothed out by Morton. While the ragtimer's left hand almost never syncopates, Morton's left frequently his slightly (about a sixteenth note) before the beat, introducing another dimension to the cross-rhythm. His right hand is more expansive and extemporaneous.[p.84](bibliography.html#lyons-1980)
+    >...there is good reason to see him as a transitional figure from the relative stiffness of ragtime to the flexibility of later jazz.... His piano playing exemplifies the transition in its increased swing and feeling of freedom. The rag's rigid, occationally martial bass is smoothed out by Morton. While the ragtimer's left hand almost never syncopates, Morton's left frequently hit slightly (about a sixteenth note) before the beat, introducing another dimension to the cross-rhythm. His right hand is more expansive and extemporaneous.[p.84](bibliography.html#lyons-1980)
+
+    Good examples of his solo piano playing can found on recordings he made 1923-4. For example, listen to this 1923 performance of his popular composiion "King Porter Stomp", and compare it to both [ragtime](jazz-origins.html#ragtime) and [stride](#stride).
+
+    @audio(morton-king-porter)
 
     Perhaps Morton's most significant contribution to jazz was not his music at all, but the oral (and aural) history he recorded with Alan Lomax for the Library of Congress in 1938. (The contrasting renditions of ["Maple Leaf Rag"](jazz-origins.html#maple-leaf-rag) from the [previous lesson](jazz-origins.html) are from this series.) These interviews are truly a treasure. They're worth listening to even as a casual jazz fan, if only to experience a bit of his vintage charisma; it's like time travel. Listen to him weave a story about his time as a pool shark, slipping in and out of song as he accompanies himself expertly on piano:
 
     @audio(morton-alabama-bound)
     
-    Unfortunately, despite being created for the Library of Congress, the recorded interview is not yet in the public domain, so are not all easy to stream. [This playlist on Spotify](https://open.spotify.com/playlist/0mklyaLyMMiilDvydlgt4G?si=18565dd3459844ad) compiles what's available there. And you can find a transcript of the spoken portions of the interview on [this site](https://www.doctorjazz.co.uk/locspeech1.html).
+    Unfortunately, despite being created for the Library of Congress, the interview recordings are not yet in the public domain, so are not all easy to stream. [This playlist on Spotify](https://open.spotify.com/playlist/0mklyaLyMMiilDvydlgt4G?si=18565dd3459844ad) compiles what's available there. And you can find a transcript of the spoken portions of the interview on [this site](https://www.doctorjazz.co.uk/locspeech1.html).
 
   tracks:
   - title: Black Bottom Stomp
     performer: Jelly Roll Morton and his Red Hot Peppers
     composer: Jelly Roll Morton
-    arranger: Jelly Roll Morton
     recorded: September 15, 1926
     personnel:
     - [Jelly Roll Morton, piano]
@@ -164,11 +181,20 @@ sections:
 
     spotify: 0vyNsBWtvJet4j1XXH0RLA
     intro: |-
-      Gunther Schuller calls "Black Bottom Stomp" __________ (really good)
+      "Black Bottom Stomp," which Schuller describes as "one of Morton's finest compositions" was likely composed specifically for this recording session,[p.156](bibliography.html#schuller-1968) the results of which some claim "are among the greatest small-group jazz produced in the 1920s."[p.69](bibliography.html#martin-waters-2006)
 
-      Associated with “black bottom” dance, or maybe the Black Bottom area of Detroit. It also refers to a specific rhythm. [p.64](bibliography.html#hasse-lathrop-2012)
+      The title references the [black bottom dance](https://en.wikipedia.org/wiki/Black_Bottom_(dance)), which was popular at the time (itself possibly named after a neighborhood in [Detroit](https://en.wikipedia.org/wiki/Black_Bottom,_Detroit) or maybe [Nashville](https://blackpast.org/african-american-history/black-bottom-nashville-1832-1950/)). It also refers to a specific rhythm - the five dotted quarters played at the end of many sections (B2, B3, B5, B6).[p.64](bibliography.html#hasse-lathrop-2012)
+
+      This piece is celebrated for its variety. Each section employs a new texture or musical device: a new combination of instruments, a [stop time](vocabulary.html#stop-time) chorus, [solo breaks](vocabulary.html#solo-break) featuring different instruments, and two distinct [strains](vocabulary.html#strain). It contains a fluid mix of composed martieral and improvisation, group polyphony and soloists. Schuller describes it thus:
 
       >What Morton has done here is to create six different timbre combinations with only seven instruments...: trumpet and rhythm, clarinet and banjo and rhythm, clarinet and rhythm, piano (no rhythm), banjo and rhythm, full ensemble. Similarly, four varieties of rhythm...: two-beat, four-beat, the Charleston (or Spanish tinge), and a strong back-beat.... This all happens in less than three minutes.[p.158](bibliography.html#schuller-1968)
+
+    guidenote: |-
+      Try to hear each of the aforementioned musical devices. Listen for the distinct sections - A(1-3) and B(1-7), and notice how each repitition thereof differs. Identify the [solo breaks](vocabulary.html#solo-break) and the [stop time](vocabulary.html#stop-time) chorus.
+
+      Listen to the individual instruments, both when they're the lead voice and when they're accompanying. Notice how the piano solo is unaccompanied and sounds a lot like [stride](#stride). Hear the way the trombone slides into notes from below - a style known as [tailgate trombone](vocabulary.html#tailgate-trombone).
+      
+      Then pay special attention to the moments when the [three-horn front line](vocabulary.html#three-horn-front-line) collectively improvises (B6 and B7). Hear how the individual parts, despite being improvised, form a compelling whole. It's an exciting sound - arguably the key innovation that distinguished ealy jazz from its antecedents.
     guide: |-
       0:00, (0:04) | Intro (4 bars, repeated once)
       0:09, (0:16) | **A1** - Full ensemble (8 bars, repeated once)
@@ -190,6 +216,12 @@ sections:
       3:08 | Outro (2 bars)
   notes: |-
     - Morton is credited for authoring the first jazz arrangement ever published: "The 'Jelly Roll' Blues" in 1915. You can find it on [IMSLP](https://imslp.org/wiki/Special:ReverseLookup/438540).
+    - His life inspired a 1991 musical called "Jelly's Last Jam," which dramatizes Morton's life as a [Creole of color](https://en.wikipedia.org/wiki/Creoles_of_color) who saught to distance himself from his Black heritage.[p.69](bibliography.html#martin-waters-2006)
+    - Morton famously claimed that jazz needed to have "these little tinges of Spanish in it" to get the feeling just right. It's a phrase that has been oft repeated by jazz musicians and fans today. Listen to him introduce it in one of the 1938 interview recordings:
+
+      @audio(morton-new-orleans-blues)
+      
+    - His chosen name, "Jelly Roll," was slang for female genitalia.
 
 - heading: Joe “King” Oliver
   artists:
