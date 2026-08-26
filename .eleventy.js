@@ -431,6 +431,19 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Open off-site links in a new tab, so following a source doesn't lose the
+  // reader's place in a lesson. Every internal link on this site is relative,
+  // so an absolute http(s) href is by definition external. rel="noopener" is
+  // the standard safety measure for target="_blank".
+  eleventyConfig.addTransform("externalLinks", function (content) {
+    if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) return content;
+    return content.replace(/<a\s([^>]*)>/g, (tag, attrs) => {
+      if (!/href="https?:\/\//.test(attrs)) return tag; // internal
+      if (/\btarget=/.test(attrs)) return tag; // already set
+      return `<a ${attrs} target="_blank" rel="noopener noreferrer">`;
+    });
+  });
+
   // Static assets copied straight through to the output folder.
   eleventyConfig.addPassthroughCopy({ "src/style.css": "style.css" });
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });

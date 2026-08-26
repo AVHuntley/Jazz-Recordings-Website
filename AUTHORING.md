@@ -122,6 +122,14 @@ pops up "**Sectional form:** …". The vocabulary page lists the synonyms after 
 gives each its own anchor, so direct links to an alias also land correctly. An alias that
 collides with another term (or with another term's alias) fails the build.
 
+## Links
+
+Write links normally; the build handles the rest. Any absolute `http(s)` link is treated as
+off-site and gets `target="_blank"` so it opens in a new tab, leaving the lesson where the reader
+left it. Internal links (`bibliography.html#…`, `vocabulary.html#…`, `./early-jazz.html`, `#anchor`)
+are relative and open in place. Keep internal links relative — an absolute link to the site's own
+domain would be treated as external.
+
 ## Formatting gotchas
 
 - Write blockquotes with `>`, never raw `<blockquote>` tags — markdown (including citations)
